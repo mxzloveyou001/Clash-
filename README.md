@@ -32,6 +32,14 @@ proxies:
   - {name: 长江3, server: 136.243.191.85, port: 443, type: ssr, cipher: aes-128-ctr, password: sEscPBiAD9K$&@79, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocolparam: "", obfsparam: "", udp: true}
   - {name: 长江2, server: 59.125.11.158, port: 8158, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
   - {name: 长江1, server: 59.125.11.158, port: 8158, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: AU_1179, server: 45.77.48.44, port: 8099, type: ss, cipher: aes-256-cfb, password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D, udp: true}
+  - {name: CA_1910, server: channel.napsternetvtm.dnsmy.xyz, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: CN_2204, server: ssr3.ssrsub.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!, udp: true}
+  - {name: CN_2208, server: ssr3.ssrsub.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!, udp: true}
+  - {name: CN_2209, server: p5.22332e.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!, udp: true}
+  - {name: DE_2891, server: 136.243.191.88, port: 443, type: ssr, cipher: aes-128-ctr, password: sEscPBiAD9K$&@79, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocolparam: "", obfsparam: "", udp: true}
+  - {name: DE_2892, server: 136.243.191.85, port: 443, type: ssr, cipher: aes-128-ctr, password: sEscPBiAD9K$&@79, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocolparam: "", obfsparam: "", udp: true}
+  - {name: TW_9314, server: 59.125.11.158, port: 8158, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -65,6 +73,14 @@ proxy-groups:
       - 长江3
       - 长江2
       - 长江1
+      - AU_1179
+      - CA_1910
+      - CN_2204
+      - CN_2208
+      - CN_2209
+      - DE_2891
+      - DE_2892
+      - TW_9314
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -97,6 +113,14 @@ proxy-groups:
       - 长江3
       - 长江2
       - 长江1
+      - AU_1179
+      - CA_1910
+      - CN_2204
+      - CN_2208
+      - CN_2209
+      - DE_2891
+      - DE_2892
+      - TW_9314
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -130,6 +154,14 @@ proxy-groups:
       - 长江3
       - 长江2
       - 长江1
+      - AU_1179
+      - CA_1910
+      - CN_2204
+      - CN_2208
+      - CN_2209
+      - DE_2891
+      - DE_2892
+      - TW_9314
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -175,6 +207,14 @@ proxy-groups:
       - 长江3
       - 长江2
       - 长江1
+      - AU_1179
+      - CA_1910
+      - CN_2204
+      - CN_2208
+      - CN_2209
+      - DE_2891
+      - DE_2892
+      - TW_9314
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -212,6 +252,14 @@ proxy-groups:
       - 长江3
       - 长江2
       - 长江1
+      - AU_1179
+      - CA_1910
+      - CN_2204
+      - CN_2208
+      - CN_2209
+      - DE_2891
+      - DE_2892
+      - TW_9314
   - name: 📲 电报信息
     type: select
     proxies:
@@ -244,6 +292,14 @@ proxy-groups:
       - 长江3
       - 长江2
       - 长江1
+      - AU_1179
+      - CA_1910
+      - CN_2204
+      - CN_2208
+      - CN_2209
+      - DE_2891
+      - DE_2892
+      - TW_9314
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -277,6 +333,14 @@ proxy-groups:
       - 长江3
       - 长江2
       - 长江1
+      - AU_1179
+      - CA_1910
+      - CN_2204
+      - CN_2208
+      - CN_2209
+      - DE_2891
+      - DE_2892
+      - TW_9314
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -319,6 +383,14 @@ proxy-groups:
       - 长江3
       - 长江2
       - 长江1
+      - AU_1179
+      - CA_1910
+      - CN_2204
+      - CN_2208
+      - CN_2209
+      - DE_2891
+      - DE_2892
+      - TW_9314
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
