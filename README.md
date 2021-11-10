@@ -18,8 +18,8 @@ proxies:
   - {name: TW_1658, server: 117.28.243.132, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!, udp: true}
   - {name: TW_1659, server: ssr3.ssrsub.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!, udp: true}
   - {name: US_1660, server: p7.22332e.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!, udp: true}
-  - {name: DE_2414, server: 136.243.191.88, port: 443, type: ssr, cipher: aes-128-ctr, password: sEscPBiAD9K$&@79, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocolparam: "", obfsparam: "", udp: true}
-  - {name: DE_2415, server: 136.243.191.85, port: 443, type: ssr, cipher: aes-128-ctr, password: sEscPBiAD9K$&@79, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocolparam: "", obfsparam: "", udp: true}
+  - {name: DE_2414, server: 136.243.191.88, port: 443, type: ssr, cipher: aes-128-ctr, password: sEscPBiAD9K$&@79, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: DE_2415, server: 136.243.191.85, port: 443, type: ssr, cipher: aes-128-ctr, password: sEscPBiAD9K$&@79, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
   - {name: TW_9101, server: 59.125.11.158, port: 8158, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
   - {name: TW_9102, server: 59.125.11.158, port: 8158, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
   - {name: 长江10, server: 45.77.48.44, port: 8099, type: ss, cipher: aes-256-cfb, password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D, udp: true}
@@ -27,9 +27,9 @@ proxies:
   - {name: 长江8, server: p5.22332e.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!, udp: true}
   - {name: 长江7, server: 117.28.243.169, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!, udp: true}
   - {name: 长江6, server: p5.22332e.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!, udp: true}
-  - {name: 长江5, server: dg-hk-node01.linkthink.app, port: 10675, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocolparam: "", obfsparam: "", udp: true}
-  - {name: 长江4, server: 136.243.191.88, port: 443, type: ssr, cipher: aes-128-ctr, password: sEscPBiAD9K$&@79, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocolparam: "", obfsparam: "", udp: true}
-  - {name: 长江3, server: 136.243.191.85, port: 443, type: ssr, cipher: aes-128-ctr, password: sEscPBiAD9K$&@79, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocolparam: "", obfsparam: "", udp: true}
+  - {name: 长江5, server: dg-hk-node01.linkthink.app, port: 10675, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 长江4, server: 136.243.191.88, port: 443, type: ssr, cipher: aes-128-ctr, password: sEscPBiAD9K$&@79, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 长江3, server: 136.243.191.85, port: 443, type: ssr, cipher: aes-128-ctr, password: sEscPBiAD9K$&@79, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
   - {name: 长江2, server: 59.125.11.158, port: 8158, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
   - {name: 长江1, server: 59.125.11.158, port: 8158, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
   - {name: AU_1179, server: 45.77.48.44, port: 8099, type: ss, cipher: aes-256-cfb, password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D, udp: true}
@@ -37,9 +37,43 @@ proxies:
   - {name: CN_2204, server: ssr3.ssrsub.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!, udp: true}
   - {name: CN_2208, server: ssr3.ssrsub.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!, udp: true}
   - {name: CN_2209, server: p5.22332e.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!, udp: true}
-  - {name: DE_2891, server: 136.243.191.88, port: 443, type: ssr, cipher: aes-128-ctr, password: sEscPBiAD9K$&@79, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocolparam: "", obfsparam: "", udp: true}
-  - {name: DE_2892, server: 136.243.191.85, port: 443, type: ssr, cipher: aes-128-ctr, password: sEscPBiAD9K$&@79, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocolparam: "", obfsparam: "", udp: true}
+  - {name: DE_2891, server: 136.243.191.88, port: 443, type: ssr, cipher: aes-128-ctr, password: sEscPBiAD9K$&@79, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: DE_2892, server: 136.243.191.85, port: 443, type: ssr, cipher: aes-128-ctr, password: sEscPBiAD9K$&@79, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
   - {name: TW_9314, server: 59.125.11.158, port: 8158, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: 长江AU_629, server: 45.77.48.44, port: 8099, type: ss, cipher: aes-256-cfb, password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D, udp: true}
+  - {name: 长江, server: 45.77.48.44, port: 8099, type: ss, cipher: aes-256-cfb, password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D, udp: true}
+  - {name: 长江CA_1360, server: channel.napsternetvtm.dnsmy.xyz, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 长江US_1606, server: 117.28.243.169, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!, udp: true}
+  - {name: 长江US_1607, server: ssr4.ssrsub.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!, udp: true}
+  - {name: 长江TW_1608, server: ssr3.ssrsub.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!, udp: true}
+  - {name: 长江US_1609, server: 117.28.243.172, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!, udp: true}
+  - {name: 长江TW_1610, server: p5.22332e.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!, udp: true}
+  - {name: 长江TW_1611, server: p5.22332e.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!, udp: true}
+  - {name: 长江TW_1612, server: ssr3.ssrsub.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!, udp: true}
+  - {name: 长江US_1613, server: ssr4.ssrsub.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!, udp: true}
+  - {name: 长江TW_1614, server: 117.28.243.132, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!, udp: true}
+  - {name: 长江US_1615, server: ssr6.ssrsub.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!, udp: true}
+  - {name: 长江US_1616, server: ssr6.ssrsub.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!, udp: true}
+  - {name: 长江DE_2351, server: 136.243.191.85, port: 443, type: ssr, cipher: aes-128-ctr, password: sEscPBiAD9K$&@79, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 长江DE_2352, server: 136.243.191.88, port: 443, type: ssr, cipher: aes-128-ctr, password: sEscPBiAD9K$&@79, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 长江TW_8990, server: 59.125.11.158, port: 8158, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: 长江TW_8991, server: 59.125.11.158, port: 8158, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: 长江US_14067, server: 65.49.193.120, port: 502, type: ss, cipher: aes-256-cfb, password: bwhskrskr01, udp: true}
+  - {name: 长江US_43 |15.18Mb, server: p7.22332e.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!, udp: true}
+  - {name: 长江TW_45, server: p5.22332e.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!, udp: true}
+  - {name: 长江TW_46, server: p5.22332e.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!, udp: true}
+  - {name: 长江TW_47, server: ssr3.ssrsub.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!, udp: true}
+  - {name: 长江TW_174, server: 59.125.11.158, port: 8158, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: 长江 2, server: 45.77.48.44, port: 8099, type: ss, cipher: aes-256-cfb, password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D, udp: true}
+  - {name: 长江 3, server: 45.77.48.44, port: 8099, type: ss, cipher: aes-256-cfb, password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D, udp: true}
+  - {name: 长江 4, server: ssr4.ssrsub.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!, udp: true}
+  - {name: 长江 5, server: p5.22332e.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!, udp: true}
+  - {name: 长江 6, server: 117.28.243.169, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!, udp: true}
+  - {name: 长江 7, server: 136.243.191.85, port: 443, type: ssr, cipher: aes-128-ctr, password: sEscPBiAD9K$&@79, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 长江 8, server: 136.243.191.88, port: 443, type: ssr, cipher: aes-128-ctr, password: sEscPBiAD9K$&@79, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: TW, server: 59.125.11.158, port: 8158, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: TW 2, server: 59.125.11.158, port: 8158, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: 长江 9, server: 65.49.193.120, port: 502, type: ss, cipher: aes-256-cfb, password: bwhskrskr01, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -81,6 +115,40 @@ proxy-groups:
       - DE_2891
       - DE_2892
       - TW_9314
+      - 长江AU_629
+      - 长江
+      - 长江CA_1360
+      - 长江US_1606
+      - 长江US_1607
+      - 长江TW_1608
+      - 长江US_1609
+      - 长江TW_1610
+      - 长江TW_1611
+      - 长江TW_1612
+      - 长江US_1613
+      - 长江TW_1614
+      - 长江US_1615
+      - 长江US_1616
+      - 长江DE_2351
+      - 长江DE_2352
+      - 长江TW_8990
+      - 长江TW_8991
+      - 长江US_14067
+      - 长江US_43 |15.18Mb
+      - 长江TW_45
+      - 长江TW_46
+      - 长江TW_47
+      - 长江TW_174
+      - 长江 2
+      - 长江 3
+      - 长江 4
+      - 长江 5
+      - 长江 6
+      - 长江 7
+      - 长江 8
+      - TW
+      - TW 2
+      - 长江 9
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -121,6 +189,40 @@ proxy-groups:
       - DE_2891
       - DE_2892
       - TW_9314
+      - 长江AU_629
+      - 长江
+      - 长江CA_1360
+      - 长江US_1606
+      - 长江US_1607
+      - 长江TW_1608
+      - 长江US_1609
+      - 长江TW_1610
+      - 长江TW_1611
+      - 长江TW_1612
+      - 长江US_1613
+      - 长江TW_1614
+      - 长江US_1615
+      - 长江US_1616
+      - 长江DE_2351
+      - 长江DE_2352
+      - 长江TW_8990
+      - 长江TW_8991
+      - 长江US_14067
+      - 长江US_43 |15.18Mb
+      - 长江TW_45
+      - 长江TW_46
+      - 长江TW_47
+      - 长江TW_174
+      - 长江 2
+      - 长江 3
+      - 长江 4
+      - 长江 5
+      - 长江 6
+      - 长江 7
+      - 长江 8
+      - TW
+      - TW 2
+      - 长江 9
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -162,6 +264,40 @@ proxy-groups:
       - DE_2891
       - DE_2892
       - TW_9314
+      - 长江AU_629
+      - 长江
+      - 长江CA_1360
+      - 长江US_1606
+      - 长江US_1607
+      - 长江TW_1608
+      - 长江US_1609
+      - 长江TW_1610
+      - 长江TW_1611
+      - 长江TW_1612
+      - 长江US_1613
+      - 长江TW_1614
+      - 长江US_1615
+      - 长江US_1616
+      - 长江DE_2351
+      - 长江DE_2352
+      - 长江TW_8990
+      - 长江TW_8991
+      - 长江US_14067
+      - 长江US_43 |15.18Mb
+      - 长江TW_45
+      - 长江TW_46
+      - 长江TW_47
+      - 长江TW_174
+      - 长江 2
+      - 长江 3
+      - 长江 4
+      - 长江 5
+      - 长江 6
+      - 长江 7
+      - 长江 8
+      - TW
+      - TW 2
+      - 长江 9
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -215,6 +351,40 @@ proxy-groups:
       - DE_2891
       - DE_2892
       - TW_9314
+      - 长江AU_629
+      - 长江
+      - 长江CA_1360
+      - 长江US_1606
+      - 长江US_1607
+      - 长江TW_1608
+      - 长江US_1609
+      - 长江TW_1610
+      - 长江TW_1611
+      - 长江TW_1612
+      - 长江US_1613
+      - 长江TW_1614
+      - 长江US_1615
+      - 长江US_1616
+      - 长江DE_2351
+      - 长江DE_2352
+      - 长江TW_8990
+      - 长江TW_8991
+      - 长江US_14067
+      - 长江US_43 |15.18Mb
+      - 长江TW_45
+      - 长江TW_46
+      - 长江TW_47
+      - 长江TW_174
+      - 长江 2
+      - 长江 3
+      - 长江 4
+      - 长江 5
+      - 长江 6
+      - 长江 7
+      - 长江 8
+      - TW
+      - TW 2
+      - 长江 9
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -260,6 +430,40 @@ proxy-groups:
       - DE_2891
       - DE_2892
       - TW_9314
+      - 长江AU_629
+      - 长江
+      - 长江CA_1360
+      - 长江US_1606
+      - 长江US_1607
+      - 长江TW_1608
+      - 长江US_1609
+      - 长江TW_1610
+      - 长江TW_1611
+      - 长江TW_1612
+      - 长江US_1613
+      - 长江TW_1614
+      - 长江US_1615
+      - 长江US_1616
+      - 长江DE_2351
+      - 长江DE_2352
+      - 长江TW_8990
+      - 长江TW_8991
+      - 长江US_14067
+      - 长江US_43 |15.18Mb
+      - 长江TW_45
+      - 长江TW_46
+      - 长江TW_47
+      - 长江TW_174
+      - 长江 2
+      - 长江 3
+      - 长江 4
+      - 长江 5
+      - 长江 6
+      - 长江 7
+      - 长江 8
+      - TW
+      - TW 2
+      - 长江 9
   - name: 📲 电报信息
     type: select
     proxies:
@@ -300,6 +504,40 @@ proxy-groups:
       - DE_2891
       - DE_2892
       - TW_9314
+      - 长江AU_629
+      - 长江
+      - 长江CA_1360
+      - 长江US_1606
+      - 长江US_1607
+      - 长江TW_1608
+      - 长江US_1609
+      - 长江TW_1610
+      - 长江TW_1611
+      - 长江TW_1612
+      - 长江US_1613
+      - 长江TW_1614
+      - 长江US_1615
+      - 长江US_1616
+      - 长江DE_2351
+      - 长江DE_2352
+      - 长江TW_8990
+      - 长江TW_8991
+      - 长江US_14067
+      - 长江US_43 |15.18Mb
+      - 长江TW_45
+      - 长江TW_46
+      - 长江TW_47
+      - 长江TW_174
+      - 长江 2
+      - 长江 3
+      - 长江 4
+      - 长江 5
+      - 长江 6
+      - 长江 7
+      - 长江 8
+      - TW
+      - TW 2
+      - 长江 9
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -341,6 +579,40 @@ proxy-groups:
       - DE_2891
       - DE_2892
       - TW_9314
+      - 长江AU_629
+      - 长江
+      - 长江CA_1360
+      - 长江US_1606
+      - 长江US_1607
+      - 长江TW_1608
+      - 长江US_1609
+      - 长江TW_1610
+      - 长江TW_1611
+      - 长江TW_1612
+      - 长江US_1613
+      - 长江TW_1614
+      - 长江US_1615
+      - 长江US_1616
+      - 长江DE_2351
+      - 长江DE_2352
+      - 长江TW_8990
+      - 长江TW_8991
+      - 长江US_14067
+      - 长江US_43 |15.18Mb
+      - 长江TW_45
+      - 长江TW_46
+      - 长江TW_47
+      - 长江TW_174
+      - 长江 2
+      - 长江 3
+      - 长江 4
+      - 长江 5
+      - 长江 6
+      - 长江 7
+      - 长江 8
+      - TW
+      - TW 2
+      - 长江 9
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -391,6 +663,40 @@ proxy-groups:
       - DE_2891
       - DE_2892
       - TW_9314
+      - 长江AU_629
+      - 长江
+      - 长江CA_1360
+      - 长江US_1606
+      - 长江US_1607
+      - 长江TW_1608
+      - 长江US_1609
+      - 长江TW_1610
+      - 长江TW_1611
+      - 长江TW_1612
+      - 长江US_1613
+      - 长江TW_1614
+      - 长江US_1615
+      - 长江US_1616
+      - 长江DE_2351
+      - 长江DE_2352
+      - 长江TW_8990
+      - 长江TW_8991
+      - 长江US_14067
+      - 长江US_43 |15.18Mb
+      - 长江TW_45
+      - 长江TW_46
+      - 长江TW_47
+      - 长江TW_174
+      - 长江 2
+      - 长江 3
+      - 长江 4
+      - 长江 5
+      - 长江 6
+      - 长江 7
+      - 长江 8
+      - TW
+      - TW 2
+      - 长江 9
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
