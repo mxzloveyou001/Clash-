@@ -3,687 +3,151 @@ socks-port: 7891
 allow-lan: true
 mode: Rule
 log-level: info
-external-controller: :9090
+external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 长江AU_632, server: 45.77.48.44, port: 8099, type: ss, cipher: aes-256-cfb, password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D, udp: true}
-  - {name: 长江AU_633, server: 45.77.48.44, port: 8099, type: ss, cipher: aes-256-cfb, password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D, udp: true}
-  - {name: 长江CA_1358, server: channel.napsternetvtm.dnsmy.xyz, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 长江US_1651, server: 117.28.243.172, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!, udp: true}
-  - {name: 长江US_1652, server: ssr6.ssrsub.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!, udp: true}
-  - {name: 长江TW_1653, server: ssr3.ssrsub.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!, udp: true}
-  - {name: 长江US_1654, server: ssr6.ssrsub.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!, udp: true}
-  - {name: 长江TW_1655, server: p5.22332e.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!, udp: true}
-  - {name: 长江US_1656, server: ssr4.ssrsub.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!, udp: true}
-  - {name: 长江TW_1657, server: p5.22332e.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!, udp: true}
-  - {name: 长江TW_1658, server: 117.28.243.132, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!, udp: true}
-  - {name: 长江TW_1659, server: ssr3.ssrsub.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!, udp: true}
-  - {name: 长江US_1660, server: p7.22332e.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!, udp: true}
-  - {name: 长江DE_2414, server: 136.243.191.88, port: 443, type: ssr, cipher: aes-128-ctr, password: sEscPBiAD9K$&@79, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 长江DE_2415, server: 136.243.191.85, port: 443, type: ssr, cipher: aes-128-ctr, password: sEscPBiAD9K$&@79, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: TW_9101, server: 59.125.11.158, port: 8158, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: TW_9102, server: 59.125.11.158, port: 8158, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: 长江10, server: 45.77.48.44, port: 8099, type: ss, cipher: aes-256-cfb, password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D, udp: true}
-  - {name: 长江9, server: 45.77.48.44, port: 8099, type: ss, cipher: aes-256-cfb, password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D, udp: true}
-  - {name: 长江8, server: p5.22332e.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!, udp: true}
-  - {name: 长江7, server: 117.28.243.169, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!, udp: true}
-  - {name: 长江6, server: p5.22332e.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!, udp: true}
-  - {name: 长江5, server: dg-hk-node01.linkthink.app, port: 10675, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 长江4, server: 136.243.191.88, port: 443, type: ssr, cipher: aes-128-ctr, password: sEscPBiAD9K$&@79, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 长江3, server: 136.243.191.85, port: 443, type: ssr, cipher: aes-128-ctr, password: sEscPBiAD9K$&@79, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 长江2, server: 59.125.11.158, port: 8158, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: 长江1, server: 59.125.11.158, port: 8158, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: 长江AU_1179, server: 45.77.48.44, port: 8099, type: ss, cipher: aes-256-cfb, password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D, udp: true}
-  - {name: 长江CA_1910, server: channel.napsternetvtm.dnsmy.xyz, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 长江CN_2204, server: ssr3.ssrsub.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!, udp: true}
-  - {name: 长江CN_2208, server: ssr3.ssrsub.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!, udp: true}
-  - {name: 长江CN_2209, server: p5.22332e.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!, udp: true}
-  - {name: 长江DE_2891, server: 136.243.191.88, port: 443, type: ssr, cipher: aes-128-ctr, password: sEscPBiAD9K$&@79, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 长江DE_2892, server: 136.243.191.85, port: 443, type: ssr, cipher: aes-128-ctr, password: sEscPBiAD9K$&@79, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 长江TW_9314, server: 59.125.11.158, port: 8158, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: 长江AU_634, server: 45.77.48.44, port: 8099, type: ss, cipher: aes-256-cfb, password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D, udp: true}
-  - {name: 长江AU_635, server: 45.77.48.44, port: 8099, type: ss, cipher: aes-256-cfb, password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D, udp: true}
-  - {name: 长江CA_1285, server: channel.napsternetvtm.dnsmy.xyz, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 长江US_1658, server: p7.22332e.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!, udp: true}
-  - {name: 长江TW_1659 2, server: p5.22332e.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!, udp: true}
-  - {name: 长江TW_1660, server: p5.22332e.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!, udp: true}
-  - {name: 长江TW_1661, server: ssr3.ssrsub.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!, udp: true}
-  - {name: 长江TW_1662, server: ssr3.ssrsub.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!, udp: true}
-  - {name: 长江DE_2487, server: 136.243.191.85, port: 443, type: ssr, cipher: aes-128-ctr, password: sEscPBiAD9K$&@79, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 长江DE_2488, server: 136.243.191.88, port: 443, type: ssr, cipher: aes-128-ctr, password: sEscPBiAD9K$&@79, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 长江TW_8939, server: 59.125.11.158, port: 8158, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: 长江TW_8940, server: 59.125.11.158, port: 8158, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: 长江CN | 4.52Mb, server: ssr6.ssrsub.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!, udp: true}
-  - {name: 长江CN | 1.31Mb, server: p5.22332e.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!, udp: true}
-  - {name: 长江CN | 3.40Mb, server: p5.22332e.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!, udp: true}
-  - {name: 长江CN | 2.67Mb, server: ssr3.ssrsub.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!, udp: true}
-  - {name: 长江TW |15.85Mb, server: 59.125.11.158, port: 8158, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: 长江 1.65Mb, server: 45.77.48.44, port: 8099, type: ss, cipher: aes-256-cfb, password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D, udp: true}
-  - {name: 长江1.66Mb, server: 45.77.48.44, port: 8099, type: ss, cipher: aes-256-cfb, password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D, udp: true}
-  - {name: 长江 2.57Mb, server: 136.243.191.88, port: 443, type: ssr, cipher: aes-128-ctr, password: sEscPBiAD9K$&@79, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 长江 2.41Mb, server: 136.243.191.85, port: 443, type: ssr, cipher: aes-128-ctr, password: sEscPBiAD9K$&@79, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 长江 2.03Mb, server: 59.125.11.158, port: 8158, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: 长江 2.05Mb, server: 59.125.11.158, port: 8158, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: 长江TW_40, server: p5.22332e.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!, udp: true}
-  - {name: 长江TW_41, server: ssr3.ssrsub.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!, udp: true}
-  - {name: 长江TW_36, server: p5.22332e.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!, udp: true}
-  - {name: 长江US_37, server: ssr6.ssrsub.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!, udp: true}
-  - {name: 长江W_38, server: ssr3.ssrsub.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!, udp: true}
-  - {name: 长江AU_1078 |19.45Mb, server: 45.77.48.44, port: 8099, type: ss, cipher: aes-256-cfb, password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D, udp: true}
-  - {name: 长江CN_2105 | 3.14Mb, server: ssr3.ssrsub.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!, udp: true}
-  - {name: 长江CN_2111 | 1.75Mb, server: ssr3.ssrsub.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!, udp: true}
-  - {name: 长江CN_2112, server: p7.22332e.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!, udp: true}
-  - {name: 长江CN_2113, server: p5.22332e.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!, udp: true}
-  - {name: 长江DE_2833, server: 136.243.191.88, port: 443, type: ssr, cipher: aes-128-ctr, password: sEscPBiAD9K$&@79, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 长江TW_8726, server: 59.125.11.158, port: 8158, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: 长江CN_13, server: ssr4.ssrsub.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!, udp: true}
-  - {name: 长江CN_14, server: ssr6.ssrsub.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!, udp: true}
-  - {name: 长江CN_15, server: ssr3.ssrsub.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!, udp: true}
-  - {name: 长江AU_27, server: 45.77.48.44, port: 8099, type: ss, cipher: aes-256-cfb, password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D, udp: true}
-  - {name: 长江AU_28, server: 45.77.48.44, port: 8099, type: ss, cipher: aes-256-cfb, password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D, udp: true}
-  - {name: 长江TW_306, server: p5.22332e.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!, udp: true}
-  - {name: 长江US_307, server: ssr6.ssrsub.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!, udp: true}
-  - {name: 长江TW_724, server: 59.125.11.158, port: 8158, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: 长江TW_725, server: 59.125.11.158, port: 8158, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: 长江TW_1280, server: 117.28.243.132, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!, udp: true}
+  - {name: 🇦🇺 长江AU_632, server: 45.77.48.44, port: 8099, type: ss, cipher: aes-256-cfb, password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D}
+  - {name: 长江CA_1358, server: channel.napsternetvtm.dnsmy.xyz, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 🇺🇲 长江US_1651, server: 117.28.243.172, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!}
+  - {name: 🇺🇲 长江US_1652, server: ssr6.ssrsub.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!}
+  - {name: 🇨🇳 长江TW_1653, server: ssr3.ssrsub.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!}
+  - {name: 🇨🇳 长江TW_1655, server: p5.22332e.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!}
+  - {name: 🇺🇲 长江US_1656, server: ssr4.ssrsub.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!}
+  - {name: 🇨🇳 长江TW_1658, server: 117.28.243.132, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!}
+  - {name: 🇺🇲 长江US_1660, server: p7.22332e.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!}
+  - {name: 🇩🇪 长江DE_2414, server: 136.243.191.88, port: 443, type: ssr, cipher: aes-128-ctr, password: sEscPBiAD9K$&@79, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
+  - {name: 🇩🇪 长江DE_2415, server: 136.243.191.85, port: 443, type: ssr, cipher: aes-128-ctr, password: sEscPBiAD9K$&@79, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
+  - {name: 长江7, server: 117.28.243.169, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!}
+  - {name: 长江5, server: dg-hk-node01.linkthink.app, port: 10675, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: "", obfs-param: ""}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 长江AU_632
-      - 长江AU_633
+      - 🇦🇺 长江AU_632
       - 长江CA_1358
-      - 长江US_1651
-      - 长江US_1652
-      - 长江TW_1653
-      - 长江US_1654
-      - 长江TW_1655
-      - 长江US_1656
-      - 长江TW_1657
-      - 长江TW_1658
-      - 长江TW_1659
-      - 长江US_1660
-      - 长江DE_2414
-      - 长江DE_2415
-      - TW_9101
-      - TW_9102
-      - 长江10
-      - 长江9
-      - 长江8
+      - 🇺🇲 长江US_1651
+      - 🇺🇲 长江US_1652
+      - 🇨🇳 长江TW_1653
+      - 🇨🇳 长江TW_1655
+      - 🇺🇲 长江US_1656
+      - 🇨🇳 长江TW_1658
+      - 🇺🇲 长江US_1660
+      - 🇩🇪 长江DE_2414
+      - 🇩🇪 长江DE_2415
       - 长江7
-      - 长江6
       - 长江5
-      - 长江4
-      - 长江3
-      - 长江2
-      - 长江1
-      - 长江AU_1179
-      - 长江CA_1910
-      - 长江CN_2204
-      - 长江CN_2208
-      - 长江CN_2209
-      - 长江DE_2891
-      - 长江DE_2892
-      - 长江TW_9314
-      - 长江AU_634
-      - 长江AU_635
-      - 长江CA_1285
-      - 长江US_1658
-      - 长江TW_1659 2
-      - 长江TW_1660
-      - 长江TW_1661
-      - 长江TW_1662
-      - 长江DE_2487
-      - 长江DE_2488
-      - 长江TW_8939
-      - 长江TW_8940
-      - 长江CN | 4.52Mb
-      - 长江CN | 1.31Mb
-      - 长江CN | 3.40Mb
-      - 长江CN | 2.67Mb
-      - 长江TW |15.85Mb
-      - 长江 1.65Mb
-      - 长江1.66Mb
-      - 长江 2.57Mb
-      - 长江 2.41Mb
-      - 长江 2.03Mb
-      - 长江 2.05Mb
-      - 长江TW_40
-      - 长江TW_41
-      - 长江TW_36
-      - 长江US_37
-      - 长江W_38
-      - 长江AU_1078 |19.45Mb
-      - 长江CN_2105 | 3.14Mb
-      - 长江CN_2111 | 1.75Mb
-      - 长江CN_2112
-      - 长江CN_2113
-      - 长江DE_2833
-      - 长江TW_8726
-      - 长江CN_13
-      - 长江CN_14
-      - 长江CN_15
-      - 长江AU_27
-      - 长江AU_28
-      - 长江TW_306
-      - 长江US_307
-      - 长江TW_724
-      - 长江TW_725
-      - 长江TW_1280
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 长江AU_632
-      - 长江AU_633
+      - 🇦🇺 长江AU_632
       - 长江CA_1358
-      - 长江US_1651
-      - 长江US_1652
-      - 长江TW_1653
-      - 长江US_1654
-      - 长江TW_1655
-      - 长江US_1656
-      - 长江TW_1657
-      - 长江TW_1658
-      - 长江TW_1659
-      - 长江US_1660
-      - 长江DE_2414
-      - 长江DE_2415
-      - TW_9101
-      - TW_9102
-      - 长江10
-      - 长江9
-      - 长江8
+      - 🇺🇲 长江US_1651
+      - 🇺🇲 长江US_1652
+      - 🇨🇳 长江TW_1653
+      - 🇨🇳 长江TW_1655
+      - 🇺🇲 长江US_1656
+      - 🇨🇳 长江TW_1658
+      - 🇺🇲 长江US_1660
+      - 🇩🇪 长江DE_2414
+      - 🇩🇪 长江DE_2415
       - 长江7
-      - 长江6
       - 长江5
-      - 长江4
-      - 长江3
-      - 长江2
-      - 长江1
-      - 长江AU_1179
-      - 长江CA_1910
-      - 长江CN_2204
-      - 长江CN_2208
-      - 长江CN_2209
-      - 长江DE_2891
-      - 长江DE_2892
-      - 长江TW_9314
-      - 长江AU_634
-      - 长江AU_635
-      - 长江CA_1285
-      - 长江US_1658
-      - 长江TW_1659 2
-      - 长江TW_1660
-      - 长江TW_1661
-      - 长江TW_1662
-      - 长江DE_2487
-      - 长江DE_2488
-      - 长江TW_8939
-      - 长江TW_8940
-      - 长江CN | 4.52Mb
-      - 长江CN | 1.31Mb
-      - 长江CN | 3.40Mb
-      - 长江CN | 2.67Mb
-      - 长江TW |15.85Mb
-      - 长江 1.65Mb
-      - 长江1.66Mb
-      - 长江 2.57Mb
-      - 长江 2.41Mb
-      - 长江 2.03Mb
-      - 长江 2.05Mb
-      - 长江TW_40
-      - 长江TW_41
-      - 长江TW_36
-      - 长江US_37
-      - 长江W_38
-      - 长江AU_1078 |19.45Mb
-      - 长江CN_2105 | 3.14Mb
-      - 长江CN_2111 | 1.75Mb
-      - 长江CN_2112
-      - 长江CN_2113
-      - 长江DE_2833
-      - 长江TW_8726
-      - 长江CN_13
-      - 长江CN_14
-      - 长江CN_15
-      - 长江AU_27
-      - 长江AU_28
-      - 长江TW_306
-      - 长江US_307
-      - 长江TW_724
-      - 长江TW_725
-      - 长江TW_1280
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 长江AU_632
-      - 长江AU_633
+      - 🇦🇺 长江AU_632
       - 长江CA_1358
-      - 长江US_1651
-      - 长江US_1652
-      - 长江TW_1653
-      - 长江US_1654
-      - 长江TW_1655
-      - 长江US_1656
-      - 长江TW_1657
-      - 长江TW_1658
-      - 长江TW_1659
-      - 长江US_1660
-      - 长江DE_2414
-      - 长江DE_2415
-      - TW_9101
-      - TW_9102
-      - 长江10
-      - 长江9
-      - 长江8
+      - 🇺🇲 长江US_1651
+      - 🇺🇲 长江US_1652
+      - 🇨🇳 长江TW_1653
+      - 🇨🇳 长江TW_1655
+      - 🇺🇲 长江US_1656
+      - 🇨🇳 长江TW_1658
+      - 🇺🇲 长江US_1660
+      - 🇩🇪 长江DE_2414
+      - 🇩🇪 长江DE_2415
       - 长江7
-      - 长江6
       - 长江5
-      - 长江4
-      - 长江3
-      - 长江2
-      - 长江1
-      - 长江AU_1179
-      - 长江CA_1910
-      - 长江CN_2204
-      - 长江CN_2208
-      - 长江CN_2209
-      - 长江DE_2891
-      - 长江DE_2892
-      - 长江TW_9314
-      - 长江AU_634
-      - 长江AU_635
-      - 长江CA_1285
-      - 长江US_1658
-      - 长江TW_1659 2
-      - 长江TW_1660
-      - 长江TW_1661
-      - 长江TW_1662
-      - 长江DE_2487
-      - 长江DE_2488
-      - 长江TW_8939
-      - 长江TW_8940
-      - 长江CN | 4.52Mb
-      - 长江CN | 1.31Mb
-      - 长江CN | 3.40Mb
-      - 长江CN | 2.67Mb
-      - 长江TW |15.85Mb
-      - 长江 1.65Mb
-      - 长江1.66Mb
-      - 长江 2.57Mb
-      - 长江 2.41Mb
-      - 长江 2.03Mb
-      - 长江 2.05Mb
-      - 长江TW_40
-      - 长江TW_41
-      - 长江TW_36
-      - 长江US_37
-      - 长江W_38
-      - 长江AU_1078 |19.45Mb
-      - 长江CN_2105 | 3.14Mb
-      - 长江CN_2111 | 1.75Mb
-      - 长江CN_2112
-      - 长江CN_2113
-      - 长江DE_2833
-      - 长江TW_8726
-      - 长江CN_13
-      - 长江CN_14
-      - 长江CN_15
-      - 长江AU_27
-      - 长江AU_28
-      - 长江TW_306
-      - 长江US_307
-      - 长江TW_724
-      - 长江TW_725
-      - 长江TW_1280
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 长江AU_632
-      - 长江AU_633
+      - 🇦🇺 长江AU_632
       - 长江CA_1358
-      - 长江US_1651
-      - 长江US_1652
-      - 长江TW_1653
-      - 长江US_1654
-      - 长江TW_1655
-      - 长江US_1656
-      - 长江TW_1657
-      - 长江TW_1658
-      - 长江TW_1659
-      - 长江US_1660
-      - 长江DE_2414
-      - 长江DE_2415
-      - TW_9101
-      - TW_9102
-      - 长江10
-      - 长江9
-      - 长江8
+      - 🇺🇲 长江US_1651
+      - 🇺🇲 长江US_1652
+      - 🇨🇳 长江TW_1653
+      - 🇨🇳 长江TW_1655
+      - 🇺🇲 长江US_1656
+      - 🇨🇳 长江TW_1658
+      - 🇺🇲 长江US_1660
+      - 🇩🇪 长江DE_2414
+      - 🇩🇪 长江DE_2415
       - 长江7
-      - 长江6
       - 长江5
-      - 长江4
-      - 长江3
-      - 长江2
-      - 长江1
-      - 长江AU_1179
-      - 长江CA_1910
-      - 长江CN_2204
-      - 长江CN_2208
-      - 长江CN_2209
-      - 长江DE_2891
-      - 长江DE_2892
-      - 长江TW_9314
-      - 长江AU_634
-      - 长江AU_635
-      - 长江CA_1285
-      - 长江US_1658
-      - 长江TW_1659 2
-      - 长江TW_1660
-      - 长江TW_1661
-      - 长江TW_1662
-      - 长江DE_2487
-      - 长江DE_2488
-      - 长江TW_8939
-      - 长江TW_8940
-      - 长江CN | 4.52Mb
-      - 长江CN | 1.31Mb
-      - 长江CN | 3.40Mb
-      - 长江CN | 2.67Mb
-      - 长江TW |15.85Mb
-      - 长江 1.65Mb
-      - 长江1.66Mb
-      - 长江 2.57Mb
-      - 长江 2.41Mb
-      - 长江 2.03Mb
-      - 长江 2.05Mb
-      - 长江TW_40
-      - 长江TW_41
-      - 长江TW_36
-      - 长江US_37
-      - 长江W_38
-      - 长江AU_1078 |19.45Mb
-      - 长江CN_2105 | 3.14Mb
-      - 长江CN_2111 | 1.75Mb
-      - 长江CN_2112
-      - 长江CN_2113
-      - 长江DE_2833
-      - 长江TW_8726
-      - 长江CN_13
-      - 长江CN_14
-      - 长江CN_15
-      - 长江AU_27
-      - 长江AU_28
-      - 长江TW_306
-      - 长江US_307
-      - 长江TW_724
-      - 长江TW_725
-      - 长江TW_1280
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 长江AU_632
-      - 长江AU_633
+      - 🇦🇺 长江AU_632
       - 长江CA_1358
-      - 长江US_1651
-      - 长江US_1652
-      - 长江TW_1653
-      - 长江US_1654
-      - 长江TW_1655
-      - 长江US_1656
-      - 长江TW_1657
-      - 长江TW_1658
-      - 长江TW_1659
-      - 长江US_1660
-      - 长江DE_2414
-      - 长江DE_2415
-      - TW_9101
-      - TW_9102
-      - 长江10
-      - 长江9
-      - 长江8
+      - 🇺🇲 长江US_1651
+      - 🇺🇲 长江US_1652
+      - 🇨🇳 长江TW_1653
+      - 🇨🇳 长江TW_1655
+      - 🇺🇲 长江US_1656
+      - 🇨🇳 长江TW_1658
+      - 🇺🇲 长江US_1660
+      - 🇩🇪 长江DE_2414
+      - 🇩🇪 长江DE_2415
       - 长江7
-      - 长江6
       - 长江5
-      - 长江4
-      - 长江3
-      - 长江2
-      - 长江1
-      - 长江AU_1179
-      - 长江CA_1910
-      - 长江CN_2204
-      - 长江CN_2208
-      - 长江CN_2209
-      - 长江DE_2891
-      - 长江DE_2892
-      - 长江TW_9314
-      - 长江AU_634
-      - 长江AU_635
-      - 长江CA_1285
-      - 长江US_1658
-      - 长江TW_1659 2
-      - 长江TW_1660
-      - 长江TW_1661
-      - 长江TW_1662
-      - 长江DE_2487
-      - 长江DE_2488
-      - 长江TW_8939
-      - 长江TW_8940
-      - 长江CN | 4.52Mb
-      - 长江CN | 1.31Mb
-      - 长江CN | 3.40Mb
-      - 长江CN | 2.67Mb
-      - 长江TW |15.85Mb
-      - 长江 1.65Mb
-      - 长江1.66Mb
-      - 长江 2.57Mb
-      - 长江 2.41Mb
-      - 长江 2.03Mb
-      - 长江 2.05Mb
-      - 长江TW_40
-      - 长江TW_41
-      - 长江TW_36
-      - 长江US_37
-      - 长江W_38
-      - 长江AU_1078 |19.45Mb
-      - 长江CN_2105 | 3.14Mb
-      - 长江CN_2111 | 1.75Mb
-      - 长江CN_2112
-      - 长江CN_2113
-      - 长江DE_2833
-      - 长江TW_8726
-      - 长江CN_13
-      - 长江CN_14
-      - 长江CN_15
-      - 长江AU_27
-      - 长江AU_28
-      - 长江TW_306
-      - 长江US_307
-      - 长江TW_724
-      - 长江TW_725
-      - 长江TW_1280
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 长江AU_632
-      - 长江AU_633
+      - 🇦🇺 长江AU_632
       - 长江CA_1358
-      - 长江US_1651
-      - 长江US_1652
-      - 长江TW_1653
-      - 长江US_1654
-      - 长江TW_1655
-      - 长江US_1656
-      - 长江TW_1657
-      - 长江TW_1658
-      - 长江TW_1659
-      - 长江US_1660
-      - 长江DE_2414
-      - 长江DE_2415
-      - TW_9101
-      - TW_9102
-      - 长江10
-      - 长江9
-      - 长江8
+      - 🇺🇲 长江US_1651
+      - 🇺🇲 长江US_1652
+      - 🇨🇳 长江TW_1653
+      - 🇨🇳 长江TW_1655
+      - 🇺🇲 长江US_1656
+      - 🇨🇳 长江TW_1658
+      - 🇺🇲 长江US_1660
+      - 🇩🇪 长江DE_2414
+      - 🇩🇪 长江DE_2415
       - 长江7
-      - 长江6
       - 长江5
-      - 长江4
-      - 长江3
-      - 长江2
-      - 长江1
-      - 长江AU_1179
-      - 长江CA_1910
-      - 长江CN_2204
-      - 长江CN_2208
-      - 长江CN_2209
-      - 长江DE_2891
-      - 长江DE_2892
-      - 长江TW_9314
-      - 长江AU_634
-      - 长江AU_635
-      - 长江CA_1285
-      - 长江US_1658
-      - 长江TW_1659 2
-      - 长江TW_1660
-      - 长江TW_1661
-      - 长江TW_1662
-      - 长江DE_2487
-      - 长江DE_2488
-      - 长江TW_8939
-      - 长江TW_8940
-      - 长江CN | 4.52Mb
-      - 长江CN | 1.31Mb
-      - 长江CN | 3.40Mb
-      - 长江CN | 2.67Mb
-      - 长江TW |15.85Mb
-      - 长江 1.65Mb
-      - 长江1.66Mb
-      - 长江 2.57Mb
-      - 长江 2.41Mb
-      - 长江 2.03Mb
-      - 长江 2.05Mb
-      - 长江TW_40
-      - 长江TW_41
-      - 长江TW_36
-      - 长江US_37
-      - 长江W_38
-      - 长江AU_1078 |19.45Mb
-      - 长江CN_2105 | 3.14Mb
-      - 长江CN_2111 | 1.75Mb
-      - 长江CN_2112
-      - 长江CN_2113
-      - 长江DE_2833
-      - 长江TW_8726
-      - 长江CN_13
-      - 长江CN_14
-      - 长江CN_15
-      - 长江AU_27
-      - 长江AU_28
-      - 长江TW_306
-      - 长江US_307
-      - 长江TW_724
-      - 长江TW_725
-      - 长江TW_1280
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 长江AU_632
-      - 长江AU_633
+      - 🇦🇺 长江AU_632
       - 长江CA_1358
-      - 长江US_1651
-      - 长江US_1652
-      - 长江TW_1653
-      - 长江US_1654
-      - 长江TW_1655
-      - 长江US_1656
-      - 长江TW_1657
-      - 长江TW_1658
-      - 长江TW_1659
-      - 长江US_1660
-      - 长江DE_2414
-      - 长江DE_2415
-      - TW_9101
-      - TW_9102
-      - 长江10
-      - 长江9
-      - 长江8
+      - 🇺🇲 长江US_1651
+      - 🇺🇲 长江US_1652
+      - 🇨🇳 长江TW_1653
+      - 🇨🇳 长江TW_1655
+      - 🇺🇲 长江US_1656
+      - 🇨🇳 长江TW_1658
+      - 🇺🇲 长江US_1660
+      - 🇩🇪 长江DE_2414
+      - 🇩🇪 长江DE_2415
       - 长江7
-      - 长江6
       - 长江5
-      - 长江4
-      - 长江3
-      - 长江2
-      - 长江1
-      - 长江AU_1179
-      - 长江CA_1910
-      - 长江CN_2204
-      - 长江CN_2208
-      - 长江CN_2209
-      - 长江DE_2891
-      - 长江DE_2892
-      - 长江TW_9314
-      - 长江AU_634
-      - 长江AU_635
-      - 长江CA_1285
-      - 长江US_1658
-      - 长江TW_1659 2
-      - 长江TW_1660
-      - 长江TW_1661
-      - 长江TW_1662
-      - 长江DE_2487
-      - 长江DE_2488
-      - 长江TW_8939
-      - 长江TW_8940
-      - 长江CN | 4.52Mb
-      - 长江CN | 1.31Mb
-      - 长江CN | 3.40Mb
-      - 长江CN | 2.67Mb
-      - 长江TW |15.85Mb
-      - 长江 1.65Mb
-      - 长江1.66Mb
-      - 长江 2.57Mb
-      - 长江 2.41Mb
-      - 长江 2.03Mb
-      - 长江 2.05Mb
-      - 长江TW_40
-      - 长江TW_41
-      - 长江TW_36
-      - 长江US_37
-      - 长江W_38
-      - 长江AU_1078 |19.45Mb
-      - 长江CN_2105 | 3.14Mb
-      - 长江CN_2111 | 1.75Mb
-      - 长江CN_2112
-      - 长江CN_2113
-      - 长江DE_2833
-      - 长江TW_8726
-      - 长江CN_13
-      - 长江CN_14
-      - 长江CN_15
-      - 长江AU_27
-      - 长江AU_28
-      - 长江TW_306
-      - 长江US_307
-      - 长江TW_724
-      - 长江TW_725
-      - 长江TW_1280
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -706,86 +170,19 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 长江AU_632
-      - 长江AU_633
+      - 🇦🇺 长江AU_632
       - 长江CA_1358
-      - 长江US_1651
-      - 长江US_1652
-      - 长江TW_1653
-      - 长江US_1654
-      - 长江TW_1655
-      - 长江US_1656
-      - 长江TW_1657
-      - 长江TW_1658
-      - 长江TW_1659
-      - 长江US_1660
-      - 长江DE_2414
-      - 长江DE_2415
-      - TW_9101
-      - TW_9102
-      - 长江10
-      - 长江9
-      - 长江8
+      - 🇺🇲 长江US_1651
+      - 🇺🇲 长江US_1652
+      - 🇨🇳 长江TW_1653
+      - 🇨🇳 长江TW_1655
+      - 🇺🇲 长江US_1656
+      - 🇨🇳 长江TW_1658
+      - 🇺🇲 长江US_1660
+      - 🇩🇪 长江DE_2414
+      - 🇩🇪 长江DE_2415
       - 长江7
-      - 长江6
       - 长江5
-      - 长江4
-      - 长江3
-      - 长江2
-      - 长江1
-      - 长江AU_1179
-      - 长江CA_1910
-      - 长江CN_2204
-      - 长江CN_2208
-      - 长江CN_2209
-      - 长江DE_2891
-      - 长江DE_2892
-      - 长江TW_9314
-      - 长江AU_634
-      - 长江AU_635
-      - 长江CA_1285
-      - 长江US_1658
-      - 长江TW_1659 2
-      - 长江TW_1660
-      - 长江TW_1661
-      - 长江TW_1662
-      - 长江DE_2487
-      - 长江DE_2488
-      - 长江TW_8939
-      - 长江TW_8940
-      - 长江CN | 4.52Mb
-      - 长江CN | 1.31Mb
-      - 长江CN | 3.40Mb
-      - 长江CN | 2.67Mb
-      - 长江TW |15.85Mb
-      - 长江 1.65Mb
-      - 长江1.66Mb
-      - 长江 2.57Mb
-      - 长江 2.41Mb
-      - 长江 2.03Mb
-      - 长江 2.05Mb
-      - 长江TW_40
-      - 长江TW_41
-      - 长江TW_36
-      - 长江US_37
-      - 长江W_38
-      - 长江AU_1078 |19.45Mb
-      - 长江CN_2105 | 3.14Mb
-      - 长江CN_2111 | 1.75Mb
-      - 长江CN_2112
-      - 长江CN_2113
-      - 长江DE_2833
-      - 长江TW_8726
-      - 长江CN_13
-      - 长江CN_14
-      - 长江CN_15
-      - 长江AU_27
-      - 长江AU_28
-      - 长江TW_306
-      - 长江US_307
-      - 长江TW_724
-      - 长江TW_725
-      - 长江TW_1280
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
