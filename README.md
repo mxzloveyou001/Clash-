@@ -6,18 +6,13 @@ log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
   - {name: 🇦🇺 长江AU_632, server: 45.77.48.44, port: 8099, type: ss, cipher: aes-256-cfb, password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D}
-  - {name: 长江CA_1358, server: channel.napsternetvtm.dnsmy.xyz, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇺🇲 长江US_1651, server: 117.28.243.172, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!}
-  - {name: 🇺🇲 长江US_1652, server: ssr6.ssrsub.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!}
   - {name: 🇨🇳 长江TW_1653, server: ssr3.ssrsub.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!}
   - {name: 🇨🇳 长江TW_1655, server: p5.22332e.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!}
-  - {name: 🇺🇲 长江US_1656, server: ssr4.ssrsub.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!}
   - {name: 🇨🇳 长江TW_1658, server: 117.28.243.132, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!}
   - {name: 🇺🇲 长江US_1660, server: p7.22332e.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!}
   - {name: 🇩🇪 长江DE_2414, server: 136.243.191.88, port: 443, type: ssr, cipher: aes-128-ctr, password: sEscPBiAD9K$&@79, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
   - {name: 🇩🇪 长江DE_2415, server: 136.243.191.85, port: 443, type: ssr, cipher: aes-128-ctr, password: sEscPBiAD9K$&@79, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
-  - {name: 长江7, server: 117.28.243.169, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!}
-  - {name: 长江5, server: dg-hk-node01.linkthink.app, port: 10675, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: "", obfs-param: ""}
+  - {name: 长江2, server: dg-hk-node01.linkthink.app, port: 10675, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: "", obfs-param: ""}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -25,18 +20,13 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - 🇦🇺 长江AU_632
-      - 长江CA_1358
-      - 🇺🇲 长江US_1651
-      - 🇺🇲 长江US_1652
       - 🇨🇳 长江TW_1653
       - 🇨🇳 长江TW_1655
-      - 🇺🇲 长江US_1656
       - 🇨🇳 长江TW_1658
       - 🇺🇲 长江US_1660
       - 🇩🇪 长江DE_2414
       - 🇩🇪 长江DE_2415
-      - 长江7
-      - 长江5
+      - 长江2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -44,18 +34,13 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 🇦🇺 长江AU_632
-      - 长江CA_1358
-      - 🇺🇲 长江US_1651
-      - 🇺🇲 长江US_1652
       - 🇨🇳 长江TW_1653
       - 🇨🇳 长江TW_1655
-      - 🇺🇲 长江US_1656
       - 🇨🇳 长江TW_1658
       - 🇺🇲 长江US_1660
       - 🇩🇪 长江DE_2414
       - 🇩🇪 长江DE_2415
-      - 长江7
-      - 长江5
+      - 长江2
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -63,72 +48,52 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🇦🇺 长江AU_632
-      - 长江CA_1358
-      - 🇺🇲 长江US_1651
-      - 🇺🇲 长江US_1652
       - 🇨🇳 长江TW_1653
       - 🇨🇳 长江TW_1655
-      - 🇺🇲 长江US_1656
       - 🇨🇳 长江TW_1658
       - 🇺🇲 长江US_1660
       - 🇩🇪 长江DE_2414
       - 🇩🇪 长江DE_2415
-      - 长江7
-      - 长江5
+      - 长江2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 🇦🇺 长江AU_632
-      - 长江CA_1358
-      - 🇺🇲 长江US_1651
-      - 🇺🇲 长江US_1652
       - 🇨🇳 长江TW_1653
       - 🇨🇳 长江TW_1655
-      - 🇺🇲 长江US_1656
       - 🇨🇳 长江TW_1658
       - 🇺🇲 长江US_1660
       - 🇩🇪 长江DE_2414
       - 🇩🇪 长江DE_2415
-      - 长江7
-      - 长江5
+      - 长江2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - 🇦🇺 长江AU_632
-      - 长江CA_1358
-      - 🇺🇲 长江US_1651
-      - 🇺🇲 长江US_1652
       - 🇨🇳 长江TW_1653
       - 🇨🇳 长江TW_1655
-      - 🇺🇲 长江US_1656
       - 🇨🇳 长江TW_1658
       - 🇺🇲 长江US_1660
       - 🇩🇪 长江DE_2414
       - 🇩🇪 长江DE_2415
-      - 长江7
-      - 长江5
+      - 长江2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 🇦🇺 长江AU_632
-      - 长江CA_1358
-      - 🇺🇲 长江US_1651
-      - 🇺🇲 长江US_1652
       - 🇨🇳 长江TW_1653
       - 🇨🇳 长江TW_1655
-      - 🇺🇲 长江US_1656
       - 🇨🇳 长江TW_1658
       - 🇺🇲 长江US_1660
       - 🇩🇪 长江DE_2414
       - 🇩🇪 长江DE_2415
-      - 长江7
-      - 长江5
+      - 长江2
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -136,18 +101,13 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🇦🇺 长江AU_632
-      - 长江CA_1358
-      - 🇺🇲 长江US_1651
-      - 🇺🇲 长江US_1652
       - 🇨🇳 长江TW_1653
       - 🇨🇳 长江TW_1655
-      - 🇺🇲 长江US_1656
       - 🇨🇳 长江TW_1658
       - 🇺🇲 长江US_1660
       - 🇩🇪 长江DE_2414
       - 🇩🇪 长江DE_2415
-      - 长江7
-      - 长江5
+      - 长江2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -171,18 +131,13 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🇦🇺 长江AU_632
-      - 长江CA_1358
-      - 🇺🇲 长江US_1651
-      - 🇺🇲 长江US_1652
       - 🇨🇳 长江TW_1653
       - 🇨🇳 长江TW_1655
-      - 🇺🇲 长江US_1656
       - 🇨🇳 长江TW_1658
       - 🇺🇲 长江US_1660
       - 🇩🇪 长江DE_2414
       - 🇩🇪 长江DE_2415
-      - 长江7
-      - 长江5
+      - 长江2
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
