@@ -5,112 +5,111 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _AL_阿尔巴尼亚_3, server: 31.171.154.220, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
-  - {name: _NL_荷兰_14, server: 89.46.223.246, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap, udp: true}
-  - {name: _BE_比利时_3, server: 194.110.115.84, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp, udp: true}
-  - {name: _NO_挪威_3, server: 91.219.215.53, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z, udp: true}
-  - {name: _NL_荷兰_19, server: 89.46.223.239, port: 35200, type: ss, cipher: aes-256-gcm, password: WBLAbN6AwtV5avBx73hFRLB3, udp: true}
-  - {name: _BE_比利时_11, server: 194.110.115.84, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB, udp: true}
-  - {name: _AL_阿尔巴尼亚_8, server: 31.171.154.220, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd, udp: true}
-  - {name: _NL_荷兰_16, server: 89.46.223.87, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk, udp: true}
-  - {name: _AL_阿尔巴尼亚_9, server: 31.171.154.220, port: 50695, type: ss, cipher: aes-256-gcm, password: gqtwGu9bVreJqL3FTHSVKGzy, udp: true}
-  - {name: _NL_荷兰_11, server: 89.46.223.91, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe, udp: true}
-  - {name: _DE_德国_2, server: 82.102.16.102, port: 46354, type: ss, cipher: aes-256-gcm, password: MYPKdC7n6qjL6xmJBBcrzzqS, udp: true}
-  - {name: _CH_瑞士_10, server: 156.146.62.45, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd, udp: true}
-  - {name: 长江斯洛伐克_1, server: 185.76.8.218, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
-  - {name: _TR_土耳其_1, server: 107.150.94.14, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT, udp: true}
-  - {name: _FR_法国_1, server: 185.108.106.172, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq, udp: true}
-  - {name: 长江斯洛伐克_1 2, server: 185.76.8.218, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK, udp: true}
-  - {name: v2rayse_🇺🇸_US_美国_3, server: 104.16.104.198, port: 443, type: vmess, uuid: 24b4b1e1-7a89-45f6-858c-242cf53b5bdb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /24b4b1e1-7a89-45f6-858c-242cf53b5bdb-vmess, ws-headers: {Host: green-recipe-bc49.tianzhen121.workers.dev}, udp: true}
-  - {name: _US_美国_12, server: 138.199.42.170, port: 40711, type: ss, cipher: aes-256-gcm, password: rnngxSTJrXWKXHkvrF3npp9B, udp: true}
-  - {name: _NO_挪威_1, server: 91.219.215.53, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr, udp: true}
-  - {name: _NL_荷兰_3, server: 89.46.223.63, port: 35371, type: ss, cipher: aes-256-gcm, password: pjeDhAJGuML8xKUxcjRqq6a9, udp: true}
-  - {name: _BE_比利时_5, server: 194.110.115.84, port: 42816, type: ss, cipher: aes-256-gcm, password: tBKBf4pVzNCFKdbPgvwrNXq3, udp: true}
-  - {name: _NL_荷兰_15, server: 89.46.223.99, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd, udp: true}
-  - {name: _US_美国_9, server: 185.124.240.146, port: 44742, type: ss, cipher: aes-256-gcm, password: QCStKzZ56SHBc4tL7stCEqqd, udp: true}
-  - {name: _SK_斯洛伐克_10, server: 185.76.8.218, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT, udp: true}
-  - {name: _CH_瑞士_8, server: 156.146.62.45, port: 35200, type: ss, cipher: aes-256-gcm, password: WBLAbN6AwtV5avBx73hFRLB3, udp: true}
-  - {name: _BE_比利时_9, server: 194.110.115.84, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe, udp: true}
-  - {name: 长江斯洛伐克_4, server: 185.76.8.218, port: 40282, type: ss, cipher: aes-256-gcm, password: Pvvaw486867D2w4yctL2ULTQ, udp: true}
-  - {name: 长江德国_3, server: 82.102.16.102, port: 45948, type: ss, cipher: aes-256-gcm, password: j76EXqJcQhuQTr3EvUf7xaK9, udp: true}
+  - {name: 长江_AL_阿尔巴尼亚_3, server: 31.171.154.220, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
+  - {name: 长江_NL_荷兰_14, server: 89.46.223.246, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap, udp: true}
+  - {name: 长江_BE_比利时_3, server: 194.110.115.84, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp, udp: true}
+  - {name: 长江_NO_挪威_3, server: 91.219.215.53, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z, udp: true}
+  - {name: 长江_NL_荷兰_19, server: 89.46.223.239, port: 35200, type: ss, cipher: aes-256-gcm, password: WBLAbN6AwtV5avBx73hFRLB3, udp: true}
+  - {name: 长江_BE_比利时_11, server: 194.110.115.84, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB, udp: true}
+  - {name: 长江_AL_阿尔巴尼亚_8, server: 31.171.154.220, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd, udp: true}
+  - {name: 长江_NL_荷兰_16, server: 89.46.223.87, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk, udp: true}
+  - {name: 长江_AL_阿尔巴尼亚_9, server: 31.171.154.220, port: 50695, type: ss, cipher: aes-256-gcm, password: gqtwGu9bVreJqL3FTHSVKGzy, udp: true}
+  - {name: 长江_NL_荷兰_11, server: 89.46.223.91, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe, udp: true}
+  - {name: 长江_DE_德国_2, server: 82.102.16.102, port: 46354, type: ss, cipher: aes-256-gcm, password: MYPKdC7n6qjL6xmJBBcrzzqS, udp: true}
+  - {name: 长江_CH_瑞士_10, server: 156.146.62.45, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd, udp: true}
+  - {name: 长江_1, server: 185.76.8.218, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
+  - {name: 长江_TR_土耳其_1, server: 107.150.94.14, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT, udp: true}
+  - {name: 长江_FR_法国_1, server: 185.108.106.172, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq, udp: true}
+  - {name: 长江_1 2, server: 185.76.8.218, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK, udp: true}
+  - {name: 长江_US_美国_3, server: 104.16.104.198, port: 443, type: vmess, uuid: 24b4b1e1-7a89-45f6-858c-242cf53b5bdb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 长江_US_美国_12, server: 138.199.42.170, port: 40711, type: ss, cipher: aes-256-gcm, password: rnngxSTJrXWKXHkvrF3npp9B, udp: true}
+  - {name: 长江_NO_挪威_1, server: 91.219.215.53, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr, udp: true}
+  - {name: 长江_NL_荷兰_3, server: 89.46.223.63, port: 35371, type: ss, cipher: aes-256-gcm, password: pjeDhAJGuML8xKUxcjRqq6a9, udp: true}
+  - {name: 长江_BE_比利时_5, server: 194.110.115.84, port: 42816, type: ss, cipher: aes-256-gcm, password: tBKBf4pVzNCFKdbPgvwrNXq3, udp: true}
+  - {name: 长江_NL_荷兰_15, server: 89.46.223.99, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd, udp: true}
+  - {name: 长江_US_美国_9, server: 185.124.240.146, port: 44742, type: ss, cipher: aes-256-gcm, password: QCStKzZ56SHBc4tL7stCEqqd, udp: true}
+  - {name: 长江_SK_斯洛伐克_10, server: 185.76.8.218, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT, udp: true}
+  - {name: 长江_CH_瑞士_8, server: 156.146.62.45, port: 35200, type: ss, cipher: aes-256-gcm, password: WBLAbN6AwtV5avBx73hFRLB3, udp: true}
+  - {name: 长江_BE_比利时_9, server: 194.110.115.84, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe, udp: true}
+  - {name: 长江_4, server: 185.76.8.218, port: 40282, type: ss, cipher: aes-256-gcm, password: Pvvaw486867D2w4yctL2ULTQ, udp: true}
+  - {name: 长江_3, server: 82.102.16.102, port: 45948, type: ss, cipher: aes-256-gcm, password: j76EXqJcQhuQTr3EvUf7xaK9, udp: true}
   - {name: 长江US_1660, server: p7.22332e.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!, udp: true}
   - {name: 长江TW_1658, server: 117.28.243.132, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!, udp: true}
   - {name: 长江TW_1655, server: p5.22332e.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!, udp: true}
   - {name: 长江TW_1653, server: ssr3.ssrsub.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!, udp: true}
-  - {name: _BE_比利时_7, server: 194.110.115.84, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r, udp: true}
-  - {name: _NL_荷兰_17, server: 89.46.223.63, port: 42166, type: ss, cipher: aes-256-gcm, password: H9Dbn3szZMqLR3NpgEFEPCKb, udp: true}
-  - {name: 长江德国_1, server: 82.102.16.102, port: 44745, type: ss, cipher: aes-256-gcm, password: fyXdw87yCH9SAmFkPvsvLVqC, udp: true}
-  - {name: 长江比利时_1, server: 194.110.115.84, port: 45948, type: ss, cipher: aes-256-gcm, password: j76EXqJcQhuQTr3EvUf7xaK9, udp: true}
-  - {name: _SK_斯洛伐克_3, server: 185.76.8.218, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe, udp: true}
-  - {name: _CH_瑞士_5, server: 156.146.62.45, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
-  - {name: _NO_挪威_2, server: 91.219.215.53, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
-  - {name: _CH_瑞士_14, server: 156.146.62.45, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8, udp: true}
-  - {name: _SK_斯洛伐克_6, server: 185.76.8.218, port: 49468, type: ss, cipher: aes-256-gcm, password: LsYSQDxmPj9AcWpSX5HrYfu6, udp: true}
+  - {name: 长江_BE_比利时_7, server: 194.110.115.84, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r, udp: true}
+  - {name: 长江_NL_荷兰_17, server: 89.46.223.63, port: 42166, type: ss, cipher: aes-256-gcm, password: H9Dbn3szZMqLR3NpgEFEPCKb, udp: true}
+  - {name: 长江_1 3, server: 82.102.16.102, port: 44745, type: ss, cipher: aes-256-gcm, password: fyXdw87yCH9SAmFkPvsvLVqC, udp: true}
+  - {name: 长江_1 4, server: 194.110.115.84, port: 45948, type: ss, cipher: aes-256-gcm, password: j76EXqJcQhuQTr3EvUf7xaK9, udp: true}
+  - {name: 长江_SK_斯洛伐克_3, server: 185.76.8.218, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe, udp: true}
+  - {name: 长江_CH_瑞士_5, server: 156.146.62.45, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
+  - {name: 长江_NO_挪威_2, server: 91.219.215.53, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
+  - {name: 长江_CH_瑞士_14, server: 156.146.62.45, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8, udp: true}
+  - {name: 长江_SK_斯洛伐克_6, server: 185.76.8.218, port: 49468, type: ss, cipher: aes-256-gcm, password: LsYSQDxmPj9AcWpSX5HrYfu6, udp: true}
   - {name: 长江DE_2414, server: 136.243.191.88, port: 443, type: ssr, cipher: aes-128-ctr, password: sEscPBiAD9K$&@79, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: _BE_比利时_2, server: 194.110.115.84, port: 50024, type: ss, cipher: aes-256-gcm, password: b2jDPHUQxCNa2KmGHZjy7C4B, udp: true}
-  - {name: _NL_荷兰_18, server: 89.46.223.215, port: 43963, type: ss, cipher: aes-256-gcm, password: Tuw6zzZM6JwWNZyYF9ckC4JZ, udp: true}
-  - {name: _CH_瑞士_11, server: 156.146.62.45, port: 47861, type: ss, cipher: aes-256-gcm, password: LJcChRsGQRhywrtXUU55TLTu, udp: true}
+  - {name: 长江_BE_比利时_2, server: 194.110.115.84, port: 50024, type: ss, cipher: aes-256-gcm, password: b2jDPHUQxCNa2KmGHZjy7C4B, udp: true}
+  - {name: 长江_NL_荷兰_18, server: 89.46.223.215, port: 43963, type: ss, cipher: aes-256-gcm, password: Tuw6zzZM6JwWNZyYF9ckC4JZ, udp: true}
+  - {name: 长江_CH_瑞士_11, server: 156.146.62.45, port: 47861, type: ss, cipher: aes-256-gcm, password: LJcChRsGQRhywrtXUU55TLTu, udp: true}
   - {name: 长江美国_5, server: 104.16.98.249, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}, udp: true}
-  - {name: _BE_比利时_1, server: 194.110.115.84, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8, udp: true}
-  - {name: _AL_阿尔巴尼亚_2, server: 31.171.154.220, port: 42816, type: ss, cipher: aes-256-gcm, password: tBKBf4pVzNCFKdbPgvwrNXq3, udp: true}
+  - {name: 长江_BE_比利时_1, server: 194.110.115.84, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8, udp: true}
+  - {name: 长江_AL_阿尔巴尼亚_2, server: 31.171.154.220, port: 42816, type: ss, cipher: aes-256-gcm, password: tBKBf4pVzNCFKdbPgvwrNXq3, udp: true}
   - {name: 长江美国_4, server: 66.151.174.123, port: 443, type: vmess, uuid: f47bb3d4-37dd-44ee-a7ee-1c485a0e2b90, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Eqbt8, ws-headers: {Host: usa.5599.buzz}, udp: true}
-  - {name: _NL_荷兰_2, server: 89.46.223.63, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD, udp: true}
-  - {name: _NL_荷兰_4, server: 89.46.223.63, port: 32843, type: ss, cipher: aes-256-gcm, password: G35YSR2LFNEM9bq2dkjmKQRr, udp: true}
-  - {name: 长江斯洛伐克_3, server: 185.76.8.218, port: 41992, type: ss, cipher: aes-256-gcm, password: XmQSxDCn5ehpcq6DBYms8FJf, udp: true}
-  - {name: _US_美国_11, server: 138.199.42.170, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp, udp: true}
-  - {name: _DE_德国_3, server: 82.102.16.102, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe, udp: true}
-  - {name: _CH_瑞士_15, server: 156.146.62.45, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD, udp: true}
-  - {name: _SK_斯洛伐克_9, server: 185.76.8.218, port: 48970, type: ss, cipher: aes-256-gcm, password: ZKEsXkFbUZ2z667YA8A7cEDP, udp: true}
-  - {name: _NL_荷兰_13, server: 89.46.223.77, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA, udp: true}
-  - {name: _AL_阿尔巴尼亚_1, server: 31.171.154.220, port: 49202, type: ss, cipher: aes-256-gcm, password: btzEYXKZxnR7g6H2vFTQK5TD, udp: true}
-  - {name: _BE_比利时_10, server: 194.110.115.84, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna, udp: true}
-  - {name: _ES_西班牙_1, server: 89.37.95.16, port: 49202, type: ss, cipher: aes-256-gcm, password: btzEYXKZxnR7g6H2vFTQK5TD, udp: true}
-  - {name: _BE_比利时_12, server: 194.110.115.86, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
-  - {name: _BE_比利时_4, server: 194.110.115.86, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna, udp: true}
-  - {name: _AL_阿尔巴尼亚_7, server: 31.171.154.220, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6, udp: true}
-  - {name: _SK_斯洛伐克_7, server: 185.76.8.218, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq, udp: true}
-  - {name: _DE_德国_4, server: 82.102.16.102, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd, udp: true}
+  - {name: 长江_NL_荷兰_2, server: 89.46.223.63, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD, udp: true}
+  - {name: 长江_NL_荷兰_4, server: 89.46.223.63, port: 32843, type: ss, cipher: aes-256-gcm, password: G35YSR2LFNEM9bq2dkjmKQRr, udp: true}
+  - {name: 长江_3 2, server: 185.76.8.218, port: 41992, type: ss, cipher: aes-256-gcm, password: XmQSxDCn5ehpcq6DBYms8FJf, udp: true}
+  - {name: 长江_US_美国_11, server: 138.199.42.170, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp, udp: true}
+  - {name: 长江_DE_德国_3, server: 82.102.16.102, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe, udp: true}
+  - {name: 长江_CH_瑞士_15, server: 156.146.62.45, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD, udp: true}
+  - {name: 长江_SK_斯洛伐克_9, server: 185.76.8.218, port: 48970, type: ss, cipher: aes-256-gcm, password: ZKEsXkFbUZ2z667YA8A7cEDP, udp: true}
+  - {name: 长江_NL_荷兰_13, server: 89.46.223.77, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA, udp: true}
+  - {name: 长江_AL_阿尔巴尼亚_1, server: 31.171.154.220, port: 49202, type: ss, cipher: aes-256-gcm, password: btzEYXKZxnR7g6H2vFTQK5TD, udp: true}
+  - {name: 长江_BE_比利时_10, server: 194.110.115.84, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna, udp: true}
+  - {name: 长江_ES_西班牙_1, server: 89.37.95.16, port: 49202, type: ss, cipher: aes-256-gcm, password: btzEYXKZxnR7g6H2vFTQK5TD, udp: true}
+  - {name: 长江_BE_比利时_12, server: 194.110.115.86, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
+  - {name: 长江_BE_比利时_4, server: 194.110.115.86, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna, udp: true}
+  - {name: 长江_AL_阿尔巴尼亚_7, server: 31.171.154.220, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6, udp: true}
+  - {name: 长江_SK_斯洛伐克_7, server: 185.76.8.218, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq, udp: true}
+  - {name: 长江_DE_德国_4, server: 82.102.16.102, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd, udp: true}
   - {name: 长江AU_632, server: 45.77.48.44, port: 8099, type: ss, cipher: aes-256-cfb, password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D, udp: true}
-  - {name: _AL_阿尔巴尼亚_10, server: 31.171.154.220, port: 42166, type: ss, cipher: aes-256-gcm, password: H9Dbn3szZMqLR3NpgEFEPCKb, udp: true}
-  - {name: _US_美国_6, server: 138.199.42.170, port: 48089, type: ss, cipher: aes-256-gcm, password: apqQgXJyVDsdJMAYV4xspRFK, udp: true}
-  - {name: 长江斯洛伐克_6, server: 185.76.8.218, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
-  - {name: _CH_瑞士_2, server: 156.146.62.45, port: 45948, type: ss, cipher: aes-256-gcm, password: j76EXqJcQhuQTr3EvUf7xaK9, udp: true}
-  - {name: _SK_斯洛伐克_2, server: 185.76.8.218, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe, udp: true}
-  - {name: _CH_瑞士_3, server: 156.146.62.45, port: 39720, type: ss, cipher: aes-256-gcm, password: kq8xQKC3K4jYQPwLXTNbJjm6, udp: true}
-  - {name: _NL_荷兰_5, server: 89.46.223.73, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ, udp: true}
+  - {name: 长江_AL_阿尔巴尼亚_10, server: 31.171.154.220, port: 42166, type: ss, cipher: aes-256-gcm, password: H9Dbn3szZMqLR3NpgEFEPCKb, udp: true}
+  - {name: 长江_US_美国_6, server: 138.199.42.170, port: 48089, type: ss, cipher: aes-256-gcm, password: apqQgXJyVDsdJMAYV4xspRFK, udp: true}
+  - {name: 长江_6, server: 185.76.8.218, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
+  - {name: 长江_CH_瑞士_2, server: 156.146.62.45, port: 45948, type: ss, cipher: aes-256-gcm, password: j76EXqJcQhuQTr3EvUf7xaK9, udp: true}
+  - {name: 长江_SK_斯洛伐克_2, server: 185.76.8.218, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe, udp: true}
+  - {name: 长江_CH_瑞士_3, server: 156.146.62.45, port: 39720, type: ss, cipher: aes-256-gcm, password: kq8xQKC3K4jYQPwLXTNbJjm6, udp: true}
+  - {name: 长江_NL_荷兰_5, server: 89.46.223.73, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ, udp: true}
   - {name: 长江美国_1, server: 104.25.104.8, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}, udp: true}
-  - {name: _NL_荷兰_1, server: 89.46.223.77, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe, udp: true}
-  - {name: v2rayse_🇺🇸_US_美国_2, server: 104.27.83.211, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}, udp: true}
-  - {name: _CH_瑞士_4, server: 156.146.62.45, port: 41306, type: ss, cipher: aes-256-gcm, password: pzB5Y2twNtqFzWhEbBsPJMjj, udp: true}
-  - {name: _NL_荷兰_6, server: 89.46.223.63, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna, udp: true}
-  - {name: _CH_瑞士_6, server: 156.146.62.45, port: 31216, type: ss, cipher: aes-256-gcm, password: wJwXatAGZ8xX5K8C7mruf84x, udp: true}
-  - {name: _CH_瑞士_9, server: 156.146.62.45, port: 42166, type: ss, cipher: aes-256-gcm, password: H9Dbn3szZMqLR3NpgEFEPCKb, udp: true}
-  - {name: _DE_德国_1, server: 82.102.16.102, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x, udp: true}
-  - {name: 长江荷兰, server: 89.46.223.57, port: 44745, type: ss, cipher: aes-256-gcm, password: fyXdw87yCH9SAmFkPvsvLVqC, udp: true}
-  - {name: _SK_斯洛伐克_4, server: 185.76.8.218, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN, udp: true}
-  - {name: _NL_荷兰_9, server: 89.46.223.182, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj, udp: true}
-  - {name: _NL_荷兰_7, server: 89.46.223.73, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq, udp: true}
-  - {name: 长江斯洛伐克_5, server: 185.76.8.218, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA, udp: true}
-  - {name: _NL_荷兰_8, server: 89.46.223.182, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT, udp: true}
-  - {name: 长江德国_2, server: 82.102.16.102, port: 49202, type: ss, cipher: aes-256-gcm, password: btzEYXKZxnR7g6H2vFTQK5TD, udp: true}
-  - {name: v2rayse_🇺🇸_US_美国_7, server: 172.67.71.154, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}, udp: true}
-  - {name: 长江荷兰_1, server: 89.46.223.218, port: 31757, type: ss, cipher: aes-256-gcm, password: wj7nDCuNARchSeKNCN8VFK62, udp: true}
-  - {name: _DE_德国_5, server: 82.102.16.102, port: 50695, type: ss, cipher: aes-256-gcm, password: gqtwGu9bVreJqL3FTHSVKGzy, udp: true}
-  - {name: _BE_比利时_8, server: 194.110.115.84, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
-  - {name: _AL_阿尔巴尼亚_4, server: 31.171.154.220, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv, udp: true}
-  - {name: _AL_阿尔巴尼亚_6, server: 31.171.154.220, port: 49468, type: ss, cipher: aes-256-gcm, password: LsYSQDxmPj9AcWpSX5HrYfu6, udp: true}
-  - {name: _AL_阿尔巴尼亚_5, server: 31.171.154.220, port: 41992, type: ss, cipher: aes-256-gcm, password: XmQSxDCn5ehpcq6DBYms8FJf, udp: true}
-  - {name: _SK_斯洛伐克_5, server: 185.76.8.218, port: 44745, type: ss, cipher: aes-256-gcm, password: fyXdw87yCH9SAmFkPvsvLVqC, udp: true}
-  - {name: _NL_荷兰_12, server: 89.46.223.99, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r, udp: true}
-  - {name: v2rayse_🇺🇸_US_美国_8, server: 104.24.88.81, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}, udp: true}
-  - {name: _CH_瑞士_13, server: 156.146.62.45, port: 49468, type: ss, cipher: aes-256-gcm, password: LsYSQDxmPj9AcWpSX5HrYfu6, udp: true}
-  - {name: _SK_斯洛伐克_8, server: 185.76.8.218, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna, udp: true}
-  - {name: _BE_比利时_6, server: 194.110.115.84, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6, udp: true}
-  - {name: _NL_荷兰_10, server: 89.46.223.65, port: 41306, type: ss, cipher: aes-256-gcm, password: pzB5Y2twNtqFzWhEbBsPJMjj, udp: true}
-  - {name: _CH_瑞士_12, server: 156.146.62.45, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z, udp: true}
+  - {name: 长江_NL_荷兰_1, server: 89.46.223.77, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe, udp: true}
+  - {name: 长江_US_美国_2, server: 104.27.83.211, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 长江_CH_瑞士_4, server: 156.146.62.45, port: 41306, type: ss, cipher: aes-256-gcm, password: pzB5Y2twNtqFzWhEbBsPJMjj, udp: true}
+  - {name: 长江_NL_荷兰_6, server: 89.46.223.63, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna, udp: true}
+  - {name: 长江_CH_瑞士_6, server: 156.146.62.45, port: 31216, type: ss, cipher: aes-256-gcm, password: wJwXatAGZ8xX5K8C7mruf84x, udp: true}
+  - {name: 长江_CH_瑞士_9, server: 156.146.62.45, port: 42166, type: ss, cipher: aes-256-gcm, password: H9Dbn3szZMqLR3NpgEFEPCKb, udp: true}
+  - {name: 长江_DE_德国_1, server: 82.102.16.102, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x, udp: true}
+  - {name: 长江_SK_斯洛伐克_4, server: 89.46.223.57, port: 44745, type: ss, cipher: aes-256-gcm, password: fyXdw87yCH9SAmFkPvsvLVqC, udp: true}
+  - {name: 长江_NL_荷兰_9, server: 89.46.223.182, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj, udp: true}
+  - {name: 长江_NL_荷兰_7, server: 89.46.223.73, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq, udp: true}
+  - {name: 长江_5, server: 185.76.8.218, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA, udp: true}
+  - {name: 长江_NL_荷兰_8, server: 89.46.223.182, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT, udp: true}
+  - {name: 长江_2, server: 82.102.16.102, port: 49202, type: ss, cipher: aes-256-gcm, password: btzEYXKZxnR7g6H2vFTQK5TD, udp: true}
+  - {name: 长江_US_美国_7, server: 172.67.71.154, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 长江_1 5, server: 89.46.223.218, port: 31757, type: ss, cipher: aes-256-gcm, password: wj7nDCuNARchSeKNCN8VFK62, udp: true}
+  - {name: 长江_DE_德国_5, server: 82.102.16.102, port: 50695, type: ss, cipher: aes-256-gcm, password: gqtwGu9bVreJqL3FTHSVKGzy, udp: true}
+  - {name: 长江_BE_比利时_8, server: 194.110.115.84, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
+  - {name: 长江_AL_阿尔巴尼亚_4, server: 31.171.154.220, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv, udp: true}
+  - {name: 长江_AL_阿尔巴尼亚_6, server: 31.171.154.220, port: 49468, type: ss, cipher: aes-256-gcm, password: LsYSQDxmPj9AcWpSX5HrYfu6, udp: true}
+  - {name: 长江_AL_阿尔巴尼亚_5, server: 31.171.154.220, port: 41992, type: ss, cipher: aes-256-gcm, password: XmQSxDCn5ehpcq6DBYms8FJf, udp: true}
+  - {name: 长江_SK_斯洛伐克_5, server: 185.76.8.218, port: 44745, type: ss, cipher: aes-256-gcm, password: fyXdw87yCH9SAmFkPvsvLVqC, udp: true}
+  - {name: 长江_NL_荷兰_12, server: 89.46.223.99, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r, udp: true}
+  - {name: 长江_US_美国_8, server: 104.24.88.81, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 长江_CH_瑞士_13, server: 156.146.62.45, port: 49468, type: ss, cipher: aes-256-gcm, password: LsYSQDxmPj9AcWpSX5HrYfu6, udp: true}
+  - {name: 长江_SK_斯洛伐克_8, server: 185.76.8.218, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna, udp: true}
+  - {name: 长江_BE_比利时_6, server: 194.110.115.84, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6, udp: true}
+  - {name: 长江_NL_荷兰_10, server: 89.46.223.65, port: 41306, type: ss, cipher: aes-256-gcm, password: pzB5Y2twNtqFzWhEbBsPJMjj, udp: true}
+  - {name: 长江_CH_瑞士_12, server: 156.146.62.45, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z, udp: true}
   - {name: 长江DE_2415, server: 136.243.191.85, port: 443, type: ssr, cipher: aes-128-ctr, password: sEscPBiAD9K$&@79, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: _CH_瑞士_1, server: 156.146.62.45, port: 42185, type: ss, cipher: aes-256-gcm, password: FaTG4zALZru72gxjgSHQ7Jdh, udp: true}
-  - {name: _CH_瑞士_7, server: 156.146.62.45, port: 44628, type: ss, cipher: aes-256-gcm, password: VASQbVcukHfdBGmeS9L7Z8TT, udp: true}
+  - {name: 长江_CH_瑞士_1, server: 156.146.62.45, port: 42185, type: ss, cipher: aes-256-gcm, password: FaTG4zALZru72gxjgSHQ7Jdh, udp: true}
+  - {name: 长江_CH_瑞士_7, server: 156.146.62.45, port: 44628, type: ss, cipher: aes-256-gcm, password: VASQbVcukHfdBGmeS9L7Z8TT, udp: true}
   - {name: 长江香港_1, server: vip345.xyz, port: 39042, type: vmess, uuid: bac18e70-9964-3f99-805a-d809c4bdc6cb, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ny, ws-headers: {Host: vip345.xyz}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
@@ -118,224 +117,222 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _AL_阿尔巴尼亚_3
-      - _NL_荷兰_14
-      - _BE_比利时_3
-      - _NO_挪威_3
-      - _NL_荷兰_19
-      - _BE_比利时_11
-      - _AL_阿尔巴尼亚_8
-      - _NL_荷兰_16
-      - _AL_阿尔巴尼亚_9
-      - _NL_荷兰_11
-      - _DE_德国_2
-      - _CH_瑞士_10
-      - 长江斯洛伐克_1
-      - _TR_土耳其_1
-      - _FR_法国_1
-      - 长江斯洛伐克_1 2
-      - v2rayse_🇺🇸_US_美国_3
-      - _US_美国_12
-      - _NO_挪威_1
-      - _NL_荷兰_3
-      - _BE_比利时_5
-      - _NL_荷兰_15
-      - _US_美国_9
-      - _SK_斯洛伐克_10
-      - _CH_瑞士_8
-      - _BE_比利时_9
-      - 长江斯洛伐克_4
-      - 长江德国_3
+      - 长江_AL_阿尔巴尼亚_3
+      - 长江_NL_荷兰_14
+      - 长江_BE_比利时_3
+      - 长江_NO_挪威_3
+      - 长江_NL_荷兰_19
+      - 长江_BE_比利时_11
+      - 长江_AL_阿尔巴尼亚_8
+      - 长江_NL_荷兰_16
+      - 长江_AL_阿尔巴尼亚_9
+      - 长江_NL_荷兰_11
+      - 长江_DE_德国_2
+      - 长江_CH_瑞士_10
+      - 长江_1
+      - 长江_TR_土耳其_1
+      - 长江_FR_法国_1
+      - 长江_1 2
+      - 长江_US_美国_3
+      - 长江_US_美国_12
+      - 长江_NO_挪威_1
+      - 长江_NL_荷兰_3
+      - 长江_BE_比利时_5
+      - 长江_NL_荷兰_15
+      - 长江_US_美国_9
+      - 长江_SK_斯洛伐克_10
+      - 长江_CH_瑞士_8
+      - 长江_BE_比利时_9
+      - 长江_4
+      - 长江_3
       - 长江US_1660
       - 长江TW_1658
       - 长江TW_1655
       - 长江TW_1653
-      - _BE_比利时_7
-      - _NL_荷兰_17
-      - 长江德国_1
-      - 长江比利时_1
-      - _SK_斯洛伐克_3
-      - _CH_瑞士_5
-      - _NO_挪威_2
-      - _CH_瑞士_14
-      - _SK_斯洛伐克_6
+      - 长江_BE_比利时_7
+      - 长江_NL_荷兰_17
+      - 长江_1 3
+      - 长江_1 4
+      - 长江_SK_斯洛伐克_3
+      - 长江_CH_瑞士_5
+      - 长江_NO_挪威_2
+      - 长江_CH_瑞士_14
+      - 长江_SK_斯洛伐克_6
       - 长江DE_2414
-      - _BE_比利时_2
-      - _NL_荷兰_18
-      - _CH_瑞士_11
+      - 长江_BE_比利时_2
+      - 长江_NL_荷兰_18
+      - 长江_CH_瑞士_11
       - 长江美国_5
-      - _BE_比利时_1
-      - _AL_阿尔巴尼亚_2
+      - 长江_BE_比利时_1
+      - 长江_AL_阿尔巴尼亚_2
       - 长江美国_4
-      - _NL_荷兰_2
-      - _NL_荷兰_4
-      - 长江斯洛伐克_3
-      - _US_美国_11
-      - _DE_德国_3
-      - _CH_瑞士_15
-      - _SK_斯洛伐克_9
-      - _NL_荷兰_13
-      - _AL_阿尔巴尼亚_1
-      - _BE_比利时_10
-      - _ES_西班牙_1
-      - _BE_比利时_12
-      - _BE_比利时_4
-      - _AL_阿尔巴尼亚_7
-      - _SK_斯洛伐克_7
-      - _DE_德国_4
+      - 长江_NL_荷兰_2
+      - 长江_NL_荷兰_4
+      - 长江_3 2
+      - 长江_US_美国_11
+      - 长江_DE_德国_3
+      - 长江_CH_瑞士_15
+      - 长江_SK_斯洛伐克_9
+      - 长江_NL_荷兰_13
+      - 长江_AL_阿尔巴尼亚_1
+      - 长江_BE_比利时_10
+      - 长江_ES_西班牙_1
+      - 长江_BE_比利时_12
+      - 长江_BE_比利时_4
+      - 长江_AL_阿尔巴尼亚_7
+      - 长江_SK_斯洛伐克_7
+      - 长江_DE_德国_4
       - 长江AU_632
-      - _AL_阿尔巴尼亚_10
-      - _US_美国_6
-      - 长江斯洛伐克_6
-      - _CH_瑞士_2
-      - _SK_斯洛伐克_2
-      - _CH_瑞士_3
-      - _NL_荷兰_5
+      - 长江_AL_阿尔巴尼亚_10
+      - 长江_US_美国_6
+      - 长江_6
+      - 长江_CH_瑞士_2
+      - 长江_SK_斯洛伐克_2
+      - 长江_CH_瑞士_3
+      - 长江_NL_荷兰_5
       - 长江美国_1
-      - _NL_荷兰_1
-      - v2rayse_🇺🇸_US_美国_2
-      - _CH_瑞士_4
-      - _NL_荷兰_6
-      - _CH_瑞士_6
-      - _CH_瑞士_9
-      - _DE_德国_1
-      - 长江荷兰
-      - _SK_斯洛伐克_4
-      - _NL_荷兰_9
-      - _NL_荷兰_7
-      - 长江斯洛伐克_5
-      - _NL_荷兰_8
-      - 长江德国_2
-      - v2rayse_🇺🇸_US_美国_7
-      - 长江荷兰_1
-      - _DE_德国_5
-      - _BE_比利时_8
-      - _AL_阿尔巴尼亚_4
-      - _AL_阿尔巴尼亚_6
-      - _AL_阿尔巴尼亚_5
-      - _SK_斯洛伐克_5
-      - _NL_荷兰_12
-      - v2rayse_🇺🇸_US_美国_8
-      - _CH_瑞士_13
-      - _SK_斯洛伐克_8
-      - _BE_比利时_6
-      - _NL_荷兰_10
-      - _CH_瑞士_12
+      - 长江_NL_荷兰_1
+      - 长江_US_美国_2
+      - 长江_CH_瑞士_4
+      - 长江_NL_荷兰_6
+      - 长江_CH_瑞士_6
+      - 长江_CH_瑞士_9
+      - 长江_DE_德国_1
+      - 长江_SK_斯洛伐克_4
+      - 长江_NL_荷兰_9
+      - 长江_NL_荷兰_7
+      - 长江_5
+      - 长江_NL_荷兰_8
+      - 长江_2
+      - 长江_US_美国_7
+      - 长江_1 5
+      - 长江_DE_德国_5
+      - 长江_BE_比利时_8
+      - 长江_AL_阿尔巴尼亚_4
+      - 长江_AL_阿尔巴尼亚_6
+      - 长江_AL_阿尔巴尼亚_5
+      - 长江_SK_斯洛伐克_5
+      - 长江_NL_荷兰_12
+      - 长江_US_美国_8
+      - 长江_CH_瑞士_13
+      - 长江_SK_斯洛伐克_8
+      - 长江_BE_比利时_6
+      - 长江_NL_荷兰_10
+      - 长江_CH_瑞士_12
       - 长江DE_2415
-      - _CH_瑞士_1
-      - _CH_瑞士_7
+      - 长江_CH_瑞士_1
+      - 长江_CH_瑞士_7
       - 长江香港_1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - _AL_阿尔巴尼亚_3
-      - _NL_荷兰_14
-      - _BE_比利时_3
-      - _NO_挪威_3
-      - _NL_荷兰_19
-      - _BE_比利时_11
-      - _AL_阿尔巴尼亚_8
-      - _NL_荷兰_16
-      - _AL_阿尔巴尼亚_9
-      - _NL_荷兰_11
-      - _DE_德国_2
-      - _CH_瑞士_10
-      - 长江斯洛伐克_1
-      - _TR_土耳其_1
-      - _FR_法国_1
-      - 长江斯洛伐克_1 2
-      - v2rayse_🇺🇸_US_美国_3
-      - _US_美国_12
-      - _NO_挪威_1
-      - _NL_荷兰_3
-      - _BE_比利时_5
-      - _NL_荷兰_15
-      - _US_美国_9
-      - _SK_斯洛伐克_10
-      - _CH_瑞士_8
-      - _BE_比利时_9
-      - 长江斯洛伐克_4
-      - 长江德国_3
+      - 长江_AL_阿尔巴尼亚_3
+      - 长江_NL_荷兰_14
+      - 长江_BE_比利时_3
+      - 长江_NO_挪威_3
+      - 长江_NL_荷兰_19
+      - 长江_BE_比利时_11
+      - 长江_AL_阿尔巴尼亚_8
+      - 长江_NL_荷兰_16
+      - 长江_AL_阿尔巴尼亚_9
+      - 长江_NL_荷兰_11
+      - 长江_DE_德国_2
+      - 长江_CH_瑞士_10
+      - 长江_1
+      - 长江_TR_土耳其_1
+      - 长江_FR_法国_1
+      - 长江_1 2
+      - 长江_US_美国_3
+      - 长江_US_美国_12
+      - 长江_NO_挪威_1
+      - 长江_NL_荷兰_3
+      - 长江_BE_比利时_5
+      - 长江_NL_荷兰_15
+      - 长江_US_美国_9
+      - 长江_SK_斯洛伐克_10
+      - 长江_CH_瑞士_8
+      - 长江_BE_比利时_9
+      - 长江_4
+      - 长江_3
       - 长江US_1660
       - 长江TW_1658
       - 长江TW_1655
       - 长江TW_1653
-      - _BE_比利时_7
-      - _NL_荷兰_17
-      - 长江德国_1
-      - 长江比利时_1
-      - _SK_斯洛伐克_3
-      - _CH_瑞士_5
-      - _NO_挪威_2
-      - _CH_瑞士_14
-      - _SK_斯洛伐克_6
+      - 长江_BE_比利时_7
+      - 长江_NL_荷兰_17
+      - 长江_1 3
+      - 长江_1 4
+      - 长江_SK_斯洛伐克_3
+      - 长江_CH_瑞士_5
+      - 长江_NO_挪威_2
+      - 长江_CH_瑞士_14
+      - 长江_SK_斯洛伐克_6
       - 长江DE_2414
-      - _BE_比利时_2
-      - _NL_荷兰_18
-      - _CH_瑞士_11
+      - 长江_BE_比利时_2
+      - 长江_NL_荷兰_18
+      - 长江_CH_瑞士_11
       - 长江美国_5
-      - _BE_比利时_1
-      - _AL_阿尔巴尼亚_2
+      - 长江_BE_比利时_1
+      - 长江_AL_阿尔巴尼亚_2
       - 长江美国_4
-      - _NL_荷兰_2
-      - _NL_荷兰_4
-      - 长江斯洛伐克_3
-      - _US_美国_11
-      - _DE_德国_3
-      - _CH_瑞士_15
-      - _SK_斯洛伐克_9
-      - _NL_荷兰_13
-      - _AL_阿尔巴尼亚_1
-      - _BE_比利时_10
-      - _ES_西班牙_1
-      - _BE_比利时_12
-      - _BE_比利时_4
-      - _AL_阿尔巴尼亚_7
-      - _SK_斯洛伐克_7
-      - _DE_德国_4
+      - 长江_NL_荷兰_2
+      - 长江_NL_荷兰_4
+      - 长江_3 2
+      - 长江_US_美国_11
+      - 长江_DE_德国_3
+      - 长江_CH_瑞士_15
+      - 长江_SK_斯洛伐克_9
+      - 长江_NL_荷兰_13
+      - 长江_AL_阿尔巴尼亚_1
+      - 长江_BE_比利时_10
+      - 长江_ES_西班牙_1
+      - 长江_BE_比利时_12
+      - 长江_BE_比利时_4
+      - 长江_AL_阿尔巴尼亚_7
+      - 长江_SK_斯洛伐克_7
+      - 长江_DE_德国_4
       - 长江AU_632
-      - _AL_阿尔巴尼亚_10
-      - _US_美国_6
-      - 长江斯洛伐克_6
-      - _CH_瑞士_2
-      - _SK_斯洛伐克_2
-      - _CH_瑞士_3
-      - _NL_荷兰_5
+      - 长江_AL_阿尔巴尼亚_10
+      - 长江_US_美国_6
+      - 长江_6
+      - 长江_CH_瑞士_2
+      - 长江_SK_斯洛伐克_2
+      - 长江_CH_瑞士_3
+      - 长江_NL_荷兰_5
       - 长江美国_1
-      - _NL_荷兰_1
-      - v2rayse_🇺🇸_US_美国_2
-      - _CH_瑞士_4
-      - _NL_荷兰_6
-      - _CH_瑞士_6
-      - _CH_瑞士_9
-      - _DE_德国_1
-      - 长江荷兰
-      - _SK_斯洛伐克_4
-      - _NL_荷兰_9
-      - _NL_荷兰_7
-      - 长江斯洛伐克_5
-      - _NL_荷兰_8
-      - 长江德国_2
-      - v2rayse_🇺🇸_US_美国_7
-      - 长江荷兰_1
-      - _DE_德国_5
-      - _BE_比利时_8
-      - _AL_阿尔巴尼亚_4
-      - _AL_阿尔巴尼亚_6
-      - _AL_阿尔巴尼亚_5
-      - _SK_斯洛伐克_5
-      - _NL_荷兰_12
-      - v2rayse_🇺🇸_US_美国_8
-      - _CH_瑞士_13
-      - _SK_斯洛伐克_8
-      - _BE_比利时_6
-      - _NL_荷兰_10
-      - _CH_瑞士_12
+      - 长江_NL_荷兰_1
+      - 长江_US_美国_2
+      - 长江_CH_瑞士_4
+      - 长江_NL_荷兰_6
+      - 长江_CH_瑞士_6
+      - 长江_CH_瑞士_9
+      - 长江_DE_德国_1
+      - 长江_SK_斯洛伐克_4
+      - 长江_NL_荷兰_9
+      - 长江_NL_荷兰_7
+      - 长江_5
+      - 长江_NL_荷兰_8
+      - 长江_2
+      - 长江_US_美国_7
+      - 长江_1 5
+      - 长江_DE_德国_5
+      - 长江_BE_比利时_8
+      - 长江_AL_阿尔巴尼亚_4
+      - 长江_AL_阿尔巴尼亚_6
+      - 长江_AL_阿尔巴尼亚_5
+      - 长江_SK_斯洛伐克_5
+      - 长江_NL_荷兰_12
+      - 长江_US_美国_8
+      - 长江_CH_瑞士_13
+      - 长江_SK_斯洛伐克_8
+      - 长江_BE_比利时_6
+      - 长江_NL_荷兰_10
+      - 长江_CH_瑞士_12
       - 长江DE_2415
-      - _CH_瑞士_1
-      - _CH_瑞士_7
+      - 长江_CH_瑞士_1
+      - 长江_CH_瑞士_7
       - 长江香港_1
   - name: 🎥 NETFLIX
     type: select
@@ -343,112 +340,111 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _AL_阿尔巴尼亚_3
-      - _NL_荷兰_14
-      - _BE_比利时_3
-      - _NO_挪威_3
-      - _NL_荷兰_19
-      - _BE_比利时_11
-      - _AL_阿尔巴尼亚_8
-      - _NL_荷兰_16
-      - _AL_阿尔巴尼亚_9
-      - _NL_荷兰_11
-      - _DE_德国_2
-      - _CH_瑞士_10
-      - 长江斯洛伐克_1
-      - _TR_土耳其_1
-      - _FR_法国_1
-      - 长江斯洛伐克_1 2
-      - v2rayse_🇺🇸_US_美国_3
-      - _US_美国_12
-      - _NO_挪威_1
-      - _NL_荷兰_3
-      - _BE_比利时_5
-      - _NL_荷兰_15
-      - _US_美国_9
-      - _SK_斯洛伐克_10
-      - _CH_瑞士_8
-      - _BE_比利时_9
-      - 长江斯洛伐克_4
-      - 长江德国_3
+      - 长江_AL_阿尔巴尼亚_3
+      - 长江_NL_荷兰_14
+      - 长江_BE_比利时_3
+      - 长江_NO_挪威_3
+      - 长江_NL_荷兰_19
+      - 长江_BE_比利时_11
+      - 长江_AL_阿尔巴尼亚_8
+      - 长江_NL_荷兰_16
+      - 长江_AL_阿尔巴尼亚_9
+      - 长江_NL_荷兰_11
+      - 长江_DE_德国_2
+      - 长江_CH_瑞士_10
+      - 长江_1
+      - 长江_TR_土耳其_1
+      - 长江_FR_法国_1
+      - 长江_1 2
+      - 长江_US_美国_3
+      - 长江_US_美国_12
+      - 长江_NO_挪威_1
+      - 长江_NL_荷兰_3
+      - 长江_BE_比利时_5
+      - 长江_NL_荷兰_15
+      - 长江_US_美国_9
+      - 长江_SK_斯洛伐克_10
+      - 长江_CH_瑞士_8
+      - 长江_BE_比利时_9
+      - 长江_4
+      - 长江_3
       - 长江US_1660
       - 长江TW_1658
       - 长江TW_1655
       - 长江TW_1653
-      - _BE_比利时_7
-      - _NL_荷兰_17
-      - 长江德国_1
-      - 长江比利时_1
-      - _SK_斯洛伐克_3
-      - _CH_瑞士_5
-      - _NO_挪威_2
-      - _CH_瑞士_14
-      - _SK_斯洛伐克_6
+      - 长江_BE_比利时_7
+      - 长江_NL_荷兰_17
+      - 长江_1 3
+      - 长江_1 4
+      - 长江_SK_斯洛伐克_3
+      - 长江_CH_瑞士_5
+      - 长江_NO_挪威_2
+      - 长江_CH_瑞士_14
+      - 长江_SK_斯洛伐克_6
       - 长江DE_2414
-      - _BE_比利时_2
-      - _NL_荷兰_18
-      - _CH_瑞士_11
+      - 长江_BE_比利时_2
+      - 长江_NL_荷兰_18
+      - 长江_CH_瑞士_11
       - 长江美国_5
-      - _BE_比利时_1
-      - _AL_阿尔巴尼亚_2
+      - 长江_BE_比利时_1
+      - 长江_AL_阿尔巴尼亚_2
       - 长江美国_4
-      - _NL_荷兰_2
-      - _NL_荷兰_4
-      - 长江斯洛伐克_3
-      - _US_美国_11
-      - _DE_德国_3
-      - _CH_瑞士_15
-      - _SK_斯洛伐克_9
-      - _NL_荷兰_13
-      - _AL_阿尔巴尼亚_1
-      - _BE_比利时_10
-      - _ES_西班牙_1
-      - _BE_比利时_12
-      - _BE_比利时_4
-      - _AL_阿尔巴尼亚_7
-      - _SK_斯洛伐克_7
-      - _DE_德国_4
+      - 长江_NL_荷兰_2
+      - 长江_NL_荷兰_4
+      - 长江_3 2
+      - 长江_US_美国_11
+      - 长江_DE_德国_3
+      - 长江_CH_瑞士_15
+      - 长江_SK_斯洛伐克_9
+      - 长江_NL_荷兰_13
+      - 长江_AL_阿尔巴尼亚_1
+      - 长江_BE_比利时_10
+      - 长江_ES_西班牙_1
+      - 长江_BE_比利时_12
+      - 长江_BE_比利时_4
+      - 长江_AL_阿尔巴尼亚_7
+      - 长江_SK_斯洛伐克_7
+      - 长江_DE_德国_4
       - 长江AU_632
-      - _AL_阿尔巴尼亚_10
-      - _US_美国_6
-      - 长江斯洛伐克_6
-      - _CH_瑞士_2
-      - _SK_斯洛伐克_2
-      - _CH_瑞士_3
-      - _NL_荷兰_5
+      - 长江_AL_阿尔巴尼亚_10
+      - 长江_US_美国_6
+      - 长江_6
+      - 长江_CH_瑞士_2
+      - 长江_SK_斯洛伐克_2
+      - 长江_CH_瑞士_3
+      - 长江_NL_荷兰_5
       - 长江美国_1
-      - _NL_荷兰_1
-      - v2rayse_🇺🇸_US_美国_2
-      - _CH_瑞士_4
-      - _NL_荷兰_6
-      - _CH_瑞士_6
-      - _CH_瑞士_9
-      - _DE_德国_1
-      - 长江荷兰
-      - _SK_斯洛伐克_4
-      - _NL_荷兰_9
-      - _NL_荷兰_7
-      - 长江斯洛伐克_5
-      - _NL_荷兰_8
-      - 长江德国_2
-      - v2rayse_🇺🇸_US_美国_7
-      - 长江荷兰_1
-      - _DE_德国_5
-      - _BE_比利时_8
-      - _AL_阿尔巴尼亚_4
-      - _AL_阿尔巴尼亚_6
-      - _AL_阿尔巴尼亚_5
-      - _SK_斯洛伐克_5
-      - _NL_荷兰_12
-      - v2rayse_🇺🇸_US_美国_8
-      - _CH_瑞士_13
-      - _SK_斯洛伐克_8
-      - _BE_比利时_6
-      - _NL_荷兰_10
-      - _CH_瑞士_12
+      - 长江_NL_荷兰_1
+      - 长江_US_美国_2
+      - 长江_CH_瑞士_4
+      - 长江_NL_荷兰_6
+      - 长江_CH_瑞士_6
+      - 长江_CH_瑞士_9
+      - 长江_DE_德国_1
+      - 长江_SK_斯洛伐克_4
+      - 长江_NL_荷兰_9
+      - 长江_NL_荷兰_7
+      - 长江_5
+      - 长江_NL_荷兰_8
+      - 长江_2
+      - 长江_US_美国_7
+      - 长江_1 5
+      - 长江_DE_德国_5
+      - 长江_BE_比利时_8
+      - 长江_AL_阿尔巴尼亚_4
+      - 长江_AL_阿尔巴尼亚_6
+      - 长江_AL_阿尔巴尼亚_5
+      - 长江_SK_斯洛伐克_5
+      - 长江_NL_荷兰_12
+      - 长江_US_美国_8
+      - 长江_CH_瑞士_13
+      - 长江_SK_斯洛伐克_8
+      - 长江_BE_比利时_6
+      - 长江_NL_荷兰_10
+      - 长江_CH_瑞士_12
       - 长江DE_2415
-      - _CH_瑞士_1
-      - _CH_瑞士_7
+      - 长江_CH_瑞士_1
+      - 长江_CH_瑞士_7
       - 长江香港_1
   - name: ⛔️ 广告拦截
     type: select
@@ -468,112 +464,111 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _AL_阿尔巴尼亚_3
-      - _NL_荷兰_14
-      - _BE_比利时_3
-      - _NO_挪威_3
-      - _NL_荷兰_19
-      - _BE_比利时_11
-      - _AL_阿尔巴尼亚_8
-      - _NL_荷兰_16
-      - _AL_阿尔巴尼亚_9
-      - _NL_荷兰_11
-      - _DE_德国_2
-      - _CH_瑞士_10
-      - 长江斯洛伐克_1
-      - _TR_土耳其_1
-      - _FR_法国_1
-      - 长江斯洛伐克_1 2
-      - v2rayse_🇺🇸_US_美国_3
-      - _US_美国_12
-      - _NO_挪威_1
-      - _NL_荷兰_3
-      - _BE_比利时_5
-      - _NL_荷兰_15
-      - _US_美国_9
-      - _SK_斯洛伐克_10
-      - _CH_瑞士_8
-      - _BE_比利时_9
-      - 长江斯洛伐克_4
-      - 长江德国_3
+      - 长江_AL_阿尔巴尼亚_3
+      - 长江_NL_荷兰_14
+      - 长江_BE_比利时_3
+      - 长江_NO_挪威_3
+      - 长江_NL_荷兰_19
+      - 长江_BE_比利时_11
+      - 长江_AL_阿尔巴尼亚_8
+      - 长江_NL_荷兰_16
+      - 长江_AL_阿尔巴尼亚_9
+      - 长江_NL_荷兰_11
+      - 长江_DE_德国_2
+      - 长江_CH_瑞士_10
+      - 长江_1
+      - 长江_TR_土耳其_1
+      - 长江_FR_法国_1
+      - 长江_1 2
+      - 长江_US_美国_3
+      - 长江_US_美国_12
+      - 长江_NO_挪威_1
+      - 长江_NL_荷兰_3
+      - 长江_BE_比利时_5
+      - 长江_NL_荷兰_15
+      - 长江_US_美国_9
+      - 长江_SK_斯洛伐克_10
+      - 长江_CH_瑞士_8
+      - 长江_BE_比利时_9
+      - 长江_4
+      - 长江_3
       - 长江US_1660
       - 长江TW_1658
       - 长江TW_1655
       - 长江TW_1653
-      - _BE_比利时_7
-      - _NL_荷兰_17
-      - 长江德国_1
-      - 长江比利时_1
-      - _SK_斯洛伐克_3
-      - _CH_瑞士_5
-      - _NO_挪威_2
-      - _CH_瑞士_14
-      - _SK_斯洛伐克_6
+      - 长江_BE_比利时_7
+      - 长江_NL_荷兰_17
+      - 长江_1 3
+      - 长江_1 4
+      - 长江_SK_斯洛伐克_3
+      - 长江_CH_瑞士_5
+      - 长江_NO_挪威_2
+      - 长江_CH_瑞士_14
+      - 长江_SK_斯洛伐克_6
       - 长江DE_2414
-      - _BE_比利时_2
-      - _NL_荷兰_18
-      - _CH_瑞士_11
+      - 长江_BE_比利时_2
+      - 长江_NL_荷兰_18
+      - 长江_CH_瑞士_11
       - 长江美国_5
-      - _BE_比利时_1
-      - _AL_阿尔巴尼亚_2
+      - 长江_BE_比利时_1
+      - 长江_AL_阿尔巴尼亚_2
       - 长江美国_4
-      - _NL_荷兰_2
-      - _NL_荷兰_4
-      - 长江斯洛伐克_3
-      - _US_美国_11
-      - _DE_德国_3
-      - _CH_瑞士_15
-      - _SK_斯洛伐克_9
-      - _NL_荷兰_13
-      - _AL_阿尔巴尼亚_1
-      - _BE_比利时_10
-      - _ES_西班牙_1
-      - _BE_比利时_12
-      - _BE_比利时_4
-      - _AL_阿尔巴尼亚_7
-      - _SK_斯洛伐克_7
-      - _DE_德国_4
+      - 长江_NL_荷兰_2
+      - 长江_NL_荷兰_4
+      - 长江_3 2
+      - 长江_US_美国_11
+      - 长江_DE_德国_3
+      - 长江_CH_瑞士_15
+      - 长江_SK_斯洛伐克_9
+      - 长江_NL_荷兰_13
+      - 长江_AL_阿尔巴尼亚_1
+      - 长江_BE_比利时_10
+      - 长江_ES_西班牙_1
+      - 长江_BE_比利时_12
+      - 长江_BE_比利时_4
+      - 长江_AL_阿尔巴尼亚_7
+      - 长江_SK_斯洛伐克_7
+      - 长江_DE_德国_4
       - 长江AU_632
-      - _AL_阿尔巴尼亚_10
-      - _US_美国_6
-      - 长江斯洛伐克_6
-      - _CH_瑞士_2
-      - _SK_斯洛伐克_2
-      - _CH_瑞士_3
-      - _NL_荷兰_5
+      - 长江_AL_阿尔巴尼亚_10
+      - 长江_US_美国_6
+      - 长江_6
+      - 长江_CH_瑞士_2
+      - 长江_SK_斯洛伐克_2
+      - 长江_CH_瑞士_3
+      - 长江_NL_荷兰_5
       - 长江美国_1
-      - _NL_荷兰_1
-      - v2rayse_🇺🇸_US_美国_2
-      - _CH_瑞士_4
-      - _NL_荷兰_6
-      - _CH_瑞士_6
-      - _CH_瑞士_9
-      - _DE_德国_1
-      - 长江荷兰
-      - _SK_斯洛伐克_4
-      - _NL_荷兰_9
-      - _NL_荷兰_7
-      - 长江斯洛伐克_5
-      - _NL_荷兰_8
-      - 长江德国_2
-      - v2rayse_🇺🇸_US_美国_7
-      - 长江荷兰_1
-      - _DE_德国_5
-      - _BE_比利时_8
-      - _AL_阿尔巴尼亚_4
-      - _AL_阿尔巴尼亚_6
-      - _AL_阿尔巴尼亚_5
-      - _SK_斯洛伐克_5
-      - _NL_荷兰_12
-      - v2rayse_🇺🇸_US_美国_8
-      - _CH_瑞士_13
-      - _SK_斯洛伐克_8
-      - _BE_比利时_6
-      - _NL_荷兰_10
-      - _CH_瑞士_12
+      - 长江_NL_荷兰_1
+      - 长江_US_美国_2
+      - 长江_CH_瑞士_4
+      - 长江_NL_荷兰_6
+      - 长江_CH_瑞士_6
+      - 长江_CH_瑞士_9
+      - 长江_DE_德国_1
+      - 长江_SK_斯洛伐克_4
+      - 长江_NL_荷兰_9
+      - 长江_NL_荷兰_7
+      - 长江_5
+      - 长江_NL_荷兰_8
+      - 长江_2
+      - 长江_US_美国_7
+      - 长江_1 5
+      - 长江_DE_德国_5
+      - 长江_BE_比利时_8
+      - 长江_AL_阿尔巴尼亚_4
+      - 长江_AL_阿尔巴尼亚_6
+      - 长江_AL_阿尔巴尼亚_5
+      - 长江_SK_斯洛伐克_5
+      - 长江_NL_荷兰_12
+      - 长江_US_美国_8
+      - 长江_CH_瑞士_13
+      - 长江_SK_斯洛伐克_8
+      - 长江_BE_比利时_6
+      - 长江_NL_荷兰_10
+      - 长江_CH_瑞士_12
       - 长江DE_2415
-      - _CH_瑞士_1
-      - _CH_瑞士_7
+      - 长江_CH_瑞士_1
+      - 长江_CH_瑞士_7
       - 长江香港_1
   - name: 🌏 国内媒体
     type: select
@@ -586,224 +581,222 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - _AL_阿尔巴尼亚_3
-      - _NL_荷兰_14
-      - _BE_比利时_3
-      - _NO_挪威_3
-      - _NL_荷兰_19
-      - _BE_比利时_11
-      - _AL_阿尔巴尼亚_8
-      - _NL_荷兰_16
-      - _AL_阿尔巴尼亚_9
-      - _NL_荷兰_11
-      - _DE_德国_2
-      - _CH_瑞士_10
-      - 长江斯洛伐克_1
-      - _TR_土耳其_1
-      - _FR_法国_1
-      - 长江斯洛伐克_1 2
-      - v2rayse_🇺🇸_US_美国_3
-      - _US_美国_12
-      - _NO_挪威_1
-      - _NL_荷兰_3
-      - _BE_比利时_5
-      - _NL_荷兰_15
-      - _US_美国_9
-      - _SK_斯洛伐克_10
-      - _CH_瑞士_8
-      - _BE_比利时_9
-      - 长江斯洛伐克_4
-      - 长江德国_3
+      - 长江_AL_阿尔巴尼亚_3
+      - 长江_NL_荷兰_14
+      - 长江_BE_比利时_3
+      - 长江_NO_挪威_3
+      - 长江_NL_荷兰_19
+      - 长江_BE_比利时_11
+      - 长江_AL_阿尔巴尼亚_8
+      - 长江_NL_荷兰_16
+      - 长江_AL_阿尔巴尼亚_9
+      - 长江_NL_荷兰_11
+      - 长江_DE_德国_2
+      - 长江_CH_瑞士_10
+      - 长江_1
+      - 长江_TR_土耳其_1
+      - 长江_FR_法国_1
+      - 长江_1 2
+      - 长江_US_美国_3
+      - 长江_US_美国_12
+      - 长江_NO_挪威_1
+      - 长江_NL_荷兰_3
+      - 长江_BE_比利时_5
+      - 长江_NL_荷兰_15
+      - 长江_US_美国_9
+      - 长江_SK_斯洛伐克_10
+      - 长江_CH_瑞士_8
+      - 长江_BE_比利时_9
+      - 长江_4
+      - 长江_3
       - 长江US_1660
       - 长江TW_1658
       - 长江TW_1655
       - 长江TW_1653
-      - _BE_比利时_7
-      - _NL_荷兰_17
-      - 长江德国_1
-      - 长江比利时_1
-      - _SK_斯洛伐克_3
-      - _CH_瑞士_5
-      - _NO_挪威_2
-      - _CH_瑞士_14
-      - _SK_斯洛伐克_6
+      - 长江_BE_比利时_7
+      - 长江_NL_荷兰_17
+      - 长江_1 3
+      - 长江_1 4
+      - 长江_SK_斯洛伐克_3
+      - 长江_CH_瑞士_5
+      - 长江_NO_挪威_2
+      - 长江_CH_瑞士_14
+      - 长江_SK_斯洛伐克_6
       - 长江DE_2414
-      - _BE_比利时_2
-      - _NL_荷兰_18
-      - _CH_瑞士_11
+      - 长江_BE_比利时_2
+      - 长江_NL_荷兰_18
+      - 长江_CH_瑞士_11
       - 长江美国_5
-      - _BE_比利时_1
-      - _AL_阿尔巴尼亚_2
+      - 长江_BE_比利时_1
+      - 长江_AL_阿尔巴尼亚_2
       - 长江美国_4
-      - _NL_荷兰_2
-      - _NL_荷兰_4
-      - 长江斯洛伐克_3
-      - _US_美国_11
-      - _DE_德国_3
-      - _CH_瑞士_15
-      - _SK_斯洛伐克_9
-      - _NL_荷兰_13
-      - _AL_阿尔巴尼亚_1
-      - _BE_比利时_10
-      - _ES_西班牙_1
-      - _BE_比利时_12
-      - _BE_比利时_4
-      - _AL_阿尔巴尼亚_7
-      - _SK_斯洛伐克_7
-      - _DE_德国_4
+      - 长江_NL_荷兰_2
+      - 长江_NL_荷兰_4
+      - 长江_3 2
+      - 长江_US_美国_11
+      - 长江_DE_德国_3
+      - 长江_CH_瑞士_15
+      - 长江_SK_斯洛伐克_9
+      - 长江_NL_荷兰_13
+      - 长江_AL_阿尔巴尼亚_1
+      - 长江_BE_比利时_10
+      - 长江_ES_西班牙_1
+      - 长江_BE_比利时_12
+      - 长江_BE_比利时_4
+      - 长江_AL_阿尔巴尼亚_7
+      - 长江_SK_斯洛伐克_7
+      - 长江_DE_德国_4
       - 长江AU_632
-      - _AL_阿尔巴尼亚_10
-      - _US_美国_6
-      - 长江斯洛伐克_6
-      - _CH_瑞士_2
-      - _SK_斯洛伐克_2
-      - _CH_瑞士_3
-      - _NL_荷兰_5
+      - 长江_AL_阿尔巴尼亚_10
+      - 长江_US_美国_6
+      - 长江_6
+      - 长江_CH_瑞士_2
+      - 长江_SK_斯洛伐克_2
+      - 长江_CH_瑞士_3
+      - 长江_NL_荷兰_5
       - 长江美国_1
-      - _NL_荷兰_1
-      - v2rayse_🇺🇸_US_美国_2
-      - _CH_瑞士_4
-      - _NL_荷兰_6
-      - _CH_瑞士_6
-      - _CH_瑞士_9
-      - _DE_德国_1
-      - 长江荷兰
-      - _SK_斯洛伐克_4
-      - _NL_荷兰_9
-      - _NL_荷兰_7
-      - 长江斯洛伐克_5
-      - _NL_荷兰_8
-      - 长江德国_2
-      - v2rayse_🇺🇸_US_美国_7
-      - 长江荷兰_1
-      - _DE_德国_5
-      - _BE_比利时_8
-      - _AL_阿尔巴尼亚_4
-      - _AL_阿尔巴尼亚_6
-      - _AL_阿尔巴尼亚_5
-      - _SK_斯洛伐克_5
-      - _NL_荷兰_12
-      - v2rayse_🇺🇸_US_美国_8
-      - _CH_瑞士_13
-      - _SK_斯洛伐克_8
-      - _BE_比利时_6
-      - _NL_荷兰_10
-      - _CH_瑞士_12
+      - 长江_NL_荷兰_1
+      - 长江_US_美国_2
+      - 长江_CH_瑞士_4
+      - 长江_NL_荷兰_6
+      - 长江_CH_瑞士_6
+      - 长江_CH_瑞士_9
+      - 长江_DE_德国_1
+      - 长江_SK_斯洛伐克_4
+      - 长江_NL_荷兰_9
+      - 长江_NL_荷兰_7
+      - 长江_5
+      - 长江_NL_荷兰_8
+      - 长江_2
+      - 长江_US_美国_7
+      - 长江_1 5
+      - 长江_DE_德国_5
+      - 长江_BE_比利时_8
+      - 长江_AL_阿尔巴尼亚_4
+      - 长江_AL_阿尔巴尼亚_6
+      - 长江_AL_阿尔巴尼亚_5
+      - 长江_SK_斯洛伐克_5
+      - 长江_NL_荷兰_12
+      - 长江_US_美国_8
+      - 长江_CH_瑞士_13
+      - 长江_SK_斯洛伐克_8
+      - 长江_BE_比利时_6
+      - 长江_NL_荷兰_10
+      - 长江_CH_瑞士_12
       - 长江DE_2415
-      - _CH_瑞士_1
-      - _CH_瑞士_7
+      - 长江_CH_瑞士_1
+      - 长江_CH_瑞士_7
       - 长江香港_1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - _AL_阿尔巴尼亚_3
-      - _NL_荷兰_14
-      - _BE_比利时_3
-      - _NO_挪威_3
-      - _NL_荷兰_19
-      - _BE_比利时_11
-      - _AL_阿尔巴尼亚_8
-      - _NL_荷兰_16
-      - _AL_阿尔巴尼亚_9
-      - _NL_荷兰_11
-      - _DE_德国_2
-      - _CH_瑞士_10
-      - 长江斯洛伐克_1
-      - _TR_土耳其_1
-      - _FR_法国_1
-      - 长江斯洛伐克_1 2
-      - v2rayse_🇺🇸_US_美国_3
-      - _US_美国_12
-      - _NO_挪威_1
-      - _NL_荷兰_3
-      - _BE_比利时_5
-      - _NL_荷兰_15
-      - _US_美国_9
-      - _SK_斯洛伐克_10
-      - _CH_瑞士_8
-      - _BE_比利时_9
-      - 长江斯洛伐克_4
-      - 长江德国_3
+      - 长江_AL_阿尔巴尼亚_3
+      - 长江_NL_荷兰_14
+      - 长江_BE_比利时_3
+      - 长江_NO_挪威_3
+      - 长江_NL_荷兰_19
+      - 长江_BE_比利时_11
+      - 长江_AL_阿尔巴尼亚_8
+      - 长江_NL_荷兰_16
+      - 长江_AL_阿尔巴尼亚_9
+      - 长江_NL_荷兰_11
+      - 长江_DE_德国_2
+      - 长江_CH_瑞士_10
+      - 长江_1
+      - 长江_TR_土耳其_1
+      - 长江_FR_法国_1
+      - 长江_1 2
+      - 长江_US_美国_3
+      - 长江_US_美国_12
+      - 长江_NO_挪威_1
+      - 长江_NL_荷兰_3
+      - 长江_BE_比利时_5
+      - 长江_NL_荷兰_15
+      - 长江_US_美国_9
+      - 长江_SK_斯洛伐克_10
+      - 长江_CH_瑞士_8
+      - 长江_BE_比利时_9
+      - 长江_4
+      - 长江_3
       - 长江US_1660
       - 长江TW_1658
       - 长江TW_1655
       - 长江TW_1653
-      - _BE_比利时_7
-      - _NL_荷兰_17
-      - 长江德国_1
-      - 长江比利时_1
-      - _SK_斯洛伐克_3
-      - _CH_瑞士_5
-      - _NO_挪威_2
-      - _CH_瑞士_14
-      - _SK_斯洛伐克_6
+      - 长江_BE_比利时_7
+      - 长江_NL_荷兰_17
+      - 长江_1 3
+      - 长江_1 4
+      - 长江_SK_斯洛伐克_3
+      - 长江_CH_瑞士_5
+      - 长江_NO_挪威_2
+      - 长江_CH_瑞士_14
+      - 长江_SK_斯洛伐克_6
       - 长江DE_2414
-      - _BE_比利时_2
-      - _NL_荷兰_18
-      - _CH_瑞士_11
+      - 长江_BE_比利时_2
+      - 长江_NL_荷兰_18
+      - 长江_CH_瑞士_11
       - 长江美国_5
-      - _BE_比利时_1
-      - _AL_阿尔巴尼亚_2
+      - 长江_BE_比利时_1
+      - 长江_AL_阿尔巴尼亚_2
       - 长江美国_4
-      - _NL_荷兰_2
-      - _NL_荷兰_4
-      - 长江斯洛伐克_3
-      - _US_美国_11
-      - _DE_德国_3
-      - _CH_瑞士_15
-      - _SK_斯洛伐克_9
-      - _NL_荷兰_13
-      - _AL_阿尔巴尼亚_1
-      - _BE_比利时_10
-      - _ES_西班牙_1
-      - _BE_比利时_12
-      - _BE_比利时_4
-      - _AL_阿尔巴尼亚_7
-      - _SK_斯洛伐克_7
-      - _DE_德国_4
+      - 长江_NL_荷兰_2
+      - 长江_NL_荷兰_4
+      - 长江_3 2
+      - 长江_US_美国_11
+      - 长江_DE_德国_3
+      - 长江_CH_瑞士_15
+      - 长江_SK_斯洛伐克_9
+      - 长江_NL_荷兰_13
+      - 长江_AL_阿尔巴尼亚_1
+      - 长江_BE_比利时_10
+      - 长江_ES_西班牙_1
+      - 长江_BE_比利时_12
+      - 长江_BE_比利时_4
+      - 长江_AL_阿尔巴尼亚_7
+      - 长江_SK_斯洛伐克_7
+      - 长江_DE_德国_4
       - 长江AU_632
-      - _AL_阿尔巴尼亚_10
-      - _US_美国_6
-      - 长江斯洛伐克_6
-      - _CH_瑞士_2
-      - _SK_斯洛伐克_2
-      - _CH_瑞士_3
-      - _NL_荷兰_5
+      - 长江_AL_阿尔巴尼亚_10
+      - 长江_US_美国_6
+      - 长江_6
+      - 长江_CH_瑞士_2
+      - 长江_SK_斯洛伐克_2
+      - 长江_CH_瑞士_3
+      - 长江_NL_荷兰_5
       - 长江美国_1
-      - _NL_荷兰_1
-      - v2rayse_🇺🇸_US_美国_2
-      - _CH_瑞士_4
-      - _NL_荷兰_6
-      - _CH_瑞士_6
-      - _CH_瑞士_9
-      - _DE_德国_1
-      - 长江荷兰
-      - _SK_斯洛伐克_4
-      - _NL_荷兰_9
-      - _NL_荷兰_7
-      - 长江斯洛伐克_5
-      - _NL_荷兰_8
-      - 长江德国_2
-      - v2rayse_🇺🇸_US_美国_7
-      - 长江荷兰_1
-      - _DE_德国_5
-      - _BE_比利时_8
-      - _AL_阿尔巴尼亚_4
-      - _AL_阿尔巴尼亚_6
-      - _AL_阿尔巴尼亚_5
-      - _SK_斯洛伐克_5
-      - _NL_荷兰_12
-      - v2rayse_🇺🇸_US_美国_8
-      - _CH_瑞士_13
-      - _SK_斯洛伐克_8
-      - _BE_比利时_6
-      - _NL_荷兰_10
-      - _CH_瑞士_12
+      - 长江_NL_荷兰_1
+      - 长江_US_美国_2
+      - 长江_CH_瑞士_4
+      - 长江_NL_荷兰_6
+      - 长江_CH_瑞士_6
+      - 长江_CH_瑞士_9
+      - 长江_DE_德国_1
+      - 长江_SK_斯洛伐克_4
+      - 长江_NL_荷兰_9
+      - 长江_NL_荷兰_7
+      - 长江_5
+      - 长江_NL_荷兰_8
+      - 长江_2
+      - 长江_US_美国_7
+      - 长江_1 5
+      - 长江_DE_德国_5
+      - 长江_BE_比利时_8
+      - 长江_AL_阿尔巴尼亚_4
+      - 长江_AL_阿尔巴尼亚_6
+      - 长江_AL_阿尔巴尼亚_5
+      - 长江_SK_斯洛伐克_5
+      - 长江_NL_荷兰_12
+      - 长江_US_美国_8
+      - 长江_CH_瑞士_13
+      - 长江_SK_斯洛伐克_8
+      - 长江_BE_比利时_6
+      - 长江_NL_荷兰_10
+      - 长江_CH_瑞士_12
       - 长江DE_2415
-      - _CH_瑞士_1
-      - _CH_瑞士_7
+      - 长江_CH_瑞士_1
+      - 长江_CH_瑞士_7
       - 长江香港_1
   - name: 🍎 苹果服务
     type: select
@@ -811,112 +804,111 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _AL_阿尔巴尼亚_3
-      - _NL_荷兰_14
-      - _BE_比利时_3
-      - _NO_挪威_3
-      - _NL_荷兰_19
-      - _BE_比利时_11
-      - _AL_阿尔巴尼亚_8
-      - _NL_荷兰_16
-      - _AL_阿尔巴尼亚_9
-      - _NL_荷兰_11
-      - _DE_德国_2
-      - _CH_瑞士_10
-      - 长江斯洛伐克_1
-      - _TR_土耳其_1
-      - _FR_法国_1
-      - 长江斯洛伐克_1 2
-      - v2rayse_🇺🇸_US_美国_3
-      - _US_美国_12
-      - _NO_挪威_1
-      - _NL_荷兰_3
-      - _BE_比利时_5
-      - _NL_荷兰_15
-      - _US_美国_9
-      - _SK_斯洛伐克_10
-      - _CH_瑞士_8
-      - _BE_比利时_9
-      - 长江斯洛伐克_4
-      - 长江德国_3
+      - 长江_AL_阿尔巴尼亚_3
+      - 长江_NL_荷兰_14
+      - 长江_BE_比利时_3
+      - 长江_NO_挪威_3
+      - 长江_NL_荷兰_19
+      - 长江_BE_比利时_11
+      - 长江_AL_阿尔巴尼亚_8
+      - 长江_NL_荷兰_16
+      - 长江_AL_阿尔巴尼亚_9
+      - 长江_NL_荷兰_11
+      - 长江_DE_德国_2
+      - 长江_CH_瑞士_10
+      - 长江_1
+      - 长江_TR_土耳其_1
+      - 长江_FR_法国_1
+      - 长江_1 2
+      - 长江_US_美国_3
+      - 长江_US_美国_12
+      - 长江_NO_挪威_1
+      - 长江_NL_荷兰_3
+      - 长江_BE_比利时_5
+      - 长江_NL_荷兰_15
+      - 长江_US_美国_9
+      - 长江_SK_斯洛伐克_10
+      - 长江_CH_瑞士_8
+      - 长江_BE_比利时_9
+      - 长江_4
+      - 长江_3
       - 长江US_1660
       - 长江TW_1658
       - 长江TW_1655
       - 长江TW_1653
-      - _BE_比利时_7
-      - _NL_荷兰_17
-      - 长江德国_1
-      - 长江比利时_1
-      - _SK_斯洛伐克_3
-      - _CH_瑞士_5
-      - _NO_挪威_2
-      - _CH_瑞士_14
-      - _SK_斯洛伐克_6
+      - 长江_BE_比利时_7
+      - 长江_NL_荷兰_17
+      - 长江_1 3
+      - 长江_1 4
+      - 长江_SK_斯洛伐克_3
+      - 长江_CH_瑞士_5
+      - 长江_NO_挪威_2
+      - 长江_CH_瑞士_14
+      - 长江_SK_斯洛伐克_6
       - 长江DE_2414
-      - _BE_比利时_2
-      - _NL_荷兰_18
-      - _CH_瑞士_11
+      - 长江_BE_比利时_2
+      - 长江_NL_荷兰_18
+      - 长江_CH_瑞士_11
       - 长江美国_5
-      - _BE_比利时_1
-      - _AL_阿尔巴尼亚_2
+      - 长江_BE_比利时_1
+      - 长江_AL_阿尔巴尼亚_2
       - 长江美国_4
-      - _NL_荷兰_2
-      - _NL_荷兰_4
-      - 长江斯洛伐克_3
-      - _US_美国_11
-      - _DE_德国_3
-      - _CH_瑞士_15
-      - _SK_斯洛伐克_9
-      - _NL_荷兰_13
-      - _AL_阿尔巴尼亚_1
-      - _BE_比利时_10
-      - _ES_西班牙_1
-      - _BE_比利时_12
-      - _BE_比利时_4
-      - _AL_阿尔巴尼亚_7
-      - _SK_斯洛伐克_7
-      - _DE_德国_4
+      - 长江_NL_荷兰_2
+      - 长江_NL_荷兰_4
+      - 长江_3 2
+      - 长江_US_美国_11
+      - 长江_DE_德国_3
+      - 长江_CH_瑞士_15
+      - 长江_SK_斯洛伐克_9
+      - 长江_NL_荷兰_13
+      - 长江_AL_阿尔巴尼亚_1
+      - 长江_BE_比利时_10
+      - 长江_ES_西班牙_1
+      - 长江_BE_比利时_12
+      - 长江_BE_比利时_4
+      - 长江_AL_阿尔巴尼亚_7
+      - 长江_SK_斯洛伐克_7
+      - 长江_DE_德国_4
       - 长江AU_632
-      - _AL_阿尔巴尼亚_10
-      - _US_美国_6
-      - 长江斯洛伐克_6
-      - _CH_瑞士_2
-      - _SK_斯洛伐克_2
-      - _CH_瑞士_3
-      - _NL_荷兰_5
+      - 长江_AL_阿尔巴尼亚_10
+      - 长江_US_美国_6
+      - 长江_6
+      - 长江_CH_瑞士_2
+      - 长江_SK_斯洛伐克_2
+      - 长江_CH_瑞士_3
+      - 长江_NL_荷兰_5
       - 长江美国_1
-      - _NL_荷兰_1
-      - v2rayse_🇺🇸_US_美国_2
-      - _CH_瑞士_4
-      - _NL_荷兰_6
-      - _CH_瑞士_6
-      - _CH_瑞士_9
-      - _DE_德国_1
-      - 长江荷兰
-      - _SK_斯洛伐克_4
-      - _NL_荷兰_9
-      - _NL_荷兰_7
-      - 长江斯洛伐克_5
-      - _NL_荷兰_8
-      - 长江德国_2
-      - v2rayse_🇺🇸_US_美国_7
-      - 长江荷兰_1
-      - _DE_德国_5
-      - _BE_比利时_8
-      - _AL_阿尔巴尼亚_4
-      - _AL_阿尔巴尼亚_6
-      - _AL_阿尔巴尼亚_5
-      - _SK_斯洛伐克_5
-      - _NL_荷兰_12
-      - v2rayse_🇺🇸_US_美国_8
-      - _CH_瑞士_13
-      - _SK_斯洛伐克_8
-      - _BE_比利时_6
-      - _NL_荷兰_10
-      - _CH_瑞士_12
+      - 长江_NL_荷兰_1
+      - 长江_US_美国_2
+      - 长江_CH_瑞士_4
+      - 长江_NL_荷兰_6
+      - 长江_CH_瑞士_6
+      - 长江_CH_瑞士_9
+      - 长江_DE_德国_1
+      - 长江_SK_斯洛伐克_4
+      - 长江_NL_荷兰_9
+      - 长江_NL_荷兰_7
+      - 长江_5
+      - 长江_NL_荷兰_8
+      - 长江_2
+      - 长江_US_美国_7
+      - 长江_1 5
+      - 长江_DE_德国_5
+      - 长江_BE_比利时_8
+      - 长江_AL_阿尔巴尼亚_4
+      - 长江_AL_阿尔巴尼亚_6
+      - 长江_AL_阿尔巴尼亚_5
+      - 长江_SK_斯洛伐克_5
+      - 长江_NL_荷兰_12
+      - 长江_US_美国_8
+      - 长江_CH_瑞士_13
+      - 长江_SK_斯洛伐克_8
+      - 长江_BE_比利时_6
+      - 长江_NL_荷兰_10
+      - 长江_CH_瑞士_12
       - 长江DE_2415
-      - _CH_瑞士_1
-      - _CH_瑞士_7
+      - 长江_CH_瑞士_1
+      - 长江_CH_瑞士_7
       - 长江香港_1
   - name: 🎯 全球直连
     type: select
@@ -933,112 +925,111 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _AL_阿尔巴尼亚_3
-      - _NL_荷兰_14
-      - _BE_比利时_3
-      - _NO_挪威_3
-      - _NL_荷兰_19
-      - _BE_比利时_11
-      - _AL_阿尔巴尼亚_8
-      - _NL_荷兰_16
-      - _AL_阿尔巴尼亚_9
-      - _NL_荷兰_11
-      - _DE_德国_2
-      - _CH_瑞士_10
-      - 长江斯洛伐克_1
-      - _TR_土耳其_1
-      - _FR_法国_1
-      - 长江斯洛伐克_1 2
-      - v2rayse_🇺🇸_US_美国_3
-      - _US_美国_12
-      - _NO_挪威_1
-      - _NL_荷兰_3
-      - _BE_比利时_5
-      - _NL_荷兰_15
-      - _US_美国_9
-      - _SK_斯洛伐克_10
-      - _CH_瑞士_8
-      - _BE_比利时_9
-      - 长江斯洛伐克_4
-      - 长江德国_3
+      - 长江_AL_阿尔巴尼亚_3
+      - 长江_NL_荷兰_14
+      - 长江_BE_比利时_3
+      - 长江_NO_挪威_3
+      - 长江_NL_荷兰_19
+      - 长江_BE_比利时_11
+      - 长江_AL_阿尔巴尼亚_8
+      - 长江_NL_荷兰_16
+      - 长江_AL_阿尔巴尼亚_9
+      - 长江_NL_荷兰_11
+      - 长江_DE_德国_2
+      - 长江_CH_瑞士_10
+      - 长江_1
+      - 长江_TR_土耳其_1
+      - 长江_FR_法国_1
+      - 长江_1 2
+      - 长江_US_美国_3
+      - 长江_US_美国_12
+      - 长江_NO_挪威_1
+      - 长江_NL_荷兰_3
+      - 长江_BE_比利时_5
+      - 长江_NL_荷兰_15
+      - 长江_US_美国_9
+      - 长江_SK_斯洛伐克_10
+      - 长江_CH_瑞士_8
+      - 长江_BE_比利时_9
+      - 长江_4
+      - 长江_3
       - 长江US_1660
       - 长江TW_1658
       - 长江TW_1655
       - 长江TW_1653
-      - _BE_比利时_7
-      - _NL_荷兰_17
-      - 长江德国_1
-      - 长江比利时_1
-      - _SK_斯洛伐克_3
-      - _CH_瑞士_5
-      - _NO_挪威_2
-      - _CH_瑞士_14
-      - _SK_斯洛伐克_6
+      - 长江_BE_比利时_7
+      - 长江_NL_荷兰_17
+      - 长江_1 3
+      - 长江_1 4
+      - 长江_SK_斯洛伐克_3
+      - 长江_CH_瑞士_5
+      - 长江_NO_挪威_2
+      - 长江_CH_瑞士_14
+      - 长江_SK_斯洛伐克_6
       - 长江DE_2414
-      - _BE_比利时_2
-      - _NL_荷兰_18
-      - _CH_瑞士_11
+      - 长江_BE_比利时_2
+      - 长江_NL_荷兰_18
+      - 长江_CH_瑞士_11
       - 长江美国_5
-      - _BE_比利时_1
-      - _AL_阿尔巴尼亚_2
+      - 长江_BE_比利时_1
+      - 长江_AL_阿尔巴尼亚_2
       - 长江美国_4
-      - _NL_荷兰_2
-      - _NL_荷兰_4
-      - 长江斯洛伐克_3
-      - _US_美国_11
-      - _DE_德国_3
-      - _CH_瑞士_15
-      - _SK_斯洛伐克_9
-      - _NL_荷兰_13
-      - _AL_阿尔巴尼亚_1
-      - _BE_比利时_10
-      - _ES_西班牙_1
-      - _BE_比利时_12
-      - _BE_比利时_4
-      - _AL_阿尔巴尼亚_7
-      - _SK_斯洛伐克_7
-      - _DE_德国_4
+      - 长江_NL_荷兰_2
+      - 长江_NL_荷兰_4
+      - 长江_3 2
+      - 长江_US_美国_11
+      - 长江_DE_德国_3
+      - 长江_CH_瑞士_15
+      - 长江_SK_斯洛伐克_9
+      - 长江_NL_荷兰_13
+      - 长江_AL_阿尔巴尼亚_1
+      - 长江_BE_比利时_10
+      - 长江_ES_西班牙_1
+      - 长江_BE_比利时_12
+      - 长江_BE_比利时_4
+      - 长江_AL_阿尔巴尼亚_7
+      - 长江_SK_斯洛伐克_7
+      - 长江_DE_德国_4
       - 长江AU_632
-      - _AL_阿尔巴尼亚_10
-      - _US_美国_6
-      - 长江斯洛伐克_6
-      - _CH_瑞士_2
-      - _SK_斯洛伐克_2
-      - _CH_瑞士_3
-      - _NL_荷兰_5
+      - 长江_AL_阿尔巴尼亚_10
+      - 长江_US_美国_6
+      - 长江_6
+      - 长江_CH_瑞士_2
+      - 长江_SK_斯洛伐克_2
+      - 长江_CH_瑞士_3
+      - 长江_NL_荷兰_5
       - 长江美国_1
-      - _NL_荷兰_1
-      - v2rayse_🇺🇸_US_美国_2
-      - _CH_瑞士_4
-      - _NL_荷兰_6
-      - _CH_瑞士_6
-      - _CH_瑞士_9
-      - _DE_德国_1
-      - 长江荷兰
-      - _SK_斯洛伐克_4
-      - _NL_荷兰_9
-      - _NL_荷兰_7
-      - 长江斯洛伐克_5
-      - _NL_荷兰_8
-      - 长江德国_2
-      - v2rayse_🇺🇸_US_美国_7
-      - 长江荷兰_1
-      - _DE_德国_5
-      - _BE_比利时_8
-      - _AL_阿尔巴尼亚_4
-      - _AL_阿尔巴尼亚_6
-      - _AL_阿尔巴尼亚_5
-      - _SK_斯洛伐克_5
-      - _NL_荷兰_12
-      - v2rayse_🇺🇸_US_美国_8
-      - _CH_瑞士_13
-      - _SK_斯洛伐克_8
-      - _BE_比利时_6
-      - _NL_荷兰_10
-      - _CH_瑞士_12
+      - 长江_NL_荷兰_1
+      - 长江_US_美国_2
+      - 长江_CH_瑞士_4
+      - 长江_NL_荷兰_6
+      - 长江_CH_瑞士_6
+      - 长江_CH_瑞士_9
+      - 长江_DE_德国_1
+      - 长江_SK_斯洛伐克_4
+      - 长江_NL_荷兰_9
+      - 长江_NL_荷兰_7
+      - 长江_5
+      - 长江_NL_荷兰_8
+      - 长江_2
+      - 长江_US_美国_7
+      - 长江_1 5
+      - 长江_DE_德国_5
+      - 长江_BE_比利时_8
+      - 长江_AL_阿尔巴尼亚_4
+      - 长江_AL_阿尔巴尼亚_6
+      - 长江_AL_阿尔巴尼亚_5
+      - 长江_SK_斯洛伐克_5
+      - 长江_NL_荷兰_12
+      - 长江_US_美国_8
+      - 长江_CH_瑞士_13
+      - 长江_SK_斯洛伐克_8
+      - 长江_BE_比利时_6
+      - 长江_NL_荷兰_10
+      - 长江_CH_瑞士_12
       - 长江DE_2415
-      - _CH_瑞士_1
-      - _CH_瑞士_7
+      - 长江_CH_瑞士_1
+      - 长江_CH_瑞士_7
       - 长江香港_1
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
