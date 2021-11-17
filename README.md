@@ -5,167 +5,167 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 长江比利时_1, server: 194.110.115.84, port: 45948, type: ss, cipher: aes-256-gcm, password: j76EXqJcQhuQTr3EvUf7xaK9, udp: true}
-  - {name: _DE_德国_5, server: 82.102.16.102, port: 50695, type: ss, cipher: aes-256-gcm, password: gqtwGu9bVreJqL3FTHSVKGzy, udp: true}
-  - {name: 长江荷兰_1, server: 89.46.223.218, port: 31757, type: ss, cipher: aes-256-gcm, password: wj7nDCuNARchSeKNCN8VFK62, udp: true}
-  - {name: _BE_比利时_7, server: 194.110.115.84, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r, udp: true}
-  - {name: _NO_挪威_1, server: 91.219.215.53, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr, udp: true}
-  - {name: _NL_荷兰_10, server: 89.46.223.65, port: 41306, type: ss, cipher: aes-256-gcm, password: pzB5Y2twNtqFzWhEbBsPJMjj, udp: true}
-  - {name: _US_美国_11, server: 138.199.42.170, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp, udp: true}
-  - {name: _AL_阿尔巴尼亚_2, server: 31.171.154.220, port: 42816, type: ss, cipher: aes-256-gcm, password: tBKBf4pVzNCFKdbPgvwrNXq3, udp: true}
-  - {name: _NL_荷兰_14, server: 89.46.223.246, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap, udp: true}
-  - {name: _NL_荷兰_11, server: 89.46.223.91, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe, udp: true}
-  - {name: _NL_荷兰_12, server: 89.46.223.99, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r, udp: true}
-  - {name: _NL_荷兰_5, server: 89.46.223.73, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ, udp: true}
-  - {name: 长江斯洛伐克_5, server: 185.76.8.218, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA, udp: true}
-  - {name: _BE_比利时_1, server: 194.110.115.84, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8, udp: true}
-  - {name: _AL_阿尔巴尼亚_5, server: 31.171.154.220, port: 41992, type: ss, cipher: aes-256-gcm, password: XmQSxDCn5ehpcq6DBYms8FJf, udp: true}
-  - {name: _NL_荷兰_16, server: 89.46.223.87, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk, udp: true}
-  - {name: 长江斯洛伐克_1, server: 185.76.8.218, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK, udp: true}
+  - {name: 1, server: 194.110.115.84, port: 45948, type: ss, cipher: aes-256-gcm, password: j76EXqJcQhuQTr3EvUf7xaK9, udp: true}
+  - {name: DE_德国_5, server: 82.102.16.102, port: 50695, type: ss, cipher: aes-256-gcm, password: gqtwGu9bVreJqL3FTHSVKGzy, udp: true}
+  - {name: 2, server: 89.46.223.218, port: 31757, type: ss, cipher: aes-256-gcm, password: wj7nDCuNARchSeKNCN8VFK62, udp: true}
+  - {name: BE_比利时_7, server: 194.110.115.84, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r, udp: true}
+  - {name: NO_挪威_1, server: 91.219.215.53, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr, udp: true}
+  - {name: NL_荷兰_10, server: 89.46.223.65, port: 41306, type: ss, cipher: aes-256-gcm, password: pzB5Y2twNtqFzWhEbBsPJMjj, udp: true}
+  - {name: US_美国_11, server: 138.199.42.170, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp, udp: true}
+  - {name: AL_阿尔巴尼亚_2, server: 31.171.154.220, port: 42816, type: ss, cipher: aes-256-gcm, password: tBKBf4pVzNCFKdbPgvwrNXq3, udp: true}
+  - {name: NL_荷兰_14, server: 89.46.223.246, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap, udp: true}
+  - {name: NL_荷兰_11, server: 89.46.223.91, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe, udp: true}
+  - {name: NL_荷兰_12, server: 89.46.223.99, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r, udp: true}
+  - {name: NL_荷兰_5, server: 89.46.223.73, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ, udp: true}
+  - {name: 5, server: 185.76.8.218, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA, udp: true}
+  - {name: BE_比利时_1, server: 194.110.115.84, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8, udp: true}
+  - {name: AL_阿尔巴尼亚_5, server: 31.171.154.220, port: 41992, type: ss, cipher: aes-256-gcm, password: XmQSxDCn5ehpcq6DBYms8FJf, udp: true}
+  - {name: NL_荷兰_16, server: 89.46.223.87, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk, udp: true}
+  - {name: 3, server: 185.76.8.218, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK, udp: true}
   - {name: _US_美国_8, server: 104.24.88.81, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}, udp: true}
-  - {name: 长江斯洛伐克_3, server: 185.76.8.218, port: 41992, type: ss, cipher: aes-256-gcm, password: XmQSxDCn5ehpcq6DBYms8FJf, udp: true}
-  - {name: _SK_斯洛伐克_10, server: 185.76.8.218, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT, udp: true}
-  - {name: _SK_斯洛伐克_7, server: 185.76.8.218, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq, udp: true}
-  - {name: _SK_斯洛伐克_3, server: 185.76.8.218, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe, udp: true}
-  - {name: _AL_阿尔巴尼亚_3, server: 31.171.154.220, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
-  - {name: _AL_阿尔巴尼亚_1, server: 31.171.154.220, port: 49202, type: ss, cipher: aes-256-gcm, password: btzEYXKZxnR7g6H2vFTQK5TD, udp: true}
-  - {name: _AL_阿尔巴尼亚_8, server: 31.171.154.220, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd, udp: true}
-  - {name: _SK_斯洛伐克_6, server: 185.76.8.218, port: 49468, type: ss, cipher: aes-256-gcm, password: LsYSQDxmPj9AcWpSX5HrYfu6, udp: true}
-  - {name: _SK_斯洛伐克_4, server: 185.76.8.218, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN, udp: true}
-  - {name: _NL_荷兰_4, server: 89.46.223.63, port: 32843, type: ss, cipher: aes-256-gcm, password: G35YSR2LFNEM9bq2dkjmKQRr, udp: true}
-  - {name: 长江斯洛伐克_6, server: 185.76.8.218, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
-  - {name: _BE_比利时_2, server: 194.110.115.84, port: 50024, type: ss, cipher: aes-256-gcm, password: b2jDPHUQxCNa2KmGHZjy7C4B, udp: true}
-  - {name: _NL_荷兰_19, server: 89.46.223.239, port: 35200, type: ss, cipher: aes-256-gcm, password: WBLAbN6AwtV5avBx73hFRLB3, udp: true}
-  - {name: _NL_荷兰_2, server: 89.46.223.63, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD, udp: true}
-  - {name: _DE_德国_3, server: 82.102.16.102, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe, udp: true}
-  - {name: _ES_西班牙_1, server: 89.37.95.16, port: 49202, type: ss, cipher: aes-256-gcm, password: btzEYXKZxnR7g6H2vFTQK5TD, udp: true}
-  - {name: _DE_德国_2, server: 82.102.16.102, port: 46354, type: ss, cipher: aes-256-gcm, password: MYPKdC7n6qjL6xmJBBcrzzqS, udp: true}
-  - {name: _FR_法国_1, server: 185.108.106.172, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq, udp: true}
+  - {name: 4, server: 185.76.8.218, port: 41992, type: ss, cipher: aes-256-gcm, password: XmQSxDCn5ehpcq6DBYms8FJf, udp: true}
+  - {name: SK_斯洛伐克_10, server: 185.76.8.218, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT, udp: true}
+  - {name: SK_斯洛伐克_7, server: 185.76.8.218, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq, udp: true}
+  - {name: SK_斯洛伐克_3, server: 185.76.8.218, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe, udp: true}
+  - {name: AL_阿尔巴尼亚_3, server: 31.171.154.220, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
+  - {name: AL_阿尔巴尼亚_1, server: 31.171.154.220, port: 49202, type: ss, cipher: aes-256-gcm, password: btzEYXKZxnR7g6H2vFTQK5TD, udp: true}
+  - {name: AL_阿尔巴尼亚_8, server: 31.171.154.220, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd, udp: true}
+  - {name: SK_斯洛伐克_6, server: 185.76.8.218, port: 49468, type: ss, cipher: aes-256-gcm, password: LsYSQDxmPj9AcWpSX5HrYfu6, udp: true}
+  - {name: SK_斯洛伐克_4, server: 185.76.8.218, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN, udp: true}
+  - {name: NL_荷兰_4, server: 89.46.223.63, port: 32843, type: ss, cipher: aes-256-gcm, password: G35YSR2LFNEM9bq2dkjmKQRr, udp: true}
+  - {name: 6, server: 185.76.8.218, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
+  - {name: BE_比利时_2, server: 194.110.115.84, port: 50024, type: ss, cipher: aes-256-gcm, password: b2jDPHUQxCNa2KmGHZjy7C4B, udp: true}
+  - {name: NL_荷兰_19, server: 89.46.223.239, port: 35200, type: ss, cipher: aes-256-gcm, password: WBLAbN6AwtV5avBx73hFRLB3, udp: true}
+  - {name: NL_荷兰_2, server: 89.46.223.63, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD, udp: true}
+  - {name: DE_德国_3, server: 82.102.16.102, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe, udp: true}
+  - {name: ES_西班牙_1, server: 89.37.95.16, port: 49202, type: ss, cipher: aes-256-gcm, password: btzEYXKZxnR7g6H2vFTQK5TD, udp: true}
+  - {name: DE_德国_2, server: 82.102.16.102, port: 46354, type: ss, cipher: aes-256-gcm, password: MYPKdC7n6qjL6xmJBBcrzzqS, udp: true}
+  - {name: FR_法国_1, server: 185.108.106.172, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 长江比利时_1
-      - _DE_德国_5
-      - 长江荷兰_1
-      - _BE_比利时_7
-      - _NO_挪威_1
-      - _NL_荷兰_10
-      - _US_美国_11
-      - _AL_阿尔巴尼亚_2
-      - _NL_荷兰_14
-      - _NL_荷兰_11
-      - _NL_荷兰_12
-      - _NL_荷兰_5
-      - 长江斯洛伐克_5
-      - _BE_比利时_1
-      - _AL_阿尔巴尼亚_5
-      - _NL_荷兰_16
-      - 长江斯洛伐克_1
+      - 1
+      - DE_德国_5
+      - 2
+      - BE_比利时_7
+      - NO_挪威_1
+      - NL_荷兰_10
+      - US_美国_11
+      - AL_阿尔巴尼亚_2
+      - NL_荷兰_14
+      - NL_荷兰_11
+      - NL_荷兰_12
+      - NL_荷兰_5
+      - 5
+      - BE_比利时_1
+      - AL_阿尔巴尼亚_5
+      - NL_荷兰_16
+      - 3
       - _US_美国_8
-      - 长江斯洛伐克_3
-      - _SK_斯洛伐克_10
-      - _SK_斯洛伐克_7
-      - _SK_斯洛伐克_3
-      - _AL_阿尔巴尼亚_3
-      - _AL_阿尔巴尼亚_1
-      - _AL_阿尔巴尼亚_8
-      - _SK_斯洛伐克_6
-      - _SK_斯洛伐克_4
-      - _NL_荷兰_4
-      - 长江斯洛伐克_6
-      - _BE_比利时_2
-      - _NL_荷兰_19
-      - _NL_荷兰_2
-      - _DE_德国_3
-      - _ES_西班牙_1
-      - _DE_德国_2
-      - _FR_法国_1
+      - 4
+      - SK_斯洛伐克_10
+      - SK_斯洛伐克_7
+      - SK_斯洛伐克_3
+      - AL_阿尔巴尼亚_3
+      - AL_阿尔巴尼亚_1
+      - AL_阿尔巴尼亚_8
+      - SK_斯洛伐克_6
+      - SK_斯洛伐克_4
+      - NL_荷兰_4
+      - 6
+      - BE_比利时_2
+      - NL_荷兰_19
+      - NL_荷兰_2
+      - DE_德国_3
+      - ES_西班牙_1
+      - DE_德国_2
+      - FR_法国_1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 长江比利时_1
-      - _DE_德国_5
-      - 长江荷兰_1
-      - _BE_比利时_7
-      - _NO_挪威_1
-      - _NL_荷兰_10
-      - _US_美国_11
-      - _AL_阿尔巴尼亚_2
-      - _NL_荷兰_14
-      - _NL_荷兰_11
-      - _NL_荷兰_12
-      - _NL_荷兰_5
-      - 长江斯洛伐克_5
-      - _BE_比利时_1
-      - _AL_阿尔巴尼亚_5
-      - _NL_荷兰_16
-      - 长江斯洛伐克_1
+      - 1
+      - DE_德国_5
+      - 2
+      - BE_比利时_7
+      - NO_挪威_1
+      - NL_荷兰_10
+      - US_美国_11
+      - AL_阿尔巴尼亚_2
+      - NL_荷兰_14
+      - NL_荷兰_11
+      - NL_荷兰_12
+      - NL_荷兰_5
+      - 5
+      - BE_比利时_1
+      - AL_阿尔巴尼亚_5
+      - NL_荷兰_16
+      - 3
       - _US_美国_8
-      - 长江斯洛伐克_3
-      - _SK_斯洛伐克_10
-      - _SK_斯洛伐克_7
-      - _SK_斯洛伐克_3
-      - _AL_阿尔巴尼亚_3
-      - _AL_阿尔巴尼亚_1
-      - _AL_阿尔巴尼亚_8
-      - _SK_斯洛伐克_6
-      - _SK_斯洛伐克_4
-      - _NL_荷兰_4
-      - 长江斯洛伐克_6
-      - _BE_比利时_2
-      - _NL_荷兰_19
-      - _NL_荷兰_2
-      - _DE_德国_3
-      - _ES_西班牙_1
-      - _DE_德国_2
-      - _FR_法国_1
+      - 4
+      - SK_斯洛伐克_10
+      - SK_斯洛伐克_7
+      - SK_斯洛伐克_3
+      - AL_阿尔巴尼亚_3
+      - AL_阿尔巴尼亚_1
+      - AL_阿尔巴尼亚_8
+      - SK_斯洛伐克_6
+      - SK_斯洛伐克_4
+      - NL_荷兰_4
+      - 6
+      - BE_比利时_2
+      - NL_荷兰_19
+      - NL_荷兰_2
+      - DE_德国_3
+      - ES_西班牙_1
+      - DE_德国_2
+      - FR_法国_1
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 长江比利时_1
-      - _DE_德国_5
-      - 长江荷兰_1
-      - _BE_比利时_7
-      - _NO_挪威_1
-      - _NL_荷兰_10
-      - _US_美国_11
-      - _AL_阿尔巴尼亚_2
-      - _NL_荷兰_14
-      - _NL_荷兰_11
-      - _NL_荷兰_12
-      - _NL_荷兰_5
-      - 长江斯洛伐克_5
-      - _BE_比利时_1
-      - _AL_阿尔巴尼亚_5
-      - _NL_荷兰_16
-      - 长江斯洛伐克_1
+      - 1
+      - DE_德国_5
+      - 2
+      - BE_比利时_7
+      - NO_挪威_1
+      - NL_荷兰_10
+      - US_美国_11
+      - AL_阿尔巴尼亚_2
+      - NL_荷兰_14
+      - NL_荷兰_11
+      - NL_荷兰_12
+      - NL_荷兰_5
+      - 5
+      - BE_比利时_1
+      - AL_阿尔巴尼亚_5
+      - NL_荷兰_16
+      - 3
       - _US_美国_8
-      - 长江斯洛伐克_3
-      - _SK_斯洛伐克_10
-      - _SK_斯洛伐克_7
-      - _SK_斯洛伐克_3
-      - _AL_阿尔巴尼亚_3
-      - _AL_阿尔巴尼亚_1
-      - _AL_阿尔巴尼亚_8
-      - _SK_斯洛伐克_6
-      - _SK_斯洛伐克_4
-      - _NL_荷兰_4
-      - 长江斯洛伐克_6
-      - _BE_比利时_2
-      - _NL_荷兰_19
-      - _NL_荷兰_2
-      - _DE_德国_3
-      - _ES_西班牙_1
-      - _DE_德国_2
-      - _FR_法国_1
+      - 4
+      - SK_斯洛伐克_10
+      - SK_斯洛伐克_7
+      - SK_斯洛伐克_3
+      - AL_阿尔巴尼亚_3
+      - AL_阿尔巴尼亚_1
+      - AL_阿尔巴尼亚_8
+      - SK_斯洛伐克_6
+      - SK_斯洛伐克_4
+      - NL_荷兰_4
+      - 6
+      - BE_比利时_2
+      - NL_荷兰_19
+      - NL_荷兰_2
+      - DE_德国_3
+      - ES_西班牙_1
+      - DE_德国_2
+      - FR_法国_1
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -184,42 +184,42 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 长江比利时_1
-      - _DE_德国_5
-      - 长江荷兰_1
-      - _BE_比利时_7
-      - _NO_挪威_1
-      - _NL_荷兰_10
-      - _US_美国_11
-      - _AL_阿尔巴尼亚_2
-      - _NL_荷兰_14
-      - _NL_荷兰_11
-      - _NL_荷兰_12
-      - _NL_荷兰_5
-      - 长江斯洛伐克_5
-      - _BE_比利时_1
-      - _AL_阿尔巴尼亚_5
-      - _NL_荷兰_16
-      - 长江斯洛伐克_1
+      - 1
+      - DE_德国_5
+      - 2
+      - BE_比利时_7
+      - NO_挪威_1
+      - NL_荷兰_10
+      - US_美国_11
+      - AL_阿尔巴尼亚_2
+      - NL_荷兰_14
+      - NL_荷兰_11
+      - NL_荷兰_12
+      - NL_荷兰_5
+      - 5
+      - BE_比利时_1
+      - AL_阿尔巴尼亚_5
+      - NL_荷兰_16
+      - 3
       - _US_美国_8
-      - 长江斯洛伐克_3
-      - _SK_斯洛伐克_10
-      - _SK_斯洛伐克_7
-      - _SK_斯洛伐克_3
-      - _AL_阿尔巴尼亚_3
-      - _AL_阿尔巴尼亚_1
-      - _AL_阿尔巴尼亚_8
-      - _SK_斯洛伐克_6
-      - _SK_斯洛伐克_4
-      - _NL_荷兰_4
-      - 长江斯洛伐克_6
-      - _BE_比利时_2
-      - _NL_荷兰_19
-      - _NL_荷兰_2
-      - _DE_德国_3
-      - _ES_西班牙_1
-      - _DE_德国_2
-      - _FR_法国_1
+      - 4
+      - SK_斯洛伐克_10
+      - SK_斯洛伐克_7
+      - SK_斯洛伐克_3
+      - AL_阿尔巴尼亚_3
+      - AL_阿尔巴尼亚_1
+      - AL_阿尔巴尼亚_8
+      - SK_斯洛伐克_6
+      - SK_斯洛伐克_4
+      - NL_荷兰_4
+      - 6
+      - BE_比利时_2
+      - NL_荷兰_19
+      - NL_荷兰_2
+      - DE_德国_3
+      - ES_西班牙_1
+      - DE_德国_2
+      - FR_法国_1
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -230,125 +230,125 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 长江比利时_1
-      - _DE_德国_5
-      - 长江荷兰_1
-      - _BE_比利时_7
-      - _NO_挪威_1
-      - _NL_荷兰_10
-      - _US_美国_11
-      - _AL_阿尔巴尼亚_2
-      - _NL_荷兰_14
-      - _NL_荷兰_11
-      - _NL_荷兰_12
-      - _NL_荷兰_5
-      - 长江斯洛伐克_5
-      - _BE_比利时_1
-      - _AL_阿尔巴尼亚_5
-      - _NL_荷兰_16
-      - 长江斯洛伐克_1
+      - 1
+      - DE_德国_5
+      - 2
+      - BE_比利时_7
+      - NO_挪威_1
+      - NL_荷兰_10
+      - US_美国_11
+      - AL_阿尔巴尼亚_2
+      - NL_荷兰_14
+      - NL_荷兰_11
+      - NL_荷兰_12
+      - NL_荷兰_5
+      - 5
+      - BE_比利时_1
+      - AL_阿尔巴尼亚_5
+      - NL_荷兰_16
+      - 3
       - _US_美国_8
-      - 长江斯洛伐克_3
-      - _SK_斯洛伐克_10
-      - _SK_斯洛伐克_7
-      - _SK_斯洛伐克_3
-      - _AL_阿尔巴尼亚_3
-      - _AL_阿尔巴尼亚_1
-      - _AL_阿尔巴尼亚_8
-      - _SK_斯洛伐克_6
-      - _SK_斯洛伐克_4
-      - _NL_荷兰_4
-      - 长江斯洛伐克_6
-      - _BE_比利时_2
-      - _NL_荷兰_19
-      - _NL_荷兰_2
-      - _DE_德国_3
-      - _ES_西班牙_1
-      - _DE_德国_2
-      - _FR_法国_1
+      - 4
+      - SK_斯洛伐克_10
+      - SK_斯洛伐克_7
+      - SK_斯洛伐克_3
+      - AL_阿尔巴尼亚_3
+      - AL_阿尔巴尼亚_1
+      - AL_阿尔巴尼亚_8
+      - SK_斯洛伐克_6
+      - SK_斯洛伐克_4
+      - NL_荷兰_4
+      - 6
+      - BE_比利时_2
+      - NL_荷兰_19
+      - NL_荷兰_2
+      - DE_德国_3
+      - ES_西班牙_1
+      - DE_德国_2
+      - FR_法国_1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 长江比利时_1
-      - _DE_德国_5
-      - 长江荷兰_1
-      - _BE_比利时_7
-      - _NO_挪威_1
-      - _NL_荷兰_10
-      - _US_美国_11
-      - _AL_阿尔巴尼亚_2
-      - _NL_荷兰_14
-      - _NL_荷兰_11
-      - _NL_荷兰_12
-      - _NL_荷兰_5
-      - 长江斯洛伐克_5
-      - _BE_比利时_1
-      - _AL_阿尔巴尼亚_5
-      - _NL_荷兰_16
-      - 长江斯洛伐克_1
+      - 1
+      - DE_德国_5
+      - 2
+      - BE_比利时_7
+      - NO_挪威_1
+      - NL_荷兰_10
+      - US_美国_11
+      - AL_阿尔巴尼亚_2
+      - NL_荷兰_14
+      - NL_荷兰_11
+      - NL_荷兰_12
+      - NL_荷兰_5
+      - 5
+      - BE_比利时_1
+      - AL_阿尔巴尼亚_5
+      - NL_荷兰_16
+      - 3
       - _US_美国_8
-      - 长江斯洛伐克_3
-      - _SK_斯洛伐克_10
-      - _SK_斯洛伐克_7
-      - _SK_斯洛伐克_3
-      - _AL_阿尔巴尼亚_3
-      - _AL_阿尔巴尼亚_1
-      - _AL_阿尔巴尼亚_8
-      - _SK_斯洛伐克_6
-      - _SK_斯洛伐克_4
-      - _NL_荷兰_4
-      - 长江斯洛伐克_6
-      - _BE_比利时_2
-      - _NL_荷兰_19
-      - _NL_荷兰_2
-      - _DE_德国_3
-      - _ES_西班牙_1
-      - _DE_德国_2
-      - _FR_法国_1
+      - 4
+      - SK_斯洛伐克_10
+      - SK_斯洛伐克_7
+      - SK_斯洛伐克_3
+      - AL_阿尔巴尼亚_3
+      - AL_阿尔巴尼亚_1
+      - AL_阿尔巴尼亚_8
+      - SK_斯洛伐克_6
+      - SK_斯洛伐克_4
+      - NL_荷兰_4
+      - 6
+      - BE_比利时_2
+      - NL_荷兰_19
+      - NL_荷兰_2
+      - DE_德国_3
+      - ES_西班牙_1
+      - DE_德国_2
+      - FR_法国_1
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 长江比利时_1
-      - _DE_德国_5
-      - 长江荷兰_1
-      - _BE_比利时_7
-      - _NO_挪威_1
-      - _NL_荷兰_10
-      - _US_美国_11
-      - _AL_阿尔巴尼亚_2
-      - _NL_荷兰_14
-      - _NL_荷兰_11
-      - _NL_荷兰_12
-      - _NL_荷兰_5
-      - 长江斯洛伐克_5
-      - _BE_比利时_1
-      - _AL_阿尔巴尼亚_5
-      - _NL_荷兰_16
-      - 长江斯洛伐克_1
+      - 1
+      - DE_德国_5
+      - 2
+      - BE_比利时_7
+      - NO_挪威_1
+      - NL_荷兰_10
+      - US_美国_11
+      - AL_阿尔巴尼亚_2
+      - NL_荷兰_14
+      - NL_荷兰_11
+      - NL_荷兰_12
+      - NL_荷兰_5
+      - 5
+      - BE_比利时_1
+      - AL_阿尔巴尼亚_5
+      - NL_荷兰_16
+      - 3
       - _US_美国_8
-      - 长江斯洛伐克_3
-      - _SK_斯洛伐克_10
-      - _SK_斯洛伐克_7
-      - _SK_斯洛伐克_3
-      - _AL_阿尔巴尼亚_3
-      - _AL_阿尔巴尼亚_1
-      - _AL_阿尔巴尼亚_8
-      - _SK_斯洛伐克_6
-      - _SK_斯洛伐克_4
-      - _NL_荷兰_4
-      - 长江斯洛伐克_6
-      - _BE_比利时_2
-      - _NL_荷兰_19
-      - _NL_荷兰_2
-      - _DE_德国_3
-      - _ES_西班牙_1
-      - _DE_德国_2
-      - _FR_法国_1
+      - 4
+      - SK_斯洛伐克_10
+      - SK_斯洛伐克_7
+      - SK_斯洛伐克_3
+      - AL_阿尔巴尼亚_3
+      - AL_阿尔巴尼亚_1
+      - AL_阿尔巴尼亚_8
+      - SK_斯洛伐克_6
+      - SK_斯洛伐克_4
+      - NL_荷兰_4
+      - 6
+      - BE_比利时_2
+      - NL_荷兰_19
+      - NL_荷兰_2
+      - DE_德国_3
+      - ES_西班牙_1
+      - DE_德国_2
+      - FR_法国_1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -364,42 +364,42 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 长江比利时_1
-      - _DE_德国_5
-      - 长江荷兰_1
-      - _BE_比利时_7
-      - _NO_挪威_1
-      - _NL_荷兰_10
-      - _US_美国_11
-      - _AL_阿尔巴尼亚_2
-      - _NL_荷兰_14
-      - _NL_荷兰_11
-      - _NL_荷兰_12
-      - _NL_荷兰_5
-      - 长江斯洛伐克_5
-      - _BE_比利时_1
-      - _AL_阿尔巴尼亚_5
-      - _NL_荷兰_16
-      - 长江斯洛伐克_1
+      - 1
+      - DE_德国_5
+      - 2
+      - BE_比利时_7
+      - NO_挪威_1
+      - NL_荷兰_10
+      - US_美国_11
+      - AL_阿尔巴尼亚_2
+      - NL_荷兰_14
+      - NL_荷兰_11
+      - NL_荷兰_12
+      - NL_荷兰_5
+      - 5
+      - BE_比利时_1
+      - AL_阿尔巴尼亚_5
+      - NL_荷兰_16
+      - 3
       - _US_美国_8
-      - 长江斯洛伐克_3
-      - _SK_斯洛伐克_10
-      - _SK_斯洛伐克_7
-      - _SK_斯洛伐克_3
-      - _AL_阿尔巴尼亚_3
-      - _AL_阿尔巴尼亚_1
-      - _AL_阿尔巴尼亚_8
-      - _SK_斯洛伐克_6
-      - _SK_斯洛伐克_4
-      - _NL_荷兰_4
-      - 长江斯洛伐克_6
-      - _BE_比利时_2
-      - _NL_荷兰_19
-      - _NL_荷兰_2
-      - _DE_德国_3
-      - _ES_西班牙_1
-      - _DE_德国_2
-      - _FR_法国_1
+      - 4
+      - SK_斯洛伐克_10
+      - SK_斯洛伐克_7
+      - SK_斯洛伐克_3
+      - AL_阿尔巴尼亚_3
+      - AL_阿尔巴尼亚_1
+      - AL_阿尔巴尼亚_8
+      - SK_斯洛伐克_6
+      - SK_斯洛伐克_4
+      - NL_荷兰_4
+      - 6
+      - BE_比利时_2
+      - NL_荷兰_19
+      - NL_荷兰_2
+      - DE_德国_3
+      - ES_西班牙_1
+      - DE_德国_2
+      - FR_法国_1
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
