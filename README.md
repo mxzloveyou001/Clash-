@@ -10,6 +10,148 @@ proxies:
   - {name: HKT转江门3-27, server: sl201.jdxx.xyz, port: 35003, type: ssr, cipher: chacha20-ietf, password: MaOKEa, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: b00e31237.microsoft.com, udp: true}
   - {name: HKT转江门4-27, server: sl201.jdxx.xyz, port: 35004, type: ssr, cipher: chacha20-ietf, password: MaOKEa, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: b00e31237.microsoft.com, udp: true}
   - {name: 长江, server: sgp11.clashcloud.tech, port: 21761, type: ssr, cipher: rc4-md5, password: Xkfb6t, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: "", udp: true}
+  - {name: _CH_瑞士_11, server: 156.146.62.45, port: 47861, type: ss, cipher: aes-256-gcm, password: LJcChRsGQRhywrtXUU55TLTu, udp: true}
+  - {name: _CH_瑞士_15, server: 156.146.62.45, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD, udp: true}
+  - {name: TR  Istanbul 2, server: 107.150.94.12, port: 46726, type: ss, cipher: aes-256-gcm, password: 2fqKbFPGHpcmMTJzGsUbsfYf, udp: true}
+  - {name: T, server: 156.146.62.45, port: 48970, type: ss, cipher: aes-256-gcm, password: ZKEsXkFbUZ2z667YA8A7cEDP, udp: true}
+  - {name: 84.17.58.162:33992, server: 84.17.58.162, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6, udp: true}
+  - {name: 66.115.147.69:39772, server: 66.115.147.69, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD, udp: true}
+  - {name: T 2, server: 156.146.62.45, port: 43963, type: ss, cipher: aes-256-gcm, password: Tuw6zzZM6JwWNZyYF9ckC4JZ, udp: true}
+  - {name: 185.108.106.175:33998, server: 185.108.106.175, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe, udp: true}
+  - {name: 185.108.106.175:44742, server: 185.108.106.175, port: 44742, type: ss, cipher: aes-256-gcm, password: QCStKzZ56SHBc4tL7stCEqqd, udp: true}
+  - {name: T 3, server: 156.146.62.45, port: 32843, type: ss, cipher: aes-256-gcm, password: G35YSR2LFNEM9bq2dkjmKQRr, udp: true}
+  - {name: 185.108.106.175:31764, server: 185.108.106.175, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv, udp: true}
+  - {name: SK__6, server: 185.76.8.218, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ, udp: true}
+  - {name: T 4, server: 156.146.62.45, port: 49719, type: ss, cipher: aes-256-gcm, password: 42SjT9vBF6ma9eFF3URaJpQ4, udp: true}
+  - {name: 185.108.106.175:47121, server: 185.108.106.175, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk, udp: true}
+  - {name: 185.108.106.175:47861, server: 185.108.106.175, port: 47861, type: ss, cipher: aes-256-gcm, password: LJcChRsGQRhywrtXUU55TLTu, udp: true}
+  - {name: 156.146.62.45:32971, server: 156.146.62.45, port: 32971, type: ss, cipher: aes-256-gcm, password: vwS65ZXyZg85ApwZ2bBh6zFZ, udp: true}
+  - {name: 156.146.62.45:49653, server: 156.146.62.45, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr, udp: true}
+  - {name: 107.150.94.12:38620, server: 107.150.94.12, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn, udp: true}
+  - {name: 23.106.33.156:18332, server: 23.106.33.156, port: 18332, type: ss, cipher: chacha20-ietf-poly1305, password: R3wS0jxB8ARCZgapOF8a4CpFc5lSOqCDZYSXD2a3zuY7eETD6IANy39elnxKy3, udp: true}
+  - {name: 107.150.94.12:33992, server: 107.150.94.12, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6, udp: true}
+  - {name: SK__2, server: 185.76.8.218, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr, udp: true}
+  - {name: SK__4, server: 185.76.8.218, port: 40282, type: ss, cipher: aes-256-gcm, password: Pvvaw486867D2w4yctL2ULTQ, udp: true}
+  - {name: SK__9, server: 185.76.8.218, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd, udp: true}
+  - {name: TR__3, server: 107.150.94.12, port: 44539, type: ss, cipher: aes-256-gcm, password: r6hDrkP4Et6EENTS8Qy7Tcmg, udp: true}
+  - {name: 156.146.62.45:50181, server: 156.146.62.45, port: 50181, type: ss, cipher: aes-256-gcm, password: d9adRr9UxymNSysYahMtpFpd, udp: true}
+  - {name: 107.150.94.12:50695, server: 107.150.94.12, port: 50695, type: ss, cipher: aes-256-gcm, password: gqtwGu9bVreJqL3FTHSVKGzy, udp: true}
+  - {name: _CH_瑞士_14, server: 156.146.62.45, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8, udp: true}
+  - {name: 194.110.115.86:31944, server: 194.110.115.86, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq, udp: true}
+  - {name: 89.37.95.16:33148, server: 89.37.95.16, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8, udp: true}
+  - {name: 107.150.94.12:31572, server: 107.150.94.12, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA, udp: true}
+  - {name: _DE_德国_5, server: 82.102.16.102, port: 50695, type: ss, cipher: aes-256-gcm, password: gqtwGu9bVreJqL3FTHSVKGzy, udp: true}
+  - {name: 长江比利时_1, server: 194.110.115.84, port: 45948, type: ss, cipher: aes-256-gcm, password: j76EXqJcQhuQTr3EvUf7xaK9, udp: true}
+  - {name: 23.106.35.90:18336, server: 23.106.35.90, port: 18336, type: ss, cipher: chacha20-ietf-poly1305, password: A33x2ly5CjwpZ7DYZOe4FC0CupxSKA89caI8gSlRaE3DYnaXeORD6SNFyqBTz3, udp: true}
+  - {name: 185.108.106.175:33148, server: 185.108.106.175, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8, udp: true}
+  - {name: 长江荷兰_1, server: 89.46.223.218, port: 31757, type: ss, cipher: aes-256-gcm, password: wj7nDCuNARchSeKNCN8VFK62, udp: true}
+  - {name: 194.110.115.86:31764, server: 194.110.115.86, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv, udp: true}
+  - {name: 89.37.95.16:41738, server: 89.37.95.16, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
+  - {name: 156.146.62.45:38033, server: 156.146.62.45, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US, udp: true}
+  - {name: _CH_瑞士_13, server: 156.146.62.45, port: 49468, type: ss, cipher: aes-256-gcm, password: LsYSQDxmPj9AcWpSX5HrYfu6, udp: true}
+  - {name: 89.37.95.16:33998, server: 89.37.95.16, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe, udp: true}
+  - {name: _AL_阿尔巴尼亚_6, server: 31.171.154.220, port: 49468, type: ss, cipher: aes-256-gcm, password: LsYSQDxmPj9AcWpSX5HrYfu6, udp: true}
+  - {name: _BE_比利时_7, server: 194.110.115.84, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r, udp: true}
+  - {name: T 5, server: 156.146.62.45, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ, udp: true}
+  - {name: 23.106.33.152:18332, server: 23.106.33.152, port: 18332, type: ss, cipher: chacha20-ietf-poly1305, password: S3YqACC58uajapxRy7S3D63xcXOeFnl2w9NZezAKDgSYD0RZBFTy3pI8ElCaO4, udp: true}
+  - {name: _NO_挪威_1, server: 91.219.215.53, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr, udp: true}
+  - {name: _NL_荷兰_10, server: 89.46.223.65, port: 41306, type: ss, cipher: aes-256-gcm, password: pzB5Y2twNtqFzWhEbBsPJMjj, udp: true}
+  - {name: SK__19, server: 185.76.8.218, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp, udp: true}
+  - {name: _US_美国_11, server: 138.199.42.170, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp, udp: true}
+  - {name: 194.110.115.86:34815, server: 194.110.115.86, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb, udp: true}
+  - {name: _AL_阿尔巴尼亚_2, server: 31.171.154.220, port: 42816, type: ss, cipher: aes-256-gcm, password: tBKBf4pVzNCFKdbPgvwrNXq3, udp: true}
+  - {name: _NL_荷兰_14, server: 89.46.223.246, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap, udp: true}
+  - {name: 89.37.95.16:31944, server: 89.37.95.16, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq, udp: true}
+  - {name: TR__6, server: 107.150.94.12, port: 47861, type: ss, cipher: aes-256-gcm, password: LJcChRsGQRhywrtXUU55TLTu, udp: true}
+  - {name: _NL_荷兰_11, server: 89.46.223.91, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe, udp: true}
+  - {name: _NL_荷兰_12, server: 89.46.223.99, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r, udp: true}
+  - {name: _NL_荷兰_5, server: 89.46.223.73, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ, udp: true}
+  - {name: 长江斯洛伐克_5, server: 185.76.8.218, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA, udp: true}
+  - {name: _AL_阿尔巴尼亚_5, server: 31.171.154.220, port: 41992, type: ss, cipher: aes-256-gcm, password: XmQSxDCn5ehpcq6DBYms8FJf, udp: true}
+  - {name: _BE_比利时_1, server: 194.110.115.84, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8, udp: true}
+  - {name: _BE_比利时_10, server: 194.110.115.84, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna, udp: true}
+  - {name: _NL_荷兰_16, server: 89.46.223.87, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk, udp: true}
+  - {name: Te, server: 185.124.240.146, port: 41992, type: ss, cipher: aes-256-gcm, password: XmQSxDCn5ehpcq6DBYms8FJf, udp: true}
+  - {name: TR__2, server: 107.150.94.12, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna, udp: true}
+  - {name: US_11341, server: 198.147.22.87, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD, udp: true}
+  - {name: 长江斯洛伐克_1, server: 185.76.8.218, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK, udp: true}
+  - {name: 156.146.62.45:38747, server: 156.146.62.45, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj, udp: true}
+  - {name: Te 2, server: 156.146.62.45, port: 42185, type: ss, cipher: aes-256-gcm, password: FaTG4zALZru72gxjgSHQ7Jdh, udp: true}
+  - {name: US__2, server: 38.86.135.27, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _SK_斯洛伐克_10, server: 185.76.8.218, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT, udp: true}
+  - {name: _SK_斯洛伐克_3, server: 185.76.8.218, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe, udp: true}
+  - {name: _SK_斯洛伐克_7, server: 185.76.8.218, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq, udp: true}
+  - {name: _US_美国_8, server: 104.24.88.81, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}, udp: true}
+  - {name: 长江斯洛伐克_3, server: 185.76.8.218, port: 41992, type: ss, cipher: aes-256-gcm, password: XmQSxDCn5ehpcq6DBYms8FJf, udp: true}
+  - {name: US_10817, server: 38.68.134.135, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: _AL_阿尔巴尼亚_1, server: 31.171.154.220, port: 49202, type: ss, cipher: aes-256-gcm, password: btzEYXKZxnR7g6H2vFTQK5TD, udp: true}
+  - {name: _AL_阿尔巴尼亚_3, server: 31.171.154.220, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
+  - {name: _AL_阿尔巴尼亚_8, server: 31.171.154.220, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd, udp: true}
+  - {name: _SK_斯洛伐克_4, server: 185.76.8.218, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN, udp: true}
+  - {name: _SK_斯洛伐克_6, server: 185.76.8.218, port: 49468, type: ss, cipher: aes-256-gcm, password: LsYSQDxmPj9AcWpSX5HrYfu6, udp: true}
+  - {name: US_10747, server: 198.147.22.87, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe, udp: true}
+  - {name: _US_美国_3, server: 104.16.104.198, port: 443, type: vmess, uuid: 24b4b1e1-7a89-45f6-858c-242cf53b5bdb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /24b4b1e1-7a89-45f6-858c-242cf53b5bdb-vmess, ws-headers: {Host: green-recipe-bc49.tianzhen121.workers.dev}, udp: true}
+  - {name: _CH_瑞士_10, server: 156.146.62.45, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd, udp: true}
+  - {name: _NL_荷兰_4, server: 89.46.223.63, port: 32843, type: ss, cipher: aes-256-gcm, password: G35YSR2LFNEM9bq2dkjmKQRr, udp: true}
+  - {name: 长江斯洛伐克_6, server: 185.76.8.218, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
+  - {name: TR__2 2, server: 107.150.94.12, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r, udp: true}
+  - {name: _BE_比利时_2, server: 194.110.115.84, port: 50024, type: ss, cipher: aes-256-gcm, password: b2jDPHUQxCNa2KmGHZjy7C4B, udp: true}
+  - {name: _NL_荷兰_19, server: 89.46.223.239, port: 35200, type: ss, cipher: aes-256-gcm, password: WBLAbN6AwtV5avBx73hFRLB3, udp: true}
+  - {name: _NL_荷兰_2, server: 89.46.223.63, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD, udp: true}
+  - {name: TR__14, server: 107.150.94.12, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd, udp: true}
+  - {name: US  Phoenix 1, server: 199.58.187.25, port: 46726, type: ss, cipher: aes-256-gcm, password: 2fqKbFPGHpcmMTJzGsUbsfYf, udp: true}
+  - {name: _DE_德国_2, server: 82.102.16.102, port: 46354, type: ss, cipher: aes-256-gcm, password: MYPKdC7n6qjL6xmJBBcrzzqS, udp: true}
+  - {name: _DE_德国_3, server: 82.102.16.102, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe, udp: true}
+  - {name: _ES_西班牙_1, server: 89.37.95.16, port: 49202, type: ss, cipher: aes-256-gcm, password: btzEYXKZxnR7g6H2vFTQK5TD, udp: true}
+  - {name: _FR_法国_1, server: 185.108.106.172, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq, udp: true}
+  - {name: _NL_荷兰_18, server: 89.46.223.215, port: 43963, type: ss, cipher: aes-256-gcm, password: Tuw6zzZM6JwWNZyYF9ckC4JZ, udp: true}
+  - {name: SK__16, server: 185.76.8.218, port: 46354, type: ss, cipher: aes-256-gcm, password: MYPKdC7n6qjL6xmJBBcrzzqS, udp: true}
+  - {name: SK__21, server: 185.76.8.218, port: 44539, type: ss, cipher: aes-256-gcm, password: r6hDrkP4Et6EENTS8Qy7Tcmg, udp: true}
+  - {name: SK__4 2, server: 185.76.8.218, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
+  - {name: _AL_阿尔巴尼亚_4, server: 31.171.154.220, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv, udp: true}
+  - {name: _AL_阿尔巴尼亚_7, server: 31.171.154.220, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6, udp: true}
+  - {name: _AL_阿尔巴尼亚_9, server: 31.171.154.220, port: 50695, type: ss, cipher: aes-256-gcm, password: gqtwGu9bVreJqL3FTHSVKGzy, udp: true}
+  - {name: _BE_比利时_11, server: 194.110.115.84, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB, udp: true}
+  - {name: _BE_比利时_12, server: 194.110.115.86, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
+  - {name: _BE_比利时_4, server: 194.110.115.86, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna, udp: true}
+  - {name: _BE_比利时_9, server: 194.110.115.84, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe, udp: true}
+  - {name: _CH_瑞士_1, server: 156.146.62.45, port: 42185, type: ss, cipher: aes-256-gcm, password: FaTG4zALZru72gxjgSHQ7Jdh, udp: true}
+  - {name: _CH_瑞士_3, server: 156.146.62.45, port: 39720, type: ss, cipher: aes-256-gcm, password: kq8xQKC3K4jYQPwLXTNbJjm6, udp: true}
+  - {name: _CH_瑞士_6, server: 156.146.62.45, port: 31216, type: ss, cipher: aes-256-gcm, password: wJwXatAGZ8xX5K8C7mruf84x, udp: true}
+  - {name: _CH_瑞士_8, server: 156.146.62.45, port: 35200, type: ss, cipher: aes-256-gcm, password: WBLAbN6AwtV5avBx73hFRLB3, udp: true}
+  - {name: 156.146.62.45:49339, server: 156.146.62.45, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x, udp: true}
+  - {name: SK__9 2, server: 185.76.8.218, port: 48970, type: ss, cipher: aes-256-gcm, password: ZKEsXkFbUZ2z667YA8A7cEDP, udp: true}
+  - {name: _BE_比利时_6, server: 194.110.115.84, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6, udp: true}
+  - {name: _BE_比利时_8, server: 194.110.115.84, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
+  - {name: _CH_瑞士_12, server: 156.146.62.45, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z, udp: true}
+  - {name: _CH_瑞士_2, server: 156.146.62.45, port: 45948, type: ss, cipher: aes-256-gcm, password: j76EXqJcQhuQTr3EvUf7xaK9, udp: true}
+  - {name: _CH_瑞士_9, server: 156.146.62.45, port: 42166, type: ss, cipher: aes-256-gcm, password: H9Dbn3szZMqLR3NpgEFEPCKb, udp: true}
+  - {name: _SK_斯洛伐克_8, server: 185.76.8.218, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna, udp: true}
+  - {name: 长江德国_3, server: 82.102.16.102, port: 45948, type: ss, cipher: aes-256-gcm, password: j76EXqJcQhuQTr3EvUf7xaK9, udp: true}
+  - {name: 长江斯洛伐克_1 2, server: 185.76.8.218, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
+  - {name: _CH_瑞士_5, server: 156.146.62.45, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
+  - {name: _CH_瑞士_7, server: 156.146.62.45, port: 44628, type: ss, cipher: aes-256-gcm, password: VASQbVcukHfdBGmeS9L7Z8TT, udp: true}
+  - {name: _DE_德国_1, server: 82.102.16.102, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x, udp: true}
+  - {name: _DE_德国_4, server: 82.102.16.102, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd, udp: true}
+  - {name: _NL_荷兰_1, server: 89.46.223.77, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe, udp: true}
+  - {name: _NL_荷兰_13, server: 89.46.223.77, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA, udp: true}
+  - {name: _NL_荷兰_17, server: 89.46.223.63, port: 42166, type: ss, cipher: aes-256-gcm, password: H9Dbn3szZMqLR3NpgEFEPCKb, udp: true}
+  - {name: _NL_荷兰_3, server: 89.46.223.63, port: 35371, type: ss, cipher: aes-256-gcm, password: pjeDhAJGuML8xKUxcjRqq6a9, udp: true}
+  - {name: _NL_荷兰_6, server: 89.46.223.63, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna, udp: true}
+  - {name: _NL_荷兰_7, server: 89.46.223.73, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq, udp: true}
+  - {name: _NL_荷兰_8, server: 89.46.223.182, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT, udp: true}
+  - {name: _NL_荷兰_9, server: 89.46.223.182, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj, udp: true}
+  - {name: _NO_挪威_2, server: 91.219.215.53, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
+  - {name: _NO_挪威_3, server: 91.219.215.53, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z, udp: true}
+  - {name: _SK_斯洛伐克_5, server: 185.76.8.218, port: 44745, type: ss, cipher: aes-256-gcm, password: fyXdw87yCH9SAmFkPvsvLVqC, udp: true}
+  - {name: _SK_斯洛伐克_9, server: 185.76.8.218, port: 48970, type: ss, cipher: aes-256-gcm, password: ZKEsXkFbUZ2z667YA8A7cEDP, udp: true}
+  - {name: _US_美国_12, server: 138.199.42.170, port: 40711, type: ss, cipher: aes-256-gcm, password: rnngxSTJrXWKXHkvrF3npp9B, udp: true}
+  - {name: _US_美国_6, server: 138.199.42.170, port: 48089, type: ss, cipher: aes-256-gcm, password: apqQgXJyVDsdJMAYV4xspRFK, udp: true}
+  - {name: _US_美国_9, server: 185.124.240.146, port: 44742, type: ss, cipher: aes-256-gcm, password: QCStKzZ56SHBc4tL7stCEqqd, udp: true}
+  - {name: 长江德国_1, server: 82.102.16.102, port: 44745, type: ss, cipher: aes-256-gcm, password: fyXdw87yCH9SAmFkPvsvLVqC, udp: true}
+  - {name: 长江德国_2, server: 82.102.16.102, port: 49202, type: ss, cipher: aes-256-gcm, password: btzEYXKZxnR7g6H2vFTQK5TD, udp: true}
+  - {name: 长江荷兰, server: 89.46.223.57, port: 44745, type: ss, cipher: aes-256-gcm, password: fyXdw87yCH9SAmFkPvsvLVqC, udp: true}
+  - {name: 长江斯洛伐克_4, server: 185.76.8.218, port: 40282, type: ss, cipher: aes-256-gcm, password: Pvvaw486867D2w4yctL2ULTQ, udp: true}
   - {name: 185.124.240.149:47027, server: 185.124.240.149, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z, udp: true}
   - {name: 89.37.95.16:33992, server: 89.37.95.16, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6, udp: true}
   - {name: 156.146.62.45:33992, server: 156.146.62.45, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6, udp: true}
@@ -136,155 +278,6 @@ proxies:
   - {name: SK__13, server: 185.76.8.218, port: 49202, type: ss, cipher: aes-256-gcm, password: btzEYXKZxnR7g6H2vFTQK5TD, udp: true}
   - {name: SK__15, server: 185.76.8.218, port: 44742, type: ss, cipher: aes-256-gcm, password: QCStKzZ56SHBc4tL7stCEqqd, udp: true}
   - {name: SK__15 2, server: 185.76.8.218, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu, udp: true}
-  - {name: SK__16, server: 185.76.8.218, port: 46354, type: ss, cipher: aes-256-gcm, password: MYPKdC7n6qjL6xmJBBcrzzqS, udp: true}
-  - {name: SK__19, server: 185.76.8.218, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp, udp: true}
-  - {name: SK__2, server: 185.76.8.218, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr, udp: true}
-  - {name: SK__21, server: 185.76.8.218, port: 44539, type: ss, cipher: aes-256-gcm, password: r6hDrkP4Et6EENTS8Qy7Tcmg, udp: true}
-  - {name: SK__4, server: 185.76.8.218, port: 40282, type: ss, cipher: aes-256-gcm, password: Pvvaw486867D2w4yctL2ULTQ, udp: true}
-  - {name: SK__4 2, server: 185.76.8.218, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
-  - {name: SK__6, server: 185.76.8.218, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ, udp: true}
-  - {name: SK__9, server: 185.76.8.218, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd, udp: true}
-  - {name: SK__9 2, server: 185.76.8.218, port: 48970, type: ss, cipher: aes-256-gcm, password: ZKEsXkFbUZ2z667YA8A7cEDP, udp: true}
-  - {name: T, server: 156.146.62.45, port: 43963, type: ss, cipher: aes-256-gcm, password: Tuw6zzZM6JwWNZyYF9ckC4JZ, udp: true}
-  - {name: T 2, server: 156.146.62.45, port: 49719, type: ss, cipher: aes-256-gcm, password: 42SjT9vBF6ma9eFF3URaJpQ4, udp: true}
-  - {name: T 3, server: 156.146.62.45, port: 41306, type: ss, cipher: aes-256-gcm, password: pzB5Y2twNtqFzWhEbBsPJMjj, udp: true}
-  - {name: T 4, server: 156.146.62.45, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
-  - {name: T 5, server: 156.146.62.45, port: 32843, type: ss, cipher: aes-256-gcm, password: G35YSR2LFNEM9bq2dkjmKQRr, udp: true}
-  - {name: T 6, server: 156.146.62.45, port: 48970, type: ss, cipher: aes-256-gcm, password: ZKEsXkFbUZ2z667YA8A7cEDP, udp: true}
-  - {name: T 7, server: 156.146.62.45, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ, udp: true}
-  - {name: Te, server: 156.146.62.45, port: 36460, type: ss, cipher: aes-256-gcm, password: yUXad7DGF8L5cTShEpnp2N6z, udp: true}
-  - {name: Te 2, server: 156.146.62.45, port: 42185, type: ss, cipher: aes-256-gcm, password: FaTG4zALZru72gxjgSHQ7Jdh, udp: true}
-  - {name: Te 3, server: 185.124.240.146, port: 41992, type: ss, cipher: aes-256-gcm, password: XmQSxDCn5ehpcq6DBYms8FJf, udp: true}
-  - {name: TR  Istanbul 2, server: 107.150.94.12, port: 46726, type: ss, cipher: aes-256-gcm, password: 2fqKbFPGHpcmMTJzGsUbsfYf, udp: true}
-  - {name: TR__14, server: 107.150.94.12, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd, udp: true}
-  - {name: TR__2, server: 107.150.94.12, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r, udp: true}
-  - {name: TR__2 2, server: 107.150.94.12, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna, udp: true}
-  - {name: TR__3, server: 107.150.94.12, port: 44539, type: ss, cipher: aes-256-gcm, password: r6hDrkP4Et6EENTS8Qy7Tcmg, udp: true}
-  - {name: TR__6, server: 107.150.94.12, port: 47861, type: ss, cipher: aes-256-gcm, password: LJcChRsGQRhywrtXUU55TLTu, udp: true}
-  - {name: TR__8, server: 107.150.94.12, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk, udp: true}
-  - {name: US  Phoenix 1, server: 199.58.187.25, port: 46726, type: ss, cipher: aes-256-gcm, password: 2fqKbFPGHpcmMTJzGsUbsfYf, udp: true}
-  - {name: US__2, server: 38.86.135.27, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US__8, server: 198.147.22.87, port: 31757, type: ss, cipher: aes-256-gcm, password: wj7nDCuNARchSeKNCN8VFK62, udp: true}
-  - {name: US_10747, server: 198.147.22.87, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe, udp: true}
-  - {name: US_10817, server: 38.68.134.135, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: US_11341, server: 198.147.22.87, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD, udp: true}
-  - {name: 194.110.115.86:34815, server: 194.110.115.86, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb, udp: true}
-  - {name: v2rayse_🇺🇸_US_美国_3, server: 104.16.104.198, port: 443, type: vmess, uuid: 24b4b1e1-7a89-45f6-858c-242cf53b5bdb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /24b4b1e1-7a89-45f6-858c-242cf53b5bdb-vmess, ws-headers: {Host: green-recipe-bc49.tianzhen121.workers.dev}, udp: true}
-  - {name: _AL_阿尔巴尼亚_10, server: 31.171.154.220, port: 42166, type: ss, cipher: aes-256-gcm, password: H9Dbn3szZMqLR3NpgEFEPCKb, udp: true}
-  - {name: _AL_阿尔巴尼亚_6, server: 31.171.154.220, port: 49468, type: ss, cipher: aes-256-gcm, password: LsYSQDxmPj9AcWpSX5HrYfu6, udp: true}
-  - {name: _BE_比利时_10, server: 194.110.115.84, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna, udp: true}
-  - {name: _CH_瑞士_10, server: 156.146.62.45, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd, udp: true}
-  - {name: _CH_瑞士_11, server: 156.146.62.45, port: 47861, type: ss, cipher: aes-256-gcm, password: LJcChRsGQRhywrtXUU55TLTu, udp: true}
-  - {name: _CH_瑞士_13, server: 156.146.62.45, port: 49468, type: ss, cipher: aes-256-gcm, password: LsYSQDxmPj9AcWpSX5HrYfu6, udp: true}
-  - {name: _CH_瑞士_14, server: 156.146.62.45, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8, udp: true}
-  - {name: _CH_瑞士_15, server: 156.146.62.45, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD, udp: true}
-  - {name: _CH_瑞士_4, server: 156.146.62.45, port: 41306, type: ss, cipher: aes-256-gcm, password: pzB5Y2twNtqFzWhEbBsPJMjj, udp: true}
-  - {name: _CH_瑞士_5, server: 156.146.62.45, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
-  - {name: _CH_瑞士_7, server: 156.146.62.45, port: 44628, type: ss, cipher: aes-256-gcm, password: VASQbVcukHfdBGmeS9L7Z8TT, udp: true}
-  - {name: _DE_德国_1, server: 82.102.16.102, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x, udp: true}
-  - {name: _DE_德国_4, server: 82.102.16.102, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd, udp: true}
-  - {name: _NL_荷兰_1, server: 89.46.223.77, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe, udp: true}
-  - {name: _NL_荷兰_13, server: 89.46.223.77, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA, udp: true}
-  - {name: _NL_荷兰_17, server: 89.46.223.63, port: 42166, type: ss, cipher: aes-256-gcm, password: H9Dbn3szZMqLR3NpgEFEPCKb, udp: true}
-  - {name: _NL_荷兰_3, server: 89.46.223.63, port: 35371, type: ss, cipher: aes-256-gcm, password: pjeDhAJGuML8xKUxcjRqq6a9, udp: true}
-  - {name: _NL_荷兰_6, server: 89.46.223.63, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna, udp: true}
-  - {name: _NL_荷兰_7, server: 89.46.223.73, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq, udp: true}
-  - {name: _NL_荷兰_8, server: 89.46.223.182, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT, udp: true}
-  - {name: _NL_荷兰_9, server: 89.46.223.182, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj, udp: true}
-  - {name: _NO_挪威_2, server: 91.219.215.53, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
-  - {name: _NO_挪威_3, server: 91.219.215.53, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z, udp: true}
-  - {name: _SK_斯洛伐克_5, server: 185.76.8.218, port: 44745, type: ss, cipher: aes-256-gcm, password: fyXdw87yCH9SAmFkPvsvLVqC, udp: true}
-  - {name: _SK_斯洛伐克_9, server: 185.76.8.218, port: 48970, type: ss, cipher: aes-256-gcm, password: ZKEsXkFbUZ2z667YA8A7cEDP, udp: true}
-  - {name: _US_美国_12, server: 138.199.42.170, port: 40711, type: ss, cipher: aes-256-gcm, password: rnngxSTJrXWKXHkvrF3npp9B, udp: true}
-  - {name: _US_美国_6, server: 138.199.42.170, port: 48089, type: ss, cipher: aes-256-gcm, password: apqQgXJyVDsdJMAYV4xspRFK, udp: true}
-  - {name: _US_美国_9, server: 185.124.240.146, port: 44742, type: ss, cipher: aes-256-gcm, password: QCStKzZ56SHBc4tL7stCEqqd, udp: true}
-  - {name: 长江德国_1, server: 82.102.16.102, port: 44745, type: ss, cipher: aes-256-gcm, password: fyXdw87yCH9SAmFkPvsvLVqC, udp: true}
-  - {name: 长江德国_2, server: 82.102.16.102, port: 49202, type: ss, cipher: aes-256-gcm, password: btzEYXKZxnR7g6H2vFTQK5TD, udp: true}
-  - {name: 长江荷兰, server: 89.46.223.57, port: 44745, type: ss, cipher: aes-256-gcm, password: fyXdw87yCH9SAmFkPvsvLVqC, udp: true}
-  - {name: 长江斯洛伐克_4, server: 185.76.8.218, port: 40282, type: ss, cipher: aes-256-gcm, password: Pvvaw486867D2w4yctL2ULTQ, udp: true}
-  - {name: _BE_比利时_6, server: 194.110.115.84, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6, udp: true}
-  - {name: _BE_比利时_8, server: 194.110.115.84, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
-  - {name: _CH_瑞士_12, server: 156.146.62.45, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z, udp: true}
-  - {name: _CH_瑞士_2, server: 156.146.62.45, port: 45948, type: ss, cipher: aes-256-gcm, password: j76EXqJcQhuQTr3EvUf7xaK9, udp: true}
-  - {name: _CH_瑞士_9, server: 156.146.62.45, port: 42166, type: ss, cipher: aes-256-gcm, password: H9Dbn3szZMqLR3NpgEFEPCKb, udp: true}
-  - {name: _SK_斯洛伐克_8, server: 185.76.8.218, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna, udp: true}
-  - {name: 长江德国_3, server: 82.102.16.102, port: 45948, type: ss, cipher: aes-256-gcm, password: j76EXqJcQhuQTr3EvUf7xaK9, udp: true}
-  - {name: 长江斯洛伐克_1, server: 185.76.8.218, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
-  - {name: _AL_阿尔巴尼亚_4, server: 31.171.154.220, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv, udp: true}
-  - {name: _AL_阿尔巴尼亚_7, server: 31.171.154.220, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6, udp: true}
-  - {name: _AL_阿尔巴尼亚_9, server: 31.171.154.220, port: 50695, type: ss, cipher: aes-256-gcm, password: gqtwGu9bVreJqL3FTHSVKGzy, udp: true}
-  - {name: _BE_比利时_11, server: 194.110.115.84, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB, udp: true}
-  - {name: _BE_比利时_12, server: 194.110.115.86, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
-  - {name: _BE_比利时_4, server: 194.110.115.86, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna, udp: true}
-  - {name: _BE_比利时_9, server: 194.110.115.84, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe, udp: true}
-  - {name: _CH_瑞士_1, server: 156.146.62.45, port: 42185, type: ss, cipher: aes-256-gcm, password: FaTG4zALZru72gxjgSHQ7Jdh, udp: true}
-  - {name: _CH_瑞士_3, server: 156.146.62.45, port: 39720, type: ss, cipher: aes-256-gcm, password: kq8xQKC3K4jYQPwLXTNbJjm6, udp: true}
-  - {name: _CH_瑞士_6, server: 156.146.62.45, port: 31216, type: ss, cipher: aes-256-gcm, password: wJwXatAGZ8xX5K8C7mruf84x, udp: true}
-  - {name: _CH_瑞士_8, server: 156.146.62.45, port: 35200, type: ss, cipher: aes-256-gcm, password: WBLAbN6AwtV5avBx73hFRLB3, udp: true}
-  - {name: 156.146.62.45:49339, server: 156.146.62.45, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x, udp: true}
-  - {name: _NL_荷兰_18, server: 89.46.223.215, port: 43963, type: ss, cipher: aes-256-gcm, password: Tuw6zzZM6JwWNZyYF9ckC4JZ, udp: true}
-  - {name: _DE_德国_2, server: 82.102.16.102, port: 46354, type: ss, cipher: aes-256-gcm, password: MYPKdC7n6qjL6xmJBBcrzzqS, udp: true}
-  - {name: _DE_德国_3, server: 82.102.16.102, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe, udp: true}
-  - {name: _ES_西班牙_1, server: 89.37.95.16, port: 49202, type: ss, cipher: aes-256-gcm, password: btzEYXKZxnR7g6H2vFTQK5TD, udp: true}
-  - {name: _FR_法国_1, server: 185.108.106.172, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq, udp: true}
-  - {name: _BE_比利时_2, server: 194.110.115.84, port: 50024, type: ss, cipher: aes-256-gcm, password: b2jDPHUQxCNa2KmGHZjy7C4B, udp: true}
-  - {name: _NL_荷兰_19, server: 89.46.223.239, port: 35200, type: ss, cipher: aes-256-gcm, password: WBLAbN6AwtV5avBx73hFRLB3, udp: true}
-  - {name: _NL_荷兰_2, server: 89.46.223.63, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD, udp: true}
-  - {name: _NL_荷兰_4, server: 89.46.223.63, port: 32843, type: ss, cipher: aes-256-gcm, password: G35YSR2LFNEM9bq2dkjmKQRr, udp: true}
-  - {name: 长江斯洛伐克_6, server: 185.76.8.218, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
-  - {name: _AL_阿尔巴尼亚_1, server: 31.171.154.220, port: 49202, type: ss, cipher: aes-256-gcm, password: btzEYXKZxnR7g6H2vFTQK5TD, udp: true}
-  - {name: _AL_阿尔巴尼亚_3, server: 31.171.154.220, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
-  - {name: _AL_阿尔巴尼亚_8, server: 31.171.154.220, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd, udp: true}
-  - {name: _SK_斯洛伐克_4, server: 185.76.8.218, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN, udp: true}
-  - {name: _SK_斯洛伐克_6, server: 185.76.8.218, port: 49468, type: ss, cipher: aes-256-gcm, password: LsYSQDxmPj9AcWpSX5HrYfu6, udp: true}
-  - {name: _SK_斯洛伐克_10, server: 185.76.8.218, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT, udp: true}
-  - {name: _SK_斯洛伐克_3, server: 185.76.8.218, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe, udp: true}
-  - {name: _SK_斯洛伐克_7, server: 185.76.8.218, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq, udp: true}
-  - {name: _US_美国_8, server: 104.24.88.81, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}, udp: true}
-  - {name: 长江斯洛伐克_3, server: 185.76.8.218, port: 41992, type: ss, cipher: aes-256-gcm, password: XmQSxDCn5ehpcq6DBYms8FJf, udp: true}
-  - {name: 长江斯洛伐克_1 2, server: 185.76.8.218, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK, udp: true}
-  - {name: 156.146.62.45:38747, server: 156.146.62.45, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj, udp: true}
-  - {name: _NL_荷兰_16, server: 89.46.223.87, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk, udp: true}
-  - {name: _AL_阿尔巴尼亚_5, server: 31.171.154.220, port: 41992, type: ss, cipher: aes-256-gcm, password: XmQSxDCn5ehpcq6DBYms8FJf, udp: true}
-  - {name: _BE_比利时_1, server: 194.110.115.84, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8, udp: true}
-  - {name: _NL_荷兰_11, server: 89.46.223.91, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe, udp: true}
-  - {name: _NL_荷兰_12, server: 89.46.223.99, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r, udp: true}
-  - {name: _NL_荷兰_5, server: 89.46.223.73, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ, udp: true}
-  - {name: 长江斯洛伐克_5, server: 185.76.8.218, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA, udp: true}
-  - {name: _AL_阿尔巴尼亚_2, server: 31.171.154.220, port: 42816, type: ss, cipher: aes-256-gcm, password: tBKBf4pVzNCFKdbPgvwrNXq3, udp: true}
-  - {name: _NL_荷兰_14, server: 89.46.223.246, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap, udp: true}
-  - {name: 89.37.95.16:31944, server: 89.37.95.16, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq, udp: true}
-  - {name: _US_美国_11, server: 138.199.42.170, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp, udp: true}
-  - {name: _NL_荷兰_10, server: 89.46.223.65, port: 41306, type: ss, cipher: aes-256-gcm, password: pzB5Y2twNtqFzWhEbBsPJMjj, udp: true}
-  - {name: _NO_挪威_1, server: 91.219.215.53, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr, udp: true}
-  - {name: 23.106.33.152:18332, server: 23.106.33.152, port: 18332, type: ss, cipher: chacha20-ietf-poly1305, password: S3YqACC58uajapxRy7S3D63xcXOeFnl2w9NZezAKDgSYD0RZBFTy3pI8ElCaO4, udp: true}
-  - {name: _BE_比利时_7, server: 194.110.115.84, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r, udp: true}
-  - {name: 89.37.95.16:33998, server: 89.37.95.16, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe, udp: true}
-  - {name: 长江荷兰_1, server: 89.46.223.218, port: 31757, type: ss, cipher: aes-256-gcm, password: wj7nDCuNARchSeKNCN8VFK62, udp: true}
-  - {name: 194.110.115.86:31764, server: 194.110.115.86, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv, udp: true}
-  - {name: 89.37.95.16:41738, server: 89.37.95.16, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
-  - {name: 156.146.62.45:38033, server: 156.146.62.45, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US, udp: true}
-  - {name: _DE_德国_5, server: 82.102.16.102, port: 50695, type: ss, cipher: aes-256-gcm, password: gqtwGu9bVreJqL3FTHSVKGzy, udp: true}
-  - {name: 长江比利时_1, server: 194.110.115.84, port: 45948, type: ss, cipher: aes-256-gcm, password: j76EXqJcQhuQTr3EvUf7xaK9, udp: true}
-  - {name: 23.106.35.90:18336, server: 23.106.35.90, port: 18336, type: ss, cipher: chacha20-ietf-poly1305, password: A33x2ly5CjwpZ7DYZOe4FC0CupxSKA89caI8gSlRaE3DYnaXeORD6SNFyqBTz3, udp: true}
-  - {name: 185.108.106.175:33148, server: 185.108.106.175, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8, udp: true}
-  - {name: 194.110.115.86:31944, server: 194.110.115.86, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq, udp: true}
-  - {name: 89.37.95.16:33148, server: 89.37.95.16, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8, udp: true}
-  - {name: 107.150.94.12:31572, server: 107.150.94.12, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA, udp: true}
-  - {name: 156.146.62.45:50181, server: 156.146.62.45, port: 50181, type: ss, cipher: aes-256-gcm, password: d9adRr9UxymNSysYahMtpFpd, udp: true}
-  - {name: 107.150.94.12:50695, server: 107.150.94.12, port: 50695, type: ss, cipher: aes-256-gcm, password: gqtwGu9bVreJqL3FTHSVKGzy, udp: true}
-  - {name: 23.106.33.156:18332, server: 23.106.33.156, port: 18332, type: ss, cipher: chacha20-ietf-poly1305, password: R3wS0jxB8ARCZgapOF8a4CpFc5lSOqCDZYSXD2a3zuY7eETD6IANy39elnxKy3, udp: true}
-  - {name: 107.150.94.12:33992, server: 107.150.94.12, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6, udp: true}
-  - {name: 185.108.106.175:47121, server: 185.108.106.175, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk, udp: true}
-  - {name: 185.108.106.175:47861, server: 185.108.106.175, port: 47861, type: ss, cipher: aes-256-gcm, password: LJcChRsGQRhywrtXUU55TLTu, udp: true}
-  - {name: 156.146.62.45:32971, server: 156.146.62.45, port: 32971, type: ss, cipher: aes-256-gcm, password: vwS65ZXyZg85ApwZ2bBh6zFZ, udp: true}
-  - {name: 156.146.62.45:49653, server: 156.146.62.45, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr, udp: true}
-  - {name: 107.150.94.12:38620, server: 107.150.94.12, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn, udp: true}
-  - {name: 185.108.106.175:31764, server: 185.108.106.175, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv, udp: true}
-  - {name: 185.108.106.175:33998, server: 185.108.106.175, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe, udp: true}
-  - {name: 185.108.106.175:44742, server: 185.108.106.175, port: 44742, type: ss, cipher: aes-256-gcm, password: QCStKzZ56SHBc4tL7stCEqqd, udp: true}
-  - {name: 84.17.58.162:33992, server: 84.17.58.162, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6, udp: true}
-  - {name: 66.115.147.69:39772, server: 66.115.147.69, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -296,6 +289,148 @@ proxy-groups:
       - HKT转江门3-27
       - HKT转江门4-27
       - 长江
+      - _CH_瑞士_11
+      - _CH_瑞士_15
+      - TR  Istanbul 2
+      - T
+      - 84.17.58.162:33992
+      - 66.115.147.69:39772
+      - T 2
+      - 185.108.106.175:33998
+      - 185.108.106.175:44742
+      - T 3
+      - 185.108.106.175:31764
+      - SK__6
+      - T 4
+      - 185.108.106.175:47121
+      - 185.108.106.175:47861
+      - 156.146.62.45:32971
+      - 156.146.62.45:49653
+      - 107.150.94.12:38620
+      - 23.106.33.156:18332
+      - 107.150.94.12:33992
+      - SK__2
+      - SK__4
+      - SK__9
+      - TR__3
+      - 156.146.62.45:50181
+      - 107.150.94.12:50695
+      - _CH_瑞士_14
+      - 194.110.115.86:31944
+      - 89.37.95.16:33148
+      - 107.150.94.12:31572
+      - _DE_德国_5
+      - 长江比利时_1
+      - 23.106.35.90:18336
+      - 185.108.106.175:33148
+      - 长江荷兰_1
+      - 194.110.115.86:31764
+      - 89.37.95.16:41738
+      - 156.146.62.45:38033
+      - _CH_瑞士_13
+      - 89.37.95.16:33998
+      - _AL_阿尔巴尼亚_6
+      - _BE_比利时_7
+      - T 5
+      - 23.106.33.152:18332
+      - _NO_挪威_1
+      - _NL_荷兰_10
+      - SK__19
+      - _US_美国_11
+      - 194.110.115.86:34815
+      - _AL_阿尔巴尼亚_2
+      - _NL_荷兰_14
+      - 89.37.95.16:31944
+      - TR__6
+      - _NL_荷兰_11
+      - _NL_荷兰_12
+      - _NL_荷兰_5
+      - 长江斯洛伐克_5
+      - _AL_阿尔巴尼亚_5
+      - _BE_比利时_1
+      - _BE_比利时_10
+      - _NL_荷兰_16
+      - Te
+      - TR__2
+      - US_11341
+      - 长江斯洛伐克_1
+      - 156.146.62.45:38747
+      - Te 2
+      - US__2
+      - _SK_斯洛伐克_10
+      - _SK_斯洛伐克_3
+      - _SK_斯洛伐克_7
+      - _US_美国_8
+      - 长江斯洛伐克_3
+      - US_10817
+      - _AL_阿尔巴尼亚_1
+      - _AL_阿尔巴尼亚_3
+      - _AL_阿尔巴尼亚_8
+      - _SK_斯洛伐克_4
+      - _SK_斯洛伐克_6
+      - US_10747
+      - _US_美国_3
+      - _CH_瑞士_10
+      - _NL_荷兰_4
+      - 长江斯洛伐克_6
+      - TR__2 2
+      - _BE_比利时_2
+      - _NL_荷兰_19
+      - _NL_荷兰_2
+      - TR__14
+      - US  Phoenix 1
+      - _DE_德国_2
+      - _DE_德国_3
+      - _ES_西班牙_1
+      - _FR_法国_1
+      - _NL_荷兰_18
+      - SK__16
+      - SK__21
+      - SK__4 2
+      - _AL_阿尔巴尼亚_4
+      - _AL_阿尔巴尼亚_7
+      - _AL_阿尔巴尼亚_9
+      - _BE_比利时_11
+      - _BE_比利时_12
+      - _BE_比利时_4
+      - _BE_比利时_9
+      - _CH_瑞士_1
+      - _CH_瑞士_3
+      - _CH_瑞士_6
+      - _CH_瑞士_8
+      - 156.146.62.45:49339
+      - SK__9 2
+      - _BE_比利时_6
+      - _BE_比利时_8
+      - _CH_瑞士_12
+      - _CH_瑞士_2
+      - _CH_瑞士_9
+      - _SK_斯洛伐克_8
+      - 长江德国_3
+      - 长江斯洛伐克_1 2
+      - _CH_瑞士_5
+      - _CH_瑞士_7
+      - _DE_德国_1
+      - _DE_德国_4
+      - _NL_荷兰_1
+      - _NL_荷兰_13
+      - _NL_荷兰_17
+      - _NL_荷兰_3
+      - _NL_荷兰_6
+      - _NL_荷兰_7
+      - _NL_荷兰_8
+      - _NL_荷兰_9
+      - _NO_挪威_2
+      - _NO_挪威_3
+      - _SK_斯洛伐克_5
+      - _SK_斯洛伐克_9
+      - _US_美国_12
+      - _US_美国_6
+      - _US_美国_9
+      - 长江德国_1
+      - 长江德国_2
+      - 长江荷兰
+      - 长江斯洛伐克_4
       - 185.124.240.149:47027
       - 89.37.95.16:33992
       - 156.146.62.45:33992
@@ -422,155 +557,6 @@ proxy-groups:
       - SK__13
       - SK__15
       - SK__15 2
-      - SK__16
-      - SK__19
-      - SK__2
-      - SK__21
-      - SK__4
-      - SK__4 2
-      - SK__6
-      - SK__9
-      - SK__9 2
-      - T
-      - T 2
-      - T 3
-      - T 4
-      - T 5
-      - T 6
-      - T 7
-      - Te
-      - Te 2
-      - Te 3
-      - TR  Istanbul 2
-      - TR__14
-      - TR__2
-      - TR__2 2
-      - TR__3
-      - TR__6
-      - TR__8
-      - US  Phoenix 1
-      - US__2
-      - US__8
-      - US_10747
-      - US_10817
-      - US_11341
-      - 194.110.115.86:34815
-      - v2rayse_🇺🇸_US_美国_3
-      - _AL_阿尔巴尼亚_10
-      - _AL_阿尔巴尼亚_6
-      - _BE_比利时_10
-      - _CH_瑞士_10
-      - _CH_瑞士_11
-      - _CH_瑞士_13
-      - _CH_瑞士_14
-      - _CH_瑞士_15
-      - _CH_瑞士_4
-      - _CH_瑞士_5
-      - _CH_瑞士_7
-      - _DE_德国_1
-      - _DE_德国_4
-      - _NL_荷兰_1
-      - _NL_荷兰_13
-      - _NL_荷兰_17
-      - _NL_荷兰_3
-      - _NL_荷兰_6
-      - _NL_荷兰_7
-      - _NL_荷兰_8
-      - _NL_荷兰_9
-      - _NO_挪威_2
-      - _NO_挪威_3
-      - _SK_斯洛伐克_5
-      - _SK_斯洛伐克_9
-      - _US_美国_12
-      - _US_美国_6
-      - _US_美国_9
-      - 长江德国_1
-      - 长江德国_2
-      - 长江荷兰
-      - 长江斯洛伐克_4
-      - _BE_比利时_6
-      - _BE_比利时_8
-      - _CH_瑞士_12
-      - _CH_瑞士_2
-      - _CH_瑞士_9
-      - _SK_斯洛伐克_8
-      - 长江德国_3
-      - 长江斯洛伐克_1
-      - _AL_阿尔巴尼亚_4
-      - _AL_阿尔巴尼亚_7
-      - _AL_阿尔巴尼亚_9
-      - _BE_比利时_11
-      - _BE_比利时_12
-      - _BE_比利时_4
-      - _BE_比利时_9
-      - _CH_瑞士_1
-      - _CH_瑞士_3
-      - _CH_瑞士_6
-      - _CH_瑞士_8
-      - 156.146.62.45:49339
-      - _NL_荷兰_18
-      - _DE_德国_2
-      - _DE_德国_3
-      - _ES_西班牙_1
-      - _FR_法国_1
-      - _BE_比利时_2
-      - _NL_荷兰_19
-      - _NL_荷兰_2
-      - _NL_荷兰_4
-      - 长江斯洛伐克_6
-      - _AL_阿尔巴尼亚_1
-      - _AL_阿尔巴尼亚_3
-      - _AL_阿尔巴尼亚_8
-      - _SK_斯洛伐克_4
-      - _SK_斯洛伐克_6
-      - _SK_斯洛伐克_10
-      - _SK_斯洛伐克_3
-      - _SK_斯洛伐克_7
-      - _US_美国_8
-      - 长江斯洛伐克_3
-      - 长江斯洛伐克_1 2
-      - 156.146.62.45:38747
-      - _NL_荷兰_16
-      - _AL_阿尔巴尼亚_5
-      - _BE_比利时_1
-      - _NL_荷兰_11
-      - _NL_荷兰_12
-      - _NL_荷兰_5
-      - 长江斯洛伐克_5
-      - _AL_阿尔巴尼亚_2
-      - _NL_荷兰_14
-      - 89.37.95.16:31944
-      - _US_美国_11
-      - _NL_荷兰_10
-      - _NO_挪威_1
-      - 23.106.33.152:18332
-      - _BE_比利时_7
-      - 89.37.95.16:33998
-      - 长江荷兰_1
-      - 194.110.115.86:31764
-      - 89.37.95.16:41738
-      - 156.146.62.45:38033
-      - _DE_德国_5
-      - 长江比利时_1
-      - 23.106.35.90:18336
-      - 185.108.106.175:33148
-      - 194.110.115.86:31944
-      - 89.37.95.16:33148
-      - 107.150.94.12:31572
-      - 156.146.62.45:50181
-      - 107.150.94.12:50695
-      - 23.106.33.156:18332
-      - 107.150.94.12:33992
-      - 185.108.106.175:47121
-      - 185.108.106.175:47861
-      - 156.146.62.45:32971
-      - 156.146.62.45:49653
-      - 107.150.94.12:38620
-      - 185.108.106.175:31764
-      - 185.108.106.175:33998
-      - 185.108.106.175:44742
-      - 84.17.58.162:33992
-      - 66.115.147.69:39772
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -581,6 +567,148 @@ proxy-groups:
       - HKT转江门3-27
       - HKT转江门4-27
       - 长江
+      - _CH_瑞士_11
+      - _CH_瑞士_15
+      - TR  Istanbul 2
+      - T
+      - 84.17.58.162:33992
+      - 66.115.147.69:39772
+      - T 2
+      - 185.108.106.175:33998
+      - 185.108.106.175:44742
+      - T 3
+      - 185.108.106.175:31764
+      - SK__6
+      - T 4
+      - 185.108.106.175:47121
+      - 185.108.106.175:47861
+      - 156.146.62.45:32971
+      - 156.146.62.45:49653
+      - 107.150.94.12:38620
+      - 23.106.33.156:18332
+      - 107.150.94.12:33992
+      - SK__2
+      - SK__4
+      - SK__9
+      - TR__3
+      - 156.146.62.45:50181
+      - 107.150.94.12:50695
+      - _CH_瑞士_14
+      - 194.110.115.86:31944
+      - 89.37.95.16:33148
+      - 107.150.94.12:31572
+      - _DE_德国_5
+      - 长江比利时_1
+      - 23.106.35.90:18336
+      - 185.108.106.175:33148
+      - 长江荷兰_1
+      - 194.110.115.86:31764
+      - 89.37.95.16:41738
+      - 156.146.62.45:38033
+      - _CH_瑞士_13
+      - 89.37.95.16:33998
+      - _AL_阿尔巴尼亚_6
+      - _BE_比利时_7
+      - T 5
+      - 23.106.33.152:18332
+      - _NO_挪威_1
+      - _NL_荷兰_10
+      - SK__19
+      - _US_美国_11
+      - 194.110.115.86:34815
+      - _AL_阿尔巴尼亚_2
+      - _NL_荷兰_14
+      - 89.37.95.16:31944
+      - TR__6
+      - _NL_荷兰_11
+      - _NL_荷兰_12
+      - _NL_荷兰_5
+      - 长江斯洛伐克_5
+      - _AL_阿尔巴尼亚_5
+      - _BE_比利时_1
+      - _BE_比利时_10
+      - _NL_荷兰_16
+      - Te
+      - TR__2
+      - US_11341
+      - 长江斯洛伐克_1
+      - 156.146.62.45:38747
+      - Te 2
+      - US__2
+      - _SK_斯洛伐克_10
+      - _SK_斯洛伐克_3
+      - _SK_斯洛伐克_7
+      - _US_美国_8
+      - 长江斯洛伐克_3
+      - US_10817
+      - _AL_阿尔巴尼亚_1
+      - _AL_阿尔巴尼亚_3
+      - _AL_阿尔巴尼亚_8
+      - _SK_斯洛伐克_4
+      - _SK_斯洛伐克_6
+      - US_10747
+      - _US_美国_3
+      - _CH_瑞士_10
+      - _NL_荷兰_4
+      - 长江斯洛伐克_6
+      - TR__2 2
+      - _BE_比利时_2
+      - _NL_荷兰_19
+      - _NL_荷兰_2
+      - TR__14
+      - US  Phoenix 1
+      - _DE_德国_2
+      - _DE_德国_3
+      - _ES_西班牙_1
+      - _FR_法国_1
+      - _NL_荷兰_18
+      - SK__16
+      - SK__21
+      - SK__4 2
+      - _AL_阿尔巴尼亚_4
+      - _AL_阿尔巴尼亚_7
+      - _AL_阿尔巴尼亚_9
+      - _BE_比利时_11
+      - _BE_比利时_12
+      - _BE_比利时_4
+      - _BE_比利时_9
+      - _CH_瑞士_1
+      - _CH_瑞士_3
+      - _CH_瑞士_6
+      - _CH_瑞士_8
+      - 156.146.62.45:49339
+      - SK__9 2
+      - _BE_比利时_6
+      - _BE_比利时_8
+      - _CH_瑞士_12
+      - _CH_瑞士_2
+      - _CH_瑞士_9
+      - _SK_斯洛伐克_8
+      - 长江德国_3
+      - 长江斯洛伐克_1 2
+      - _CH_瑞士_5
+      - _CH_瑞士_7
+      - _DE_德国_1
+      - _DE_德国_4
+      - _NL_荷兰_1
+      - _NL_荷兰_13
+      - _NL_荷兰_17
+      - _NL_荷兰_3
+      - _NL_荷兰_6
+      - _NL_荷兰_7
+      - _NL_荷兰_8
+      - _NL_荷兰_9
+      - _NO_挪威_2
+      - _NO_挪威_3
+      - _SK_斯洛伐克_5
+      - _SK_斯洛伐克_9
+      - _US_美国_12
+      - _US_美国_6
+      - _US_美国_9
+      - 长江德国_1
+      - 长江德国_2
+      - 长江荷兰
+      - 长江斯洛伐克_4
       - 185.124.240.149:47027
       - 89.37.95.16:33992
       - 156.146.62.45:33992
@@ -707,155 +835,6 @@ proxy-groups:
       - SK__13
       - SK__15
       - SK__15 2
-      - SK__16
-      - SK__19
-      - SK__2
-      - SK__21
-      - SK__4
-      - SK__4 2
-      - SK__6
-      - SK__9
-      - SK__9 2
-      - T
-      - T 2
-      - T 3
-      - T 4
-      - T 5
-      - T 6
-      - T 7
-      - Te
-      - Te 2
-      - Te 3
-      - TR  Istanbul 2
-      - TR__14
-      - TR__2
-      - TR__2 2
-      - TR__3
-      - TR__6
-      - TR__8
-      - US  Phoenix 1
-      - US__2
-      - US__8
-      - US_10747
-      - US_10817
-      - US_11341
-      - 194.110.115.86:34815
-      - v2rayse_🇺🇸_US_美国_3
-      - _AL_阿尔巴尼亚_10
-      - _AL_阿尔巴尼亚_6
-      - _BE_比利时_10
-      - _CH_瑞士_10
-      - _CH_瑞士_11
-      - _CH_瑞士_13
-      - _CH_瑞士_14
-      - _CH_瑞士_15
-      - _CH_瑞士_4
-      - _CH_瑞士_5
-      - _CH_瑞士_7
-      - _DE_德国_1
-      - _DE_德国_4
-      - _NL_荷兰_1
-      - _NL_荷兰_13
-      - _NL_荷兰_17
-      - _NL_荷兰_3
-      - _NL_荷兰_6
-      - _NL_荷兰_7
-      - _NL_荷兰_8
-      - _NL_荷兰_9
-      - _NO_挪威_2
-      - _NO_挪威_3
-      - _SK_斯洛伐克_5
-      - _SK_斯洛伐克_9
-      - _US_美国_12
-      - _US_美国_6
-      - _US_美国_9
-      - 长江德国_1
-      - 长江德国_2
-      - 长江荷兰
-      - 长江斯洛伐克_4
-      - _BE_比利时_6
-      - _BE_比利时_8
-      - _CH_瑞士_12
-      - _CH_瑞士_2
-      - _CH_瑞士_9
-      - _SK_斯洛伐克_8
-      - 长江德国_3
-      - 长江斯洛伐克_1
-      - _AL_阿尔巴尼亚_4
-      - _AL_阿尔巴尼亚_7
-      - _AL_阿尔巴尼亚_9
-      - _BE_比利时_11
-      - _BE_比利时_12
-      - _BE_比利时_4
-      - _BE_比利时_9
-      - _CH_瑞士_1
-      - _CH_瑞士_3
-      - _CH_瑞士_6
-      - _CH_瑞士_8
-      - 156.146.62.45:49339
-      - _NL_荷兰_18
-      - _DE_德国_2
-      - _DE_德国_3
-      - _ES_西班牙_1
-      - _FR_法国_1
-      - _BE_比利时_2
-      - _NL_荷兰_19
-      - _NL_荷兰_2
-      - _NL_荷兰_4
-      - 长江斯洛伐克_6
-      - _AL_阿尔巴尼亚_1
-      - _AL_阿尔巴尼亚_3
-      - _AL_阿尔巴尼亚_8
-      - _SK_斯洛伐克_4
-      - _SK_斯洛伐克_6
-      - _SK_斯洛伐克_10
-      - _SK_斯洛伐克_3
-      - _SK_斯洛伐克_7
-      - _US_美国_8
-      - 长江斯洛伐克_3
-      - 长江斯洛伐克_1 2
-      - 156.146.62.45:38747
-      - _NL_荷兰_16
-      - _AL_阿尔巴尼亚_5
-      - _BE_比利时_1
-      - _NL_荷兰_11
-      - _NL_荷兰_12
-      - _NL_荷兰_5
-      - 长江斯洛伐克_5
-      - _AL_阿尔巴尼亚_2
-      - _NL_荷兰_14
-      - 89.37.95.16:31944
-      - _US_美国_11
-      - _NL_荷兰_10
-      - _NO_挪威_1
-      - 23.106.33.152:18332
-      - _BE_比利时_7
-      - 89.37.95.16:33998
-      - 长江荷兰_1
-      - 194.110.115.86:31764
-      - 89.37.95.16:41738
-      - 156.146.62.45:38033
-      - _DE_德国_5
-      - 长江比利时_1
-      - 23.106.35.90:18336
-      - 185.108.106.175:33148
-      - 194.110.115.86:31944
-      - 89.37.95.16:33148
-      - 107.150.94.12:31572
-      - 156.146.62.45:50181
-      - 107.150.94.12:50695
-      - 23.106.33.156:18332
-      - 107.150.94.12:33992
-      - 185.108.106.175:47121
-      - 185.108.106.175:47861
-      - 156.146.62.45:32971
-      - 156.146.62.45:49653
-      - 107.150.94.12:38620
-      - 185.108.106.175:31764
-      - 185.108.106.175:33998
-      - 185.108.106.175:44742
-      - 84.17.58.162:33992
-      - 66.115.147.69:39772
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -867,6 +846,148 @@ proxy-groups:
       - HKT转江门3-27
       - HKT转江门4-27
       - 长江
+      - _CH_瑞士_11
+      - _CH_瑞士_15
+      - TR  Istanbul 2
+      - T
+      - 84.17.58.162:33992
+      - 66.115.147.69:39772
+      - T 2
+      - 185.108.106.175:33998
+      - 185.108.106.175:44742
+      - T 3
+      - 185.108.106.175:31764
+      - SK__6
+      - T 4
+      - 185.108.106.175:47121
+      - 185.108.106.175:47861
+      - 156.146.62.45:32971
+      - 156.146.62.45:49653
+      - 107.150.94.12:38620
+      - 23.106.33.156:18332
+      - 107.150.94.12:33992
+      - SK__2
+      - SK__4
+      - SK__9
+      - TR__3
+      - 156.146.62.45:50181
+      - 107.150.94.12:50695
+      - _CH_瑞士_14
+      - 194.110.115.86:31944
+      - 89.37.95.16:33148
+      - 107.150.94.12:31572
+      - _DE_德国_5
+      - 长江比利时_1
+      - 23.106.35.90:18336
+      - 185.108.106.175:33148
+      - 长江荷兰_1
+      - 194.110.115.86:31764
+      - 89.37.95.16:41738
+      - 156.146.62.45:38033
+      - _CH_瑞士_13
+      - 89.37.95.16:33998
+      - _AL_阿尔巴尼亚_6
+      - _BE_比利时_7
+      - T 5
+      - 23.106.33.152:18332
+      - _NO_挪威_1
+      - _NL_荷兰_10
+      - SK__19
+      - _US_美国_11
+      - 194.110.115.86:34815
+      - _AL_阿尔巴尼亚_2
+      - _NL_荷兰_14
+      - 89.37.95.16:31944
+      - TR__6
+      - _NL_荷兰_11
+      - _NL_荷兰_12
+      - _NL_荷兰_5
+      - 长江斯洛伐克_5
+      - _AL_阿尔巴尼亚_5
+      - _BE_比利时_1
+      - _BE_比利时_10
+      - _NL_荷兰_16
+      - Te
+      - TR__2
+      - US_11341
+      - 长江斯洛伐克_1
+      - 156.146.62.45:38747
+      - Te 2
+      - US__2
+      - _SK_斯洛伐克_10
+      - _SK_斯洛伐克_3
+      - _SK_斯洛伐克_7
+      - _US_美国_8
+      - 长江斯洛伐克_3
+      - US_10817
+      - _AL_阿尔巴尼亚_1
+      - _AL_阿尔巴尼亚_3
+      - _AL_阿尔巴尼亚_8
+      - _SK_斯洛伐克_4
+      - _SK_斯洛伐克_6
+      - US_10747
+      - _US_美国_3
+      - _CH_瑞士_10
+      - _NL_荷兰_4
+      - 长江斯洛伐克_6
+      - TR__2 2
+      - _BE_比利时_2
+      - _NL_荷兰_19
+      - _NL_荷兰_2
+      - TR__14
+      - US  Phoenix 1
+      - _DE_德国_2
+      - _DE_德国_3
+      - _ES_西班牙_1
+      - _FR_法国_1
+      - _NL_荷兰_18
+      - SK__16
+      - SK__21
+      - SK__4 2
+      - _AL_阿尔巴尼亚_4
+      - _AL_阿尔巴尼亚_7
+      - _AL_阿尔巴尼亚_9
+      - _BE_比利时_11
+      - _BE_比利时_12
+      - _BE_比利时_4
+      - _BE_比利时_9
+      - _CH_瑞士_1
+      - _CH_瑞士_3
+      - _CH_瑞士_6
+      - _CH_瑞士_8
+      - 156.146.62.45:49339
+      - SK__9 2
+      - _BE_比利时_6
+      - _BE_比利时_8
+      - _CH_瑞士_12
+      - _CH_瑞士_2
+      - _CH_瑞士_9
+      - _SK_斯洛伐克_8
+      - 长江德国_3
+      - 长江斯洛伐克_1 2
+      - _CH_瑞士_5
+      - _CH_瑞士_7
+      - _DE_德国_1
+      - _DE_德国_4
+      - _NL_荷兰_1
+      - _NL_荷兰_13
+      - _NL_荷兰_17
+      - _NL_荷兰_3
+      - _NL_荷兰_6
+      - _NL_荷兰_7
+      - _NL_荷兰_8
+      - _NL_荷兰_9
+      - _NO_挪威_2
+      - _NO_挪威_3
+      - _SK_斯洛伐克_5
+      - _SK_斯洛伐克_9
+      - _US_美国_12
+      - _US_美国_6
+      - _US_美国_9
+      - 长江德国_1
+      - 长江德国_2
+      - 长江荷兰
+      - 长江斯洛伐克_4
       - 185.124.240.149:47027
       - 89.37.95.16:33992
       - 156.146.62.45:33992
@@ -993,155 +1114,6 @@ proxy-groups:
       - SK__13
       - SK__15
       - SK__15 2
-      - SK__16
-      - SK__19
-      - SK__2
-      - SK__21
-      - SK__4
-      - SK__4 2
-      - SK__6
-      - SK__9
-      - SK__9 2
-      - T
-      - T 2
-      - T 3
-      - T 4
-      - T 5
-      - T 6
-      - T 7
-      - Te
-      - Te 2
-      - Te 3
-      - TR  Istanbul 2
-      - TR__14
-      - TR__2
-      - TR__2 2
-      - TR__3
-      - TR__6
-      - TR__8
-      - US  Phoenix 1
-      - US__2
-      - US__8
-      - US_10747
-      - US_10817
-      - US_11341
-      - 194.110.115.86:34815
-      - v2rayse_🇺🇸_US_美国_3
-      - _AL_阿尔巴尼亚_10
-      - _AL_阿尔巴尼亚_6
-      - _BE_比利时_10
-      - _CH_瑞士_10
-      - _CH_瑞士_11
-      - _CH_瑞士_13
-      - _CH_瑞士_14
-      - _CH_瑞士_15
-      - _CH_瑞士_4
-      - _CH_瑞士_5
-      - _CH_瑞士_7
-      - _DE_德国_1
-      - _DE_德国_4
-      - _NL_荷兰_1
-      - _NL_荷兰_13
-      - _NL_荷兰_17
-      - _NL_荷兰_3
-      - _NL_荷兰_6
-      - _NL_荷兰_7
-      - _NL_荷兰_8
-      - _NL_荷兰_9
-      - _NO_挪威_2
-      - _NO_挪威_3
-      - _SK_斯洛伐克_5
-      - _SK_斯洛伐克_9
-      - _US_美国_12
-      - _US_美国_6
-      - _US_美国_9
-      - 长江德国_1
-      - 长江德国_2
-      - 长江荷兰
-      - 长江斯洛伐克_4
-      - _BE_比利时_6
-      - _BE_比利时_8
-      - _CH_瑞士_12
-      - _CH_瑞士_2
-      - _CH_瑞士_9
-      - _SK_斯洛伐克_8
-      - 长江德国_3
-      - 长江斯洛伐克_1
-      - _AL_阿尔巴尼亚_4
-      - _AL_阿尔巴尼亚_7
-      - _AL_阿尔巴尼亚_9
-      - _BE_比利时_11
-      - _BE_比利时_12
-      - _BE_比利时_4
-      - _BE_比利时_9
-      - _CH_瑞士_1
-      - _CH_瑞士_3
-      - _CH_瑞士_6
-      - _CH_瑞士_8
-      - 156.146.62.45:49339
-      - _NL_荷兰_18
-      - _DE_德国_2
-      - _DE_德国_3
-      - _ES_西班牙_1
-      - _FR_法国_1
-      - _BE_比利时_2
-      - _NL_荷兰_19
-      - _NL_荷兰_2
-      - _NL_荷兰_4
-      - 长江斯洛伐克_6
-      - _AL_阿尔巴尼亚_1
-      - _AL_阿尔巴尼亚_3
-      - _AL_阿尔巴尼亚_8
-      - _SK_斯洛伐克_4
-      - _SK_斯洛伐克_6
-      - _SK_斯洛伐克_10
-      - _SK_斯洛伐克_3
-      - _SK_斯洛伐克_7
-      - _US_美国_8
-      - 长江斯洛伐克_3
-      - 长江斯洛伐克_1 2
-      - 156.146.62.45:38747
-      - _NL_荷兰_16
-      - _AL_阿尔巴尼亚_5
-      - _BE_比利时_1
-      - _NL_荷兰_11
-      - _NL_荷兰_12
-      - _NL_荷兰_5
-      - 长江斯洛伐克_5
-      - _AL_阿尔巴尼亚_2
-      - _NL_荷兰_14
-      - 89.37.95.16:31944
-      - _US_美国_11
-      - _NL_荷兰_10
-      - _NO_挪威_1
-      - 23.106.33.152:18332
-      - _BE_比利时_7
-      - 89.37.95.16:33998
-      - 长江荷兰_1
-      - 194.110.115.86:31764
-      - 89.37.95.16:41738
-      - 156.146.62.45:38033
-      - _DE_德国_5
-      - 长江比利时_1
-      - 23.106.35.90:18336
-      - 185.108.106.175:33148
-      - 194.110.115.86:31944
-      - 89.37.95.16:33148
-      - 107.150.94.12:31572
-      - 156.146.62.45:50181
-      - 107.150.94.12:50695
-      - 23.106.33.156:18332
-      - 107.150.94.12:33992
-      - 185.108.106.175:47121
-      - 185.108.106.175:47861
-      - 156.146.62.45:32971
-      - 156.146.62.45:49653
-      - 107.150.94.12:38620
-      - 185.108.106.175:31764
-      - 185.108.106.175:33998
-      - 185.108.106.175:44742
-      - 84.17.58.162:33992
-      - 66.115.147.69:39772
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -1165,6 +1137,148 @@ proxy-groups:
       - HKT转江门3-27
       - HKT转江门4-27
       - 长江
+      - _CH_瑞士_11
+      - _CH_瑞士_15
+      - TR  Istanbul 2
+      - T
+      - 84.17.58.162:33992
+      - 66.115.147.69:39772
+      - T 2
+      - 185.108.106.175:33998
+      - 185.108.106.175:44742
+      - T 3
+      - 185.108.106.175:31764
+      - SK__6
+      - T 4
+      - 185.108.106.175:47121
+      - 185.108.106.175:47861
+      - 156.146.62.45:32971
+      - 156.146.62.45:49653
+      - 107.150.94.12:38620
+      - 23.106.33.156:18332
+      - 107.150.94.12:33992
+      - SK__2
+      - SK__4
+      - SK__9
+      - TR__3
+      - 156.146.62.45:50181
+      - 107.150.94.12:50695
+      - _CH_瑞士_14
+      - 194.110.115.86:31944
+      - 89.37.95.16:33148
+      - 107.150.94.12:31572
+      - _DE_德国_5
+      - 长江比利时_1
+      - 23.106.35.90:18336
+      - 185.108.106.175:33148
+      - 长江荷兰_1
+      - 194.110.115.86:31764
+      - 89.37.95.16:41738
+      - 156.146.62.45:38033
+      - _CH_瑞士_13
+      - 89.37.95.16:33998
+      - _AL_阿尔巴尼亚_6
+      - _BE_比利时_7
+      - T 5
+      - 23.106.33.152:18332
+      - _NO_挪威_1
+      - _NL_荷兰_10
+      - SK__19
+      - _US_美国_11
+      - 194.110.115.86:34815
+      - _AL_阿尔巴尼亚_2
+      - _NL_荷兰_14
+      - 89.37.95.16:31944
+      - TR__6
+      - _NL_荷兰_11
+      - _NL_荷兰_12
+      - _NL_荷兰_5
+      - 长江斯洛伐克_5
+      - _AL_阿尔巴尼亚_5
+      - _BE_比利时_1
+      - _BE_比利时_10
+      - _NL_荷兰_16
+      - Te
+      - TR__2
+      - US_11341
+      - 长江斯洛伐克_1
+      - 156.146.62.45:38747
+      - Te 2
+      - US__2
+      - _SK_斯洛伐克_10
+      - _SK_斯洛伐克_3
+      - _SK_斯洛伐克_7
+      - _US_美国_8
+      - 长江斯洛伐克_3
+      - US_10817
+      - _AL_阿尔巴尼亚_1
+      - _AL_阿尔巴尼亚_3
+      - _AL_阿尔巴尼亚_8
+      - _SK_斯洛伐克_4
+      - _SK_斯洛伐克_6
+      - US_10747
+      - _US_美国_3
+      - _CH_瑞士_10
+      - _NL_荷兰_4
+      - 长江斯洛伐克_6
+      - TR__2 2
+      - _BE_比利时_2
+      - _NL_荷兰_19
+      - _NL_荷兰_2
+      - TR__14
+      - US  Phoenix 1
+      - _DE_德国_2
+      - _DE_德国_3
+      - _ES_西班牙_1
+      - _FR_法国_1
+      - _NL_荷兰_18
+      - SK__16
+      - SK__21
+      - SK__4 2
+      - _AL_阿尔巴尼亚_4
+      - _AL_阿尔巴尼亚_7
+      - _AL_阿尔巴尼亚_9
+      - _BE_比利时_11
+      - _BE_比利时_12
+      - _BE_比利时_4
+      - _BE_比利时_9
+      - _CH_瑞士_1
+      - _CH_瑞士_3
+      - _CH_瑞士_6
+      - _CH_瑞士_8
+      - 156.146.62.45:49339
+      - SK__9 2
+      - _BE_比利时_6
+      - _BE_比利时_8
+      - _CH_瑞士_12
+      - _CH_瑞士_2
+      - _CH_瑞士_9
+      - _SK_斯洛伐克_8
+      - 长江德国_3
+      - 长江斯洛伐克_1 2
+      - _CH_瑞士_5
+      - _CH_瑞士_7
+      - _DE_德国_1
+      - _DE_德国_4
+      - _NL_荷兰_1
+      - _NL_荷兰_13
+      - _NL_荷兰_17
+      - _NL_荷兰_3
+      - _NL_荷兰_6
+      - _NL_荷兰_7
+      - _NL_荷兰_8
+      - _NL_荷兰_9
+      - _NO_挪威_2
+      - _NO_挪威_3
+      - _SK_斯洛伐克_5
+      - _SK_斯洛伐克_9
+      - _US_美国_12
+      - _US_美国_6
+      - _US_美国_9
+      - 长江德国_1
+      - 长江德国_2
+      - 长江荷兰
+      - 长江斯洛伐克_4
       - 185.124.240.149:47027
       - 89.37.95.16:33992
       - 156.146.62.45:33992
@@ -1291,155 +1405,6 @@ proxy-groups:
       - SK__13
       - SK__15
       - SK__15 2
-      - SK__16
-      - SK__19
-      - SK__2
-      - SK__21
-      - SK__4
-      - SK__4 2
-      - SK__6
-      - SK__9
-      - SK__9 2
-      - T
-      - T 2
-      - T 3
-      - T 4
-      - T 5
-      - T 6
-      - T 7
-      - Te
-      - Te 2
-      - Te 3
-      - TR  Istanbul 2
-      - TR__14
-      - TR__2
-      - TR__2 2
-      - TR__3
-      - TR__6
-      - TR__8
-      - US  Phoenix 1
-      - US__2
-      - US__8
-      - US_10747
-      - US_10817
-      - US_11341
-      - 194.110.115.86:34815
-      - v2rayse_🇺🇸_US_美国_3
-      - _AL_阿尔巴尼亚_10
-      - _AL_阿尔巴尼亚_6
-      - _BE_比利时_10
-      - _CH_瑞士_10
-      - _CH_瑞士_11
-      - _CH_瑞士_13
-      - _CH_瑞士_14
-      - _CH_瑞士_15
-      - _CH_瑞士_4
-      - _CH_瑞士_5
-      - _CH_瑞士_7
-      - _DE_德国_1
-      - _DE_德国_4
-      - _NL_荷兰_1
-      - _NL_荷兰_13
-      - _NL_荷兰_17
-      - _NL_荷兰_3
-      - _NL_荷兰_6
-      - _NL_荷兰_7
-      - _NL_荷兰_8
-      - _NL_荷兰_9
-      - _NO_挪威_2
-      - _NO_挪威_3
-      - _SK_斯洛伐克_5
-      - _SK_斯洛伐克_9
-      - _US_美国_12
-      - _US_美国_6
-      - _US_美国_9
-      - 长江德国_1
-      - 长江德国_2
-      - 长江荷兰
-      - 长江斯洛伐克_4
-      - _BE_比利时_6
-      - _BE_比利时_8
-      - _CH_瑞士_12
-      - _CH_瑞士_2
-      - _CH_瑞士_9
-      - _SK_斯洛伐克_8
-      - 长江德国_3
-      - 长江斯洛伐克_1
-      - _AL_阿尔巴尼亚_4
-      - _AL_阿尔巴尼亚_7
-      - _AL_阿尔巴尼亚_9
-      - _BE_比利时_11
-      - _BE_比利时_12
-      - _BE_比利时_4
-      - _BE_比利时_9
-      - _CH_瑞士_1
-      - _CH_瑞士_3
-      - _CH_瑞士_6
-      - _CH_瑞士_8
-      - 156.146.62.45:49339
-      - _NL_荷兰_18
-      - _DE_德国_2
-      - _DE_德国_3
-      - _ES_西班牙_1
-      - _FR_法国_1
-      - _BE_比利时_2
-      - _NL_荷兰_19
-      - _NL_荷兰_2
-      - _NL_荷兰_4
-      - 长江斯洛伐克_6
-      - _AL_阿尔巴尼亚_1
-      - _AL_阿尔巴尼亚_3
-      - _AL_阿尔巴尼亚_8
-      - _SK_斯洛伐克_4
-      - _SK_斯洛伐克_6
-      - _SK_斯洛伐克_10
-      - _SK_斯洛伐克_3
-      - _SK_斯洛伐克_7
-      - _US_美国_8
-      - 长江斯洛伐克_3
-      - 长江斯洛伐克_1 2
-      - 156.146.62.45:38747
-      - _NL_荷兰_16
-      - _AL_阿尔巴尼亚_5
-      - _BE_比利时_1
-      - _NL_荷兰_11
-      - _NL_荷兰_12
-      - _NL_荷兰_5
-      - 长江斯洛伐克_5
-      - _AL_阿尔巴尼亚_2
-      - _NL_荷兰_14
-      - 89.37.95.16:31944
-      - _US_美国_11
-      - _NL_荷兰_10
-      - _NO_挪威_1
-      - 23.106.33.152:18332
-      - _BE_比利时_7
-      - 89.37.95.16:33998
-      - 长江荷兰_1
-      - 194.110.115.86:31764
-      - 89.37.95.16:41738
-      - 156.146.62.45:38033
-      - _DE_德国_5
-      - 长江比利时_1
-      - 23.106.35.90:18336
-      - 185.108.106.175:33148
-      - 194.110.115.86:31944
-      - 89.37.95.16:33148
-      - 107.150.94.12:31572
-      - 156.146.62.45:50181
-      - 107.150.94.12:50695
-      - 23.106.33.156:18332
-      - 107.150.94.12:33992
-      - 185.108.106.175:47121
-      - 185.108.106.175:47861
-      - 156.146.62.45:32971
-      - 156.146.62.45:49653
-      - 107.150.94.12:38620
-      - 185.108.106.175:31764
-      - 185.108.106.175:33998
-      - 185.108.106.175:44742
-      - 84.17.58.162:33992
-      - 66.115.147.69:39772
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -1458,6 +1423,148 @@ proxy-groups:
       - HKT转江门3-27
       - HKT转江门4-27
       - 长江
+      - _CH_瑞士_11
+      - _CH_瑞士_15
+      - TR  Istanbul 2
+      - T
+      - 84.17.58.162:33992
+      - 66.115.147.69:39772
+      - T 2
+      - 185.108.106.175:33998
+      - 185.108.106.175:44742
+      - T 3
+      - 185.108.106.175:31764
+      - SK__6
+      - T 4
+      - 185.108.106.175:47121
+      - 185.108.106.175:47861
+      - 156.146.62.45:32971
+      - 156.146.62.45:49653
+      - 107.150.94.12:38620
+      - 23.106.33.156:18332
+      - 107.150.94.12:33992
+      - SK__2
+      - SK__4
+      - SK__9
+      - TR__3
+      - 156.146.62.45:50181
+      - 107.150.94.12:50695
+      - _CH_瑞士_14
+      - 194.110.115.86:31944
+      - 89.37.95.16:33148
+      - 107.150.94.12:31572
+      - _DE_德国_5
+      - 长江比利时_1
+      - 23.106.35.90:18336
+      - 185.108.106.175:33148
+      - 长江荷兰_1
+      - 194.110.115.86:31764
+      - 89.37.95.16:41738
+      - 156.146.62.45:38033
+      - _CH_瑞士_13
+      - 89.37.95.16:33998
+      - _AL_阿尔巴尼亚_6
+      - _BE_比利时_7
+      - T 5
+      - 23.106.33.152:18332
+      - _NO_挪威_1
+      - _NL_荷兰_10
+      - SK__19
+      - _US_美国_11
+      - 194.110.115.86:34815
+      - _AL_阿尔巴尼亚_2
+      - _NL_荷兰_14
+      - 89.37.95.16:31944
+      - TR__6
+      - _NL_荷兰_11
+      - _NL_荷兰_12
+      - _NL_荷兰_5
+      - 长江斯洛伐克_5
+      - _AL_阿尔巴尼亚_5
+      - _BE_比利时_1
+      - _BE_比利时_10
+      - _NL_荷兰_16
+      - Te
+      - TR__2
+      - US_11341
+      - 长江斯洛伐克_1
+      - 156.146.62.45:38747
+      - Te 2
+      - US__2
+      - _SK_斯洛伐克_10
+      - _SK_斯洛伐克_3
+      - _SK_斯洛伐克_7
+      - _US_美国_8
+      - 长江斯洛伐克_3
+      - US_10817
+      - _AL_阿尔巴尼亚_1
+      - _AL_阿尔巴尼亚_3
+      - _AL_阿尔巴尼亚_8
+      - _SK_斯洛伐克_4
+      - _SK_斯洛伐克_6
+      - US_10747
+      - _US_美国_3
+      - _CH_瑞士_10
+      - _NL_荷兰_4
+      - 长江斯洛伐克_6
+      - TR__2 2
+      - _BE_比利时_2
+      - _NL_荷兰_19
+      - _NL_荷兰_2
+      - TR__14
+      - US  Phoenix 1
+      - _DE_德国_2
+      - _DE_德国_3
+      - _ES_西班牙_1
+      - _FR_法国_1
+      - _NL_荷兰_18
+      - SK__16
+      - SK__21
+      - SK__4 2
+      - _AL_阿尔巴尼亚_4
+      - _AL_阿尔巴尼亚_7
+      - _AL_阿尔巴尼亚_9
+      - _BE_比利时_11
+      - _BE_比利时_12
+      - _BE_比利时_4
+      - _BE_比利时_9
+      - _CH_瑞士_1
+      - _CH_瑞士_3
+      - _CH_瑞士_6
+      - _CH_瑞士_8
+      - 156.146.62.45:49339
+      - SK__9 2
+      - _BE_比利时_6
+      - _BE_比利时_8
+      - _CH_瑞士_12
+      - _CH_瑞士_2
+      - _CH_瑞士_9
+      - _SK_斯洛伐克_8
+      - 长江德国_3
+      - 长江斯洛伐克_1 2
+      - _CH_瑞士_5
+      - _CH_瑞士_7
+      - _DE_德国_1
+      - _DE_德国_4
+      - _NL_荷兰_1
+      - _NL_荷兰_13
+      - _NL_荷兰_17
+      - _NL_荷兰_3
+      - _NL_荷兰_6
+      - _NL_荷兰_7
+      - _NL_荷兰_8
+      - _NL_荷兰_9
+      - _NO_挪威_2
+      - _NO_挪威_3
+      - _SK_斯洛伐克_5
+      - _SK_斯洛伐克_9
+      - _US_美国_12
+      - _US_美国_6
+      - _US_美国_9
+      - 长江德国_1
+      - 长江德国_2
+      - 长江荷兰
+      - 长江斯洛伐克_4
       - 185.124.240.149:47027
       - 89.37.95.16:33992
       - 156.146.62.45:33992
@@ -1584,155 +1691,6 @@ proxy-groups:
       - SK__13
       - SK__15
       - SK__15 2
-      - SK__16
-      - SK__19
-      - SK__2
-      - SK__21
-      - SK__4
-      - SK__4 2
-      - SK__6
-      - SK__9
-      - SK__9 2
-      - T
-      - T 2
-      - T 3
-      - T 4
-      - T 5
-      - T 6
-      - T 7
-      - Te
-      - Te 2
-      - Te 3
-      - TR  Istanbul 2
-      - TR__14
-      - TR__2
-      - TR__2 2
-      - TR__3
-      - TR__6
-      - TR__8
-      - US  Phoenix 1
-      - US__2
-      - US__8
-      - US_10747
-      - US_10817
-      - US_11341
-      - 194.110.115.86:34815
-      - v2rayse_🇺🇸_US_美国_3
-      - _AL_阿尔巴尼亚_10
-      - _AL_阿尔巴尼亚_6
-      - _BE_比利时_10
-      - _CH_瑞士_10
-      - _CH_瑞士_11
-      - _CH_瑞士_13
-      - _CH_瑞士_14
-      - _CH_瑞士_15
-      - _CH_瑞士_4
-      - _CH_瑞士_5
-      - _CH_瑞士_7
-      - _DE_德国_1
-      - _DE_德国_4
-      - _NL_荷兰_1
-      - _NL_荷兰_13
-      - _NL_荷兰_17
-      - _NL_荷兰_3
-      - _NL_荷兰_6
-      - _NL_荷兰_7
-      - _NL_荷兰_8
-      - _NL_荷兰_9
-      - _NO_挪威_2
-      - _NO_挪威_3
-      - _SK_斯洛伐克_5
-      - _SK_斯洛伐克_9
-      - _US_美国_12
-      - _US_美国_6
-      - _US_美国_9
-      - 长江德国_1
-      - 长江德国_2
-      - 长江荷兰
-      - 长江斯洛伐克_4
-      - _BE_比利时_6
-      - _BE_比利时_8
-      - _CH_瑞士_12
-      - _CH_瑞士_2
-      - _CH_瑞士_9
-      - _SK_斯洛伐克_8
-      - 长江德国_3
-      - 长江斯洛伐克_1
-      - _AL_阿尔巴尼亚_4
-      - _AL_阿尔巴尼亚_7
-      - _AL_阿尔巴尼亚_9
-      - _BE_比利时_11
-      - _BE_比利时_12
-      - _BE_比利时_4
-      - _BE_比利时_9
-      - _CH_瑞士_1
-      - _CH_瑞士_3
-      - _CH_瑞士_6
-      - _CH_瑞士_8
-      - 156.146.62.45:49339
-      - _NL_荷兰_18
-      - _DE_德国_2
-      - _DE_德国_3
-      - _ES_西班牙_1
-      - _FR_法国_1
-      - _BE_比利时_2
-      - _NL_荷兰_19
-      - _NL_荷兰_2
-      - _NL_荷兰_4
-      - 长江斯洛伐克_6
-      - _AL_阿尔巴尼亚_1
-      - _AL_阿尔巴尼亚_3
-      - _AL_阿尔巴尼亚_8
-      - _SK_斯洛伐克_4
-      - _SK_斯洛伐克_6
-      - _SK_斯洛伐克_10
-      - _SK_斯洛伐克_3
-      - _SK_斯洛伐克_7
-      - _US_美国_8
-      - 长江斯洛伐克_3
-      - 长江斯洛伐克_1 2
-      - 156.146.62.45:38747
-      - _NL_荷兰_16
-      - _AL_阿尔巴尼亚_5
-      - _BE_比利时_1
-      - _NL_荷兰_11
-      - _NL_荷兰_12
-      - _NL_荷兰_5
-      - 长江斯洛伐克_5
-      - _AL_阿尔巴尼亚_2
-      - _NL_荷兰_14
-      - 89.37.95.16:31944
-      - _US_美国_11
-      - _NL_荷兰_10
-      - _NO_挪威_1
-      - 23.106.33.152:18332
-      - _BE_比利时_7
-      - 89.37.95.16:33998
-      - 长江荷兰_1
-      - 194.110.115.86:31764
-      - 89.37.95.16:41738
-      - 156.146.62.45:38033
-      - _DE_德国_5
-      - 长江比利时_1
-      - 23.106.35.90:18336
-      - 185.108.106.175:33148
-      - 194.110.115.86:31944
-      - 89.37.95.16:33148
-      - 107.150.94.12:31572
-      - 156.146.62.45:50181
-      - 107.150.94.12:50695
-      - 23.106.33.156:18332
-      - 107.150.94.12:33992
-      - 185.108.106.175:47121
-      - 185.108.106.175:47861
-      - 156.146.62.45:32971
-      - 156.146.62.45:49653
-      - 107.150.94.12:38620
-      - 185.108.106.175:31764
-      - 185.108.106.175:33998
-      - 185.108.106.175:44742
-      - 84.17.58.162:33992
-      - 66.115.147.69:39772
   - name: 📲 电报信息
     type: select
     proxies:
@@ -1743,6 +1701,148 @@ proxy-groups:
       - HKT转江门3-27
       - HKT转江门4-27
       - 长江
+      - _CH_瑞士_11
+      - _CH_瑞士_15
+      - TR  Istanbul 2
+      - T
+      - 84.17.58.162:33992
+      - 66.115.147.69:39772
+      - T 2
+      - 185.108.106.175:33998
+      - 185.108.106.175:44742
+      - T 3
+      - 185.108.106.175:31764
+      - SK__6
+      - T 4
+      - 185.108.106.175:47121
+      - 185.108.106.175:47861
+      - 156.146.62.45:32971
+      - 156.146.62.45:49653
+      - 107.150.94.12:38620
+      - 23.106.33.156:18332
+      - 107.150.94.12:33992
+      - SK__2
+      - SK__4
+      - SK__9
+      - TR__3
+      - 156.146.62.45:50181
+      - 107.150.94.12:50695
+      - _CH_瑞士_14
+      - 194.110.115.86:31944
+      - 89.37.95.16:33148
+      - 107.150.94.12:31572
+      - _DE_德国_5
+      - 长江比利时_1
+      - 23.106.35.90:18336
+      - 185.108.106.175:33148
+      - 长江荷兰_1
+      - 194.110.115.86:31764
+      - 89.37.95.16:41738
+      - 156.146.62.45:38033
+      - _CH_瑞士_13
+      - 89.37.95.16:33998
+      - _AL_阿尔巴尼亚_6
+      - _BE_比利时_7
+      - T 5
+      - 23.106.33.152:18332
+      - _NO_挪威_1
+      - _NL_荷兰_10
+      - SK__19
+      - _US_美国_11
+      - 194.110.115.86:34815
+      - _AL_阿尔巴尼亚_2
+      - _NL_荷兰_14
+      - 89.37.95.16:31944
+      - TR__6
+      - _NL_荷兰_11
+      - _NL_荷兰_12
+      - _NL_荷兰_5
+      - 长江斯洛伐克_5
+      - _AL_阿尔巴尼亚_5
+      - _BE_比利时_1
+      - _BE_比利时_10
+      - _NL_荷兰_16
+      - Te
+      - TR__2
+      - US_11341
+      - 长江斯洛伐克_1
+      - 156.146.62.45:38747
+      - Te 2
+      - US__2
+      - _SK_斯洛伐克_10
+      - _SK_斯洛伐克_3
+      - _SK_斯洛伐克_7
+      - _US_美国_8
+      - 长江斯洛伐克_3
+      - US_10817
+      - _AL_阿尔巴尼亚_1
+      - _AL_阿尔巴尼亚_3
+      - _AL_阿尔巴尼亚_8
+      - _SK_斯洛伐克_4
+      - _SK_斯洛伐克_6
+      - US_10747
+      - _US_美国_3
+      - _CH_瑞士_10
+      - _NL_荷兰_4
+      - 长江斯洛伐克_6
+      - TR__2 2
+      - _BE_比利时_2
+      - _NL_荷兰_19
+      - _NL_荷兰_2
+      - TR__14
+      - US  Phoenix 1
+      - _DE_德国_2
+      - _DE_德国_3
+      - _ES_西班牙_1
+      - _FR_法国_1
+      - _NL_荷兰_18
+      - SK__16
+      - SK__21
+      - SK__4 2
+      - _AL_阿尔巴尼亚_4
+      - _AL_阿尔巴尼亚_7
+      - _AL_阿尔巴尼亚_9
+      - _BE_比利时_11
+      - _BE_比利时_12
+      - _BE_比利时_4
+      - _BE_比利时_9
+      - _CH_瑞士_1
+      - _CH_瑞士_3
+      - _CH_瑞士_6
+      - _CH_瑞士_8
+      - 156.146.62.45:49339
+      - SK__9 2
+      - _BE_比利时_6
+      - _BE_比利时_8
+      - _CH_瑞士_12
+      - _CH_瑞士_2
+      - _CH_瑞士_9
+      - _SK_斯洛伐克_8
+      - 长江德国_3
+      - 长江斯洛伐克_1 2
+      - _CH_瑞士_5
+      - _CH_瑞士_7
+      - _DE_德国_1
+      - _DE_德国_4
+      - _NL_荷兰_1
+      - _NL_荷兰_13
+      - _NL_荷兰_17
+      - _NL_荷兰_3
+      - _NL_荷兰_6
+      - _NL_荷兰_7
+      - _NL_荷兰_8
+      - _NL_荷兰_9
+      - _NO_挪威_2
+      - _NO_挪威_3
+      - _SK_斯洛伐克_5
+      - _SK_斯洛伐克_9
+      - _US_美国_12
+      - _US_美国_6
+      - _US_美国_9
+      - 长江德国_1
+      - 长江德国_2
+      - 长江荷兰
+      - 长江斯洛伐克_4
       - 185.124.240.149:47027
       - 89.37.95.16:33992
       - 156.146.62.45:33992
@@ -1869,155 +1969,6 @@ proxy-groups:
       - SK__13
       - SK__15
       - SK__15 2
-      - SK__16
-      - SK__19
-      - SK__2
-      - SK__21
-      - SK__4
-      - SK__4 2
-      - SK__6
-      - SK__9
-      - SK__9 2
-      - T
-      - T 2
-      - T 3
-      - T 4
-      - T 5
-      - T 6
-      - T 7
-      - Te
-      - Te 2
-      - Te 3
-      - TR  Istanbul 2
-      - TR__14
-      - TR__2
-      - TR__2 2
-      - TR__3
-      - TR__6
-      - TR__8
-      - US  Phoenix 1
-      - US__2
-      - US__8
-      - US_10747
-      - US_10817
-      - US_11341
-      - 194.110.115.86:34815
-      - v2rayse_🇺🇸_US_美国_3
-      - _AL_阿尔巴尼亚_10
-      - _AL_阿尔巴尼亚_6
-      - _BE_比利时_10
-      - _CH_瑞士_10
-      - _CH_瑞士_11
-      - _CH_瑞士_13
-      - _CH_瑞士_14
-      - _CH_瑞士_15
-      - _CH_瑞士_4
-      - _CH_瑞士_5
-      - _CH_瑞士_7
-      - _DE_德国_1
-      - _DE_德国_4
-      - _NL_荷兰_1
-      - _NL_荷兰_13
-      - _NL_荷兰_17
-      - _NL_荷兰_3
-      - _NL_荷兰_6
-      - _NL_荷兰_7
-      - _NL_荷兰_8
-      - _NL_荷兰_9
-      - _NO_挪威_2
-      - _NO_挪威_3
-      - _SK_斯洛伐克_5
-      - _SK_斯洛伐克_9
-      - _US_美国_12
-      - _US_美国_6
-      - _US_美国_9
-      - 长江德国_1
-      - 长江德国_2
-      - 长江荷兰
-      - 长江斯洛伐克_4
-      - _BE_比利时_6
-      - _BE_比利时_8
-      - _CH_瑞士_12
-      - _CH_瑞士_2
-      - _CH_瑞士_9
-      - _SK_斯洛伐克_8
-      - 长江德国_3
-      - 长江斯洛伐克_1
-      - _AL_阿尔巴尼亚_4
-      - _AL_阿尔巴尼亚_7
-      - _AL_阿尔巴尼亚_9
-      - _BE_比利时_11
-      - _BE_比利时_12
-      - _BE_比利时_4
-      - _BE_比利时_9
-      - _CH_瑞士_1
-      - _CH_瑞士_3
-      - _CH_瑞士_6
-      - _CH_瑞士_8
-      - 156.146.62.45:49339
-      - _NL_荷兰_18
-      - _DE_德国_2
-      - _DE_德国_3
-      - _ES_西班牙_1
-      - _FR_法国_1
-      - _BE_比利时_2
-      - _NL_荷兰_19
-      - _NL_荷兰_2
-      - _NL_荷兰_4
-      - 长江斯洛伐克_6
-      - _AL_阿尔巴尼亚_1
-      - _AL_阿尔巴尼亚_3
-      - _AL_阿尔巴尼亚_8
-      - _SK_斯洛伐克_4
-      - _SK_斯洛伐克_6
-      - _SK_斯洛伐克_10
-      - _SK_斯洛伐克_3
-      - _SK_斯洛伐克_7
-      - _US_美国_8
-      - 长江斯洛伐克_3
-      - 长江斯洛伐克_1 2
-      - 156.146.62.45:38747
-      - _NL_荷兰_16
-      - _AL_阿尔巴尼亚_5
-      - _BE_比利时_1
-      - _NL_荷兰_11
-      - _NL_荷兰_12
-      - _NL_荷兰_5
-      - 长江斯洛伐克_5
-      - _AL_阿尔巴尼亚_2
-      - _NL_荷兰_14
-      - 89.37.95.16:31944
-      - _US_美国_11
-      - _NL_荷兰_10
-      - _NO_挪威_1
-      - 23.106.33.152:18332
-      - _BE_比利时_7
-      - 89.37.95.16:33998
-      - 长江荷兰_1
-      - 194.110.115.86:31764
-      - 89.37.95.16:41738
-      - 156.146.62.45:38033
-      - _DE_德国_5
-      - 长江比利时_1
-      - 23.106.35.90:18336
-      - 185.108.106.175:33148
-      - 194.110.115.86:31944
-      - 89.37.95.16:33148
-      - 107.150.94.12:31572
-      - 156.146.62.45:50181
-      - 107.150.94.12:50695
-      - 23.106.33.156:18332
-      - 107.150.94.12:33992
-      - 185.108.106.175:47121
-      - 185.108.106.175:47861
-      - 156.146.62.45:32971
-      - 156.146.62.45:49653
-      - 107.150.94.12:38620
-      - 185.108.106.175:31764
-      - 185.108.106.175:33998
-      - 185.108.106.175:44742
-      - 84.17.58.162:33992
-      - 66.115.147.69:39772
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -2029,6 +1980,148 @@ proxy-groups:
       - HKT转江门3-27
       - HKT转江门4-27
       - 长江
+      - _CH_瑞士_11
+      - _CH_瑞士_15
+      - TR  Istanbul 2
+      - T
+      - 84.17.58.162:33992
+      - 66.115.147.69:39772
+      - T 2
+      - 185.108.106.175:33998
+      - 185.108.106.175:44742
+      - T 3
+      - 185.108.106.175:31764
+      - SK__6
+      - T 4
+      - 185.108.106.175:47121
+      - 185.108.106.175:47861
+      - 156.146.62.45:32971
+      - 156.146.62.45:49653
+      - 107.150.94.12:38620
+      - 23.106.33.156:18332
+      - 107.150.94.12:33992
+      - SK__2
+      - SK__4
+      - SK__9
+      - TR__3
+      - 156.146.62.45:50181
+      - 107.150.94.12:50695
+      - _CH_瑞士_14
+      - 194.110.115.86:31944
+      - 89.37.95.16:33148
+      - 107.150.94.12:31572
+      - _DE_德国_5
+      - 长江比利时_1
+      - 23.106.35.90:18336
+      - 185.108.106.175:33148
+      - 长江荷兰_1
+      - 194.110.115.86:31764
+      - 89.37.95.16:41738
+      - 156.146.62.45:38033
+      - _CH_瑞士_13
+      - 89.37.95.16:33998
+      - _AL_阿尔巴尼亚_6
+      - _BE_比利时_7
+      - T 5
+      - 23.106.33.152:18332
+      - _NO_挪威_1
+      - _NL_荷兰_10
+      - SK__19
+      - _US_美国_11
+      - 194.110.115.86:34815
+      - _AL_阿尔巴尼亚_2
+      - _NL_荷兰_14
+      - 89.37.95.16:31944
+      - TR__6
+      - _NL_荷兰_11
+      - _NL_荷兰_12
+      - _NL_荷兰_5
+      - 长江斯洛伐克_5
+      - _AL_阿尔巴尼亚_5
+      - _BE_比利时_1
+      - _BE_比利时_10
+      - _NL_荷兰_16
+      - Te
+      - TR__2
+      - US_11341
+      - 长江斯洛伐克_1
+      - 156.146.62.45:38747
+      - Te 2
+      - US__2
+      - _SK_斯洛伐克_10
+      - _SK_斯洛伐克_3
+      - _SK_斯洛伐克_7
+      - _US_美国_8
+      - 长江斯洛伐克_3
+      - US_10817
+      - _AL_阿尔巴尼亚_1
+      - _AL_阿尔巴尼亚_3
+      - _AL_阿尔巴尼亚_8
+      - _SK_斯洛伐克_4
+      - _SK_斯洛伐克_6
+      - US_10747
+      - _US_美国_3
+      - _CH_瑞士_10
+      - _NL_荷兰_4
+      - 长江斯洛伐克_6
+      - TR__2 2
+      - _BE_比利时_2
+      - _NL_荷兰_19
+      - _NL_荷兰_2
+      - TR__14
+      - US  Phoenix 1
+      - _DE_德国_2
+      - _DE_德国_3
+      - _ES_西班牙_1
+      - _FR_法国_1
+      - _NL_荷兰_18
+      - SK__16
+      - SK__21
+      - SK__4 2
+      - _AL_阿尔巴尼亚_4
+      - _AL_阿尔巴尼亚_7
+      - _AL_阿尔巴尼亚_9
+      - _BE_比利时_11
+      - _BE_比利时_12
+      - _BE_比利时_4
+      - _BE_比利时_9
+      - _CH_瑞士_1
+      - _CH_瑞士_3
+      - _CH_瑞士_6
+      - _CH_瑞士_8
+      - 156.146.62.45:49339
+      - SK__9 2
+      - _BE_比利时_6
+      - _BE_比利时_8
+      - _CH_瑞士_12
+      - _CH_瑞士_2
+      - _CH_瑞士_9
+      - _SK_斯洛伐克_8
+      - 长江德国_3
+      - 长江斯洛伐克_1 2
+      - _CH_瑞士_5
+      - _CH_瑞士_7
+      - _DE_德国_1
+      - _DE_德国_4
+      - _NL_荷兰_1
+      - _NL_荷兰_13
+      - _NL_荷兰_17
+      - _NL_荷兰_3
+      - _NL_荷兰_6
+      - _NL_荷兰_7
+      - _NL_荷兰_8
+      - _NL_荷兰_9
+      - _NO_挪威_2
+      - _NO_挪威_3
+      - _SK_斯洛伐克_5
+      - _SK_斯洛伐克_9
+      - _US_美国_12
+      - _US_美国_6
+      - _US_美国_9
+      - 长江德国_1
+      - 长江德国_2
+      - 长江荷兰
+      - 长江斯洛伐克_4
       - 185.124.240.149:47027
       - 89.37.95.16:33992
       - 156.146.62.45:33992
@@ -2155,155 +2248,6 @@ proxy-groups:
       - SK__13
       - SK__15
       - SK__15 2
-      - SK__16
-      - SK__19
-      - SK__2
-      - SK__21
-      - SK__4
-      - SK__4 2
-      - SK__6
-      - SK__9
-      - SK__9 2
-      - T
-      - T 2
-      - T 3
-      - T 4
-      - T 5
-      - T 6
-      - T 7
-      - Te
-      - Te 2
-      - Te 3
-      - TR  Istanbul 2
-      - TR__14
-      - TR__2
-      - TR__2 2
-      - TR__3
-      - TR__6
-      - TR__8
-      - US  Phoenix 1
-      - US__2
-      - US__8
-      - US_10747
-      - US_10817
-      - US_11341
-      - 194.110.115.86:34815
-      - v2rayse_🇺🇸_US_美国_3
-      - _AL_阿尔巴尼亚_10
-      - _AL_阿尔巴尼亚_6
-      - _BE_比利时_10
-      - _CH_瑞士_10
-      - _CH_瑞士_11
-      - _CH_瑞士_13
-      - _CH_瑞士_14
-      - _CH_瑞士_15
-      - _CH_瑞士_4
-      - _CH_瑞士_5
-      - _CH_瑞士_7
-      - _DE_德国_1
-      - _DE_德国_4
-      - _NL_荷兰_1
-      - _NL_荷兰_13
-      - _NL_荷兰_17
-      - _NL_荷兰_3
-      - _NL_荷兰_6
-      - _NL_荷兰_7
-      - _NL_荷兰_8
-      - _NL_荷兰_9
-      - _NO_挪威_2
-      - _NO_挪威_3
-      - _SK_斯洛伐克_5
-      - _SK_斯洛伐克_9
-      - _US_美国_12
-      - _US_美国_6
-      - _US_美国_9
-      - 长江德国_1
-      - 长江德国_2
-      - 长江荷兰
-      - 长江斯洛伐克_4
-      - _BE_比利时_6
-      - _BE_比利时_8
-      - _CH_瑞士_12
-      - _CH_瑞士_2
-      - _CH_瑞士_9
-      - _SK_斯洛伐克_8
-      - 长江德国_3
-      - 长江斯洛伐克_1
-      - _AL_阿尔巴尼亚_4
-      - _AL_阿尔巴尼亚_7
-      - _AL_阿尔巴尼亚_9
-      - _BE_比利时_11
-      - _BE_比利时_12
-      - _BE_比利时_4
-      - _BE_比利时_9
-      - _CH_瑞士_1
-      - _CH_瑞士_3
-      - _CH_瑞士_6
-      - _CH_瑞士_8
-      - 156.146.62.45:49339
-      - _NL_荷兰_18
-      - _DE_德国_2
-      - _DE_德国_3
-      - _ES_西班牙_1
-      - _FR_法国_1
-      - _BE_比利时_2
-      - _NL_荷兰_19
-      - _NL_荷兰_2
-      - _NL_荷兰_4
-      - 长江斯洛伐克_6
-      - _AL_阿尔巴尼亚_1
-      - _AL_阿尔巴尼亚_3
-      - _AL_阿尔巴尼亚_8
-      - _SK_斯洛伐克_4
-      - _SK_斯洛伐克_6
-      - _SK_斯洛伐克_10
-      - _SK_斯洛伐克_3
-      - _SK_斯洛伐克_7
-      - _US_美国_8
-      - 长江斯洛伐克_3
-      - 长江斯洛伐克_1 2
-      - 156.146.62.45:38747
-      - _NL_荷兰_16
-      - _AL_阿尔巴尼亚_5
-      - _BE_比利时_1
-      - _NL_荷兰_11
-      - _NL_荷兰_12
-      - _NL_荷兰_5
-      - 长江斯洛伐克_5
-      - _AL_阿尔巴尼亚_2
-      - _NL_荷兰_14
-      - 89.37.95.16:31944
-      - _US_美国_11
-      - _NL_荷兰_10
-      - _NO_挪威_1
-      - 23.106.33.152:18332
-      - _BE_比利时_7
-      - 89.37.95.16:33998
-      - 长江荷兰_1
-      - 194.110.115.86:31764
-      - 89.37.95.16:41738
-      - 156.146.62.45:38033
-      - _DE_德国_5
-      - 长江比利时_1
-      - 23.106.35.90:18336
-      - 185.108.106.175:33148
-      - 194.110.115.86:31944
-      - 89.37.95.16:33148
-      - 107.150.94.12:31572
-      - 156.146.62.45:50181
-      - 107.150.94.12:50695
-      - 23.106.33.156:18332
-      - 107.150.94.12:33992
-      - 185.108.106.175:47121
-      - 185.108.106.175:47861
-      - 156.146.62.45:32971
-      - 156.146.62.45:49653
-      - 107.150.94.12:38620
-      - 185.108.106.175:31764
-      - 185.108.106.175:33998
-      - 185.108.106.175:44742
-      - 84.17.58.162:33992
-      - 66.115.147.69:39772
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -2324,6 +2268,148 @@ proxy-groups:
       - HKT转江门3-27
       - HKT转江门4-27
       - 长江
+      - _CH_瑞士_11
+      - _CH_瑞士_15
+      - TR  Istanbul 2
+      - T
+      - 84.17.58.162:33992
+      - 66.115.147.69:39772
+      - T 2
+      - 185.108.106.175:33998
+      - 185.108.106.175:44742
+      - T 3
+      - 185.108.106.175:31764
+      - SK__6
+      - T 4
+      - 185.108.106.175:47121
+      - 185.108.106.175:47861
+      - 156.146.62.45:32971
+      - 156.146.62.45:49653
+      - 107.150.94.12:38620
+      - 23.106.33.156:18332
+      - 107.150.94.12:33992
+      - SK__2
+      - SK__4
+      - SK__9
+      - TR__3
+      - 156.146.62.45:50181
+      - 107.150.94.12:50695
+      - _CH_瑞士_14
+      - 194.110.115.86:31944
+      - 89.37.95.16:33148
+      - 107.150.94.12:31572
+      - _DE_德国_5
+      - 长江比利时_1
+      - 23.106.35.90:18336
+      - 185.108.106.175:33148
+      - 长江荷兰_1
+      - 194.110.115.86:31764
+      - 89.37.95.16:41738
+      - 156.146.62.45:38033
+      - _CH_瑞士_13
+      - 89.37.95.16:33998
+      - _AL_阿尔巴尼亚_6
+      - _BE_比利时_7
+      - T 5
+      - 23.106.33.152:18332
+      - _NO_挪威_1
+      - _NL_荷兰_10
+      - SK__19
+      - _US_美国_11
+      - 194.110.115.86:34815
+      - _AL_阿尔巴尼亚_2
+      - _NL_荷兰_14
+      - 89.37.95.16:31944
+      - TR__6
+      - _NL_荷兰_11
+      - _NL_荷兰_12
+      - _NL_荷兰_5
+      - 长江斯洛伐克_5
+      - _AL_阿尔巴尼亚_5
+      - _BE_比利时_1
+      - _BE_比利时_10
+      - _NL_荷兰_16
+      - Te
+      - TR__2
+      - US_11341
+      - 长江斯洛伐克_1
+      - 156.146.62.45:38747
+      - Te 2
+      - US__2
+      - _SK_斯洛伐克_10
+      - _SK_斯洛伐克_3
+      - _SK_斯洛伐克_7
+      - _US_美国_8
+      - 长江斯洛伐克_3
+      - US_10817
+      - _AL_阿尔巴尼亚_1
+      - _AL_阿尔巴尼亚_3
+      - _AL_阿尔巴尼亚_8
+      - _SK_斯洛伐克_4
+      - _SK_斯洛伐克_6
+      - US_10747
+      - _US_美国_3
+      - _CH_瑞士_10
+      - _NL_荷兰_4
+      - 长江斯洛伐克_6
+      - TR__2 2
+      - _BE_比利时_2
+      - _NL_荷兰_19
+      - _NL_荷兰_2
+      - TR__14
+      - US  Phoenix 1
+      - _DE_德国_2
+      - _DE_德国_3
+      - _ES_西班牙_1
+      - _FR_法国_1
+      - _NL_荷兰_18
+      - SK__16
+      - SK__21
+      - SK__4 2
+      - _AL_阿尔巴尼亚_4
+      - _AL_阿尔巴尼亚_7
+      - _AL_阿尔巴尼亚_9
+      - _BE_比利时_11
+      - _BE_比利时_12
+      - _BE_比利时_4
+      - _BE_比利时_9
+      - _CH_瑞士_1
+      - _CH_瑞士_3
+      - _CH_瑞士_6
+      - _CH_瑞士_8
+      - 156.146.62.45:49339
+      - SK__9 2
+      - _BE_比利时_6
+      - _BE_比利时_8
+      - _CH_瑞士_12
+      - _CH_瑞士_2
+      - _CH_瑞士_9
+      - _SK_斯洛伐克_8
+      - 长江德国_3
+      - 长江斯洛伐克_1 2
+      - _CH_瑞士_5
+      - _CH_瑞士_7
+      - _DE_德国_1
+      - _DE_德国_4
+      - _NL_荷兰_1
+      - _NL_荷兰_13
+      - _NL_荷兰_17
+      - _NL_荷兰_3
+      - _NL_荷兰_6
+      - _NL_荷兰_7
+      - _NL_荷兰_8
+      - _NL_荷兰_9
+      - _NO_挪威_2
+      - _NO_挪威_3
+      - _SK_斯洛伐克_5
+      - _SK_斯洛伐克_9
+      - _US_美国_12
+      - _US_美国_6
+      - _US_美国_9
+      - 长江德国_1
+      - 长江德国_2
+      - 长江荷兰
+      - 长江斯洛伐克_4
       - 185.124.240.149:47027
       - 89.37.95.16:33992
       - 156.146.62.45:33992
@@ -2450,155 +2536,6 @@ proxy-groups:
       - SK__13
       - SK__15
       - SK__15 2
-      - SK__16
-      - SK__19
-      - SK__2
-      - SK__21
-      - SK__4
-      - SK__4 2
-      - SK__6
-      - SK__9
-      - SK__9 2
-      - T
-      - T 2
-      - T 3
-      - T 4
-      - T 5
-      - T 6
-      - T 7
-      - Te
-      - Te 2
-      - Te 3
-      - TR  Istanbul 2
-      - TR__14
-      - TR__2
-      - TR__2 2
-      - TR__3
-      - TR__6
-      - TR__8
-      - US  Phoenix 1
-      - US__2
-      - US__8
-      - US_10747
-      - US_10817
-      - US_11341
-      - 194.110.115.86:34815
-      - v2rayse_🇺🇸_US_美国_3
-      - _AL_阿尔巴尼亚_10
-      - _AL_阿尔巴尼亚_6
-      - _BE_比利时_10
-      - _CH_瑞士_10
-      - _CH_瑞士_11
-      - _CH_瑞士_13
-      - _CH_瑞士_14
-      - _CH_瑞士_15
-      - _CH_瑞士_4
-      - _CH_瑞士_5
-      - _CH_瑞士_7
-      - _DE_德国_1
-      - _DE_德国_4
-      - _NL_荷兰_1
-      - _NL_荷兰_13
-      - _NL_荷兰_17
-      - _NL_荷兰_3
-      - _NL_荷兰_6
-      - _NL_荷兰_7
-      - _NL_荷兰_8
-      - _NL_荷兰_9
-      - _NO_挪威_2
-      - _NO_挪威_3
-      - _SK_斯洛伐克_5
-      - _SK_斯洛伐克_9
-      - _US_美国_12
-      - _US_美国_6
-      - _US_美国_9
-      - 长江德国_1
-      - 长江德国_2
-      - 长江荷兰
-      - 长江斯洛伐克_4
-      - _BE_比利时_6
-      - _BE_比利时_8
-      - _CH_瑞士_12
-      - _CH_瑞士_2
-      - _CH_瑞士_9
-      - _SK_斯洛伐克_8
-      - 长江德国_3
-      - 长江斯洛伐克_1
-      - _AL_阿尔巴尼亚_4
-      - _AL_阿尔巴尼亚_7
-      - _AL_阿尔巴尼亚_9
-      - _BE_比利时_11
-      - _BE_比利时_12
-      - _BE_比利时_4
-      - _BE_比利时_9
-      - _CH_瑞士_1
-      - _CH_瑞士_3
-      - _CH_瑞士_6
-      - _CH_瑞士_8
-      - 156.146.62.45:49339
-      - _NL_荷兰_18
-      - _DE_德国_2
-      - _DE_德国_3
-      - _ES_西班牙_1
-      - _FR_法国_1
-      - _BE_比利时_2
-      - _NL_荷兰_19
-      - _NL_荷兰_2
-      - _NL_荷兰_4
-      - 长江斯洛伐克_6
-      - _AL_阿尔巴尼亚_1
-      - _AL_阿尔巴尼亚_3
-      - _AL_阿尔巴尼亚_8
-      - _SK_斯洛伐克_4
-      - _SK_斯洛伐克_6
-      - _SK_斯洛伐克_10
-      - _SK_斯洛伐克_3
-      - _SK_斯洛伐克_7
-      - _US_美国_8
-      - 长江斯洛伐克_3
-      - 长江斯洛伐克_1 2
-      - 156.146.62.45:38747
-      - _NL_荷兰_16
-      - _AL_阿尔巴尼亚_5
-      - _BE_比利时_1
-      - _NL_荷兰_11
-      - _NL_荷兰_12
-      - _NL_荷兰_5
-      - 长江斯洛伐克_5
-      - _AL_阿尔巴尼亚_2
-      - _NL_荷兰_14
-      - 89.37.95.16:31944
-      - _US_美国_11
-      - _NL_荷兰_10
-      - _NO_挪威_1
-      - 23.106.33.152:18332
-      - _BE_比利时_7
-      - 89.37.95.16:33998
-      - 长江荷兰_1
-      - 194.110.115.86:31764
-      - 89.37.95.16:41738
-      - 156.146.62.45:38033
-      - _DE_德国_5
-      - 长江比利时_1
-      - 23.106.35.90:18336
-      - 185.108.106.175:33148
-      - 194.110.115.86:31944
-      - 89.37.95.16:33148
-      - 107.150.94.12:31572
-      - 156.146.62.45:50181
-      - 107.150.94.12:50695
-      - 23.106.33.156:18332
-      - 107.150.94.12:33992
-      - 185.108.106.175:47121
-      - 185.108.106.175:47861
-      - 156.146.62.45:32971
-      - 156.146.62.45:49653
-      - 107.150.94.12:38620
-      - 185.108.106.175:31764
-      - 185.108.106.175:33998
-      - 185.108.106.175:44742
-      - 84.17.58.162:33992
-      - 66.115.147.69:39772
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
