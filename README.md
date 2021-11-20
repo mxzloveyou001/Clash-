@@ -5,47 +5,79 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: HKT转江门3-27, server: sl201.jdxx.xyz, port: 35003, type: ssr, cipher: chacha20-ietf, password: MaOKEa, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 韩国-移动隧道5-27, server: sl201.jdxx.xyz, port: 26390, type: ssr, cipher: chacha20-ietf, password: MaOKEa, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: HKT转江门4-27, server: sl201.jdxx.xyz, port: 35004, type: ssr, cipher: chacha20-ietf, password: MaOKEa, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 国内中专1-27, server: tz-yd01.jdxx.xyz, port: 35008, type: ssr, cipher: chacha20-ietf, password: MaOKEa, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: HKT转江门2-27, server: sl201.jdxx.xyz, port: 35002, type: ssr, cipher: chacha20-ietf, password: MaOKEa, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: HKT转江门1-27, server: sl201.jdxx.xyz, port: 35001, type: ssr, cipher: chacha20-ietf, password: MaOKEa, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: AU_508, server: 45.77.48.44, port: 8099, type: ss, cipher: aes-256-cfb, password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D, udp: true}
+  - {name: AU_509, server: 45.77.48.44, port: 8099, type: ss, cipher: aes-256-cfb, password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D, udp: true}
+  - {name: CA_1099, server: channel.napsternetvtm.dnsmy.xyz, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: TW_1473, server: ssr3.ssrsub.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!, udp: true}
+  - {name: TW_1474, server: p5.22332e.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!, udp: true}
+  - {name: US_1475, server: p7.22332e.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!, udp: true}
+  - {name: TW_1476, server: 117.28.243.132, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!, udp: true}
+  - {name: TW_1477, server: p5.22332e.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!, udp: true}
+  - {name: TW_1478, server: ssr3.ssrsub.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!, udp: true}
+  - {name: IN_1479, server: cu.newhost.cc, port: 10693, type: ssr, cipher: aes-256-cfb, password: TuXJdt, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: US_1480, server: 117.28.243.169, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!, udp: true}
+  - {name: DE_2113, server: 136.243.191.88, port: 443, type: ssr, cipher: aes-128-ctr, password: sEscPBiAD9K$&@79, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: TW_7740, server: 59.125.11.158, port: 8158, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: TW_7741, server: 59.125.11.158, port: 8158, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - HKT转江门3-27
-      - 韩国-移动隧道5-27
-      - HKT转江门4-27
-      - 国内中专1-27
-      - HKT转江门2-27
-      - HKT转江门1-27
+      - AU_508
+      - AU_509
+      - CA_1099
+      - TW_1473
+      - TW_1474
+      - US_1475
+      - TW_1476
+      - TW_1477
+      - TW_1478
+      - IN_1479
+      - US_1480
+      - DE_2113
+      - TW_7740
+      - TW_7741
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - HKT转江门3-27
-      - 韩国-移动隧道5-27
-      - HKT转江门4-27
-      - 国内中专1-27
-      - HKT转江门2-27
-      - HKT转江门1-27
+      - AU_508
+      - AU_509
+      - CA_1099
+      - TW_1473
+      - TW_1474
+      - US_1475
+      - TW_1476
+      - TW_1477
+      - TW_1478
+      - IN_1479
+      - US_1480
+      - DE_2113
+      - TW_7740
+      - TW_7741
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - HKT转江门3-27
-      - 韩国-移动隧道5-27
-      - HKT转江门4-27
-      - 国内中专1-27
-      - HKT转江门2-27
-      - HKT转江门1-27
+      - AU_508
+      - AU_509
+      - CA_1099
+      - TW_1473
+      - TW_1474
+      - US_1475
+      - TW_1476
+      - TW_1477
+      - TW_1478
+      - IN_1479
+      - US_1480
+      - DE_2113
+      - TW_7740
+      - TW_7741
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -64,55 +96,83 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - HKT转江门3-27
-      - 韩国-移动隧道5-27
-      - HKT转江门4-27
-      - 国内中专1-27
-      - HKT转江门2-27
-      - HKT转江门1-27
+      - AU_508
+      - AU_509
+      - CA_1099
+      - TW_1473
+      - TW_1474
+      - US_1475
+      - TW_1476
+      - TW_1477
+      - TW_1478
+      - IN_1479
+      - US_1480
+      - DE_2113
+      - TW_7740
+      - TW_7741
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - HKT转江门3-27
-      - HKT转江门4-27
-      - HKT转江门2-27
-      - HKT转江门1-27
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - HKT转江门3-27
-      - 韩国-移动隧道5-27
-      - HKT转江门4-27
-      - 国内中专1-27
-      - HKT转江门2-27
-      - HKT转江门1-27
+      - AU_508
+      - AU_509
+      - CA_1099
+      - TW_1473
+      - TW_1474
+      - US_1475
+      - TW_1476
+      - TW_1477
+      - TW_1478
+      - IN_1479
+      - US_1480
+      - DE_2113
+      - TW_7740
+      - TW_7741
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - HKT转江门3-27
-      - 韩国-移动隧道5-27
-      - HKT转江门4-27
-      - 国内中专1-27
-      - HKT转江门2-27
-      - HKT转江门1-27
+      - AU_508
+      - AU_509
+      - CA_1099
+      - TW_1473
+      - TW_1474
+      - US_1475
+      - TW_1476
+      - TW_1477
+      - TW_1478
+      - IN_1479
+      - US_1480
+      - DE_2113
+      - TW_7740
+      - TW_7741
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - HKT转江门3-27
-      - 韩国-移动隧道5-27
-      - HKT转江门4-27
-      - 国内中专1-27
-      - HKT转江门2-27
-      - HKT转江门1-27
+      - AU_508
+      - AU_509
+      - CA_1099
+      - TW_1473
+      - TW_1474
+      - US_1475
+      - TW_1476
+      - TW_1477
+      - TW_1478
+      - IN_1479
+      - US_1480
+      - DE_2113
+      - TW_7740
+      - TW_7741
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -128,12 +188,20 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - HKT转江门3-27
-      - 韩国-移动隧道5-27
-      - HKT转江门4-27
-      - 国内中专1-27
-      - HKT转江门2-27
-      - HKT转江门1-27
+      - AU_508
+      - AU_509
+      - CA_1099
+      - TW_1473
+      - TW_1474
+      - US_1475
+      - TW_1476
+      - TW_1477
+      - TW_1478
+      - IN_1479
+      - US_1480
+      - DE_2113
+      - TW_7740
+      - TW_7741
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
