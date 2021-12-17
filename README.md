@@ -5,966 +5,1414 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 浦东电信-香港HKT-nf@vpnpool, server: 58.32.9.209, port: 11421, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 2489:xnf3AY, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 浦东电信-香港HKT-nf@vpnpool 2, server: 58.32.9.209, port: 11421, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 1065:5ucWfo, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 浦东电信-Tokyo-DMIT-nf@vpnpool, server: 58.32.9.209, port: 11424, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 2487:ivxvKM, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 浦东电信-香港HKT-nf@vpnpool 3, server: 58.32.9.209, port: 11421, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 2487:ivxvKM, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 广州移动-SG-Nerocloud-nf@vpnpool, server: 183.232.56.106, port: 11846, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 3429:EerIYb, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 浦东电信-Tokyo-DMIT-nf@vpnpool 2, server: 58.32.9.209, port: 11424, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 2489:xnf3AY, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 浦东电信-Tokyo-DMIT-nf@vpnpool 3, server: 58.32.9.209, port: 11424, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 1065:5ucWfo, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 广州移动-SG-Nerocloud-nf@vpnpool 2, server: 183.232.56.106, port: 11846, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 2489:xnf3AY, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 广州移动-SG-Nerocloud-nf@vpnpool 3, server: 183.232.56.106, port: 11807, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 1065:5ucWfo, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 上海CN2 新加坡 NeroCloud丨全解锁丨A2, server: sh.shcuddns.xyz, port: 11429, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 8749:rQQvoA, obfs-param: 9745a8749.microsoft.com, udp: true}
-  - {name: 上海CN2 日本 DMIT丨全解锁丨A1, server: sh.shcuddns.xyz, port: 11424, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 8749:rQQvoA, obfs-param: 9745a8749.microsoft.com, udp: true}
-  - {name: 浦东电信-SG-Nerocloud-nf@vpnpool, server: 58.32.9.209, port: 11429, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 2489:xnf3AY, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 浦东电信-台北Hinet-nf@vpnpool, server: 58.32.9.209, port: 11428, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 2489:xnf3AY, obfs-param: t.me/vpnhat, udp: true}
-  - {name: "[12.12] TG频道@Jsnzk", server: hinet.rdns.link, port: 50027, type: ssr, cipher: aes-256-cfb, password: Getfree.Cloud, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 18290:9WA1gd, obfs-param: e3cf218290.software-download.microsoft.com, udp: true}
-  - {name: 上海CN2 新加坡 NeroCloud丨全解锁丨A1, server: sh.shcuddns.xyz, port: 11422, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 8749:rQQvoA, obfs-param: 9745a8749.microsoft.com, udp: true}
-  - {name: 广州移动-Tokyo-DMIT-nf@vpnpool, server: 183.232.56.106, port: 11803, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 1065:5ucWfo, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 广州-新加坡 NeroCloud丨全解锁丨A2, server: gzydddns.xyz, port: 11846, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 8749:rQQvoA, obfs-param: 9745a8749.microsoft.com, udp: true}
-  - {name: 浦东电信-台北Hinet-nf@vpnpool 2, server: 58.32.9.209, port: 11428, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 1065:5ucWfo, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 浦东电信-台北Hinet-nf@vpnpool 3, server: 58.32.9.209, port: 11428, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 2487:ivxvKM, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 广州移动-SG-Nerocloud-nf@vpnpool 4, server: 183.232.56.106, port: 11841, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 1065:5ucWfo, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 浦东电信-SG-Nerocloud-nf@vpnpool 2, server: 58.32.9.209, port: 11429, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 2487:ivxvKM, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 浦东电信-SG-Nerocloud-nf@vpnpool 3, server: 58.32.9.209, port: 11422, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 2489:xnf3AY, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 浦东电信-SG-Nerocloud-nf@vpnpool 4, server: 58.32.9.209, port: 11429, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 1065:5ucWfo, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 广州移动-Tokyo-DMIT-nf@vpnpool 2, server: 183.232.56.106, port: 11812, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 2489:xnf3AY, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 广州移动-Tokyo-DMIT-nf@vpnpool 3, server: 183.232.56.106, port: 11812, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 3429:EerIYb, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 广州-新加坡 NeroCloud丨全解锁丨A3, server: gzydddns.xyz, port: 11841, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 8749:rQQvoA, obfs-param: 9745a8749.microsoft.com, udp: true}
-  - {name: 浦东电信-SG-Nerocloud-nf@vpnpool 5, server: 58.32.9.209, port: 11422, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 1065:5ucWfo, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 广州移动-Tokyo-DMIT-nf@vpnpool 4, server: 183.232.56.106, port: 11842, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 2487:ivxvKM, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 广州移动-Tokyo-DMIT-nf@vpnpool 5, server: 183.232.56.106, port: 11812, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 1065:5ucWfo, obfs-param: t.me/vpnhat, udp: true}
-  - {name: "[12.12] TG频道@Jsnzk 2", server: hinet.rdns.link, port: 50025, type: ssr, cipher: aes-256-cfb, password: Getfree.Cloud, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 18290:9WA1gd, obfs-param: e3cf218290.software-download.microsoft.com, udp: true}
-  - {name: 广州-新加坡 NeroCloud丨全解锁丨A1, server: gzydddns.xyz, port: 11807, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 8749:rQQvoA, obfs-param: 9745a8749.microsoft.com, udp: true}
-  - {name: 广州移动-Tokyo-DMIT-nf@vpnpool 6, server: 183.232.56.106, port: 11842, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 3429:EerIYb, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 广州移动-SG-Nerocloud-nf@vpnpool 5, server: 183.232.56.106, port: 11807, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 2489:xnf3AY, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 广州移动-Tokyo-DMIT-nf@vpnpool 7, server: 183.232.56.106, port: 11803, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 3429:EerIYb, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 广州-日本 DMIT丨全解锁丨A3, server: gzydddns.xyz, port: 11812, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 8749:rQQvoA, obfs-param: 9745a8749.microsoft.com, udp: true}
-  - {name: 浦东电信-SG-Nerocloud-nf@vpnpool 6, server: 58.32.9.209, port: 11422, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 2487:ivxvKM, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 广州移动-Tokyo-DMIT-nf@vpnpool 8, server: 183.232.56.106, port: 11842, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 2489:xnf3AY, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 广州移动-Tokyo-DMIT-nf@vpnpool 9, server: 183.232.56.106, port: 11812, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 2487:ivxvKM, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 广州移动-SG-Nerocloud-nf@vpnpool 6, server: 183.232.56.106, port: 11807, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 3429:EerIYb, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 上海CN2 台湾 HiNet丨全解锁丨A1, server: sh.shcuddns.xyz, port: 11428, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 8749:rQQvoA, obfs-param: 9745a8749.microsoft.com, udp: true}
-  - {name: 广州移动-SG-Nerocloud-nf@vpnpool 7, server: 183.232.56.106, port: 11846, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 1065:5ucWfo, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 上海CN2 美国 readydedis丨全解锁丨A1, server: sh.shcuddns.xyz, port: 11427, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 8749:rQQvoA, obfs-param: 9745a8749.microsoft.com, udp: true}
-  - {name: 广州移动-Tokyo-DMIT-nf@vpnpool 10, server: 183.232.56.106, port: 11803, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 2487:ivxvKM, obfs-param: t.me/vpnhat, udp: true}
-  - {name: "[12.12] TG频道@Jsnzk 3", server: hinet.rdns.link, port: 50026, type: ssr, cipher: aes-256-cfb, password: Getfree.Cloud, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 18290:9WA1gd, obfs-param: e3cf218290.software-download.microsoft.com, udp: true}
-  - {name: 广州-日本 DMIT丨全解锁丨A4, server: gzydddns.xyz, port: 11803, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 8749:rQQvoA, obfs-param: 9745a8749.microsoft.com, udp: true}
-  - {name: 广州移动-Tokyo-DMIT-nf@vpnpool 11, server: 183.232.56.106, port: 11803, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 2489:xnf3AY, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 浦东电信-LAX-DediPath-nf@vpnpool, server: 58.32.9.209, port: 11427, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 2487:ivxvKM, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 广州移动-香港HKT-nf@vpnpool, server: 183.232.56.106, port: 11845, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 3429:EerIYb, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 广州移动-香港HKT-nf@vpnpool 2, server: 183.232.56.106, port: 11802, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 3429:EerIYb, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 上海CN2 美国 DMIT丨全解锁丨A1, server: sh.shcuddns.xyz, port: 11423, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 8749:rQQvoA, obfs-param: 9745a8749.microsoft.com, udp: true}
-  - {name: 广州移动-LAX-DMIT-nf@vpnpool, server: 183.232.56.106, port: 11805, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 2487:ivxvKM, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 广州移动-香港HKT-nf@vpnpool 3, server: 183.232.56.106, port: 11802, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 1065:5ucWfo, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 广州-香港 HKT丨全解锁丨A2, server: gzydddns.xyz, port: 11845, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 8749:rQQvoA, obfs-param: 9745a8749.microsoft.com, udp: true}
-  - {name: 浦东电信-LAX-DMIT-nf@vpnpool, server: 58.32.9.209, port: 11423, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 2487:ivxvKM, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 广州移动-香港HKT-nf@vpnpool 4, server: 183.232.56.106, port: 11845, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 2487:ivxvKM, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 广州移动-香港HKT-nf@vpnpool 5, server: 183.232.56.106, port: 11802, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 2487:ivxvKM, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 广州-香港 HKT丨全解锁丨A1, server: gzydddns.xyz, port: 11802, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 8749:rQQvoA, obfs-param: 9745a8749.microsoft.com, udp: true}
-  - {name: 广州移动-香港HKT-nf@vpnpool 6, server: 183.232.56.106, port: 11845, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 2489:xnf3AY, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 广州移动-香港HKT-nf@vpnpool 7, server: 183.232.56.106, port: 11845, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 1065:5ucWfo, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 浦东电信-LAX-DediPath-nf@vpnpool 2, server: 58.32.9.209, port: 11427, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 1065:5ucWfo, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 广州移动-LAX-DMIT-nf@vpnpool 2, server: 183.232.56.106, port: 35247, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 2487:ivxvKM, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 浦东电信-LAX-DediPath-nf@vpnpool 3, server: 58.32.9.209, port: 11427, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 2489:xnf3AY, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 广州-台湾 HiNet丨全解锁丨A1, server: gzydddns.xyz, port: 11814, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 8749:rQQvoA, obfs-param: 9745a8749.microsoft.com, udp: true}
-  - {name: 广州-英国 GTHost丨全解锁丨A1, server: gzydddns.xyz, port: 11005, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 8749:rQQvoA, obfs-param: 9745a8749.microsoft.com, udp: true}
-  - {name: 浦东电信-LAX-DMIT-nf@vpnpool 2, server: 58.32.9.209, port: 11423, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 2489:xnf3AY, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 广州移动-LAX-DMIT-nf@vpnpool 3, server: 183.232.56.106, port: 35247, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 1065:5ucWfo, obfs-param: t.me/vpnhat, udp: true}
-  - {name: "[12.12] TG频道@Jsnzk 4", server: hinet.rdns.link, port: 50023, type: ssr, cipher: aes-256-cfb, password: Getfree.Cloud, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 18290:9WA1gd, obfs-param: e3cf218290.software-download.microsoft.com, udp: true}
-  - {name: 广州-美国 DMIT丨全解锁丨A1, server: gzydddns.xyz, port: 11805, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 8749:rQQvoA, obfs-param: 9745a8749.microsoft.com, udp: true}
-  - {name: 广州移动-LAX-DMIT-nf@vpnpool 4, server: 183.232.56.106, port: 35247, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 3429:EerIYb, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 广州-美国 DMIT丨全解锁丨A2, server: gzydddns.xyz, port: 35247, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 8749:rQQvoA, obfs-param: 9745a8749.microsoft.com, udp: true}
-  - {name: 广州移动-LAX-DMIT-nf@vpnpool 5, server: 183.232.56.106, port: 35247, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 2489:xnf3AY, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 广州移动-LAX-DMIT-nf@vpnpool 6, server: 183.232.56.106, port: 11805, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 1065:5ucWfo, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 广州移动-LAX-DMIT-nf@vpnpool 7, server: 183.232.56.106, port: 11805, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 3429:EerIYb, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 广州移动-London-GTHost-nf@vpnpool, server: 183.232.56.106, port: 11005, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 2487:ivxvKM, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 广州移动-LAX-DMIT-nf@vpnpool 8, server: 183.232.56.106, port: 11805, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 2489:xnf3AY, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 浦东电信-LAX-DMIT-nf@vpnpool 3, server: 58.32.9.209, port: 11423, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 1065:5ucWfo, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 广州移动-London-GTHost-nf@vpnpool 2, server: 183.232.56.106, port: 11005, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 2489:xnf3AY, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 广州移动-London-GTHost-nf@vpnpool 3, server: 183.232.56.106, port: 11005, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 1065:5ucWfo, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 广州移动-香港HKT-nf@vpnpool 8, server: 183.232.56.106, port: 11802, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 2489:xnf3AY, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 浦东电信-London-GTHost-nf@vpnpool, server: 58.32.9.209, port: 11501, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 1065:5ucWfo, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 广州移动-London-GTHost-nf@vpnpool 4, server: 183.232.56.106, port: 11005, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 3429:EerIYb, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 广州移动-台北Hinet-nf@vpnpool, server: 183.232.56.106, port: 11814, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 2487:ivxvKM, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 广州移动-台北Hinet-nf@vpnpool 2, server: 183.232.56.106, port: 11814, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 2489:xnf3AY, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 浦东电信-London-GTHost-nf@vpnpool 2, server: 58.32.9.209, port: 11501, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 2487:ivxvKM, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 上海CN2 英国 GTHost丨全解锁丨A1, server: sh.shcuddns.xyz, port: 11501, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 8749:rQQvoA, obfs-param: 9745a8749.microsoft.com, udp: true}
-  - {name: 浦东电信-London-GTHost-nf@vpnpool 3, server: 58.32.9.209, port: 11501, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 2489:xnf3AY, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 广州移动-Novosibirsk-Baxet-nf@vpnhat, server: 183.232.56.106, port: 22848, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 2487:ivxvKM, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 广州-俄罗斯 JUST丨半解锁丨A1, server: gzydddns.xyz, port: 22848, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 8749:rQQvoA, obfs-param: 9745a8749.microsoft.com, udp: true}
-  - {name: 广州移动-台北Hinet-nf@vpnpool 3, server: 183.232.56.106, port: 11814, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 3429:EerIYb, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 广州-美国 Tencent丨全解锁丨A1, server: gzydddns.xyz, port: 11804, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 8749:rQQvoA, obfs-param: 9745a8749.microsoft.com, udp: true}
-  - {name: 广州移动-SG-Tencent-nf@vpnpool, server: 183.232.56.106, port: 11806, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 3429:EerIYb, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 广州移动-SG-Tencent-nf@vpnpool 2, server: 183.232.56.106, port: 11806, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 1065:5ucWfo, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 广州移动-SG-Tencent-nf@vpnpool 3, server: 183.232.56.106, port: 11806, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 2489:xnf3AY, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 广州移动-SG-Tencent-nf@vpnpool 4, server: 183.232.56.106, port: 11806, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 2487:ivxvKM, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 广州移动-Novosibirsk-Baxet-nf@vpnhat 2, server: 183.232.56.106, port: 22848, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 1065:5ucWfo, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 广州移动-Novosibirsk-Baxet-nf@vpnhat 3, server: 183.232.56.106, port: 22848, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 3429:EerIYb, obfs-param: t.me/vpnhat, udp: true}
-  - {name: "[12.12] TG频道@Jsnzk 5", server: hinet.rdns.link, port: 50022, type: ssr, cipher: aes-256-cfb, password: Getfree.Cloud, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 18290:9WA1gd, obfs-param: e3cf218290.software-download.microsoft.com, udp: true}
-  - {name: 广州移动-Novosibirsk-Baxet-nf@vpnhat 4, server: 183.232.56.106, port: 22848, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 2489:xnf3AY, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 广州移动-Santa Clara-Tencent-nf@EXTM3U, server: 183.232.56.106, port: 11804, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 2489:xnf3AY, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 广州移动-台北Hinet-nf@vpnpool 4, server: 183.232.56.106, port: 11814, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 1065:5ucWfo, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 上海CN2 巴西 NTT丨奈飞专用, server: sh.shcuddns.xyz, port: 11445, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 8749:rQQvoA, obfs-param: 9745a8749.microsoft.com, udp: true}
-  - {name: 广州移动-Santa Clara-Tencent-nf@EXTM3U 2, server: 183.232.56.106, port: 11804, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 3429:EerIYb, obfs-param: t.me/vpnhat, udp: true}
-  - {name: "[12.12] TG频道@Jsnzk 6", server: hinet.rdns.link, port: 50024, type: ssr, cipher: aes-256-cfb, password: Getfree.Cloud, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 18290:9WA1gd, obfs-param: e3cf218290.software-download.microsoft.com, udp: true}
-  - {name: 广州移动-Santa Clara-Tencent-nf@EXTM3U 3, server: 183.232.56.106, port: 11804, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 1065:5ucWfo, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 上海CN2 香港 HKT丨全解锁丨A1, server: sh.shcuddns.xyz, port: 11421, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 8749:rQQvoA, obfs-param: 9745a8749.microsoft.com, udp: true}
-  - {name: "[12.12] TG频道@Jsnzk 7", server: hinet.rdns.link, port: 50028, type: ssr, cipher: aes-256-cfb, password: Getfree.Cloud, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 18290:9WA1gd, obfs-param: e3cf218290.software-download.microsoft.com, udp: true}
-  - {name: 广州移动-Tokyo-DMIT-nf@vpnpool 12, server: 183.232.56.106, port: 11842, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 1065:5ucWfo, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 广州移动-Santa Clara-Tencent-nf@EXTM3U 4, server: 183.232.56.106, port: 11804, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 2487:ivxvKM, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 广州-日本 DMIT丨全解锁丨A2, server: gzydddns.xyz, port: 11842, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 8749:rQQvoA, obfs-param: 9745a8749.microsoft.com, udp: true}
-  - {name: 广州移动-香港DMIT-nf@vpnpool, server: 183.232.56.106, port: 11810, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 2489:xnf3AY, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 8度科技 67, server: 139.227.161.129, port: 10002, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false}
+  - {name: 8度科技 87, server: 183.232.163.3, port: 2626, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
+  - {name: 8度科技 242, server: 183.232.163.3, port: 5254, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
+  - {name: 8度科技 100, server: 142.4.123.249, port: 500, type: vmess, uuid: 0dcea9f2-10ac-11ec-a0bc-00163cf00cd9, alterId: 0, cipher: auto, tls: false}
+  - {name: 8度科技 36, server: 183.232.163.3, port: 1313, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
+  - {name: 8度科技 96, server: 1031kr.fans8.xyz, port: 80, type: vmess, uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
+  - {name: 8度科技 21, server: 139.227.161.129, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false}
+  - {name: 8度科技 163, server: 1031kr.fans8.xyz, port: 80, type: vmess, uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 1031kr.fans8.xyz}}
+  - {name: v2cross.com, server: shcn2-06b.iplc188.com, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false}
+  - {name: 8度科技 76, server: 183.232.163.3, port: 6262, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
+  - {name: 8度科技 147, server: 183.232.163.3, port: 1717, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
+  - {name: 8度科技 127, server: 1031kr.fans8.xyz, port: 80, type: vmess, uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: youtube-awekji}}
+  - {name: 8度科技 99, server: 42.157.8.162, port: 48106, type: vmess, uuid: 3959477e-55c4-453f-bc80-3b13e64891ac, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 _US_美国, server: 45.58.150.130, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: dax6ujai.com}}
+  - {name: 8度科技 69, server: 146.56.177.34, port: 80, type: vmess, uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
+  - {name: 8度科技 132, server: 183.232.163.3, port: 5152, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
+  - {name: 8度科技 162, server: 146.56.177.34, port: 80, type: vmess, uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 146.56.177.34}}
+  - {name: 8度科技 174, server: 1116yn.fans8.xyz, port: 80, type: vmess, uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: youtube-aweikeji}}
+  - {name: 8度科技 160, server: 165.154.229.22, port: 80, type: vmess, uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 165.154.229.22}}
+  - {name: 8度科技 94, server: 1116yn.fans8.xyz, port: 80, type: vmess, uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 1116yn.fans8.xyz}}
+  - {name: 匈牙利, server: 185.252.223.203, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/243535322906, ws-headers: {Host: www.16675463.xyz}}
+  - {name: 🇸🇬 【新鸟免费】美国UA -DO 02 免流 1.0x, server: mf-do-ua-02.xncloud.xyz, port: 80, type: vmess, uuid: bc7abdaa-1152-3ed2-a571-a993b064569c, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-do-ua-02.xncloud.xyz}}
+  - {name: 🇸🇬 【新鸟免费】美国UA -DO 05 免流 1.0x, server: mf-do-ua-05.xncloud.xyz, port: 80, type: vmess, uuid: bc7abdaa-1152-3ed2-a571-a993b064569c, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-do-ua-05.xncloud.xyz}}
+  - {name: 🇸🇬 【新鸟免费】美国UA -DO 08 免流 1.0x, server: mf-do-ua-08.xncloud.xyz, port: 80, type: vmess, uuid: bc7abdaa-1152-3ed2-a571-a993b064569c, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-do-ua-08.xncloud.xyz}}
+  - {name: 🇸🇬 【新鸟免费】美国UA -DO 04 免流 1.0x, server: mf-do-ua-04.xncloud.xyz, port: 80, type: vmess, uuid: bc7abdaa-1152-3ed2-a571-a993b064569c, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-do-ua-04.xncloud.xyz}}
+  - {name: 8度科技 205, server: zj.haojiahuo.club, port: 30044, type: vmess, uuid: 4a6ada0c-e453-3217-8210-8556f9c92494, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}}
+  - {name: 🇸🇬 【新鸟免费】美国UA -DO 01 免流 1.0x, server: mf-do-ua-01.xncloud.xyz, port: 80, type: vmess, uuid: bc7abdaa-1152-3ed2-a571-a993b064569c, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-do-ua-01.xncloud.xyz}}
+  - {name: 🇸🇬 【新鸟免费】美国UA -DO 03 免流 1.0x, server: mf-do-ua-03.xncloud.xyz, port: 80, type: vmess, uuid: bc7abdaa-1152-3ed2-a571-a993b064569c, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-do-ua-03.xncloud.xyz}}
+  - {name: 🇸🇬 【新鸟免费】美国UA -DO 06 免流 1.0x, server: mf-do-ua-06.xncloud.xyz, port: 80, type: vmess, uuid: bc7abdaa-1152-3ed2-a571-a993b064569c, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-do-ua-06.xncloud.xyz}}
+  - {name: 🇺🇸 _US_美国 2, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
+  - {name: 🇸🇬 【新鸟免费】美国UA -DO 07 免流 1.0x, server: mf-do-ua-07.xncloud.xyz, port: 80, type: vmess, uuid: bc7abdaa-1152-3ed2-a571-a993b064569c, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-do-ua-07.xncloud.xyz}}
+  - {name: 🇺🇸 美国(欢迎订阅youtube：8度科技), server: 192.186.129.66, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}}
+  - {name: 🇺🇸 _US_美国 3, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
+  - {name: 🇸🇬 【新鸟免费】美国UA -DO 10 免流 1.0x, server: mf-do-ua-10.xncloud.xyz, port: 80, type: vmess, uuid: bc7abdaa-1152-3ed2-a571-a993b064569c, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-do-ua-10.xncloud.xyz}}
+  - {name: 8度科技 90, server: zj.haojiahuo.club, port: 30052, type: vmess, uuid: 4a6ada0c-e453-3217-8210-8556f9c92494, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}}
+  - {name: 8度科技 54, server: zhuzhu12.com, port: 20618, type: vmess, uuid: d92988cf-6fac-3be1-af06-e48a7f975649, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: zhuzhu12.com}}
+  - {name: 8度科技 34, server: zj.haojiahuo.club, port: 30077, type: vmess, uuid: 4a6ada0c-e453-3217-8210-8556f9c92494, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}}
+  - {name: 8度科技 206, server: zj.haojiahuo.club, port: 30077, type: vmess, uuid: 4a6ada0c-e453-3217-8210-8556f9c92494, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /videos, ws-headers: {Host: zj.haojiahuo.club}}
+  - {name: 8度科技 53, server: zhuzhu12.com, port: 46101, type: vmess, uuid: d92988cf-6fac-3be1-af06-e48a7f975649, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: zhuzhu12.com}}
+  - {name: 🇺🇸 美国加州C, server: 23.224.69.12, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/243535322906, ws-headers: {Host: www.35354710.xyz}}
+  - {name: 8度科技 97, server: mf-aws-kr-02.xncloud.xyz, port: 18000, type: vmess, uuid: fcb03748-d0ae-3a8c-8557-a6835cff733d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-kr-02.xncloud.xyz}}
+  - {name: 8度科技 245, server: 112.33.32.136, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false}
+  - {name: 8度科技 153, server: 112.33.32.136, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false}
+  - {name: 8度科技 98, server: zj.haojiahuo.club, port: 30041, type: vmess, uuid: 4a6ada0c-e453-3217-8210-8556f9c92494, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /videos, ws-headers: {Host: zj.haojiahuo.club}}
+  - {name: 🇰🇷 【新鸟免费】韩国KR-AWS 05 1.0x, server: mf-aws-kr-05.xncloud.xyz, port: 18000, type: vmess, uuid: bc7abdaa-1152-3ed2-a571-a993b064569c, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-kr-05.xncloud.xyz}}
+  - {name: 🇰🇷 【新鸟免费】韩国KR-AWS 10 1.0x, server: mf-aws-kr-10.xncloud.xyz, port: 18000, type: vmess, uuid: bc7abdaa-1152-3ed2-a571-a993b064569c, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-kr-10.xncloud.xyz}}
+  - {name: 8度科技 158, server: mf-aws-sg-06.xncloud.xyz, port: 18000, type: vmess, uuid: 9d65783f-2802-3500-8058-c5e0d8bfdb3a, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-sg-06.xncloud.xyz}}
+  - {name: 8度科技 202, server: mf-aws-kr-07.xncloud.xyz, port: 18000, type: vmess, uuid: 8a23fd8b-30d5-3839-b831-b4eababaa3a0, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-kr-07.xncloud.xyz}}
+  - {name: 🇸🇬 【新鸟免费】新加坡SG-AWS 12 1.0x, server: mf-aws-sg-12.xncloud.xyz, port: 18000, type: vmess, uuid: bc7abdaa-1152-3ed2-a571-a993b064569c, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-sg-12.xncloud.xyz}}
+  - {name: 🇸🇬 【新鸟免费】新加坡SG-AWS 03 1.0x, server: mf-aws-sg-03.xncloud.xyz, port: 18000, type: vmess, uuid: bc7abdaa-1152-3ed2-a571-a993b064569c, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-sg-03.xncloud.xyz}}
+  - {name: 🇸🇬 【新鸟免费】新加坡SG-AWS 11 1.0x, server: mf-aws-sg-11.xncloud.xyz, port: 18000, type: vmess, uuid: bc7abdaa-1152-3ed2-a571-a993b064569c, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-sg-11.xncloud.xyz}}
+  - {name: 8度科技 232, server: mf-aws-sg-14.xncloud.xyz, port: 18000, type: vmess, uuid: fcb03748-d0ae-3a8c-8557-a6835cff733d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-sg-14.xncloud.xyz}}
+  - {name: 🇯🇵 【新鸟免费】日本JP-AWS 08 1.0x, server: mf-aws-jp-08.xncloud.xyz, port: 18000, type: vmess, uuid: bc7abdaa-1152-3ed2-a571-a993b064569c, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-jp-08.xncloud.xyz}}
+  - {name: 8度科技 250, server: mf-aws-kr-09.xncloud.xyz, port: 18000, type: vmess, uuid: 59ffe178-4542-3730-8b86-8603520afbb0, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-kr-09.xncloud.xyz}}
+  - {name: 🇰🇷 【新鸟免费】韩国KR-AWS 08 1.0x, server: mf-aws-kr-08.xncloud.xyz, port: 18000, type: vmess, uuid: bc7abdaa-1152-3ed2-a571-a993b064569c, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-kr-08.xncloud.xyz}}
+  - {name: 🇸🇬 【新鸟免费】新加坡SG-AWS 13 1.0x, server: mf-aws-sg-13.xncloud.xyz, port: 18000, type: vmess, uuid: bc7abdaa-1152-3ed2-a571-a993b064569c, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-sg-13.xncloud.xyz}}
+  - {name: 8度科技 110, server: mf-aws-kr-01.xncloud.xyz, port: 18000, type: vmess, uuid: 59ffe178-4542-3730-8b86-8603520afbb0, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-kr-01.xncloud.xyz}}
+  - {name: 8度科技 120, server: mf-aws-sg-04.xncloud.xyz, port: 18000, type: vmess, uuid: 9d65783f-2802-3500-8058-c5e0d8bfdb3a, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-sg-04.xncloud.xyz}}
+  - {name: 8度科技 251, server: mf-aws-kr-05.xncloud.xyz, port: 18000, type: vmess, uuid: fcb03748-d0ae-3a8c-8557-a6835cff733d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-kr-05.xncloud.xyz}}
+  - {name: 8度科技 253, server: mf-aws-sg-08.xncloud.xyz, port: 18000, type: vmess, uuid: 9d65783f-2802-3500-8058-c5e0d8bfdb3a, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-sg-08.xncloud.xyz}}
+  - {name: 8度科技 212, server: mf-aws-jp-07.xncloud.xyz, port: 18000, type: vmess, uuid: 59ffe178-4542-3730-8b86-8603520afbb0, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-jp-07.xncloud.xyz}}
+  - {name: 8度科技 157, server: mf-aws-kr-06.xncloud.xyz, port: 18000, type: vmess, uuid: 59ffe178-4542-3730-8b86-8603520afbb0, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-kr-06.xncloud.xyz}}
+  - {name: 8度科技 219, server: mf-aws-sg-12.xncloud.xyz, port: 18000, type: vmess, uuid: 59ffe178-4542-3730-8b86-8603520afbb0, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-sg-12.xncloud.xyz}}
+  - {name: 8度科技 8, server: zhuzhu12.com, port: 13959, type: vmess, uuid: d92988cf-6fac-3be1-af06-e48a7f975649, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: zhuzhu12.com}}
+  - {name: 🇸🇬 【新鸟免费】新加坡SG-AWS 08 1.0x, server: mf-aws-sg-08.xncloud.xyz, port: 18000, type: vmess, uuid: bc7abdaa-1152-3ed2-a571-a993b064569c, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-sg-08.xncloud.xyz}}
+  - {name: 🇸🇬 【新鸟免费】新加坡SG-AWS 06 1.0x, server: mf-aws-sg-06.xncloud.xyz, port: 18000, type: vmess, uuid: bc7abdaa-1152-3ed2-a571-a993b064569c, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-sg-06.xncloud.xyz}}
+  - {name: 8度科技 168, server: mf-aws-sg-12.xncloud.xyz, port: 18000, type: vmess, uuid: 9d65783f-2802-3500-8058-c5e0d8bfdb3a, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-sg-12.xncloud.xyz}}
+  - {name: 8度科技 214, server: mf-aws-jp-05.xncloud.xyz, port: 18000, type: vmess, uuid: 9d65783f-2802-3500-8058-c5e0d8bfdb3a, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-jp-05.xncloud.xyz}}
+  - {name: 🇯🇵 【新鸟免费】日本JP-AWS 10 1.0x, server: mf-aws-jp-10.xncloud.xyz, port: 18000, type: vmess, uuid: bc7abdaa-1152-3ed2-a571-a993b064569c, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-jp-10.xncloud.xyz}}
+  - {name: 8度科技 136, server: mf-aws-jp-01.xncloud.xyz, port: 18000, type: vmess, uuid: fcb03748-d0ae-3a8c-8557-a6835cff733d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-jp-01.xncloud.xyz}}
+  - {name: 8度科技 14, server: shcn2-06b.iplc188.com, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false}
+  - {name: 🇸🇬 【新鸟免费】新加坡SG-AWS 09 1.0x, server: mf-aws-sg-09.xncloud.xyz, port: 18000, type: vmess, uuid: bc7abdaa-1152-3ed2-a571-a993b064569c, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-sg-09.xncloud.xyz}}
+  - {name: 8度科技 119, server: mf-aws-jp-08.xncloud.xyz, port: 18000, type: vmess, uuid: fcb03748-d0ae-3a8c-8557-a6835cff733d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-jp-08.xncloud.xyz}}
+  - {name: 8度科技 32, server: shcu01.iplc188.com, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false}
+  - {name: 8度科技 146, server: mf-aws-jp-10.xncloud.xyz, port: 18000, type: vmess, uuid: 9d65783f-2802-3500-8058-c5e0d8bfdb3a, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-jp-10.xncloud.xyz}}
+  - {name: 🇯🇵 【新鸟免费】日本JP-AWS 01 1.0x, server: mf-aws-jp-01.xncloud.xyz, port: 18000, type: vmess, uuid: bc7abdaa-1152-3ed2-a571-a993b064569c, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-jp-01.xncloud.xyz}}
+  - {name: _NO_挪威, server: 46.29.218.6, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: default_name, server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇨🇦 _CA_加拿大, server: 198.57.27.218, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: _NO_挪威 2, server: 46.29.218.6, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 🇨🇦 _CA_加拿大 2, server: 198.57.27.218, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 8度科技 231, server: 45.140.169.176, port: 10055, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
+  - {name: 🇹🇼 _TW_台湾, server: 188.214.106.98, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: cNbqVVyUfbJFZ6S8EgRH}
+  - {name: 🇨🇦 _CA_加拿大 3, server: 184.75.208.234, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 47GH3wQRw7V4Zhd35bFs}
+  - {name: 8度科技 82, server: 198.244.150.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
+  - {name: 🇫🇷 _FR_法国, server: 217.182.199.168, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 8度科技 256, server: 172.99.190.87, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 8度科技 244, server: 66.55.92.101, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: NK4wZejCzDfPdWXTK4FW}
+  - {name: 🇺🇸 US(欢迎订阅youtube：8度科技), server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇨🇦 _CA_加拿大 4, server: 184.75.208.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 47GH3wQRw7V4Zhd35bFs}
+  - {name: 8度科技 199, server: 172.99.190.87, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇬🇧 _GB_英国, server: 172.99.190.87, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 8度科技 81, server: 192.46.210.73, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇬🇧 _GB_英国 2, server: 172.99.190.87, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: _PT_葡萄牙, server: 185.90.57.152, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf}
+  - {name: 8度科技 105, server: 62.210.209.50, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇧🇪 _BE_比利时, server: 77.243.191.178, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 47GH3wQRw7V4Zhd35bFs}
+  - {name: 🇭🇰 Play2 香港 - 遊戲專用|視頻限速 | 倍率:20, server: loe5aeno.nodeinfo.icu, port: 520, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: 🇬🇧 Super 英国01  | IEPL | 倍率:1.5, server: ahch4moo.nodeinfo.icu, port: 1124, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: 🇹🇼 Play3 台湾 - 遊戲專用|視頻限速 | 倍率:20, server: di0amoxu.nodeinfo.icu, port: 11130, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: 🇸🇬 Large 新加坡10 - all | IEPL | 倍率:1.5, server: aes7oosi.nodeinfo.icu, port: 3210, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: 🇯🇵 Large 日本03 - allmedia | IEPL | 倍率:1.5, server: eeth0aey.nodeinfo.icu, port: 6303, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: 胜天大佬赞助👍🐮80, server: 120.232.214.210, port: 19032, type: ssr, cipher: aes-128-cfb, password: qwQm0B, protocol: auth_aes128_md5, obfs: plain, protocol-param: 129134:cxCjTt, obfs-param: ""}
+  - {name: 🇸🇬 Large 新加坡09 - all | IEPL | 倍率:1.5, server: meeku3zi.nodeinfo.icu, port: 3209, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: 胜天大佬赞助🐮80, server: 120.232.214.210, port: 19018, type: ssr, cipher: aes-128-cfb, password: qwQm0B, protocol: auth_aes128_md5, obfs: plain, protocol-param: 129134:cxCjTt, obfs-param: ""}
+  - {name: 🇺🇸 Large 美国05 - allmedia | IEPL | 倍率:1.5, server: athe0ugh.nodeinfo.icu, port: 1801, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: 🇸🇬 Large 新加坡08 - all | IEPL | 倍率:1.5, server: eu7aish2.nodeinfo.icu, port: 1004, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: 🇭🇰 Super 香港03  | MIEPL | 倍率:2.5, server: vahv9diw.nodeinfo.icu, port: 7003, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: 胜天大佬赞助82, server: 120.232.40.42, port: 19001, type: ssr, cipher: aes-128-cfb, password: qwQm0B, protocol: auth_aes128_md5, obfs: plain, protocol-param: 129134:cxCjTt, obfs-param: ""}
+  - {name: 🇭🇰 Large 香港13 - all | AIA | 倍率:1.6, server: koo3cuiz.nodeinfo.icu, port: 6013, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: 🇭🇰 Super 香港07  | AIA| 倍率:2.3, server: jaibio5c.nodeinfo.icu, port: 7007, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: 🇭🇰 Large 香港09 - nf | AIA | 倍率:1.6, server: eevahb9v.nodeinfo.icu, port: 6009, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: 🇭🇰 Large 香港11 - nf | AIA | 倍率:1.6, server: aezee4ea.nodeinfo.icu, port: 6011, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: 🇭🇰 Large 香港20 - nf | AIA | 倍率:1.6, server: ti5mulix.nodeinfo.icu, port: 6020, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: 🇭🇰 Large 香港18 - nf | AIA | 倍率:1.8, server: vieghei0.nodeinfo.icu, port: 6018, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: 🇭🇰 Large 香港21 - nfo | MIEPL | 倍率:1.6, server: aic5ucu1.nodeinfo.icu, port: 6021, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: 🇭🇰 Large 香港05 - allmedia | MIEPL | 倍率:1.8, server: keixai3u.nodeinfo.icu, port: 6005, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: 🇭🇰 Large 香港12 - nf | AIA | 倍率:1.6, server: ahheil5u.nodeinfo.icu, port: 6012, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: 🇭🇰 Super 香港02  | MIEPL | 倍率:2.5, server: feeco8oo.nodeinfo.icu, port: 7002, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: 🇭🇰 Large 香港16 - allmedia | MIEPL | 倍率:1.6, server: quohvop8.nodeinfo.icu, port: 6016, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: 🇭🇰 Super 香港05  | AIA| 倍率:2.5, server: quaex7oo.nodeinfo.icu, port: 7005, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: 🇭🇰 Super 香港01  | MIEPL | 倍率:2.8, server: ota2wier.nodeinfo.icu, port: 7001, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: 🇭🇰 Super 香港04  | MIEPL | 倍率:2.5, server: vureuva3.nodeinfo.icu, port: 7004, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: 🇭🇰 Super 香港08  | AIA| 倍率:2.3, server: aemoo9wi.nodeinfo.icu, port: 7008, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: 🇭🇰 Large 香港01 - allmedia | MIEPL | 倍率:1.8, server: phahw1un.nodeinfo.icu, port: 6001, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: 🇭🇰 Large 香港10 - nf | AIA | 倍率:1.6, server: thoo6foh.nodeinfo.icu, port: 6010, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: 🇭🇰 Super 香港06  | AIA| 倍率:2.5, server: iqu5ujio.nodeinfo.icu, port: 7006, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: 🇭🇰 Large 香港15 - allmedia | MIEPL | 倍率:1.6, server: phu8iej2.nodeinfo.icu, port: 6015, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: 🇭🇰 Large 香港03 - allmedia | MIEPL | 倍率:1.8, server: wu3gadam.nodeinfo.icu, port: 6003, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: 🇭🇰 Large 香港14 - nf | MIEPL | 倍率:1.6, server: utai3iw1.nodeinfo.icu, port: 6014, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: 🇭🇰 Large 香港04 - allmedia | MIEPL | 倍率:1.8, server: queigh5h.nodeinfo.icu, port: 6004, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: 🇭🇰 Large 香港17 - all | AIA | 倍率:1.8, server: inu8azei.nodeinfo.icu, port: 6017, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: 🇭🇰 Large 香港02 - nf | MIEPL | 倍率:1.8, server: ooqu0eep.nodeinfo.icu, port: 6002, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: 胜天大佬赞助🐮83, server: 112.14.22.104, port: 19018, type: ssr, cipher: aes-128-cfb, password: qwQm0B, protocol: auth_aes128_md5, obfs: plain, protocol-param: 129134:cxCjTt, obfs-param: ""}
+  - {name: 胜天大佬赞助🐮82, server: 120.232.40.42, port: 19018, type: ssr, cipher: aes-128-cfb, password: qwQm0B, protocol: auth_aes128_md5, obfs: plain, protocol-param: 129134:cxCjTt, obfs-param: ""}
+  - {name: 胜天大佬赞助🐮79, server: 120.232.41.124, port: 19018, type: ssr, cipher: aes-128-cfb, password: qwQm0B, protocol: auth_aes128_md5, obfs: plain, protocol-param: 129134:cxCjTt, obfs-param: ""}
+  - {name: 胜天大佬赞助🐮78, server: 120.232.182.5, port: 19018, type: ssr, cipher: aes-128-cfb, password: qwQm0B, protocol: auth_aes128_md5, obfs: plain, protocol-param: 129134:cxCjTt, obfs-param: ""}
+  - {name: 胜天大佬赞助80, server: 120.232.214.210, port: 19001, type: ssr, cipher: aes-128-cfb, password: qwQm0B, protocol: auth_aes128_md5, obfs: plain, protocol-param: 129134:cxCjTt, obfs-param: ""}
+  - {name: 胜天大佬赞助😂👍🐮81, server: 120.232.182.190, port: 19056, type: ssr, cipher: aes-128-cfb, password: qwQm0B, protocol: auth_aes128_md5, obfs: plain, protocol-param: 129134:cxCjTt, obfs-param: ""}
+  - {name: 胜天大佬赞助👍🐮81, server: 120.232.182.190, port: 19032, type: ssr, cipher: aes-128-cfb, password: qwQm0B, protocol: auth_aes128_md5, obfs: plain, protocol-param: 129134:cxCjTt, obfs-param: ""}
+  - {name: 胜天大佬赞助💰82, server: 120.232.40.42, port: 19002, type: ssr, cipher: aes-128-cfb, password: qwQm0B, protocol: auth_aes128_md5, obfs: plain, protocol-param: 129134:cxCjTt, obfs-param: ""}
+  - {name: 胜天大佬赞助🐮81, server: 120.232.182.190, port: 19018, type: ssr, cipher: aes-128-cfb, password: qwQm0B, protocol: auth_aes128_md5, obfs: plain, protocol-param: 129134:cxCjTt, obfs-param: ""}
+  - {name: 🇭🇰 Large 香港07 - nf | MIEPL | 倍率:1.8, server: ac5mahye.nodeinfo.icu, port: 6007, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: 胜天大佬赞助💰81, server: 120.232.182.190, port: 19002, type: ssr, cipher: aes-128-cfb, password: qwQm0B, protocol: auth_aes128_md5, obfs: plain, protocol-param: 129134:cxCjTt, obfs-param: ""}
+  - {name: 胜天大佬赞助👍🐮82, server: 120.232.40.42, port: 19032, type: ssr, cipher: aes-128-cfb, password: qwQm0B, protocol: auth_aes128_md5, obfs: plain, protocol-param: 129134:cxCjTt, obfs-param: ""}
+  - {name: 🇺🇸 Super 美国01  | MIEPL | 倍率:1.8, server: ic8iz5xu.nodeinfo.icu, port: 1120, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: 🇺🇸 Super 美国04  | MIEPL | 倍率:1.8, server: meb1aibe.nodeinfo.icu, port: 1133, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: 🇺🇸 Super 美国02  | MIEPL | 倍率:1.8, server: euchei9j.nodeinfo.icu, port: 1121, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: 🇺🇸 Super 美国03  | MIEPL| 倍率:2, server: ahc1beib.nodeinfo.icu, port: 1132, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: 胜天大佬赞助81, server: 120.232.182.190, port: 19001, type: ssr, cipher: aes-128-cfb, password: qwQm0B, protocol: auth_aes128_md5, obfs: plain, protocol-param: 129134:cxCjTt, obfs-param: ""}
+  - {name: 🇸🇬 Super 新加坡02  | IEPL | 倍率:2, server: gee3ahy3.nodeinfo.icu, port: 1128, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: 🇰🇷 Large 韩国01 - nf | MIEPL | 倍率:1.6, server: peev0eey.nodeinfo.icu, port: 6101, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: 胜天大佬赞助👍🐮83, server: 112.14.22.104, port: 19032, type: ssr, cipher: aes-128-cfb, password: qwQm0B, protocol: auth_aes128_md5, obfs: plain, protocol-param: 129134:cxCjTt, obfs-param: ""}
+  - {name: 胜天大佬赞助83, server: 112.14.22.104, port: 19001, type: ssr, cipher: aes-128-cfb, password: qwQm0B, protocol: auth_aes128_md5, obfs: plain, protocol-param: 129134:cxCjTt, obfs-param: ""}
+  - {name: 胜天大佬赞助😂👍🐮83, server: 112.14.22.104, port: 19056, type: ssr, cipher: aes-128-cfb, password: qwQm0B, protocol: auth_aes128_md5, obfs: plain, protocol-param: 129134:cxCjTt, obfs-param: ""}
+  - {name: 🇹🇼 Super 台湾03  | IEPL | 倍率:2.1, server: aedah1ch.nodeinfo.icu, port: 1130, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: 胜天大佬赞助💰79, server: 120.232.41.124, port: 19002, type: ssr, cipher: aes-128-cfb, password: qwQm0B, protocol: auth_aes128_md5, obfs: plain, protocol-param: 129134:cxCjTt, obfs-param: ""}
+  - {name: 胜天大佬赞助😂👍🐮82, server: 120.232.40.42, port: 19056, type: ssr, cipher: aes-128-cfb, password: qwQm0B, protocol: auth_aes128_md5, obfs: plain, protocol-param: 129134:cxCjTt, obfs-param: ""}
+  - {name: 🇸🇬 Super 新加坡01  | MIEPL | 倍率:2, server: oexu8yee.nodeinfo.icu, port: 1125, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: 🇭🇰 Large 香港08 - all | AIA | 倍率:1.6, server: ie2ohyai.nodeinfo.icu, port: 6008, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: 胜天大佬赞助💰78, server: 120.232.182.5, port: 19002, type: ssr, cipher: aes-128-cfb, password: qwQm0B, protocol: auth_aes128_md5, obfs: plain, protocol-param: 129134:cxCjTt, obfs-param: ""}
+  - {name: 🇯🇵 Super 日本01  | MIEPL | 倍率:2, server: meiphen0.nodeinfo.icu, port: 1126, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: 胜天大佬赞助👍🐮79, server: 120.232.41.124, port: 19032, type: ssr, cipher: aes-128-cfb, password: qwQm0B, protocol: auth_aes128_md5, obfs: plain, protocol-param: 129134:cxCjTt, obfs-param: ""}
+  - {name: 🇯🇵 Large 日本04 - allmedia | IEPL | 倍率:1.3, server: ib7uge9u.nodeinfo.icu, port: 6304, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: 胜天大佬赞助😂👍🐮79, server: 120.232.41.124, port: 19056, type: ssr, cipher: aes-128-cfb, password: qwQm0B, protocol: auth_aes128_md5, obfs: plain, protocol-param: 129134:cxCjTt, obfs-param: ""}
+  - {name: 胜天大佬赞助79, server: 120.232.41.124, port: 19001, type: ssr, cipher: aes-128-cfb, password: qwQm0B, protocol: auth_aes128_md5, obfs: plain, protocol-param: 129134:cxCjTt, obfs-param: ""}
+  - {name: 🇯🇵 Large 日本05 - allmedia | IEPL | 倍率:1.3, server: powa8agh.nodeinfo.icu, port: 6305, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: 胜天大佬赞助👍🐮78, server: 120.232.182.5, port: 19032, type: ssr, cipher: aes-128-cfb, password: qwQm0B, protocol: auth_aes128_md5, obfs: plain, protocol-param: 129134:cxCjTt, obfs-param: ""}
+  - {name: 🇹🇼 Large 台灣03 - all | MIEPL | 倍率:1.6, server: keem9bov.nodeinfo.icu, port: 6503, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: 胜天大佬赞助😂👍🐮80, server: 120.232.214.210, port: 19056, type: ssr, cipher: aes-128-cfb, password: qwQm0B, protocol: auth_aes128_md5, obfs: plain, protocol-param: 129134:cxCjTt, obfs-param: ""}
+  - {name: 🇹🇼 Large 台灣05 - all | IEPL | 倍率:1.5, server: eu1she3s.nodeinfo.icu, port: 700, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: 🇸🇬 Large 新加坡01 - all | IEPL | 倍率:1.5, server: aigha5ay.nodeinfo.icu, port: 3201, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: 胜天大佬赞助78, server: 120.232.182.5, port: 19001, type: ssr, cipher: aes-128-cfb, password: qwQm0B, protocol: auth_aes128_md5, obfs: plain, protocol-param: 129134:cxCjTt, obfs-param: ""}
+  - {name: 🇸🇬 Large 新加坡02 - all | IEPL | 倍率:1.5, server: roog5tee.nodeinfo.icu, port: 3202, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: 🇹🇼 Super 台湾01  | MIEPL | 倍率:2.1, server: ohm9aizu.nodeinfo.icu, port: 1122, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: 🇸🇬 Large 新加坡12 - all | IEPL | 倍率:1.5, server: iephu5so.nodeinfo.icu, port: 3212, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: 胜天大佬赞助💰80, server: 120.232.214.210, port: 19002, type: ssr, cipher: aes-128-cfb, password: qwQm0B, protocol: auth_aes128_md5, obfs: plain, protocol-param: 129134:cxCjTt, obfs-param: ""}
+  - {name: 🇹🇼 Large 台灣02 - all | IEPL | 倍率:1.8, server: yeen3opa.nodeinfo.icu, port: 6502, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: 胜天大佬赞助😂👍🐮78, server: 120.232.182.5, port: 19056, type: ssr, cipher: aes-128-cfb, password: qwQm0B, protocol: auth_aes128_md5, obfs: plain, protocol-param: 129134:cxCjTt, obfs-param: ""}
+  - {name: 🇹🇼 Large 台灣04 - all | IEPL | 倍率:1.5, server: zahre8ai.nodeinfo.icu, port: 699, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: 🇸🇬 Large 新加坡03 - all | MIEPL | 倍率:1.6, server: eim1kae9.nodeinfo.icu, port: 3203, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: 🇹🇼 Super 台湾02  | MIEPL | 倍率:2.1, server: yoo5hoog.nodeinfo.icu, port: 1123, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: 🇸🇬 Large 新加坡11 - all | IEPL | 倍率:1.5, server: quo7chie.nodeinfo.icu, port: 3211, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: 🇸🇬 Large 新加坡05 - all | IEPL | 倍率:1.5, server: aebek1oo.nodeinfo.icu, port: 1001, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: 🇹🇼 Large 台灣01 - all | IEPL | 倍率:1.8, server: oogha1za.nodeinfo.icu, port: 6501, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: 🇸🇬 Large 新加坡07 - all | IEPL | 倍率:1.5, server: eer9iqu7.nodeinfo.icu, port: 1003, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: 🇸🇬 Large 新加坡04 - all | MIEPL | 倍率:1.6, server: ainetu9e.nodeinfo.icu, port: 3204, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: 🇹🇼 Super 台湾04  | IEPL | 倍率:2.1, server: piizoh3x.nodeinfo.icu, port: 1131, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: 🇭🇰 Large 香港22 - nf | AIA | 倍率:1.8, server: aquoh8xi.nodeinfo.icu, port: 6022, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: 🇸🇬 Large 新加坡06 - all | IEPL | 倍率:1.5, server: phoo6aem.nodeinfo.icu, port: 1002, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 浦东电信-香港HKT-nf@vpnpool
-      - 浦东电信-香港HKT-nf@vpnpool 2
-      - 浦东电信-Tokyo-DMIT-nf@vpnpool
-      - 浦东电信-香港HKT-nf@vpnpool 3
-      - 广州移动-SG-Nerocloud-nf@vpnpool
-      - 浦东电信-Tokyo-DMIT-nf@vpnpool 2
-      - 浦东电信-Tokyo-DMIT-nf@vpnpool 3
-      - 广州移动-SG-Nerocloud-nf@vpnpool 2
-      - 广州移动-SG-Nerocloud-nf@vpnpool 3
-      - 上海CN2 新加坡 NeroCloud丨全解锁丨A2
-      - 上海CN2 日本 DMIT丨全解锁丨A1
-      - 浦东电信-SG-Nerocloud-nf@vpnpool
-      - 浦东电信-台北Hinet-nf@vpnpool
-      - "[12.12] TG频道@Jsnzk"
-      - 上海CN2 新加坡 NeroCloud丨全解锁丨A1
-      - 广州移动-Tokyo-DMIT-nf@vpnpool
-      - 广州-新加坡 NeroCloud丨全解锁丨A2
-      - 浦东电信-台北Hinet-nf@vpnpool 2
-      - 浦东电信-台北Hinet-nf@vpnpool 3
-      - 广州移动-SG-Nerocloud-nf@vpnpool 4
-      - 浦东电信-SG-Nerocloud-nf@vpnpool 2
-      - 浦东电信-SG-Nerocloud-nf@vpnpool 3
-      - 浦东电信-SG-Nerocloud-nf@vpnpool 4
-      - 广州移动-Tokyo-DMIT-nf@vpnpool 2
-      - 广州移动-Tokyo-DMIT-nf@vpnpool 3
-      - 广州-新加坡 NeroCloud丨全解锁丨A3
-      - 浦东电信-SG-Nerocloud-nf@vpnpool 5
-      - 广州移动-Tokyo-DMIT-nf@vpnpool 4
-      - 广州移动-Tokyo-DMIT-nf@vpnpool 5
-      - "[12.12] TG频道@Jsnzk 2"
-      - 广州-新加坡 NeroCloud丨全解锁丨A1
-      - 广州移动-Tokyo-DMIT-nf@vpnpool 6
-      - 广州移动-SG-Nerocloud-nf@vpnpool 5
-      - 广州移动-Tokyo-DMIT-nf@vpnpool 7
-      - 广州-日本 DMIT丨全解锁丨A3
-      - 浦东电信-SG-Nerocloud-nf@vpnpool 6
-      - 广州移动-Tokyo-DMIT-nf@vpnpool 8
-      - 广州移动-Tokyo-DMIT-nf@vpnpool 9
-      - 广州移动-SG-Nerocloud-nf@vpnpool 6
-      - 上海CN2 台湾 HiNet丨全解锁丨A1
-      - 广州移动-SG-Nerocloud-nf@vpnpool 7
-      - 上海CN2 美国 readydedis丨全解锁丨A1
-      - 广州移动-Tokyo-DMIT-nf@vpnpool 10
-      - "[12.12] TG频道@Jsnzk 3"
-      - 广州-日本 DMIT丨全解锁丨A4
-      - 广州移动-Tokyo-DMIT-nf@vpnpool 11
-      - 浦东电信-LAX-DediPath-nf@vpnpool
-      - 广州移动-香港HKT-nf@vpnpool
-      - 广州移动-香港HKT-nf@vpnpool 2
-      - 上海CN2 美国 DMIT丨全解锁丨A1
-      - 广州移动-LAX-DMIT-nf@vpnpool
-      - 广州移动-香港HKT-nf@vpnpool 3
-      - 广州-香港 HKT丨全解锁丨A2
-      - 浦东电信-LAX-DMIT-nf@vpnpool
-      - 广州移动-香港HKT-nf@vpnpool 4
-      - 广州移动-香港HKT-nf@vpnpool 5
-      - 广州-香港 HKT丨全解锁丨A1
-      - 广州移动-香港HKT-nf@vpnpool 6
-      - 广州移动-香港HKT-nf@vpnpool 7
-      - 浦东电信-LAX-DediPath-nf@vpnpool 2
-      - 广州移动-LAX-DMIT-nf@vpnpool 2
-      - 浦东电信-LAX-DediPath-nf@vpnpool 3
-      - 广州-台湾 HiNet丨全解锁丨A1
-      - 广州-英国 GTHost丨全解锁丨A1
-      - 浦东电信-LAX-DMIT-nf@vpnpool 2
-      - 广州移动-LAX-DMIT-nf@vpnpool 3
-      - "[12.12] TG频道@Jsnzk 4"
-      - 广州-美国 DMIT丨全解锁丨A1
-      - 广州移动-LAX-DMIT-nf@vpnpool 4
-      - 广州-美国 DMIT丨全解锁丨A2
-      - 广州移动-LAX-DMIT-nf@vpnpool 5
-      - 广州移动-LAX-DMIT-nf@vpnpool 6
-      - 广州移动-LAX-DMIT-nf@vpnpool 7
-      - 广州移动-London-GTHost-nf@vpnpool
-      - 广州移动-LAX-DMIT-nf@vpnpool 8
-      - 浦东电信-LAX-DMIT-nf@vpnpool 3
-      - 广州移动-London-GTHost-nf@vpnpool 2
-      - 广州移动-London-GTHost-nf@vpnpool 3
-      - 广州移动-香港HKT-nf@vpnpool 8
-      - 浦东电信-London-GTHost-nf@vpnpool
-      - 广州移动-London-GTHost-nf@vpnpool 4
-      - 广州移动-台北Hinet-nf@vpnpool
-      - 广州移动-台北Hinet-nf@vpnpool 2
-      - 浦东电信-London-GTHost-nf@vpnpool 2
-      - 上海CN2 英国 GTHost丨全解锁丨A1
-      - 浦东电信-London-GTHost-nf@vpnpool 3
-      - 广州移动-Novosibirsk-Baxet-nf@vpnhat
-      - 广州-俄罗斯 JUST丨半解锁丨A1
-      - 广州移动-台北Hinet-nf@vpnpool 3
-      - 广州-美国 Tencent丨全解锁丨A1
-      - 广州移动-SG-Tencent-nf@vpnpool
-      - 广州移动-SG-Tencent-nf@vpnpool 2
-      - 广州移动-SG-Tencent-nf@vpnpool 3
-      - 广州移动-SG-Tencent-nf@vpnpool 4
-      - 广州移动-Novosibirsk-Baxet-nf@vpnhat 2
-      - 广州移动-Novosibirsk-Baxet-nf@vpnhat 3
-      - "[12.12] TG频道@Jsnzk 5"
-      - 广州移动-Novosibirsk-Baxet-nf@vpnhat 4
-      - 广州移动-Santa Clara-Tencent-nf@EXTM3U
-      - 广州移动-台北Hinet-nf@vpnpool 4
-      - 上海CN2 巴西 NTT丨奈飞专用
-      - 广州移动-Santa Clara-Tencent-nf@EXTM3U 2
-      - "[12.12] TG频道@Jsnzk 6"
-      - 广州移动-Santa Clara-Tencent-nf@EXTM3U 3
-      - 上海CN2 香港 HKT丨全解锁丨A1
-      - "[12.12] TG频道@Jsnzk 7"
-      - 广州移动-Tokyo-DMIT-nf@vpnpool 12
-      - 广州移动-Santa Clara-Tencent-nf@EXTM3U 4
-      - 广州-日本 DMIT丨全解锁丨A2
-      - 广州移动-香港DMIT-nf@vpnpool
+      - 8度科技 67
+      - 8度科技 87
+      - 8度科技 242
+      - 8度科技 100
+      - 8度科技 36
+      - 8度科技 96
+      - 8度科技 21
+      - 8度科技 163
+      - v2cross.com
+      - 8度科技 76
+      - 8度科技 147
+      - 8度科技 127
+      - 8度科技 99
+      - 🇺🇸 _US_美国
+      - 8度科技 69
+      - 8度科技 132
+      - 8度科技 162
+      - 8度科技 174
+      - 8度科技 160
+      - 8度科技 94
+      - 匈牙利
+      - 🇸🇬 【新鸟免费】美国UA -DO 02 免流 1.0x
+      - 🇸🇬 【新鸟免费】美国UA -DO 05 免流 1.0x
+      - 🇸🇬 【新鸟免费】美国UA -DO 08 免流 1.0x
+      - 🇸🇬 【新鸟免费】美国UA -DO 04 免流 1.0x
+      - 8度科技 205
+      - 🇸🇬 【新鸟免费】美国UA -DO 01 免流 1.0x
+      - 🇸🇬 【新鸟免费】美国UA -DO 03 免流 1.0x
+      - 🇸🇬 【新鸟免费】美国UA -DO 06 免流 1.0x
+      - 🇺🇸 _US_美国 2
+      - 🇸🇬 【新鸟免费】美国UA -DO 07 免流 1.0x
+      - 🇺🇸 美国(欢迎订阅youtube：8度科技)
+      - 🇺🇸 _US_美国 3
+      - 🇸🇬 【新鸟免费】美国UA -DO 10 免流 1.0x
+      - 8度科技 90
+      - 8度科技 54
+      - 8度科技 34
+      - 8度科技 206
+      - 8度科技 53
+      - 🇺🇸 美国加州C
+      - 8度科技 97
+      - 8度科技 245
+      - 8度科技 153
+      - 8度科技 98
+      - 🇰🇷 【新鸟免费】韩国KR-AWS 05 1.0x
+      - 🇰🇷 【新鸟免费】韩国KR-AWS 10 1.0x
+      - 8度科技 158
+      - 8度科技 202
+      - 🇸🇬 【新鸟免费】新加坡SG-AWS 12 1.0x
+      - 🇸🇬 【新鸟免费】新加坡SG-AWS 03 1.0x
+      - 🇸🇬 【新鸟免费】新加坡SG-AWS 11 1.0x
+      - 8度科技 232
+      - 🇯🇵 【新鸟免费】日本JP-AWS 08 1.0x
+      - 8度科技 250
+      - 🇰🇷 【新鸟免费】韩国KR-AWS 08 1.0x
+      - 🇸🇬 【新鸟免费】新加坡SG-AWS 13 1.0x
+      - 8度科技 110
+      - 8度科技 120
+      - 8度科技 251
+      - 8度科技 253
+      - 8度科技 212
+      - 8度科技 157
+      - 8度科技 219
+      - 8度科技 8
+      - 🇸🇬 【新鸟免费】新加坡SG-AWS 08 1.0x
+      - 🇸🇬 【新鸟免费】新加坡SG-AWS 06 1.0x
+      - 8度科技 168
+      - 8度科技 214
+      - 🇯🇵 【新鸟免费】日本JP-AWS 10 1.0x
+      - 8度科技 136
+      - 8度科技 14
+      - 🇸🇬 【新鸟免费】新加坡SG-AWS 09 1.0x
+      - 8度科技 119
+      - 8度科技 32
+      - 8度科技 146
+      - 🇯🇵 【新鸟免费】日本JP-AWS 01 1.0x
+      - _NO_挪威
+      - default_name
+      - 🇨🇦 _CA_加拿大
+      - _NO_挪威 2
+      - 🇨🇦 _CA_加拿大 2
+      - 8度科技 231
+      - 🇹🇼 _TW_台湾
+      - 🇨🇦 _CA_加拿大 3
+      - 8度科技 82
+      - 🇫🇷 _FR_法国
+      - 8度科技 256
+      - 8度科技 244
+      - 🇺🇸 US(欢迎订阅youtube：8度科技)
+      - 🇨🇦 _CA_加拿大 4
+      - 8度科技 199
+      - 🇬🇧 _GB_英国
+      - 8度科技 81
+      - 🇬🇧 _GB_英国 2
+      - _PT_葡萄牙
+      - 8度科技 105
+      - 🇧🇪 _BE_比利时
+      - 🇭🇰 Play2 香港 - 遊戲專用|視頻限速 | 倍率:20
+      - 🇬🇧 Super 英国01  | IEPL | 倍率:1.5
+      - 🇹🇼 Play3 台湾 - 遊戲專用|視頻限速 | 倍率:20
+      - 🇸🇬 Large 新加坡10 - all | IEPL | 倍率:1.5
+      - 🇯🇵 Large 日本03 - allmedia | IEPL | 倍率:1.5
+      - 胜天大佬赞助👍🐮80
+      - 🇸🇬 Large 新加坡09 - all | IEPL | 倍率:1.5
+      - 胜天大佬赞助🐮80
+      - 🇺🇸 Large 美国05 - allmedia | IEPL | 倍率:1.5
+      - 🇸🇬 Large 新加坡08 - all | IEPL | 倍率:1.5
+      - 🇭🇰 Super 香港03  | MIEPL | 倍率:2.5
+      - 胜天大佬赞助82
+      - 🇭🇰 Large 香港13 - all | AIA | 倍率:1.6
+      - 🇭🇰 Super 香港07  | AIA| 倍率:2.3
+      - 🇭🇰 Large 香港09 - nf | AIA | 倍率:1.6
+      - 🇭🇰 Large 香港11 - nf | AIA | 倍率:1.6
+      - 🇭🇰 Large 香港20 - nf | AIA | 倍率:1.6
+      - 🇭🇰 Large 香港18 - nf | AIA | 倍率:1.8
+      - 🇭🇰 Large 香港21 - nfo | MIEPL | 倍率:1.6
+      - 🇭🇰 Large 香港05 - allmedia | MIEPL | 倍率:1.8
+      - 🇭🇰 Large 香港12 - nf | AIA | 倍率:1.6
+      - 🇭🇰 Super 香港02  | MIEPL | 倍率:2.5
+      - 🇭🇰 Large 香港16 - allmedia | MIEPL | 倍率:1.6
+      - 🇭🇰 Super 香港05  | AIA| 倍率:2.5
+      - 🇭🇰 Super 香港01  | MIEPL | 倍率:2.8
+      - 🇭🇰 Super 香港04  | MIEPL | 倍率:2.5
+      - 🇭🇰 Super 香港08  | AIA| 倍率:2.3
+      - 🇭🇰 Large 香港01 - allmedia | MIEPL | 倍率:1.8
+      - 🇭🇰 Large 香港10 - nf | AIA | 倍率:1.6
+      - 🇭🇰 Super 香港06  | AIA| 倍率:2.5
+      - 🇭🇰 Large 香港15 - allmedia | MIEPL | 倍率:1.6
+      - 🇭🇰 Large 香港03 - allmedia | MIEPL | 倍率:1.8
+      - 🇭🇰 Large 香港14 - nf | MIEPL | 倍率:1.6
+      - 🇭🇰 Large 香港04 - allmedia | MIEPL | 倍率:1.8
+      - 🇭🇰 Large 香港17 - all | AIA | 倍率:1.8
+      - 🇭🇰 Large 香港02 - nf | MIEPL | 倍率:1.8
+      - 胜天大佬赞助🐮83
+      - 胜天大佬赞助🐮82
+      - 胜天大佬赞助🐮79
+      - 胜天大佬赞助🐮78
+      - 胜天大佬赞助80
+      - 胜天大佬赞助😂👍🐮81
+      - 胜天大佬赞助👍🐮81
+      - 胜天大佬赞助💰82
+      - 胜天大佬赞助🐮81
+      - 🇭🇰 Large 香港07 - nf | MIEPL | 倍率:1.8
+      - 胜天大佬赞助💰81
+      - 胜天大佬赞助👍🐮82
+      - 🇺🇸 Super 美国01  | MIEPL | 倍率:1.8
+      - 🇺🇸 Super 美国04  | MIEPL | 倍率:1.8
+      - 🇺🇸 Super 美国02  | MIEPL | 倍率:1.8
+      - 🇺🇸 Super 美国03  | MIEPL| 倍率:2
+      - 胜天大佬赞助81
+      - 🇸🇬 Super 新加坡02  | IEPL | 倍率:2
+      - 🇰🇷 Large 韩国01 - nf | MIEPL | 倍率:1.6
+      - 胜天大佬赞助👍🐮83
+      - 胜天大佬赞助83
+      - 胜天大佬赞助😂👍🐮83
+      - 🇹🇼 Super 台湾03  | IEPL | 倍率:2.1
+      - 胜天大佬赞助💰79
+      - 胜天大佬赞助😂👍🐮82
+      - 🇸🇬 Super 新加坡01  | MIEPL | 倍率:2
+      - 🇭🇰 Large 香港08 - all | AIA | 倍率:1.6
+      - 胜天大佬赞助💰78
+      - 🇯🇵 Super 日本01  | MIEPL | 倍率:2
+      - 胜天大佬赞助👍🐮79
+      - 🇯🇵 Large 日本04 - allmedia | IEPL | 倍率:1.3
+      - 胜天大佬赞助😂👍🐮79
+      - 胜天大佬赞助79
+      - 🇯🇵 Large 日本05 - allmedia | IEPL | 倍率:1.3
+      - 胜天大佬赞助👍🐮78
+      - 🇹🇼 Large 台灣03 - all | MIEPL | 倍率:1.6
+      - 胜天大佬赞助😂👍🐮80
+      - 🇹🇼 Large 台灣05 - all | IEPL | 倍率:1.5
+      - 🇸🇬 Large 新加坡01 - all | IEPL | 倍率:1.5
+      - 胜天大佬赞助78
+      - 🇸🇬 Large 新加坡02 - all | IEPL | 倍率:1.5
+      - 🇹🇼 Super 台湾01  | MIEPL | 倍率:2.1
+      - 🇸🇬 Large 新加坡12 - all | IEPL | 倍率:1.5
+      - 胜天大佬赞助💰80
+      - 🇹🇼 Large 台灣02 - all | IEPL | 倍率:1.8
+      - 胜天大佬赞助😂👍🐮78
+      - 🇹🇼 Large 台灣04 - all | IEPL | 倍率:1.5
+      - 🇸🇬 Large 新加坡03 - all | MIEPL | 倍率:1.6
+      - 🇹🇼 Super 台湾02  | MIEPL | 倍率:2.1
+      - 🇸🇬 Large 新加坡11 - all | IEPL | 倍率:1.5
+      - 🇸🇬 Large 新加坡05 - all | IEPL | 倍率:1.5
+      - 🇹🇼 Large 台灣01 - all | IEPL | 倍率:1.8
+      - 🇸🇬 Large 新加坡07 - all | IEPL | 倍率:1.5
+      - 🇸🇬 Large 新加坡04 - all | MIEPL | 倍率:1.6
+      - 🇹🇼 Super 台湾04  | IEPL | 倍率:2.1
+      - 🇭🇰 Large 香港22 - nf | AIA | 倍率:1.8
+      - 🇸🇬 Large 新加坡06 - all | IEPL | 倍率:1.5
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 浦东电信-香港HKT-nf@vpnpool
-      - 浦东电信-香港HKT-nf@vpnpool 2
-      - 浦东电信-Tokyo-DMIT-nf@vpnpool
-      - 浦东电信-香港HKT-nf@vpnpool 3
-      - 广州移动-SG-Nerocloud-nf@vpnpool
-      - 浦东电信-Tokyo-DMIT-nf@vpnpool 2
-      - 浦东电信-Tokyo-DMIT-nf@vpnpool 3
-      - 广州移动-SG-Nerocloud-nf@vpnpool 2
-      - 广州移动-SG-Nerocloud-nf@vpnpool 3
-      - 上海CN2 新加坡 NeroCloud丨全解锁丨A2
-      - 上海CN2 日本 DMIT丨全解锁丨A1
-      - 浦东电信-SG-Nerocloud-nf@vpnpool
-      - 浦东电信-台北Hinet-nf@vpnpool
-      - "[12.12] TG频道@Jsnzk"
-      - 上海CN2 新加坡 NeroCloud丨全解锁丨A1
-      - 广州移动-Tokyo-DMIT-nf@vpnpool
-      - 广州-新加坡 NeroCloud丨全解锁丨A2
-      - 浦东电信-台北Hinet-nf@vpnpool 2
-      - 浦东电信-台北Hinet-nf@vpnpool 3
-      - 广州移动-SG-Nerocloud-nf@vpnpool 4
-      - 浦东电信-SG-Nerocloud-nf@vpnpool 2
-      - 浦东电信-SG-Nerocloud-nf@vpnpool 3
-      - 浦东电信-SG-Nerocloud-nf@vpnpool 4
-      - 广州移动-Tokyo-DMIT-nf@vpnpool 2
-      - 广州移动-Tokyo-DMIT-nf@vpnpool 3
-      - 广州-新加坡 NeroCloud丨全解锁丨A3
-      - 浦东电信-SG-Nerocloud-nf@vpnpool 5
-      - 广州移动-Tokyo-DMIT-nf@vpnpool 4
-      - 广州移动-Tokyo-DMIT-nf@vpnpool 5
-      - "[12.12] TG频道@Jsnzk 2"
-      - 广州-新加坡 NeroCloud丨全解锁丨A1
-      - 广州移动-Tokyo-DMIT-nf@vpnpool 6
-      - 广州移动-SG-Nerocloud-nf@vpnpool 5
-      - 广州移动-Tokyo-DMIT-nf@vpnpool 7
-      - 广州-日本 DMIT丨全解锁丨A3
-      - 浦东电信-SG-Nerocloud-nf@vpnpool 6
-      - 广州移动-Tokyo-DMIT-nf@vpnpool 8
-      - 广州移动-Tokyo-DMIT-nf@vpnpool 9
-      - 广州移动-SG-Nerocloud-nf@vpnpool 6
-      - 上海CN2 台湾 HiNet丨全解锁丨A1
-      - 广州移动-SG-Nerocloud-nf@vpnpool 7
-      - 上海CN2 美国 readydedis丨全解锁丨A1
-      - 广州移动-Tokyo-DMIT-nf@vpnpool 10
-      - "[12.12] TG频道@Jsnzk 3"
-      - 广州-日本 DMIT丨全解锁丨A4
-      - 广州移动-Tokyo-DMIT-nf@vpnpool 11
-      - 浦东电信-LAX-DediPath-nf@vpnpool
-      - 广州移动-香港HKT-nf@vpnpool
-      - 广州移动-香港HKT-nf@vpnpool 2
-      - 上海CN2 美国 DMIT丨全解锁丨A1
-      - 广州移动-LAX-DMIT-nf@vpnpool
-      - 广州移动-香港HKT-nf@vpnpool 3
-      - 广州-香港 HKT丨全解锁丨A2
-      - 浦东电信-LAX-DMIT-nf@vpnpool
-      - 广州移动-香港HKT-nf@vpnpool 4
-      - 广州移动-香港HKT-nf@vpnpool 5
-      - 广州-香港 HKT丨全解锁丨A1
-      - 广州移动-香港HKT-nf@vpnpool 6
-      - 广州移动-香港HKT-nf@vpnpool 7
-      - 浦东电信-LAX-DediPath-nf@vpnpool 2
-      - 广州移动-LAX-DMIT-nf@vpnpool 2
-      - 浦东电信-LAX-DediPath-nf@vpnpool 3
-      - 广州-台湾 HiNet丨全解锁丨A1
-      - 广州-英国 GTHost丨全解锁丨A1
-      - 浦东电信-LAX-DMIT-nf@vpnpool 2
-      - 广州移动-LAX-DMIT-nf@vpnpool 3
-      - "[12.12] TG频道@Jsnzk 4"
-      - 广州-美国 DMIT丨全解锁丨A1
-      - 广州移动-LAX-DMIT-nf@vpnpool 4
-      - 广州-美国 DMIT丨全解锁丨A2
-      - 广州移动-LAX-DMIT-nf@vpnpool 5
-      - 广州移动-LAX-DMIT-nf@vpnpool 6
-      - 广州移动-LAX-DMIT-nf@vpnpool 7
-      - 广州移动-London-GTHost-nf@vpnpool
-      - 广州移动-LAX-DMIT-nf@vpnpool 8
-      - 浦东电信-LAX-DMIT-nf@vpnpool 3
-      - 广州移动-London-GTHost-nf@vpnpool 2
-      - 广州移动-London-GTHost-nf@vpnpool 3
-      - 广州移动-香港HKT-nf@vpnpool 8
-      - 浦东电信-London-GTHost-nf@vpnpool
-      - 广州移动-London-GTHost-nf@vpnpool 4
-      - 广州移动-台北Hinet-nf@vpnpool
-      - 广州移动-台北Hinet-nf@vpnpool 2
-      - 浦东电信-London-GTHost-nf@vpnpool 2
-      - 上海CN2 英国 GTHost丨全解锁丨A1
-      - 浦东电信-London-GTHost-nf@vpnpool 3
-      - 广州移动-Novosibirsk-Baxet-nf@vpnhat
-      - 广州-俄罗斯 JUST丨半解锁丨A1
-      - 广州移动-台北Hinet-nf@vpnpool 3
-      - 广州-美国 Tencent丨全解锁丨A1
-      - 广州移动-SG-Tencent-nf@vpnpool
-      - 广州移动-SG-Tencent-nf@vpnpool 2
-      - 广州移动-SG-Tencent-nf@vpnpool 3
-      - 广州移动-SG-Tencent-nf@vpnpool 4
-      - 广州移动-Novosibirsk-Baxet-nf@vpnhat 2
-      - 广州移动-Novosibirsk-Baxet-nf@vpnhat 3
-      - "[12.12] TG频道@Jsnzk 5"
-      - 广州移动-Novosibirsk-Baxet-nf@vpnhat 4
-      - 广州移动-Santa Clara-Tencent-nf@EXTM3U
-      - 广州移动-台北Hinet-nf@vpnpool 4
-      - 上海CN2 巴西 NTT丨奈飞专用
-      - 广州移动-Santa Clara-Tencent-nf@EXTM3U 2
-      - "[12.12] TG频道@Jsnzk 6"
-      - 广州移动-Santa Clara-Tencent-nf@EXTM3U 3
-      - 上海CN2 香港 HKT丨全解锁丨A1
-      - "[12.12] TG频道@Jsnzk 7"
-      - 广州移动-Tokyo-DMIT-nf@vpnpool 12
-      - 广州移动-Santa Clara-Tencent-nf@EXTM3U 4
-      - 广州-日本 DMIT丨全解锁丨A2
-      - 广州移动-香港DMIT-nf@vpnpool
-  - name: 🎥 NETFLIX
-    type: select
-    proxies:
-      - 🔰 节点选择
-      - ♻️ 自动选择
-      - 🎯 全球直连
-      - 浦东电信-香港HKT-nf@vpnpool
-      - 浦东电信-香港HKT-nf@vpnpool 2
-      - 浦东电信-Tokyo-DMIT-nf@vpnpool
-      - 浦东电信-香港HKT-nf@vpnpool 3
-      - 广州移动-SG-Nerocloud-nf@vpnpool
-      - 浦东电信-Tokyo-DMIT-nf@vpnpool 2
-      - 浦东电信-Tokyo-DMIT-nf@vpnpool 3
-      - 广州移动-SG-Nerocloud-nf@vpnpool 2
-      - 广州移动-SG-Nerocloud-nf@vpnpool 3
-      - 上海CN2 新加坡 NeroCloud丨全解锁丨A2
-      - 上海CN2 日本 DMIT丨全解锁丨A1
-      - 浦东电信-SG-Nerocloud-nf@vpnpool
-      - 浦东电信-台北Hinet-nf@vpnpool
-      - "[12.12] TG频道@Jsnzk"
-      - 上海CN2 新加坡 NeroCloud丨全解锁丨A1
-      - 广州移动-Tokyo-DMIT-nf@vpnpool
-      - 广州-新加坡 NeroCloud丨全解锁丨A2
-      - 浦东电信-台北Hinet-nf@vpnpool 2
-      - 浦东电信-台北Hinet-nf@vpnpool 3
-      - 广州移动-SG-Nerocloud-nf@vpnpool 4
-      - 浦东电信-SG-Nerocloud-nf@vpnpool 2
-      - 浦东电信-SG-Nerocloud-nf@vpnpool 3
-      - 浦东电信-SG-Nerocloud-nf@vpnpool 4
-      - 广州移动-Tokyo-DMIT-nf@vpnpool 2
-      - 广州移动-Tokyo-DMIT-nf@vpnpool 3
-      - 广州-新加坡 NeroCloud丨全解锁丨A3
-      - 浦东电信-SG-Nerocloud-nf@vpnpool 5
-      - 广州移动-Tokyo-DMIT-nf@vpnpool 4
-      - 广州移动-Tokyo-DMIT-nf@vpnpool 5
-      - "[12.12] TG频道@Jsnzk 2"
-      - 广州-新加坡 NeroCloud丨全解锁丨A1
-      - 广州移动-Tokyo-DMIT-nf@vpnpool 6
-      - 广州移动-SG-Nerocloud-nf@vpnpool 5
-      - 广州移动-Tokyo-DMIT-nf@vpnpool 7
-      - 广州-日本 DMIT丨全解锁丨A3
-      - 浦东电信-SG-Nerocloud-nf@vpnpool 6
-      - 广州移动-Tokyo-DMIT-nf@vpnpool 8
-      - 广州移动-Tokyo-DMIT-nf@vpnpool 9
-      - 广州移动-SG-Nerocloud-nf@vpnpool 6
-      - 上海CN2 台湾 HiNet丨全解锁丨A1
-      - 广州移动-SG-Nerocloud-nf@vpnpool 7
-      - 上海CN2 美国 readydedis丨全解锁丨A1
-      - 广州移动-Tokyo-DMIT-nf@vpnpool 10
-      - "[12.12] TG频道@Jsnzk 3"
-      - 广州-日本 DMIT丨全解锁丨A4
-      - 广州移动-Tokyo-DMIT-nf@vpnpool 11
-      - 浦东电信-LAX-DediPath-nf@vpnpool
-      - 广州移动-香港HKT-nf@vpnpool
-      - 广州移动-香港HKT-nf@vpnpool 2
-      - 上海CN2 美国 DMIT丨全解锁丨A1
-      - 广州移动-LAX-DMIT-nf@vpnpool
-      - 广州移动-香港HKT-nf@vpnpool 3
-      - 广州-香港 HKT丨全解锁丨A2
-      - 浦东电信-LAX-DMIT-nf@vpnpool
-      - 广州移动-香港HKT-nf@vpnpool 4
-      - 广州移动-香港HKT-nf@vpnpool 5
-      - 广州-香港 HKT丨全解锁丨A1
-      - 广州移动-香港HKT-nf@vpnpool 6
-      - 广州移动-香港HKT-nf@vpnpool 7
-      - 浦东电信-LAX-DediPath-nf@vpnpool 2
-      - 广州移动-LAX-DMIT-nf@vpnpool 2
-      - 浦东电信-LAX-DediPath-nf@vpnpool 3
-      - 广州-台湾 HiNet丨全解锁丨A1
-      - 广州-英国 GTHost丨全解锁丨A1
-      - 浦东电信-LAX-DMIT-nf@vpnpool 2
-      - 广州移动-LAX-DMIT-nf@vpnpool 3
-      - "[12.12] TG频道@Jsnzk 4"
-      - 广州-美国 DMIT丨全解锁丨A1
-      - 广州移动-LAX-DMIT-nf@vpnpool 4
-      - 广州-美国 DMIT丨全解锁丨A2
-      - 广州移动-LAX-DMIT-nf@vpnpool 5
-      - 广州移动-LAX-DMIT-nf@vpnpool 6
-      - 广州移动-LAX-DMIT-nf@vpnpool 7
-      - 广州移动-London-GTHost-nf@vpnpool
-      - 广州移动-LAX-DMIT-nf@vpnpool 8
-      - 浦东电信-LAX-DMIT-nf@vpnpool 3
-      - 广州移动-London-GTHost-nf@vpnpool 2
-      - 广州移动-London-GTHost-nf@vpnpool 3
-      - 广州移动-香港HKT-nf@vpnpool 8
-      - 浦东电信-London-GTHost-nf@vpnpool
-      - 广州移动-London-GTHost-nf@vpnpool 4
-      - 广州移动-台北Hinet-nf@vpnpool
-      - 广州移动-台北Hinet-nf@vpnpool 2
-      - 浦东电信-London-GTHost-nf@vpnpool 2
-      - 上海CN2 英国 GTHost丨全解锁丨A1
-      - 浦东电信-London-GTHost-nf@vpnpool 3
-      - 广州移动-Novosibirsk-Baxet-nf@vpnhat
-      - 广州-俄罗斯 JUST丨半解锁丨A1
-      - 广州移动-台北Hinet-nf@vpnpool 3
-      - 广州-美国 Tencent丨全解锁丨A1
-      - 广州移动-SG-Tencent-nf@vpnpool
-      - 广州移动-SG-Tencent-nf@vpnpool 2
-      - 广州移动-SG-Tencent-nf@vpnpool 3
-      - 广州移动-SG-Tencent-nf@vpnpool 4
-      - 广州移动-Novosibirsk-Baxet-nf@vpnhat 2
-      - 广州移动-Novosibirsk-Baxet-nf@vpnhat 3
-      - "[12.12] TG频道@Jsnzk 5"
-      - 广州移动-Novosibirsk-Baxet-nf@vpnhat 4
-      - 广州移动-Santa Clara-Tencent-nf@EXTM3U
-      - 广州移动-台北Hinet-nf@vpnpool 4
-      - 上海CN2 巴西 NTT丨奈飞专用
-      - 广州移动-Santa Clara-Tencent-nf@EXTM3U 2
-      - "[12.12] TG频道@Jsnzk 6"
-      - 广州移动-Santa Clara-Tencent-nf@EXTM3U 3
-      - 上海CN2 香港 HKT丨全解锁丨A1
-      - "[12.12] TG频道@Jsnzk 7"
-      - 广州移动-Tokyo-DMIT-nf@vpnpool 12
-      - 广州移动-Santa Clara-Tencent-nf@EXTM3U 4
-      - 广州-日本 DMIT丨全解锁丨A2
-      - 广州移动-香港DMIT-nf@vpnpool
-  - name: ⛔️ 广告拦截
-    type: select
-    proxies:
-      - 🛑 全球拦截
-      - 🎯 全球直连
-      - 🔰 节点选择
-  - name: 🚫 运营劫持
-    type: select
-    proxies:
-      - 🛑 全球拦截
-      - 🎯 全球直连
-      - 🔰 节点选择
+      - 8度科技 67
+      - 8度科技 87
+      - 8度科技 242
+      - 8度科技 100
+      - 8度科技 36
+      - 8度科技 96
+      - 8度科技 21
+      - 8度科技 163
+      - v2cross.com
+      - 8度科技 76
+      - 8度科技 147
+      - 8度科技 127
+      - 8度科技 99
+      - 🇺🇸 _US_美国
+      - 8度科技 69
+      - 8度科技 132
+      - 8度科技 162
+      - 8度科技 174
+      - 8度科技 160
+      - 8度科技 94
+      - 匈牙利
+      - 🇸🇬 【新鸟免费】美国UA -DO 02 免流 1.0x
+      - 🇸🇬 【新鸟免费】美国UA -DO 05 免流 1.0x
+      - 🇸🇬 【新鸟免费】美国UA -DO 08 免流 1.0x
+      - 🇸🇬 【新鸟免费】美国UA -DO 04 免流 1.0x
+      - 8度科技 205
+      - 🇸🇬 【新鸟免费】美国UA -DO 01 免流 1.0x
+      - 🇸🇬 【新鸟免费】美国UA -DO 03 免流 1.0x
+      - 🇸🇬 【新鸟免费】美国UA -DO 06 免流 1.0x
+      - 🇺🇸 _US_美国 2
+      - 🇸🇬 【新鸟免费】美国UA -DO 07 免流 1.0x
+      - 🇺🇸 美国(欢迎订阅youtube：8度科技)
+      - 🇺🇸 _US_美国 3
+      - 🇸🇬 【新鸟免费】美国UA -DO 10 免流 1.0x
+      - 8度科技 90
+      - 8度科技 54
+      - 8度科技 34
+      - 8度科技 206
+      - 8度科技 53
+      - 🇺🇸 美国加州C
+      - 8度科技 97
+      - 8度科技 245
+      - 8度科技 153
+      - 8度科技 98
+      - 🇰🇷 【新鸟免费】韩国KR-AWS 05 1.0x
+      - 🇰🇷 【新鸟免费】韩国KR-AWS 10 1.0x
+      - 8度科技 158
+      - 8度科技 202
+      - 🇸🇬 【新鸟免费】新加坡SG-AWS 12 1.0x
+      - 🇸🇬 【新鸟免费】新加坡SG-AWS 03 1.0x
+      - 🇸🇬 【新鸟免费】新加坡SG-AWS 11 1.0x
+      - 8度科技 232
+      - 🇯🇵 【新鸟免费】日本JP-AWS 08 1.0x
+      - 8度科技 250
+      - 🇰🇷 【新鸟免费】韩国KR-AWS 08 1.0x
+      - 🇸🇬 【新鸟免费】新加坡SG-AWS 13 1.0x
+      - 8度科技 110
+      - 8度科技 120
+      - 8度科技 251
+      - 8度科技 253
+      - 8度科技 212
+      - 8度科技 157
+      - 8度科技 219
+      - 8度科技 8
+      - 🇸🇬 【新鸟免费】新加坡SG-AWS 08 1.0x
+      - 🇸🇬 【新鸟免费】新加坡SG-AWS 06 1.0x
+      - 8度科技 168
+      - 8度科技 214
+      - 🇯🇵 【新鸟免费】日本JP-AWS 10 1.0x
+      - 8度科技 136
+      - 8度科技 14
+      - 🇸🇬 【新鸟免费】新加坡SG-AWS 09 1.0x
+      - 8度科技 119
+      - 8度科技 32
+      - 8度科技 146
+      - 🇯🇵 【新鸟免费】日本JP-AWS 01 1.0x
+      - _NO_挪威
+      - default_name
+      - 🇨🇦 _CA_加拿大
+      - _NO_挪威 2
+      - 🇨🇦 _CA_加拿大 2
+      - 8度科技 231
+      - 🇹🇼 _TW_台湾
+      - 🇨🇦 _CA_加拿大 3
+      - 8度科技 82
+      - 🇫🇷 _FR_法国
+      - 8度科技 256
+      - 8度科技 244
+      - 🇺🇸 US(欢迎订阅youtube：8度科技)
+      - 🇨🇦 _CA_加拿大 4
+      - 8度科技 199
+      - 🇬🇧 _GB_英国
+      - 8度科技 81
+      - 🇬🇧 _GB_英国 2
+      - _PT_葡萄牙
+      - 8度科技 105
+      - 🇧🇪 _BE_比利时
+      - 🇭🇰 Play2 香港 - 遊戲專用|視頻限速 | 倍率:20
+      - 🇬🇧 Super 英国01  | IEPL | 倍率:1.5
+      - 🇹🇼 Play3 台湾 - 遊戲專用|視頻限速 | 倍率:20
+      - 🇸🇬 Large 新加坡10 - all | IEPL | 倍率:1.5
+      - 🇯🇵 Large 日本03 - allmedia | IEPL | 倍率:1.5
+      - 胜天大佬赞助👍🐮80
+      - 🇸🇬 Large 新加坡09 - all | IEPL | 倍率:1.5
+      - 胜天大佬赞助🐮80
+      - 🇺🇸 Large 美国05 - allmedia | IEPL | 倍率:1.5
+      - 🇸🇬 Large 新加坡08 - all | IEPL | 倍率:1.5
+      - 🇭🇰 Super 香港03  | MIEPL | 倍率:2.5
+      - 胜天大佬赞助82
+      - 🇭🇰 Large 香港13 - all | AIA | 倍率:1.6
+      - 🇭🇰 Super 香港07  | AIA| 倍率:2.3
+      - 🇭🇰 Large 香港09 - nf | AIA | 倍率:1.6
+      - 🇭🇰 Large 香港11 - nf | AIA | 倍率:1.6
+      - 🇭🇰 Large 香港20 - nf | AIA | 倍率:1.6
+      - 🇭🇰 Large 香港18 - nf | AIA | 倍率:1.8
+      - 🇭🇰 Large 香港21 - nfo | MIEPL | 倍率:1.6
+      - 🇭🇰 Large 香港05 - allmedia | MIEPL | 倍率:1.8
+      - 🇭🇰 Large 香港12 - nf | AIA | 倍率:1.6
+      - 🇭🇰 Super 香港02  | MIEPL | 倍率:2.5
+      - 🇭🇰 Large 香港16 - allmedia | MIEPL | 倍率:1.6
+      - 🇭🇰 Super 香港05  | AIA| 倍率:2.5
+      - 🇭🇰 Super 香港01  | MIEPL | 倍率:2.8
+      - 🇭🇰 Super 香港04  | MIEPL | 倍率:2.5
+      - 🇭🇰 Super 香港08  | AIA| 倍率:2.3
+      - 🇭🇰 Large 香港01 - allmedia | MIEPL | 倍率:1.8
+      - 🇭🇰 Large 香港10 - nf | AIA | 倍率:1.6
+      - 🇭🇰 Super 香港06  | AIA| 倍率:2.5
+      - 🇭🇰 Large 香港15 - allmedia | MIEPL | 倍率:1.6
+      - 🇭🇰 Large 香港03 - allmedia | MIEPL | 倍率:1.8
+      - 🇭🇰 Large 香港14 - nf | MIEPL | 倍率:1.6
+      - 🇭🇰 Large 香港04 - allmedia | MIEPL | 倍率:1.8
+      - 🇭🇰 Large 香港17 - all | AIA | 倍率:1.8
+      - 🇭🇰 Large 香港02 - nf | MIEPL | 倍率:1.8
+      - 胜天大佬赞助🐮83
+      - 胜天大佬赞助🐮82
+      - 胜天大佬赞助🐮79
+      - 胜天大佬赞助🐮78
+      - 胜天大佬赞助80
+      - 胜天大佬赞助😂👍🐮81
+      - 胜天大佬赞助👍🐮81
+      - 胜天大佬赞助💰82
+      - 胜天大佬赞助🐮81
+      - 🇭🇰 Large 香港07 - nf | MIEPL | 倍率:1.8
+      - 胜天大佬赞助💰81
+      - 胜天大佬赞助👍🐮82
+      - 🇺🇸 Super 美国01  | MIEPL | 倍率:1.8
+      - 🇺🇸 Super 美国04  | MIEPL | 倍率:1.8
+      - 🇺🇸 Super 美国02  | MIEPL | 倍率:1.8
+      - 🇺🇸 Super 美国03  | MIEPL| 倍率:2
+      - 胜天大佬赞助81
+      - 🇸🇬 Super 新加坡02  | IEPL | 倍率:2
+      - 🇰🇷 Large 韩国01 - nf | MIEPL | 倍率:1.6
+      - 胜天大佬赞助👍🐮83
+      - 胜天大佬赞助83
+      - 胜天大佬赞助😂👍🐮83
+      - 🇹🇼 Super 台湾03  | IEPL | 倍率:2.1
+      - 胜天大佬赞助💰79
+      - 胜天大佬赞助😂👍🐮82
+      - 🇸🇬 Super 新加坡01  | MIEPL | 倍率:2
+      - 🇭🇰 Large 香港08 - all | AIA | 倍率:1.6
+      - 胜天大佬赞助💰78
+      - 🇯🇵 Super 日本01  | MIEPL | 倍率:2
+      - 胜天大佬赞助👍🐮79
+      - 🇯🇵 Large 日本04 - allmedia | IEPL | 倍率:1.3
+      - 胜天大佬赞助😂👍🐮79
+      - 胜天大佬赞助79
+      - 🇯🇵 Large 日本05 - allmedia | IEPL | 倍率:1.3
+      - 胜天大佬赞助👍🐮78
+      - 🇹🇼 Large 台灣03 - all | MIEPL | 倍率:1.6
+      - 胜天大佬赞助😂👍🐮80
+      - 🇹🇼 Large 台灣05 - all | IEPL | 倍率:1.5
+      - 🇸🇬 Large 新加坡01 - all | IEPL | 倍率:1.5
+      - 胜天大佬赞助78
+      - 🇸🇬 Large 新加坡02 - all | IEPL | 倍率:1.5
+      - 🇹🇼 Super 台湾01  | MIEPL | 倍率:2.1
+      - 🇸🇬 Large 新加坡12 - all | IEPL | 倍率:1.5
+      - 胜天大佬赞助💰80
+      - 🇹🇼 Large 台灣02 - all | IEPL | 倍率:1.8
+      - 胜天大佬赞助😂👍🐮78
+      - 🇹🇼 Large 台灣04 - all | IEPL | 倍率:1.5
+      - 🇸🇬 Large 新加坡03 - all | MIEPL | 倍率:1.6
+      - 🇹🇼 Super 台湾02  | MIEPL | 倍率:2.1
+      - 🇸🇬 Large 新加坡11 - all | IEPL | 倍率:1.5
+      - 🇸🇬 Large 新加坡05 - all | IEPL | 倍率:1.5
+      - 🇹🇼 Large 台灣01 - all | IEPL | 倍率:1.8
+      - 🇸🇬 Large 新加坡07 - all | IEPL | 倍率:1.5
+      - 🇸🇬 Large 新加坡04 - all | MIEPL | 倍率:1.6
+      - 🇹🇼 Super 台湾04  | IEPL | 倍率:2.1
+      - 🇭🇰 Large 香港22 - nf | AIA | 倍率:1.8
+      - 🇸🇬 Large 新加坡06 - all | IEPL | 倍率:1.5
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 浦东电信-香港HKT-nf@vpnpool
-      - 浦东电信-香港HKT-nf@vpnpool 2
-      - 浦东电信-Tokyo-DMIT-nf@vpnpool
-      - 浦东电信-香港HKT-nf@vpnpool 3
-      - 广州移动-SG-Nerocloud-nf@vpnpool
-      - 浦东电信-Tokyo-DMIT-nf@vpnpool 2
-      - 浦东电信-Tokyo-DMIT-nf@vpnpool 3
-      - 广州移动-SG-Nerocloud-nf@vpnpool 2
-      - 广州移动-SG-Nerocloud-nf@vpnpool 3
-      - 上海CN2 新加坡 NeroCloud丨全解锁丨A2
-      - 上海CN2 日本 DMIT丨全解锁丨A1
-      - 浦东电信-SG-Nerocloud-nf@vpnpool
-      - 浦东电信-台北Hinet-nf@vpnpool
-      - "[12.12] TG频道@Jsnzk"
-      - 上海CN2 新加坡 NeroCloud丨全解锁丨A1
-      - 广州移动-Tokyo-DMIT-nf@vpnpool
-      - 广州-新加坡 NeroCloud丨全解锁丨A2
-      - 浦东电信-台北Hinet-nf@vpnpool 2
-      - 浦东电信-台北Hinet-nf@vpnpool 3
-      - 广州移动-SG-Nerocloud-nf@vpnpool 4
-      - 浦东电信-SG-Nerocloud-nf@vpnpool 2
-      - 浦东电信-SG-Nerocloud-nf@vpnpool 3
-      - 浦东电信-SG-Nerocloud-nf@vpnpool 4
-      - 广州移动-Tokyo-DMIT-nf@vpnpool 2
-      - 广州移动-Tokyo-DMIT-nf@vpnpool 3
-      - 广州-新加坡 NeroCloud丨全解锁丨A3
-      - 浦东电信-SG-Nerocloud-nf@vpnpool 5
-      - 广州移动-Tokyo-DMIT-nf@vpnpool 4
-      - 广州移动-Tokyo-DMIT-nf@vpnpool 5
-      - "[12.12] TG频道@Jsnzk 2"
-      - 广州-新加坡 NeroCloud丨全解锁丨A1
-      - 广州移动-Tokyo-DMIT-nf@vpnpool 6
-      - 广州移动-SG-Nerocloud-nf@vpnpool 5
-      - 广州移动-Tokyo-DMIT-nf@vpnpool 7
-      - 广州-日本 DMIT丨全解锁丨A3
-      - 浦东电信-SG-Nerocloud-nf@vpnpool 6
-      - 广州移动-Tokyo-DMIT-nf@vpnpool 8
-      - 广州移动-Tokyo-DMIT-nf@vpnpool 9
-      - 广州移动-SG-Nerocloud-nf@vpnpool 6
-      - 上海CN2 台湾 HiNet丨全解锁丨A1
-      - 广州移动-SG-Nerocloud-nf@vpnpool 7
-      - 上海CN2 美国 readydedis丨全解锁丨A1
-      - 广州移动-Tokyo-DMIT-nf@vpnpool 10
-      - "[12.12] TG频道@Jsnzk 3"
-      - 广州-日本 DMIT丨全解锁丨A4
-      - 广州移动-Tokyo-DMIT-nf@vpnpool 11
-      - 浦东电信-LAX-DediPath-nf@vpnpool
-      - 广州移动-香港HKT-nf@vpnpool
-      - 广州移动-香港HKT-nf@vpnpool 2
-      - 上海CN2 美国 DMIT丨全解锁丨A1
-      - 广州移动-LAX-DMIT-nf@vpnpool
-      - 广州移动-香港HKT-nf@vpnpool 3
-      - 广州-香港 HKT丨全解锁丨A2
-      - 浦东电信-LAX-DMIT-nf@vpnpool
-      - 广州移动-香港HKT-nf@vpnpool 4
-      - 广州移动-香港HKT-nf@vpnpool 5
-      - 广州-香港 HKT丨全解锁丨A1
-      - 广州移动-香港HKT-nf@vpnpool 6
-      - 广州移动-香港HKT-nf@vpnpool 7
-      - 浦东电信-LAX-DediPath-nf@vpnpool 2
-      - 广州移动-LAX-DMIT-nf@vpnpool 2
-      - 浦东电信-LAX-DediPath-nf@vpnpool 3
-      - 广州-台湾 HiNet丨全解锁丨A1
-      - 广州-英国 GTHost丨全解锁丨A1
-      - 浦东电信-LAX-DMIT-nf@vpnpool 2
-      - 广州移动-LAX-DMIT-nf@vpnpool 3
-      - "[12.12] TG频道@Jsnzk 4"
-      - 广州-美国 DMIT丨全解锁丨A1
-      - 广州移动-LAX-DMIT-nf@vpnpool 4
-      - 广州-美国 DMIT丨全解锁丨A2
-      - 广州移动-LAX-DMIT-nf@vpnpool 5
-      - 广州移动-LAX-DMIT-nf@vpnpool 6
-      - 广州移动-LAX-DMIT-nf@vpnpool 7
-      - 广州移动-London-GTHost-nf@vpnpool
-      - 广州移动-LAX-DMIT-nf@vpnpool 8
-      - 浦东电信-LAX-DMIT-nf@vpnpool 3
-      - 广州移动-London-GTHost-nf@vpnpool 2
-      - 广州移动-London-GTHost-nf@vpnpool 3
-      - 广州移动-香港HKT-nf@vpnpool 8
-      - 浦东电信-London-GTHost-nf@vpnpool
-      - 广州移动-London-GTHost-nf@vpnpool 4
-      - 广州移动-台北Hinet-nf@vpnpool
-      - 广州移动-台北Hinet-nf@vpnpool 2
-      - 浦东电信-London-GTHost-nf@vpnpool 2
-      - 上海CN2 英国 GTHost丨全解锁丨A1
-      - 浦东电信-London-GTHost-nf@vpnpool 3
-      - 广州移动-Novosibirsk-Baxet-nf@vpnhat
-      - 广州-俄罗斯 JUST丨半解锁丨A1
-      - 广州移动-台北Hinet-nf@vpnpool 3
-      - 广州-美国 Tencent丨全解锁丨A1
-      - 广州移动-SG-Tencent-nf@vpnpool
-      - 广州移动-SG-Tencent-nf@vpnpool 2
-      - 广州移动-SG-Tencent-nf@vpnpool 3
-      - 广州移动-SG-Tencent-nf@vpnpool 4
-      - 广州移动-Novosibirsk-Baxet-nf@vpnhat 2
-      - 广州移动-Novosibirsk-Baxet-nf@vpnhat 3
-      - "[12.12] TG频道@Jsnzk 5"
-      - 广州移动-Novosibirsk-Baxet-nf@vpnhat 4
-      - 广州移动-Santa Clara-Tencent-nf@EXTM3U
-      - 广州移动-台北Hinet-nf@vpnpool 4
-      - 上海CN2 巴西 NTT丨奈飞专用
-      - 广州移动-Santa Clara-Tencent-nf@EXTM3U 2
-      - "[12.12] TG频道@Jsnzk 6"
-      - 广州移动-Santa Clara-Tencent-nf@EXTM3U 3
-      - 上海CN2 香港 HKT丨全解锁丨A1
-      - "[12.12] TG频道@Jsnzk 7"
-      - 广州移动-Tokyo-DMIT-nf@vpnpool 12
-      - 广州移动-Santa Clara-Tencent-nf@EXTM3U 4
-      - 广州-日本 DMIT丨全解锁丨A2
-      - 广州移动-香港DMIT-nf@vpnpool
+      - 8度科技 67
+      - 8度科技 87
+      - 8度科技 242
+      - 8度科技 100
+      - 8度科技 36
+      - 8度科技 96
+      - 8度科技 21
+      - 8度科技 163
+      - v2cross.com
+      - 8度科技 76
+      - 8度科技 147
+      - 8度科技 127
+      - 8度科技 99
+      - 🇺🇸 _US_美国
+      - 8度科技 69
+      - 8度科技 132
+      - 8度科技 162
+      - 8度科技 174
+      - 8度科技 160
+      - 8度科技 94
+      - 匈牙利
+      - 🇸🇬 【新鸟免费】美国UA -DO 02 免流 1.0x
+      - 🇸🇬 【新鸟免费】美国UA -DO 05 免流 1.0x
+      - 🇸🇬 【新鸟免费】美国UA -DO 08 免流 1.0x
+      - 🇸🇬 【新鸟免费】美国UA -DO 04 免流 1.0x
+      - 8度科技 205
+      - 🇸🇬 【新鸟免费】美国UA -DO 01 免流 1.0x
+      - 🇸🇬 【新鸟免费】美国UA -DO 03 免流 1.0x
+      - 🇸🇬 【新鸟免费】美国UA -DO 06 免流 1.0x
+      - 🇺🇸 _US_美国 2
+      - 🇸🇬 【新鸟免费】美国UA -DO 07 免流 1.0x
+      - 🇺🇸 美国(欢迎订阅youtube：8度科技)
+      - 🇺🇸 _US_美国 3
+      - 🇸🇬 【新鸟免费】美国UA -DO 10 免流 1.0x
+      - 8度科技 90
+      - 8度科技 54
+      - 8度科技 34
+      - 8度科技 206
+      - 8度科技 53
+      - 🇺🇸 美国加州C
+      - 8度科技 97
+      - 8度科技 245
+      - 8度科技 153
+      - 8度科技 98
+      - 🇰🇷 【新鸟免费】韩国KR-AWS 05 1.0x
+      - 🇰🇷 【新鸟免费】韩国KR-AWS 10 1.0x
+      - 8度科技 158
+      - 8度科技 202
+      - 🇸🇬 【新鸟免费】新加坡SG-AWS 12 1.0x
+      - 🇸🇬 【新鸟免费】新加坡SG-AWS 03 1.0x
+      - 🇸🇬 【新鸟免费】新加坡SG-AWS 11 1.0x
+      - 8度科技 232
+      - 🇯🇵 【新鸟免费】日本JP-AWS 08 1.0x
+      - 8度科技 250
+      - 🇰🇷 【新鸟免费】韩国KR-AWS 08 1.0x
+      - 🇸🇬 【新鸟免费】新加坡SG-AWS 13 1.0x
+      - 8度科技 110
+      - 8度科技 120
+      - 8度科技 251
+      - 8度科技 253
+      - 8度科技 212
+      - 8度科技 157
+      - 8度科技 219
+      - 8度科技 8
+      - 🇸🇬 【新鸟免费】新加坡SG-AWS 08 1.0x
+      - 🇸🇬 【新鸟免费】新加坡SG-AWS 06 1.0x
+      - 8度科技 168
+      - 8度科技 214
+      - 🇯🇵 【新鸟免费】日本JP-AWS 10 1.0x
+      - 8度科技 136
+      - 8度科技 14
+      - 🇸🇬 【新鸟免费】新加坡SG-AWS 09 1.0x
+      - 8度科技 119
+      - 8度科技 32
+      - 8度科技 146
+      - 🇯🇵 【新鸟免费】日本JP-AWS 01 1.0x
+      - _NO_挪威
+      - default_name
+      - 🇨🇦 _CA_加拿大
+      - _NO_挪威 2
+      - 🇨🇦 _CA_加拿大 2
+      - 8度科技 231
+      - 🇹🇼 _TW_台湾
+      - 🇨🇦 _CA_加拿大 3
+      - 8度科技 82
+      - 🇫🇷 _FR_法国
+      - 8度科技 256
+      - 8度科技 244
+      - 🇺🇸 US(欢迎订阅youtube：8度科技)
+      - 🇨🇦 _CA_加拿大 4
+      - 8度科技 199
+      - 🇬🇧 _GB_英国
+      - 8度科技 81
+      - 🇬🇧 _GB_英国 2
+      - _PT_葡萄牙
+      - 8度科技 105
+      - 🇧🇪 _BE_比利时
+      - 🇭🇰 Play2 香港 - 遊戲專用|視頻限速 | 倍率:20
+      - 🇬🇧 Super 英国01  | IEPL | 倍率:1.5
+      - 🇹🇼 Play3 台湾 - 遊戲專用|視頻限速 | 倍率:20
+      - 🇸🇬 Large 新加坡10 - all | IEPL | 倍率:1.5
+      - 🇯🇵 Large 日本03 - allmedia | IEPL | 倍率:1.5
+      - 胜天大佬赞助👍🐮80
+      - 🇸🇬 Large 新加坡09 - all | IEPL | 倍率:1.5
+      - 胜天大佬赞助🐮80
+      - 🇺🇸 Large 美国05 - allmedia | IEPL | 倍率:1.5
+      - 🇸🇬 Large 新加坡08 - all | IEPL | 倍率:1.5
+      - 🇭🇰 Super 香港03  | MIEPL | 倍率:2.5
+      - 胜天大佬赞助82
+      - 🇭🇰 Large 香港13 - all | AIA | 倍率:1.6
+      - 🇭🇰 Super 香港07  | AIA| 倍率:2.3
+      - 🇭🇰 Large 香港09 - nf | AIA | 倍率:1.6
+      - 🇭🇰 Large 香港11 - nf | AIA | 倍率:1.6
+      - 🇭🇰 Large 香港20 - nf | AIA | 倍率:1.6
+      - 🇭🇰 Large 香港18 - nf | AIA | 倍率:1.8
+      - 🇭🇰 Large 香港21 - nfo | MIEPL | 倍率:1.6
+      - 🇭🇰 Large 香港05 - allmedia | MIEPL | 倍率:1.8
+      - 🇭🇰 Large 香港12 - nf | AIA | 倍率:1.6
+      - 🇭🇰 Super 香港02  | MIEPL | 倍率:2.5
+      - 🇭🇰 Large 香港16 - allmedia | MIEPL | 倍率:1.6
+      - 🇭🇰 Super 香港05  | AIA| 倍率:2.5
+      - 🇭🇰 Super 香港01  | MIEPL | 倍率:2.8
+      - 🇭🇰 Super 香港04  | MIEPL | 倍率:2.5
+      - 🇭🇰 Super 香港08  | AIA| 倍率:2.3
+      - 🇭🇰 Large 香港01 - allmedia | MIEPL | 倍率:1.8
+      - 🇭🇰 Large 香港10 - nf | AIA | 倍率:1.6
+      - 🇭🇰 Super 香港06  | AIA| 倍率:2.5
+      - 🇭🇰 Large 香港15 - allmedia | MIEPL | 倍率:1.6
+      - 🇭🇰 Large 香港03 - allmedia | MIEPL | 倍率:1.8
+      - 🇭🇰 Large 香港14 - nf | MIEPL | 倍率:1.6
+      - 🇭🇰 Large 香港04 - allmedia | MIEPL | 倍率:1.8
+      - 🇭🇰 Large 香港17 - all | AIA | 倍率:1.8
+      - 🇭🇰 Large 香港02 - nf | MIEPL | 倍率:1.8
+      - 胜天大佬赞助🐮83
+      - 胜天大佬赞助🐮82
+      - 胜天大佬赞助🐮79
+      - 胜天大佬赞助🐮78
+      - 胜天大佬赞助80
+      - 胜天大佬赞助😂👍🐮81
+      - 胜天大佬赞助👍🐮81
+      - 胜天大佬赞助💰82
+      - 胜天大佬赞助🐮81
+      - 🇭🇰 Large 香港07 - nf | MIEPL | 倍率:1.8
+      - 胜天大佬赞助💰81
+      - 胜天大佬赞助👍🐮82
+      - 🇺🇸 Super 美国01  | MIEPL | 倍率:1.8
+      - 🇺🇸 Super 美国04  | MIEPL | 倍率:1.8
+      - 🇺🇸 Super 美国02  | MIEPL | 倍率:1.8
+      - 🇺🇸 Super 美国03  | MIEPL| 倍率:2
+      - 胜天大佬赞助81
+      - 🇸🇬 Super 新加坡02  | IEPL | 倍率:2
+      - 🇰🇷 Large 韩国01 - nf | MIEPL | 倍率:1.6
+      - 胜天大佬赞助👍🐮83
+      - 胜天大佬赞助83
+      - 胜天大佬赞助😂👍🐮83
+      - 🇹🇼 Super 台湾03  | IEPL | 倍率:2.1
+      - 胜天大佬赞助💰79
+      - 胜天大佬赞助😂👍🐮82
+      - 🇸🇬 Super 新加坡01  | MIEPL | 倍率:2
+      - 🇭🇰 Large 香港08 - all | AIA | 倍率:1.6
+      - 胜天大佬赞助💰78
+      - 🇯🇵 Super 日本01  | MIEPL | 倍率:2
+      - 胜天大佬赞助👍🐮79
+      - 🇯🇵 Large 日本04 - allmedia | IEPL | 倍率:1.3
+      - 胜天大佬赞助😂👍🐮79
+      - 胜天大佬赞助79
+      - 🇯🇵 Large 日本05 - allmedia | IEPL | 倍率:1.3
+      - 胜天大佬赞助👍🐮78
+      - 🇹🇼 Large 台灣03 - all | MIEPL | 倍率:1.6
+      - 胜天大佬赞助😂👍🐮80
+      - 🇹🇼 Large 台灣05 - all | IEPL | 倍率:1.5
+      - 🇸🇬 Large 新加坡01 - all | IEPL | 倍率:1.5
+      - 胜天大佬赞助78
+      - 🇸🇬 Large 新加坡02 - all | IEPL | 倍率:1.5
+      - 🇹🇼 Super 台湾01  | MIEPL | 倍率:2.1
+      - 🇸🇬 Large 新加坡12 - all | IEPL | 倍率:1.5
+      - 胜天大佬赞助💰80
+      - 🇹🇼 Large 台灣02 - all | IEPL | 倍率:1.8
+      - 胜天大佬赞助😂👍🐮78
+      - 🇹🇼 Large 台灣04 - all | IEPL | 倍率:1.5
+      - 🇸🇬 Large 新加坡03 - all | MIEPL | 倍率:1.6
+      - 🇹🇼 Super 台湾02  | MIEPL | 倍率:2.1
+      - 🇸🇬 Large 新加坡11 - all | IEPL | 倍率:1.5
+      - 🇸🇬 Large 新加坡05 - all | IEPL | 倍率:1.5
+      - 🇹🇼 Large 台灣01 - all | IEPL | 倍率:1.8
+      - 🇸🇬 Large 新加坡07 - all | IEPL | 倍率:1.5
+      - 🇸🇬 Large 新加坡04 - all | MIEPL | 倍率:1.6
+      - 🇹🇼 Super 台湾04  | IEPL | 倍率:2.1
+      - 🇭🇰 Large 香港22 - nf | AIA | 倍率:1.8
+      - 🇸🇬 Large 新加坡06 - all | IEPL | 倍率:1.5
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 浦东电信-香港HKT-nf@vpnpool
-      - 浦东电信-香港HKT-nf@vpnpool 2
-      - 浦东电信-香港HKT-nf@vpnpool 3
-      - 浦东电信-台北Hinet-nf@vpnpool
-      - 浦东电信-台北Hinet-nf@vpnpool 2
-      - 浦东电信-台北Hinet-nf@vpnpool 3
-      - 上海CN2 台湾 HiNet丨全解锁丨A1
-      - 广州移动-香港HKT-nf@vpnpool
-      - 广州移动-香港HKT-nf@vpnpool 2
-      - 广州移动-香港HKT-nf@vpnpool 3
-      - 广州-香港 HKT丨全解锁丨A2
-      - 广州移动-香港HKT-nf@vpnpool 4
-      - 广州移动-香港HKT-nf@vpnpool 5
-      - 广州-香港 HKT丨全解锁丨A1
-      - 广州移动-香港HKT-nf@vpnpool 6
-      - 广州移动-香港HKT-nf@vpnpool 7
-      - 广州-台湾 HiNet丨全解锁丨A1
-      - 广州移动-香港HKT-nf@vpnpool 8
-      - 广州移动-台北Hinet-nf@vpnpool
-      - 广州移动-台北Hinet-nf@vpnpool 2
-      - 广州移动-台北Hinet-nf@vpnpool 3
-      - 广州移动-台北Hinet-nf@vpnpool 4
-      - 上海CN2 香港 HKT丨全解锁丨A1
-      - 广州移动-香港DMIT-nf@vpnpool
+      - 🇹🇼 _TW_台湾
+      - 🇭🇰 Play2 香港 - 遊戲專用|視頻限速 | 倍率:20
+      - 🇹🇼 Play3 台湾 - 遊戲專用|視頻限速 | 倍率:20
+      - 🇭🇰 Super 香港03  | MIEPL | 倍率:2.5
+      - 🇭🇰 Large 香港13 - all | AIA | 倍率:1.6
+      - 🇭🇰 Super 香港07  | AIA| 倍率:2.3
+      - 🇭🇰 Large 香港09 - nf | AIA | 倍率:1.6
+      - 🇭🇰 Large 香港11 - nf | AIA | 倍率:1.6
+      - 🇭🇰 Large 香港20 - nf | AIA | 倍率:1.6
+      - 🇭🇰 Large 香港18 - nf | AIA | 倍率:1.8
+      - 🇭🇰 Large 香港21 - nfo | MIEPL | 倍率:1.6
+      - 🇭🇰 Large 香港05 - allmedia | MIEPL | 倍率:1.8
+      - 🇭🇰 Large 香港12 - nf | AIA | 倍率:1.6
+      - 🇭🇰 Super 香港02  | MIEPL | 倍率:2.5
+      - 🇭🇰 Large 香港16 - allmedia | MIEPL | 倍率:1.6
+      - 🇭🇰 Super 香港05  | AIA| 倍率:2.5
+      - 🇭🇰 Super 香港01  | MIEPL | 倍率:2.8
+      - 🇭🇰 Super 香港04  | MIEPL | 倍率:2.5
+      - 🇭🇰 Super 香港08  | AIA| 倍率:2.3
+      - 🇭🇰 Large 香港01 - allmedia | MIEPL | 倍率:1.8
+      - 🇭🇰 Large 香港10 - nf | AIA | 倍率:1.6
+      - 🇭🇰 Super 香港06  | AIA| 倍率:2.5
+      - 🇭🇰 Large 香港15 - allmedia | MIEPL | 倍率:1.6
+      - 🇭🇰 Large 香港03 - allmedia | MIEPL | 倍率:1.8
+      - 🇭🇰 Large 香港14 - nf | MIEPL | 倍率:1.6
+      - 🇭🇰 Large 香港04 - allmedia | MIEPL | 倍率:1.8
+      - 🇭🇰 Large 香港17 - all | AIA | 倍率:1.8
+      - 🇭🇰 Large 香港02 - nf | MIEPL | 倍率:1.8
+      - 🇭🇰 Large 香港07 - nf | MIEPL | 倍率:1.8
+      - 🇹🇼 Super 台湾03  | IEPL | 倍率:2.1
+      - 🇭🇰 Large 香港08 - all | AIA | 倍率:1.6
+      - 🇹🇼 Large 台灣03 - all | MIEPL | 倍率:1.6
+      - 🇹🇼 Large 台灣05 - all | IEPL | 倍率:1.5
+      - 🇹🇼 Super 台湾01  | MIEPL | 倍率:2.1
+      - 🇹🇼 Large 台灣02 - all | IEPL | 倍率:1.8
+      - 🇹🇼 Large 台灣04 - all | IEPL | 倍率:1.5
+      - 🇹🇼 Super 台湾02  | MIEPL | 倍率:2.1
+      - 🇹🇼 Large 台灣01 - all | IEPL | 倍率:1.8
+      - 🇹🇼 Super 台湾04  | IEPL | 倍率:2.1
+      - 🇭🇰 Large 香港22 - nf | AIA | 倍率:1.8
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 浦东电信-香港HKT-nf@vpnpool
-      - 浦东电信-香港HKT-nf@vpnpool 2
-      - 浦东电信-Tokyo-DMIT-nf@vpnpool
-      - 浦东电信-香港HKT-nf@vpnpool 3
-      - 广州移动-SG-Nerocloud-nf@vpnpool
-      - 浦东电信-Tokyo-DMIT-nf@vpnpool 2
-      - 浦东电信-Tokyo-DMIT-nf@vpnpool 3
-      - 广州移动-SG-Nerocloud-nf@vpnpool 2
-      - 广州移动-SG-Nerocloud-nf@vpnpool 3
-      - 上海CN2 新加坡 NeroCloud丨全解锁丨A2
-      - 上海CN2 日本 DMIT丨全解锁丨A1
-      - 浦东电信-SG-Nerocloud-nf@vpnpool
-      - 浦东电信-台北Hinet-nf@vpnpool
-      - "[12.12] TG频道@Jsnzk"
-      - 上海CN2 新加坡 NeroCloud丨全解锁丨A1
-      - 广州移动-Tokyo-DMIT-nf@vpnpool
-      - 广州-新加坡 NeroCloud丨全解锁丨A2
-      - 浦东电信-台北Hinet-nf@vpnpool 2
-      - 浦东电信-台北Hinet-nf@vpnpool 3
-      - 广州移动-SG-Nerocloud-nf@vpnpool 4
-      - 浦东电信-SG-Nerocloud-nf@vpnpool 2
-      - 浦东电信-SG-Nerocloud-nf@vpnpool 3
-      - 浦东电信-SG-Nerocloud-nf@vpnpool 4
-      - 广州移动-Tokyo-DMIT-nf@vpnpool 2
-      - 广州移动-Tokyo-DMIT-nf@vpnpool 3
-      - 广州-新加坡 NeroCloud丨全解锁丨A3
-      - 浦东电信-SG-Nerocloud-nf@vpnpool 5
-      - 广州移动-Tokyo-DMIT-nf@vpnpool 4
-      - 广州移动-Tokyo-DMIT-nf@vpnpool 5
-      - "[12.12] TG频道@Jsnzk 2"
-      - 广州-新加坡 NeroCloud丨全解锁丨A1
-      - 广州移动-Tokyo-DMIT-nf@vpnpool 6
-      - 广州移动-SG-Nerocloud-nf@vpnpool 5
-      - 广州移动-Tokyo-DMIT-nf@vpnpool 7
-      - 广州-日本 DMIT丨全解锁丨A3
-      - 浦东电信-SG-Nerocloud-nf@vpnpool 6
-      - 广州移动-Tokyo-DMIT-nf@vpnpool 8
-      - 广州移动-Tokyo-DMIT-nf@vpnpool 9
-      - 广州移动-SG-Nerocloud-nf@vpnpool 6
-      - 上海CN2 台湾 HiNet丨全解锁丨A1
-      - 广州移动-SG-Nerocloud-nf@vpnpool 7
-      - 上海CN2 美国 readydedis丨全解锁丨A1
-      - 广州移动-Tokyo-DMIT-nf@vpnpool 10
-      - "[12.12] TG频道@Jsnzk 3"
-      - 广州-日本 DMIT丨全解锁丨A4
-      - 广州移动-Tokyo-DMIT-nf@vpnpool 11
-      - 浦东电信-LAX-DediPath-nf@vpnpool
-      - 广州移动-香港HKT-nf@vpnpool
-      - 广州移动-香港HKT-nf@vpnpool 2
-      - 上海CN2 美国 DMIT丨全解锁丨A1
-      - 广州移动-LAX-DMIT-nf@vpnpool
-      - 广州移动-香港HKT-nf@vpnpool 3
-      - 广州-香港 HKT丨全解锁丨A2
-      - 浦东电信-LAX-DMIT-nf@vpnpool
-      - 广州移动-香港HKT-nf@vpnpool 4
-      - 广州移动-香港HKT-nf@vpnpool 5
-      - 广州-香港 HKT丨全解锁丨A1
-      - 广州移动-香港HKT-nf@vpnpool 6
-      - 广州移动-香港HKT-nf@vpnpool 7
-      - 浦东电信-LAX-DediPath-nf@vpnpool 2
-      - 广州移动-LAX-DMIT-nf@vpnpool 2
-      - 浦东电信-LAX-DediPath-nf@vpnpool 3
-      - 广州-台湾 HiNet丨全解锁丨A1
-      - 广州-英国 GTHost丨全解锁丨A1
-      - 浦东电信-LAX-DMIT-nf@vpnpool 2
-      - 广州移动-LAX-DMIT-nf@vpnpool 3
-      - "[12.12] TG频道@Jsnzk 4"
-      - 广州-美国 DMIT丨全解锁丨A1
-      - 广州移动-LAX-DMIT-nf@vpnpool 4
-      - 广州-美国 DMIT丨全解锁丨A2
-      - 广州移动-LAX-DMIT-nf@vpnpool 5
-      - 广州移动-LAX-DMIT-nf@vpnpool 6
-      - 广州移动-LAX-DMIT-nf@vpnpool 7
-      - 广州移动-London-GTHost-nf@vpnpool
-      - 广州移动-LAX-DMIT-nf@vpnpool 8
-      - 浦东电信-LAX-DMIT-nf@vpnpool 3
-      - 广州移动-London-GTHost-nf@vpnpool 2
-      - 广州移动-London-GTHost-nf@vpnpool 3
-      - 广州移动-香港HKT-nf@vpnpool 8
-      - 浦东电信-London-GTHost-nf@vpnpool
-      - 广州移动-London-GTHost-nf@vpnpool 4
-      - 广州移动-台北Hinet-nf@vpnpool
-      - 广州移动-台北Hinet-nf@vpnpool 2
-      - 浦东电信-London-GTHost-nf@vpnpool 2
-      - 上海CN2 英国 GTHost丨全解锁丨A1
-      - 浦东电信-London-GTHost-nf@vpnpool 3
-      - 广州移动-Novosibirsk-Baxet-nf@vpnhat
-      - 广州-俄罗斯 JUST丨半解锁丨A1
-      - 广州移动-台北Hinet-nf@vpnpool 3
-      - 广州-美国 Tencent丨全解锁丨A1
-      - 广州移动-SG-Tencent-nf@vpnpool
-      - 广州移动-SG-Tencent-nf@vpnpool 2
-      - 广州移动-SG-Tencent-nf@vpnpool 3
-      - 广州移动-SG-Tencent-nf@vpnpool 4
-      - 广州移动-Novosibirsk-Baxet-nf@vpnhat 2
-      - 广州移动-Novosibirsk-Baxet-nf@vpnhat 3
-      - "[12.12] TG频道@Jsnzk 5"
-      - 广州移动-Novosibirsk-Baxet-nf@vpnhat 4
-      - 广州移动-Santa Clara-Tencent-nf@EXTM3U
-      - 广州移动-台北Hinet-nf@vpnpool 4
-      - 上海CN2 巴西 NTT丨奈飞专用
-      - 广州移动-Santa Clara-Tencent-nf@EXTM3U 2
-      - "[12.12] TG频道@Jsnzk 6"
-      - 广州移动-Santa Clara-Tencent-nf@EXTM3U 3
-      - 上海CN2 香港 HKT丨全解锁丨A1
-      - "[12.12] TG频道@Jsnzk 7"
-      - 广州移动-Tokyo-DMIT-nf@vpnpool 12
-      - 广州移动-Santa Clara-Tencent-nf@EXTM3U 4
-      - 广州-日本 DMIT丨全解锁丨A2
-      - 广州移动-香港DMIT-nf@vpnpool
+      - 8度科技 67
+      - 8度科技 87
+      - 8度科技 242
+      - 8度科技 100
+      - 8度科技 36
+      - 8度科技 96
+      - 8度科技 21
+      - 8度科技 163
+      - v2cross.com
+      - 8度科技 76
+      - 8度科技 147
+      - 8度科技 127
+      - 8度科技 99
+      - 🇺🇸 _US_美国
+      - 8度科技 69
+      - 8度科技 132
+      - 8度科技 162
+      - 8度科技 174
+      - 8度科技 160
+      - 8度科技 94
+      - 匈牙利
+      - 🇸🇬 【新鸟免费】美国UA -DO 02 免流 1.0x
+      - 🇸🇬 【新鸟免费】美国UA -DO 05 免流 1.0x
+      - 🇸🇬 【新鸟免费】美国UA -DO 08 免流 1.0x
+      - 🇸🇬 【新鸟免费】美国UA -DO 04 免流 1.0x
+      - 8度科技 205
+      - 🇸🇬 【新鸟免费】美国UA -DO 01 免流 1.0x
+      - 🇸🇬 【新鸟免费】美国UA -DO 03 免流 1.0x
+      - 🇸🇬 【新鸟免费】美国UA -DO 06 免流 1.0x
+      - 🇺🇸 _US_美国 2
+      - 🇸🇬 【新鸟免费】美国UA -DO 07 免流 1.0x
+      - 🇺🇸 美国(欢迎订阅youtube：8度科技)
+      - 🇺🇸 _US_美国 3
+      - 🇸🇬 【新鸟免费】美国UA -DO 10 免流 1.0x
+      - 8度科技 90
+      - 8度科技 54
+      - 8度科技 34
+      - 8度科技 206
+      - 8度科技 53
+      - 🇺🇸 美国加州C
+      - 8度科技 97
+      - 8度科技 245
+      - 8度科技 153
+      - 8度科技 98
+      - 🇰🇷 【新鸟免费】韩国KR-AWS 05 1.0x
+      - 🇰🇷 【新鸟免费】韩国KR-AWS 10 1.0x
+      - 8度科技 158
+      - 8度科技 202
+      - 🇸🇬 【新鸟免费】新加坡SG-AWS 12 1.0x
+      - 🇸🇬 【新鸟免费】新加坡SG-AWS 03 1.0x
+      - 🇸🇬 【新鸟免费】新加坡SG-AWS 11 1.0x
+      - 8度科技 232
+      - 🇯🇵 【新鸟免费】日本JP-AWS 08 1.0x
+      - 8度科技 250
+      - 🇰🇷 【新鸟免费】韩国KR-AWS 08 1.0x
+      - 🇸🇬 【新鸟免费】新加坡SG-AWS 13 1.0x
+      - 8度科技 110
+      - 8度科技 120
+      - 8度科技 251
+      - 8度科技 253
+      - 8度科技 212
+      - 8度科技 157
+      - 8度科技 219
+      - 8度科技 8
+      - 🇸🇬 【新鸟免费】新加坡SG-AWS 08 1.0x
+      - 🇸🇬 【新鸟免费】新加坡SG-AWS 06 1.0x
+      - 8度科技 168
+      - 8度科技 214
+      - 🇯🇵 【新鸟免费】日本JP-AWS 10 1.0x
+      - 8度科技 136
+      - 8度科技 14
+      - 🇸🇬 【新鸟免费】新加坡SG-AWS 09 1.0x
+      - 8度科技 119
+      - 8度科技 32
+      - 8度科技 146
+      - 🇯🇵 【新鸟免费】日本JP-AWS 01 1.0x
+      - _NO_挪威
+      - default_name
+      - 🇨🇦 _CA_加拿大
+      - _NO_挪威 2
+      - 🇨🇦 _CA_加拿大 2
+      - 8度科技 231
+      - 🇹🇼 _TW_台湾
+      - 🇨🇦 _CA_加拿大 3
+      - 8度科技 82
+      - 🇫🇷 _FR_法国
+      - 8度科技 256
+      - 8度科技 244
+      - 🇺🇸 US(欢迎订阅youtube：8度科技)
+      - 🇨🇦 _CA_加拿大 4
+      - 8度科技 199
+      - 🇬🇧 _GB_英国
+      - 8度科技 81
+      - 🇬🇧 _GB_英国 2
+      - _PT_葡萄牙
+      - 8度科技 105
+      - 🇧🇪 _BE_比利时
+      - 🇭🇰 Play2 香港 - 遊戲專用|視頻限速 | 倍率:20
+      - 🇬🇧 Super 英国01  | IEPL | 倍率:1.5
+      - 🇹🇼 Play3 台湾 - 遊戲專用|視頻限速 | 倍率:20
+      - 🇸🇬 Large 新加坡10 - all | IEPL | 倍率:1.5
+      - 🇯🇵 Large 日本03 - allmedia | IEPL | 倍率:1.5
+      - 胜天大佬赞助👍🐮80
+      - 🇸🇬 Large 新加坡09 - all | IEPL | 倍率:1.5
+      - 胜天大佬赞助🐮80
+      - 🇺🇸 Large 美国05 - allmedia | IEPL | 倍率:1.5
+      - 🇸🇬 Large 新加坡08 - all | IEPL | 倍率:1.5
+      - 🇭🇰 Super 香港03  | MIEPL | 倍率:2.5
+      - 胜天大佬赞助82
+      - 🇭🇰 Large 香港13 - all | AIA | 倍率:1.6
+      - 🇭🇰 Super 香港07  | AIA| 倍率:2.3
+      - 🇭🇰 Large 香港09 - nf | AIA | 倍率:1.6
+      - 🇭🇰 Large 香港11 - nf | AIA | 倍率:1.6
+      - 🇭🇰 Large 香港20 - nf | AIA | 倍率:1.6
+      - 🇭🇰 Large 香港18 - nf | AIA | 倍率:1.8
+      - 🇭🇰 Large 香港21 - nfo | MIEPL | 倍率:1.6
+      - 🇭🇰 Large 香港05 - allmedia | MIEPL | 倍率:1.8
+      - 🇭🇰 Large 香港12 - nf | AIA | 倍率:1.6
+      - 🇭🇰 Super 香港02  | MIEPL | 倍率:2.5
+      - 🇭🇰 Large 香港16 - allmedia | MIEPL | 倍率:1.6
+      - 🇭🇰 Super 香港05  | AIA| 倍率:2.5
+      - 🇭🇰 Super 香港01  | MIEPL | 倍率:2.8
+      - 🇭🇰 Super 香港04  | MIEPL | 倍率:2.5
+      - 🇭🇰 Super 香港08  | AIA| 倍率:2.3
+      - 🇭🇰 Large 香港01 - allmedia | MIEPL | 倍率:1.8
+      - 🇭🇰 Large 香港10 - nf | AIA | 倍率:1.6
+      - 🇭🇰 Super 香港06  | AIA| 倍率:2.5
+      - 🇭🇰 Large 香港15 - allmedia | MIEPL | 倍率:1.6
+      - 🇭🇰 Large 香港03 - allmedia | MIEPL | 倍率:1.8
+      - 🇭🇰 Large 香港14 - nf | MIEPL | 倍率:1.6
+      - 🇭🇰 Large 香港04 - allmedia | MIEPL | 倍率:1.8
+      - 🇭🇰 Large 香港17 - all | AIA | 倍率:1.8
+      - 🇭🇰 Large 香港02 - nf | MIEPL | 倍率:1.8
+      - 胜天大佬赞助🐮83
+      - 胜天大佬赞助🐮82
+      - 胜天大佬赞助🐮79
+      - 胜天大佬赞助🐮78
+      - 胜天大佬赞助80
+      - 胜天大佬赞助😂👍🐮81
+      - 胜天大佬赞助👍🐮81
+      - 胜天大佬赞助💰82
+      - 胜天大佬赞助🐮81
+      - 🇭🇰 Large 香港07 - nf | MIEPL | 倍率:1.8
+      - 胜天大佬赞助💰81
+      - 胜天大佬赞助👍🐮82
+      - 🇺🇸 Super 美国01  | MIEPL | 倍率:1.8
+      - 🇺🇸 Super 美国04  | MIEPL | 倍率:1.8
+      - 🇺🇸 Super 美国02  | MIEPL | 倍率:1.8
+      - 🇺🇸 Super 美国03  | MIEPL| 倍率:2
+      - 胜天大佬赞助81
+      - 🇸🇬 Super 新加坡02  | IEPL | 倍率:2
+      - 🇰🇷 Large 韩国01 - nf | MIEPL | 倍率:1.6
+      - 胜天大佬赞助👍🐮83
+      - 胜天大佬赞助83
+      - 胜天大佬赞助😂👍🐮83
+      - 🇹🇼 Super 台湾03  | IEPL | 倍率:2.1
+      - 胜天大佬赞助💰79
+      - 胜天大佬赞助😂👍🐮82
+      - 🇸🇬 Super 新加坡01  | MIEPL | 倍率:2
+      - 🇭🇰 Large 香港08 - all | AIA | 倍率:1.6
+      - 胜天大佬赞助💰78
+      - 🇯🇵 Super 日本01  | MIEPL | 倍率:2
+      - 胜天大佬赞助👍🐮79
+      - 🇯🇵 Large 日本04 - allmedia | IEPL | 倍率:1.3
+      - 胜天大佬赞助😂👍🐮79
+      - 胜天大佬赞助79
+      - 🇯🇵 Large 日本05 - allmedia | IEPL | 倍率:1.3
+      - 胜天大佬赞助👍🐮78
+      - 🇹🇼 Large 台灣03 - all | MIEPL | 倍率:1.6
+      - 胜天大佬赞助😂👍🐮80
+      - 🇹🇼 Large 台灣05 - all | IEPL | 倍率:1.5
+      - 🇸🇬 Large 新加坡01 - all | IEPL | 倍率:1.5
+      - 胜天大佬赞助78
+      - 🇸🇬 Large 新加坡02 - all | IEPL | 倍率:1.5
+      - 🇹🇼 Super 台湾01  | MIEPL | 倍率:2.1
+      - 🇸🇬 Large 新加坡12 - all | IEPL | 倍率:1.5
+      - 胜天大佬赞助💰80
+      - 🇹🇼 Large 台灣02 - all | IEPL | 倍率:1.8
+      - 胜天大佬赞助😂👍🐮78
+      - 🇹🇼 Large 台灣04 - all | IEPL | 倍率:1.5
+      - 🇸🇬 Large 新加坡03 - all | MIEPL | 倍率:1.6
+      - 🇹🇼 Super 台湾02  | MIEPL | 倍率:2.1
+      - 🇸🇬 Large 新加坡11 - all | IEPL | 倍率:1.5
+      - 🇸🇬 Large 新加坡05 - all | IEPL | 倍率:1.5
+      - 🇹🇼 Large 台灣01 - all | IEPL | 倍率:1.8
+      - 🇸🇬 Large 新加坡07 - all | IEPL | 倍率:1.5
+      - 🇸🇬 Large 新加坡04 - all | MIEPL | 倍率:1.6
+      - 🇹🇼 Super 台湾04  | IEPL | 倍率:2.1
+      - 🇭🇰 Large 香港22 - nf | AIA | 倍率:1.8
+      - 🇸🇬 Large 新加坡06 - all | IEPL | 倍率:1.5
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 浦东电信-香港HKT-nf@vpnpool
-      - 浦东电信-香港HKT-nf@vpnpool 2
-      - 浦东电信-Tokyo-DMIT-nf@vpnpool
-      - 浦东电信-香港HKT-nf@vpnpool 3
-      - 广州移动-SG-Nerocloud-nf@vpnpool
-      - 浦东电信-Tokyo-DMIT-nf@vpnpool 2
-      - 浦东电信-Tokyo-DMIT-nf@vpnpool 3
-      - 广州移动-SG-Nerocloud-nf@vpnpool 2
-      - 广州移动-SG-Nerocloud-nf@vpnpool 3
-      - 上海CN2 新加坡 NeroCloud丨全解锁丨A2
-      - 上海CN2 日本 DMIT丨全解锁丨A1
-      - 浦东电信-SG-Nerocloud-nf@vpnpool
-      - 浦东电信-台北Hinet-nf@vpnpool
-      - "[12.12] TG频道@Jsnzk"
-      - 上海CN2 新加坡 NeroCloud丨全解锁丨A1
-      - 广州移动-Tokyo-DMIT-nf@vpnpool
-      - 广州-新加坡 NeroCloud丨全解锁丨A2
-      - 浦东电信-台北Hinet-nf@vpnpool 2
-      - 浦东电信-台北Hinet-nf@vpnpool 3
-      - 广州移动-SG-Nerocloud-nf@vpnpool 4
-      - 浦东电信-SG-Nerocloud-nf@vpnpool 2
-      - 浦东电信-SG-Nerocloud-nf@vpnpool 3
-      - 浦东电信-SG-Nerocloud-nf@vpnpool 4
-      - 广州移动-Tokyo-DMIT-nf@vpnpool 2
-      - 广州移动-Tokyo-DMIT-nf@vpnpool 3
-      - 广州-新加坡 NeroCloud丨全解锁丨A3
-      - 浦东电信-SG-Nerocloud-nf@vpnpool 5
-      - 广州移动-Tokyo-DMIT-nf@vpnpool 4
-      - 广州移动-Tokyo-DMIT-nf@vpnpool 5
-      - "[12.12] TG频道@Jsnzk 2"
-      - 广州-新加坡 NeroCloud丨全解锁丨A1
-      - 广州移动-Tokyo-DMIT-nf@vpnpool 6
-      - 广州移动-SG-Nerocloud-nf@vpnpool 5
-      - 广州移动-Tokyo-DMIT-nf@vpnpool 7
-      - 广州-日本 DMIT丨全解锁丨A3
-      - 浦东电信-SG-Nerocloud-nf@vpnpool 6
-      - 广州移动-Tokyo-DMIT-nf@vpnpool 8
-      - 广州移动-Tokyo-DMIT-nf@vpnpool 9
-      - 广州移动-SG-Nerocloud-nf@vpnpool 6
-      - 上海CN2 台湾 HiNet丨全解锁丨A1
-      - 广州移动-SG-Nerocloud-nf@vpnpool 7
-      - 上海CN2 美国 readydedis丨全解锁丨A1
-      - 广州移动-Tokyo-DMIT-nf@vpnpool 10
-      - "[12.12] TG频道@Jsnzk 3"
-      - 广州-日本 DMIT丨全解锁丨A4
-      - 广州移动-Tokyo-DMIT-nf@vpnpool 11
-      - 浦东电信-LAX-DediPath-nf@vpnpool
-      - 广州移动-香港HKT-nf@vpnpool
-      - 广州移动-香港HKT-nf@vpnpool 2
-      - 上海CN2 美国 DMIT丨全解锁丨A1
-      - 广州移动-LAX-DMIT-nf@vpnpool
-      - 广州移动-香港HKT-nf@vpnpool 3
-      - 广州-香港 HKT丨全解锁丨A2
-      - 浦东电信-LAX-DMIT-nf@vpnpool
-      - 广州移动-香港HKT-nf@vpnpool 4
-      - 广州移动-香港HKT-nf@vpnpool 5
-      - 广州-香港 HKT丨全解锁丨A1
-      - 广州移动-香港HKT-nf@vpnpool 6
-      - 广州移动-香港HKT-nf@vpnpool 7
-      - 浦东电信-LAX-DediPath-nf@vpnpool 2
-      - 广州移动-LAX-DMIT-nf@vpnpool 2
-      - 浦东电信-LAX-DediPath-nf@vpnpool 3
-      - 广州-台湾 HiNet丨全解锁丨A1
-      - 广州-英国 GTHost丨全解锁丨A1
-      - 浦东电信-LAX-DMIT-nf@vpnpool 2
-      - 广州移动-LAX-DMIT-nf@vpnpool 3
-      - "[12.12] TG频道@Jsnzk 4"
-      - 广州-美国 DMIT丨全解锁丨A1
-      - 广州移动-LAX-DMIT-nf@vpnpool 4
-      - 广州-美国 DMIT丨全解锁丨A2
-      - 广州移动-LAX-DMIT-nf@vpnpool 5
-      - 广州移动-LAX-DMIT-nf@vpnpool 6
-      - 广州移动-LAX-DMIT-nf@vpnpool 7
-      - 广州移动-London-GTHost-nf@vpnpool
-      - 广州移动-LAX-DMIT-nf@vpnpool 8
-      - 浦东电信-LAX-DMIT-nf@vpnpool 3
-      - 广州移动-London-GTHost-nf@vpnpool 2
-      - 广州移动-London-GTHost-nf@vpnpool 3
-      - 广州移动-香港HKT-nf@vpnpool 8
-      - 浦东电信-London-GTHost-nf@vpnpool
-      - 广州移动-London-GTHost-nf@vpnpool 4
-      - 广州移动-台北Hinet-nf@vpnpool
-      - 广州移动-台北Hinet-nf@vpnpool 2
-      - 浦东电信-London-GTHost-nf@vpnpool 2
-      - 上海CN2 英国 GTHost丨全解锁丨A1
-      - 浦东电信-London-GTHost-nf@vpnpool 3
-      - 广州移动-Novosibirsk-Baxet-nf@vpnhat
-      - 广州-俄罗斯 JUST丨半解锁丨A1
-      - 广州移动-台北Hinet-nf@vpnpool 3
-      - 广州-美国 Tencent丨全解锁丨A1
-      - 广州移动-SG-Tencent-nf@vpnpool
-      - 广州移动-SG-Tencent-nf@vpnpool 2
-      - 广州移动-SG-Tencent-nf@vpnpool 3
-      - 广州移动-SG-Tencent-nf@vpnpool 4
-      - 广州移动-Novosibirsk-Baxet-nf@vpnhat 2
-      - 广州移动-Novosibirsk-Baxet-nf@vpnhat 3
-      - "[12.12] TG频道@Jsnzk 5"
-      - 广州移动-Novosibirsk-Baxet-nf@vpnhat 4
-      - 广州移动-Santa Clara-Tencent-nf@EXTM3U
-      - 广州移动-台北Hinet-nf@vpnpool 4
-      - 上海CN2 巴西 NTT丨奈飞专用
-      - 广州移动-Santa Clara-Tencent-nf@EXTM3U 2
-      - "[12.12] TG频道@Jsnzk 6"
-      - 广州移动-Santa Clara-Tencent-nf@EXTM3U 3
-      - 上海CN2 香港 HKT丨全解锁丨A1
-      - "[12.12] TG频道@Jsnzk 7"
-      - 广州移动-Tokyo-DMIT-nf@vpnpool 12
-      - 广州移动-Santa Clara-Tencent-nf@EXTM3U 4
-      - 广州-日本 DMIT丨全解锁丨A2
-      - 广州移动-香港DMIT-nf@vpnpool
+      - 8度科技 67
+      - 8度科技 87
+      - 8度科技 242
+      - 8度科技 100
+      - 8度科技 36
+      - 8度科技 96
+      - 8度科技 21
+      - 8度科技 163
+      - v2cross.com
+      - 8度科技 76
+      - 8度科技 147
+      - 8度科技 127
+      - 8度科技 99
+      - 🇺🇸 _US_美国
+      - 8度科技 69
+      - 8度科技 132
+      - 8度科技 162
+      - 8度科技 174
+      - 8度科技 160
+      - 8度科技 94
+      - 匈牙利
+      - 🇸🇬 【新鸟免费】美国UA -DO 02 免流 1.0x
+      - 🇸🇬 【新鸟免费】美国UA -DO 05 免流 1.0x
+      - 🇸🇬 【新鸟免费】美国UA -DO 08 免流 1.0x
+      - 🇸🇬 【新鸟免费】美国UA -DO 04 免流 1.0x
+      - 8度科技 205
+      - 🇸🇬 【新鸟免费】美国UA -DO 01 免流 1.0x
+      - 🇸🇬 【新鸟免费】美国UA -DO 03 免流 1.0x
+      - 🇸🇬 【新鸟免费】美国UA -DO 06 免流 1.0x
+      - 🇺🇸 _US_美国 2
+      - 🇸🇬 【新鸟免费】美国UA -DO 07 免流 1.0x
+      - 🇺🇸 美国(欢迎订阅youtube：8度科技)
+      - 🇺🇸 _US_美国 3
+      - 🇸🇬 【新鸟免费】美国UA -DO 10 免流 1.0x
+      - 8度科技 90
+      - 8度科技 54
+      - 8度科技 34
+      - 8度科技 206
+      - 8度科技 53
+      - 🇺🇸 美国加州C
+      - 8度科技 97
+      - 8度科技 245
+      - 8度科技 153
+      - 8度科技 98
+      - 🇰🇷 【新鸟免费】韩国KR-AWS 05 1.0x
+      - 🇰🇷 【新鸟免费】韩国KR-AWS 10 1.0x
+      - 8度科技 158
+      - 8度科技 202
+      - 🇸🇬 【新鸟免费】新加坡SG-AWS 12 1.0x
+      - 🇸🇬 【新鸟免费】新加坡SG-AWS 03 1.0x
+      - 🇸🇬 【新鸟免费】新加坡SG-AWS 11 1.0x
+      - 8度科技 232
+      - 🇯🇵 【新鸟免费】日本JP-AWS 08 1.0x
+      - 8度科技 250
+      - 🇰🇷 【新鸟免费】韩国KR-AWS 08 1.0x
+      - 🇸🇬 【新鸟免费】新加坡SG-AWS 13 1.0x
+      - 8度科技 110
+      - 8度科技 120
+      - 8度科技 251
+      - 8度科技 253
+      - 8度科技 212
+      - 8度科技 157
+      - 8度科技 219
+      - 8度科技 8
+      - 🇸🇬 【新鸟免费】新加坡SG-AWS 08 1.0x
+      - 🇸🇬 【新鸟免费】新加坡SG-AWS 06 1.0x
+      - 8度科技 168
+      - 8度科技 214
+      - 🇯🇵 【新鸟免费】日本JP-AWS 10 1.0x
+      - 8度科技 136
+      - 8度科技 14
+      - 🇸🇬 【新鸟免费】新加坡SG-AWS 09 1.0x
+      - 8度科技 119
+      - 8度科技 32
+      - 8度科技 146
+      - 🇯🇵 【新鸟免费】日本JP-AWS 01 1.0x
+      - _NO_挪威
+      - default_name
+      - 🇨🇦 _CA_加拿大
+      - _NO_挪威 2
+      - 🇨🇦 _CA_加拿大 2
+      - 8度科技 231
+      - 🇹🇼 _TW_台湾
+      - 🇨🇦 _CA_加拿大 3
+      - 8度科技 82
+      - 🇫🇷 _FR_法国
+      - 8度科技 256
+      - 8度科技 244
+      - 🇺🇸 US(欢迎订阅youtube：8度科技)
+      - 🇨🇦 _CA_加拿大 4
+      - 8度科技 199
+      - 🇬🇧 _GB_英国
+      - 8度科技 81
+      - 🇬🇧 _GB_英国 2
+      - _PT_葡萄牙
+      - 8度科技 105
+      - 🇧🇪 _BE_比利时
+      - 🇭🇰 Play2 香港 - 遊戲專用|視頻限速 | 倍率:20
+      - 🇬🇧 Super 英国01  | IEPL | 倍率:1.5
+      - 🇹🇼 Play3 台湾 - 遊戲專用|視頻限速 | 倍率:20
+      - 🇸🇬 Large 新加坡10 - all | IEPL | 倍率:1.5
+      - 🇯🇵 Large 日本03 - allmedia | IEPL | 倍率:1.5
+      - 胜天大佬赞助👍🐮80
+      - 🇸🇬 Large 新加坡09 - all | IEPL | 倍率:1.5
+      - 胜天大佬赞助🐮80
+      - 🇺🇸 Large 美国05 - allmedia | IEPL | 倍率:1.5
+      - 🇸🇬 Large 新加坡08 - all | IEPL | 倍率:1.5
+      - 🇭🇰 Super 香港03  | MIEPL | 倍率:2.5
+      - 胜天大佬赞助82
+      - 🇭🇰 Large 香港13 - all | AIA | 倍率:1.6
+      - 🇭🇰 Super 香港07  | AIA| 倍率:2.3
+      - 🇭🇰 Large 香港09 - nf | AIA | 倍率:1.6
+      - 🇭🇰 Large 香港11 - nf | AIA | 倍率:1.6
+      - 🇭🇰 Large 香港20 - nf | AIA | 倍率:1.6
+      - 🇭🇰 Large 香港18 - nf | AIA | 倍率:1.8
+      - 🇭🇰 Large 香港21 - nfo | MIEPL | 倍率:1.6
+      - 🇭🇰 Large 香港05 - allmedia | MIEPL | 倍率:1.8
+      - 🇭🇰 Large 香港12 - nf | AIA | 倍率:1.6
+      - 🇭🇰 Super 香港02  | MIEPL | 倍率:2.5
+      - 🇭🇰 Large 香港16 - allmedia | MIEPL | 倍率:1.6
+      - 🇭🇰 Super 香港05  | AIA| 倍率:2.5
+      - 🇭🇰 Super 香港01  | MIEPL | 倍率:2.8
+      - 🇭🇰 Super 香港04  | MIEPL | 倍率:2.5
+      - 🇭🇰 Super 香港08  | AIA| 倍率:2.3
+      - 🇭🇰 Large 香港01 - allmedia | MIEPL | 倍率:1.8
+      - 🇭🇰 Large 香港10 - nf | AIA | 倍率:1.6
+      - 🇭🇰 Super 香港06  | AIA| 倍率:2.5
+      - 🇭🇰 Large 香港15 - allmedia | MIEPL | 倍率:1.6
+      - 🇭🇰 Large 香港03 - allmedia | MIEPL | 倍率:1.8
+      - 🇭🇰 Large 香港14 - nf | MIEPL | 倍率:1.6
+      - 🇭🇰 Large 香港04 - allmedia | MIEPL | 倍率:1.8
+      - 🇭🇰 Large 香港17 - all | AIA | 倍率:1.8
+      - 🇭🇰 Large 香港02 - nf | MIEPL | 倍率:1.8
+      - 胜天大佬赞助🐮83
+      - 胜天大佬赞助🐮82
+      - 胜天大佬赞助🐮79
+      - 胜天大佬赞助🐮78
+      - 胜天大佬赞助80
+      - 胜天大佬赞助😂👍🐮81
+      - 胜天大佬赞助👍🐮81
+      - 胜天大佬赞助💰82
+      - 胜天大佬赞助🐮81
+      - 🇭🇰 Large 香港07 - nf | MIEPL | 倍率:1.8
+      - 胜天大佬赞助💰81
+      - 胜天大佬赞助👍🐮82
+      - 🇺🇸 Super 美国01  | MIEPL | 倍率:1.8
+      - 🇺🇸 Super 美国04  | MIEPL | 倍率:1.8
+      - 🇺🇸 Super 美国02  | MIEPL | 倍率:1.8
+      - 🇺🇸 Super 美国03  | MIEPL| 倍率:2
+      - 胜天大佬赞助81
+      - 🇸🇬 Super 新加坡02  | IEPL | 倍率:2
+      - 🇰🇷 Large 韩国01 - nf | MIEPL | 倍率:1.6
+      - 胜天大佬赞助👍🐮83
+      - 胜天大佬赞助83
+      - 胜天大佬赞助😂👍🐮83
+      - 🇹🇼 Super 台湾03  | IEPL | 倍率:2.1
+      - 胜天大佬赞助💰79
+      - 胜天大佬赞助😂👍🐮82
+      - 🇸🇬 Super 新加坡01  | MIEPL | 倍率:2
+      - 🇭🇰 Large 香港08 - all | AIA | 倍率:1.6
+      - 胜天大佬赞助💰78
+      - 🇯🇵 Super 日本01  | MIEPL | 倍率:2
+      - 胜天大佬赞助👍🐮79
+      - 🇯🇵 Large 日本04 - allmedia | IEPL | 倍率:1.3
+      - 胜天大佬赞助😂👍🐮79
+      - 胜天大佬赞助79
+      - 🇯🇵 Large 日本05 - allmedia | IEPL | 倍率:1.3
+      - 胜天大佬赞助👍🐮78
+      - 🇹🇼 Large 台灣03 - all | MIEPL | 倍率:1.6
+      - 胜天大佬赞助😂👍🐮80
+      - 🇹🇼 Large 台灣05 - all | IEPL | 倍率:1.5
+      - 🇸🇬 Large 新加坡01 - all | IEPL | 倍率:1.5
+      - 胜天大佬赞助78
+      - 🇸🇬 Large 新加坡02 - all | IEPL | 倍率:1.5
+      - 🇹🇼 Super 台湾01  | MIEPL | 倍率:2.1
+      - 🇸🇬 Large 新加坡12 - all | IEPL | 倍率:1.5
+      - 胜天大佬赞助💰80
+      - 🇹🇼 Large 台灣02 - all | IEPL | 倍率:1.8
+      - 胜天大佬赞助😂👍🐮78
+      - 🇹🇼 Large 台灣04 - all | IEPL | 倍率:1.5
+      - 🇸🇬 Large 新加坡03 - all | MIEPL | 倍率:1.6
+      - 🇹🇼 Super 台湾02  | MIEPL | 倍率:2.1
+      - 🇸🇬 Large 新加坡11 - all | IEPL | 倍率:1.5
+      - 🇸🇬 Large 新加坡05 - all | IEPL | 倍率:1.5
+      - 🇹🇼 Large 台灣01 - all | IEPL | 倍率:1.8
+      - 🇸🇬 Large 新加坡07 - all | IEPL | 倍率:1.5
+      - 🇸🇬 Large 新加坡04 - all | MIEPL | 倍率:1.6
+      - 🇹🇼 Super 台湾04  | IEPL | 倍率:2.1
+      - 🇭🇰 Large 香港22 - nf | AIA | 倍率:1.8
+      - 🇸🇬 Large 新加坡06 - all | IEPL | 倍率:1.5
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 浦东电信-香港HKT-nf@vpnpool
-      - 浦东电信-香港HKT-nf@vpnpool 2
-      - 浦东电信-Tokyo-DMIT-nf@vpnpool
-      - 浦东电信-香港HKT-nf@vpnpool 3
-      - 广州移动-SG-Nerocloud-nf@vpnpool
-      - 浦东电信-Tokyo-DMIT-nf@vpnpool 2
-      - 浦东电信-Tokyo-DMIT-nf@vpnpool 3
-      - 广州移动-SG-Nerocloud-nf@vpnpool 2
-      - 广州移动-SG-Nerocloud-nf@vpnpool 3
-      - 上海CN2 新加坡 NeroCloud丨全解锁丨A2
-      - 上海CN2 日本 DMIT丨全解锁丨A1
-      - 浦东电信-SG-Nerocloud-nf@vpnpool
-      - 浦东电信-台北Hinet-nf@vpnpool
-      - "[12.12] TG频道@Jsnzk"
-      - 上海CN2 新加坡 NeroCloud丨全解锁丨A1
-      - 广州移动-Tokyo-DMIT-nf@vpnpool
-      - 广州-新加坡 NeroCloud丨全解锁丨A2
-      - 浦东电信-台北Hinet-nf@vpnpool 2
-      - 浦东电信-台北Hinet-nf@vpnpool 3
-      - 广州移动-SG-Nerocloud-nf@vpnpool 4
-      - 浦东电信-SG-Nerocloud-nf@vpnpool 2
-      - 浦东电信-SG-Nerocloud-nf@vpnpool 3
-      - 浦东电信-SG-Nerocloud-nf@vpnpool 4
-      - 广州移动-Tokyo-DMIT-nf@vpnpool 2
-      - 广州移动-Tokyo-DMIT-nf@vpnpool 3
-      - 广州-新加坡 NeroCloud丨全解锁丨A3
-      - 浦东电信-SG-Nerocloud-nf@vpnpool 5
-      - 广州移动-Tokyo-DMIT-nf@vpnpool 4
-      - 广州移动-Tokyo-DMIT-nf@vpnpool 5
-      - "[12.12] TG频道@Jsnzk 2"
-      - 广州-新加坡 NeroCloud丨全解锁丨A1
-      - 广州移动-Tokyo-DMIT-nf@vpnpool 6
-      - 广州移动-SG-Nerocloud-nf@vpnpool 5
-      - 广州移动-Tokyo-DMIT-nf@vpnpool 7
-      - 广州-日本 DMIT丨全解锁丨A3
-      - 浦东电信-SG-Nerocloud-nf@vpnpool 6
-      - 广州移动-Tokyo-DMIT-nf@vpnpool 8
-      - 广州移动-Tokyo-DMIT-nf@vpnpool 9
-      - 广州移动-SG-Nerocloud-nf@vpnpool 6
-      - 上海CN2 台湾 HiNet丨全解锁丨A1
-      - 广州移动-SG-Nerocloud-nf@vpnpool 7
-      - 上海CN2 美国 readydedis丨全解锁丨A1
-      - 广州移动-Tokyo-DMIT-nf@vpnpool 10
-      - "[12.12] TG频道@Jsnzk 3"
-      - 广州-日本 DMIT丨全解锁丨A4
-      - 广州移动-Tokyo-DMIT-nf@vpnpool 11
-      - 浦东电信-LAX-DediPath-nf@vpnpool
-      - 广州移动-香港HKT-nf@vpnpool
-      - 广州移动-香港HKT-nf@vpnpool 2
-      - 上海CN2 美国 DMIT丨全解锁丨A1
-      - 广州移动-LAX-DMIT-nf@vpnpool
-      - 广州移动-香港HKT-nf@vpnpool 3
-      - 广州-香港 HKT丨全解锁丨A2
-      - 浦东电信-LAX-DMIT-nf@vpnpool
-      - 广州移动-香港HKT-nf@vpnpool 4
-      - 广州移动-香港HKT-nf@vpnpool 5
-      - 广州-香港 HKT丨全解锁丨A1
-      - 广州移动-香港HKT-nf@vpnpool 6
-      - 广州移动-香港HKT-nf@vpnpool 7
-      - 浦东电信-LAX-DediPath-nf@vpnpool 2
-      - 广州移动-LAX-DMIT-nf@vpnpool 2
-      - 浦东电信-LAX-DediPath-nf@vpnpool 3
-      - 广州-台湾 HiNet丨全解锁丨A1
-      - 广州-英国 GTHost丨全解锁丨A1
-      - 浦东电信-LAX-DMIT-nf@vpnpool 2
-      - 广州移动-LAX-DMIT-nf@vpnpool 3
-      - "[12.12] TG频道@Jsnzk 4"
-      - 广州-美国 DMIT丨全解锁丨A1
-      - 广州移动-LAX-DMIT-nf@vpnpool 4
-      - 广州-美国 DMIT丨全解锁丨A2
-      - 广州移动-LAX-DMIT-nf@vpnpool 5
-      - 广州移动-LAX-DMIT-nf@vpnpool 6
-      - 广州移动-LAX-DMIT-nf@vpnpool 7
-      - 广州移动-London-GTHost-nf@vpnpool
-      - 广州移动-LAX-DMIT-nf@vpnpool 8
-      - 浦东电信-LAX-DMIT-nf@vpnpool 3
-      - 广州移动-London-GTHost-nf@vpnpool 2
-      - 广州移动-London-GTHost-nf@vpnpool 3
-      - 广州移动-香港HKT-nf@vpnpool 8
-      - 浦东电信-London-GTHost-nf@vpnpool
-      - 广州移动-London-GTHost-nf@vpnpool 4
-      - 广州移动-台北Hinet-nf@vpnpool
-      - 广州移动-台北Hinet-nf@vpnpool 2
-      - 浦东电信-London-GTHost-nf@vpnpool 2
-      - 上海CN2 英国 GTHost丨全解锁丨A1
-      - 浦东电信-London-GTHost-nf@vpnpool 3
-      - 广州移动-Novosibirsk-Baxet-nf@vpnhat
-      - 广州-俄罗斯 JUST丨半解锁丨A1
-      - 广州移动-台北Hinet-nf@vpnpool 3
-      - 广州-美国 Tencent丨全解锁丨A1
-      - 广州移动-SG-Tencent-nf@vpnpool
-      - 广州移动-SG-Tencent-nf@vpnpool 2
-      - 广州移动-SG-Tencent-nf@vpnpool 3
-      - 广州移动-SG-Tencent-nf@vpnpool 4
-      - 广州移动-Novosibirsk-Baxet-nf@vpnhat 2
-      - 广州移动-Novosibirsk-Baxet-nf@vpnhat 3
-      - "[12.12] TG频道@Jsnzk 5"
-      - 广州移动-Novosibirsk-Baxet-nf@vpnhat 4
-      - 广州移动-Santa Clara-Tencent-nf@EXTM3U
-      - 广州移动-台北Hinet-nf@vpnpool 4
-      - 上海CN2 巴西 NTT丨奈飞专用
-      - 广州移动-Santa Clara-Tencent-nf@EXTM3U 2
-      - "[12.12] TG频道@Jsnzk 6"
-      - 广州移动-Santa Clara-Tencent-nf@EXTM3U 3
-      - 上海CN2 香港 HKT丨全解锁丨A1
-      - "[12.12] TG频道@Jsnzk 7"
-      - 广州移动-Tokyo-DMIT-nf@vpnpool 12
-      - 广州移动-Santa Clara-Tencent-nf@EXTM3U 4
-      - 广州-日本 DMIT丨全解锁丨A2
-      - 广州移动-香港DMIT-nf@vpnpool
+      - 8度科技 67
+      - 8度科技 87
+      - 8度科技 242
+      - 8度科技 100
+      - 8度科技 36
+      - 8度科技 96
+      - 8度科技 21
+      - 8度科技 163
+      - v2cross.com
+      - 8度科技 76
+      - 8度科技 147
+      - 8度科技 127
+      - 8度科技 99
+      - 🇺🇸 _US_美国
+      - 8度科技 69
+      - 8度科技 132
+      - 8度科技 162
+      - 8度科技 174
+      - 8度科技 160
+      - 8度科技 94
+      - 匈牙利
+      - 🇸🇬 【新鸟免费】美国UA -DO 02 免流 1.0x
+      - 🇸🇬 【新鸟免费】美国UA -DO 05 免流 1.0x
+      - 🇸🇬 【新鸟免费】美国UA -DO 08 免流 1.0x
+      - 🇸🇬 【新鸟免费】美国UA -DO 04 免流 1.0x
+      - 8度科技 205
+      - 🇸🇬 【新鸟免费】美国UA -DO 01 免流 1.0x
+      - 🇸🇬 【新鸟免费】美国UA -DO 03 免流 1.0x
+      - 🇸🇬 【新鸟免费】美国UA -DO 06 免流 1.0x
+      - 🇺🇸 _US_美国 2
+      - 🇸🇬 【新鸟免费】美国UA -DO 07 免流 1.0x
+      - 🇺🇸 美国(欢迎订阅youtube：8度科技)
+      - 🇺🇸 _US_美国 3
+      - 🇸🇬 【新鸟免费】美国UA -DO 10 免流 1.0x
+      - 8度科技 90
+      - 8度科技 54
+      - 8度科技 34
+      - 8度科技 206
+      - 8度科技 53
+      - 🇺🇸 美国加州C
+      - 8度科技 97
+      - 8度科技 245
+      - 8度科技 153
+      - 8度科技 98
+      - 🇰🇷 【新鸟免费】韩国KR-AWS 05 1.0x
+      - 🇰🇷 【新鸟免费】韩国KR-AWS 10 1.0x
+      - 8度科技 158
+      - 8度科技 202
+      - 🇸🇬 【新鸟免费】新加坡SG-AWS 12 1.0x
+      - 🇸🇬 【新鸟免费】新加坡SG-AWS 03 1.0x
+      - 🇸🇬 【新鸟免费】新加坡SG-AWS 11 1.0x
+      - 8度科技 232
+      - 🇯🇵 【新鸟免费】日本JP-AWS 08 1.0x
+      - 8度科技 250
+      - 🇰🇷 【新鸟免费】韩国KR-AWS 08 1.0x
+      - 🇸🇬 【新鸟免费】新加坡SG-AWS 13 1.0x
+      - 8度科技 110
+      - 8度科技 120
+      - 8度科技 251
+      - 8度科技 253
+      - 8度科技 212
+      - 8度科技 157
+      - 8度科技 219
+      - 8度科技 8
+      - 🇸🇬 【新鸟免费】新加坡SG-AWS 08 1.0x
+      - 🇸🇬 【新鸟免费】新加坡SG-AWS 06 1.0x
+      - 8度科技 168
+      - 8度科技 214
+      - 🇯🇵 【新鸟免费】日本JP-AWS 10 1.0x
+      - 8度科技 136
+      - 8度科技 14
+      - 🇸🇬 【新鸟免费】新加坡SG-AWS 09 1.0x
+      - 8度科技 119
+      - 8度科技 32
+      - 8度科技 146
+      - 🇯🇵 【新鸟免费】日本JP-AWS 01 1.0x
+      - _NO_挪威
+      - default_name
+      - 🇨🇦 _CA_加拿大
+      - _NO_挪威 2
+      - 🇨🇦 _CA_加拿大 2
+      - 8度科技 231
+      - 🇹🇼 _TW_台湾
+      - 🇨🇦 _CA_加拿大 3
+      - 8度科技 82
+      - 🇫🇷 _FR_法国
+      - 8度科技 256
+      - 8度科技 244
+      - 🇺🇸 US(欢迎订阅youtube：8度科技)
+      - 🇨🇦 _CA_加拿大 4
+      - 8度科技 199
+      - 🇬🇧 _GB_英国
+      - 8度科技 81
+      - 🇬🇧 _GB_英国 2
+      - _PT_葡萄牙
+      - 8度科技 105
+      - 🇧🇪 _BE_比利时
+      - 🇭🇰 Play2 香港 - 遊戲專用|視頻限速 | 倍率:20
+      - 🇬🇧 Super 英国01  | IEPL | 倍率:1.5
+      - 🇹🇼 Play3 台湾 - 遊戲專用|視頻限速 | 倍率:20
+      - 🇸🇬 Large 新加坡10 - all | IEPL | 倍率:1.5
+      - 🇯🇵 Large 日本03 - allmedia | IEPL | 倍率:1.5
+      - 胜天大佬赞助👍🐮80
+      - 🇸🇬 Large 新加坡09 - all | IEPL | 倍率:1.5
+      - 胜天大佬赞助🐮80
+      - 🇺🇸 Large 美国05 - allmedia | IEPL | 倍率:1.5
+      - 🇸🇬 Large 新加坡08 - all | IEPL | 倍率:1.5
+      - 🇭🇰 Super 香港03  | MIEPL | 倍率:2.5
+      - 胜天大佬赞助82
+      - 🇭🇰 Large 香港13 - all | AIA | 倍率:1.6
+      - 🇭🇰 Super 香港07  | AIA| 倍率:2.3
+      - 🇭🇰 Large 香港09 - nf | AIA | 倍率:1.6
+      - 🇭🇰 Large 香港11 - nf | AIA | 倍率:1.6
+      - 🇭🇰 Large 香港20 - nf | AIA | 倍率:1.6
+      - 🇭🇰 Large 香港18 - nf | AIA | 倍率:1.8
+      - 🇭🇰 Large 香港21 - nfo | MIEPL | 倍率:1.6
+      - 🇭🇰 Large 香港05 - allmedia | MIEPL | 倍率:1.8
+      - 🇭🇰 Large 香港12 - nf | AIA | 倍率:1.6
+      - 🇭🇰 Super 香港02  | MIEPL | 倍率:2.5
+      - 🇭🇰 Large 香港16 - allmedia | MIEPL | 倍率:1.6
+      - 🇭🇰 Super 香港05  | AIA| 倍率:2.5
+      - 🇭🇰 Super 香港01  | MIEPL | 倍率:2.8
+      - 🇭🇰 Super 香港04  | MIEPL | 倍率:2.5
+      - 🇭🇰 Super 香港08  | AIA| 倍率:2.3
+      - 🇭🇰 Large 香港01 - allmedia | MIEPL | 倍率:1.8
+      - 🇭🇰 Large 香港10 - nf | AIA | 倍率:1.6
+      - 🇭🇰 Super 香港06  | AIA| 倍率:2.5
+      - 🇭🇰 Large 香港15 - allmedia | MIEPL | 倍率:1.6
+      - 🇭🇰 Large 香港03 - allmedia | MIEPL | 倍率:1.8
+      - 🇭🇰 Large 香港14 - nf | MIEPL | 倍率:1.6
+      - 🇭🇰 Large 香港04 - allmedia | MIEPL | 倍率:1.8
+      - 🇭🇰 Large 香港17 - all | AIA | 倍率:1.8
+      - 🇭🇰 Large 香港02 - nf | MIEPL | 倍率:1.8
+      - 胜天大佬赞助🐮83
+      - 胜天大佬赞助🐮82
+      - 胜天大佬赞助🐮79
+      - 胜天大佬赞助🐮78
+      - 胜天大佬赞助80
+      - 胜天大佬赞助😂👍🐮81
+      - 胜天大佬赞助👍🐮81
+      - 胜天大佬赞助💰82
+      - 胜天大佬赞助🐮81
+      - 🇭🇰 Large 香港07 - nf | MIEPL | 倍率:1.8
+      - 胜天大佬赞助💰81
+      - 胜天大佬赞助👍🐮82
+      - 🇺🇸 Super 美国01  | MIEPL | 倍率:1.8
+      - 🇺🇸 Super 美国04  | MIEPL | 倍率:1.8
+      - 🇺🇸 Super 美国02  | MIEPL | 倍率:1.8
+      - 🇺🇸 Super 美国03  | MIEPL| 倍率:2
+      - 胜天大佬赞助81
+      - 🇸🇬 Super 新加坡02  | IEPL | 倍率:2
+      - 🇰🇷 Large 韩国01 - nf | MIEPL | 倍率:1.6
+      - 胜天大佬赞助👍🐮83
+      - 胜天大佬赞助83
+      - 胜天大佬赞助😂👍🐮83
+      - 🇹🇼 Super 台湾03  | IEPL | 倍率:2.1
+      - 胜天大佬赞助💰79
+      - 胜天大佬赞助😂👍🐮82
+      - 🇸🇬 Super 新加坡01  | MIEPL | 倍率:2
+      - 🇭🇰 Large 香港08 - all | AIA | 倍率:1.6
+      - 胜天大佬赞助💰78
+      - 🇯🇵 Super 日本01  | MIEPL | 倍率:2
+      - 胜天大佬赞助👍🐮79
+      - 🇯🇵 Large 日本04 - allmedia | IEPL | 倍率:1.3
+      - 胜天大佬赞助😂👍🐮79
+      - 胜天大佬赞助79
+      - 🇯🇵 Large 日本05 - allmedia | IEPL | 倍率:1.3
+      - 胜天大佬赞助👍🐮78
+      - 🇹🇼 Large 台灣03 - all | MIEPL | 倍率:1.6
+      - 胜天大佬赞助😂👍🐮80
+      - 🇹🇼 Large 台灣05 - all | IEPL | 倍率:1.5
+      - 🇸🇬 Large 新加坡01 - all | IEPL | 倍率:1.5
+      - 胜天大佬赞助78
+      - 🇸🇬 Large 新加坡02 - all | IEPL | 倍率:1.5
+      - 🇹🇼 Super 台湾01  | MIEPL | 倍率:2.1
+      - 🇸🇬 Large 新加坡12 - all | IEPL | 倍率:1.5
+      - 胜天大佬赞助💰80
+      - 🇹🇼 Large 台灣02 - all | IEPL | 倍率:1.8
+      - 胜天大佬赞助😂👍🐮78
+      - 🇹🇼 Large 台灣04 - all | IEPL | 倍率:1.5
+      - 🇸🇬 Large 新加坡03 - all | MIEPL | 倍率:1.6
+      - 🇹🇼 Super 台湾02  | MIEPL | 倍率:2.1
+      - 🇸🇬 Large 新加坡11 - all | IEPL | 倍率:1.5
+      - 🇸🇬 Large 新加坡05 - all | IEPL | 倍率:1.5
+      - 🇹🇼 Large 台灣01 - all | IEPL | 倍率:1.8
+      - 🇸🇬 Large 新加坡07 - all | IEPL | 倍率:1.5
+      - 🇸🇬 Large 新加坡04 - all | MIEPL | 倍率:1.6
+      - 🇹🇼 Super 台湾04  | IEPL | 倍率:2.1
+      - 🇭🇰 Large 香港22 - nf | AIA | 倍率:1.8
+      - 🇸🇬 Large 新加坡06 - all | IEPL | 倍率:1.5
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -980,116 +1428,196 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 浦东电信-香港HKT-nf@vpnpool
-      - 浦东电信-香港HKT-nf@vpnpool 2
-      - 浦东电信-Tokyo-DMIT-nf@vpnpool
-      - 浦东电信-香港HKT-nf@vpnpool 3
-      - 广州移动-SG-Nerocloud-nf@vpnpool
-      - 浦东电信-Tokyo-DMIT-nf@vpnpool 2
-      - 浦东电信-Tokyo-DMIT-nf@vpnpool 3
-      - 广州移动-SG-Nerocloud-nf@vpnpool 2
-      - 广州移动-SG-Nerocloud-nf@vpnpool 3
-      - 上海CN2 新加坡 NeroCloud丨全解锁丨A2
-      - 上海CN2 日本 DMIT丨全解锁丨A1
-      - 浦东电信-SG-Nerocloud-nf@vpnpool
-      - 浦东电信-台北Hinet-nf@vpnpool
-      - "[12.12] TG频道@Jsnzk"
-      - 上海CN2 新加坡 NeroCloud丨全解锁丨A1
-      - 广州移动-Tokyo-DMIT-nf@vpnpool
-      - 广州-新加坡 NeroCloud丨全解锁丨A2
-      - 浦东电信-台北Hinet-nf@vpnpool 2
-      - 浦东电信-台北Hinet-nf@vpnpool 3
-      - 广州移动-SG-Nerocloud-nf@vpnpool 4
-      - 浦东电信-SG-Nerocloud-nf@vpnpool 2
-      - 浦东电信-SG-Nerocloud-nf@vpnpool 3
-      - 浦东电信-SG-Nerocloud-nf@vpnpool 4
-      - 广州移动-Tokyo-DMIT-nf@vpnpool 2
-      - 广州移动-Tokyo-DMIT-nf@vpnpool 3
-      - 广州-新加坡 NeroCloud丨全解锁丨A3
-      - 浦东电信-SG-Nerocloud-nf@vpnpool 5
-      - 广州移动-Tokyo-DMIT-nf@vpnpool 4
-      - 广州移动-Tokyo-DMIT-nf@vpnpool 5
-      - "[12.12] TG频道@Jsnzk 2"
-      - 广州-新加坡 NeroCloud丨全解锁丨A1
-      - 广州移动-Tokyo-DMIT-nf@vpnpool 6
-      - 广州移动-SG-Nerocloud-nf@vpnpool 5
-      - 广州移动-Tokyo-DMIT-nf@vpnpool 7
-      - 广州-日本 DMIT丨全解锁丨A3
-      - 浦东电信-SG-Nerocloud-nf@vpnpool 6
-      - 广州移动-Tokyo-DMIT-nf@vpnpool 8
-      - 广州移动-Tokyo-DMIT-nf@vpnpool 9
-      - 广州移动-SG-Nerocloud-nf@vpnpool 6
-      - 上海CN2 台湾 HiNet丨全解锁丨A1
-      - 广州移动-SG-Nerocloud-nf@vpnpool 7
-      - 上海CN2 美国 readydedis丨全解锁丨A1
-      - 广州移动-Tokyo-DMIT-nf@vpnpool 10
-      - "[12.12] TG频道@Jsnzk 3"
-      - 广州-日本 DMIT丨全解锁丨A4
-      - 广州移动-Tokyo-DMIT-nf@vpnpool 11
-      - 浦东电信-LAX-DediPath-nf@vpnpool
-      - 广州移动-香港HKT-nf@vpnpool
-      - 广州移动-香港HKT-nf@vpnpool 2
-      - 上海CN2 美国 DMIT丨全解锁丨A1
-      - 广州移动-LAX-DMIT-nf@vpnpool
-      - 广州移动-香港HKT-nf@vpnpool 3
-      - 广州-香港 HKT丨全解锁丨A2
-      - 浦东电信-LAX-DMIT-nf@vpnpool
-      - 广州移动-香港HKT-nf@vpnpool 4
-      - 广州移动-香港HKT-nf@vpnpool 5
-      - 广州-香港 HKT丨全解锁丨A1
-      - 广州移动-香港HKT-nf@vpnpool 6
-      - 广州移动-香港HKT-nf@vpnpool 7
-      - 浦东电信-LAX-DediPath-nf@vpnpool 2
-      - 广州移动-LAX-DMIT-nf@vpnpool 2
-      - 浦东电信-LAX-DediPath-nf@vpnpool 3
-      - 广州-台湾 HiNet丨全解锁丨A1
-      - 广州-英国 GTHost丨全解锁丨A1
-      - 浦东电信-LAX-DMIT-nf@vpnpool 2
-      - 广州移动-LAX-DMIT-nf@vpnpool 3
-      - "[12.12] TG频道@Jsnzk 4"
-      - 广州-美国 DMIT丨全解锁丨A1
-      - 广州移动-LAX-DMIT-nf@vpnpool 4
-      - 广州-美国 DMIT丨全解锁丨A2
-      - 广州移动-LAX-DMIT-nf@vpnpool 5
-      - 广州移动-LAX-DMIT-nf@vpnpool 6
-      - 广州移动-LAX-DMIT-nf@vpnpool 7
-      - 广州移动-London-GTHost-nf@vpnpool
-      - 广州移动-LAX-DMIT-nf@vpnpool 8
-      - 浦东电信-LAX-DMIT-nf@vpnpool 3
-      - 广州移动-London-GTHost-nf@vpnpool 2
-      - 广州移动-London-GTHost-nf@vpnpool 3
-      - 广州移动-香港HKT-nf@vpnpool 8
-      - 浦东电信-London-GTHost-nf@vpnpool
-      - 广州移动-London-GTHost-nf@vpnpool 4
-      - 广州移动-台北Hinet-nf@vpnpool
-      - 广州移动-台北Hinet-nf@vpnpool 2
-      - 浦东电信-London-GTHost-nf@vpnpool 2
-      - 上海CN2 英国 GTHost丨全解锁丨A1
-      - 浦东电信-London-GTHost-nf@vpnpool 3
-      - 广州移动-Novosibirsk-Baxet-nf@vpnhat
-      - 广州-俄罗斯 JUST丨半解锁丨A1
-      - 广州移动-台北Hinet-nf@vpnpool 3
-      - 广州-美国 Tencent丨全解锁丨A1
-      - 广州移动-SG-Tencent-nf@vpnpool
-      - 广州移动-SG-Tencent-nf@vpnpool 2
-      - 广州移动-SG-Tencent-nf@vpnpool 3
-      - 广州移动-SG-Tencent-nf@vpnpool 4
-      - 广州移动-Novosibirsk-Baxet-nf@vpnhat 2
-      - 广州移动-Novosibirsk-Baxet-nf@vpnhat 3
-      - "[12.12] TG频道@Jsnzk 5"
-      - 广州移动-Novosibirsk-Baxet-nf@vpnhat 4
-      - 广州移动-Santa Clara-Tencent-nf@EXTM3U
-      - 广州移动-台北Hinet-nf@vpnpool 4
-      - 上海CN2 巴西 NTT丨奈飞专用
-      - 广州移动-Santa Clara-Tencent-nf@EXTM3U 2
-      - "[12.12] TG频道@Jsnzk 6"
-      - 广州移动-Santa Clara-Tencent-nf@EXTM3U 3
-      - 上海CN2 香港 HKT丨全解锁丨A1
-      - "[12.12] TG频道@Jsnzk 7"
-      - 广州移动-Tokyo-DMIT-nf@vpnpool 12
-      - 广州移动-Santa Clara-Tencent-nf@EXTM3U 4
-      - 广州-日本 DMIT丨全解锁丨A2
-      - 广州移动-香港DMIT-nf@vpnpool
+      - 8度科技 67
+      - 8度科技 87
+      - 8度科技 242
+      - 8度科技 100
+      - 8度科技 36
+      - 8度科技 96
+      - 8度科技 21
+      - 8度科技 163
+      - v2cross.com
+      - 8度科技 76
+      - 8度科技 147
+      - 8度科技 127
+      - 8度科技 99
+      - 🇺🇸 _US_美国
+      - 8度科技 69
+      - 8度科技 132
+      - 8度科技 162
+      - 8度科技 174
+      - 8度科技 160
+      - 8度科技 94
+      - 匈牙利
+      - 🇸🇬 【新鸟免费】美国UA -DO 02 免流 1.0x
+      - 🇸🇬 【新鸟免费】美国UA -DO 05 免流 1.0x
+      - 🇸🇬 【新鸟免费】美国UA -DO 08 免流 1.0x
+      - 🇸🇬 【新鸟免费】美国UA -DO 04 免流 1.0x
+      - 8度科技 205
+      - 🇸🇬 【新鸟免费】美国UA -DO 01 免流 1.0x
+      - 🇸🇬 【新鸟免费】美国UA -DO 03 免流 1.0x
+      - 🇸🇬 【新鸟免费】美国UA -DO 06 免流 1.0x
+      - 🇺🇸 _US_美国 2
+      - 🇸🇬 【新鸟免费】美国UA -DO 07 免流 1.0x
+      - 🇺🇸 美国(欢迎订阅youtube：8度科技)
+      - 🇺🇸 _US_美国 3
+      - 🇸🇬 【新鸟免费】美国UA -DO 10 免流 1.0x
+      - 8度科技 90
+      - 8度科技 54
+      - 8度科技 34
+      - 8度科技 206
+      - 8度科技 53
+      - 🇺🇸 美国加州C
+      - 8度科技 97
+      - 8度科技 245
+      - 8度科技 153
+      - 8度科技 98
+      - 🇰🇷 【新鸟免费】韩国KR-AWS 05 1.0x
+      - 🇰🇷 【新鸟免费】韩国KR-AWS 10 1.0x
+      - 8度科技 158
+      - 8度科技 202
+      - 🇸🇬 【新鸟免费】新加坡SG-AWS 12 1.0x
+      - 🇸🇬 【新鸟免费】新加坡SG-AWS 03 1.0x
+      - 🇸🇬 【新鸟免费】新加坡SG-AWS 11 1.0x
+      - 8度科技 232
+      - 🇯🇵 【新鸟免费】日本JP-AWS 08 1.0x
+      - 8度科技 250
+      - 🇰🇷 【新鸟免费】韩国KR-AWS 08 1.0x
+      - 🇸🇬 【新鸟免费】新加坡SG-AWS 13 1.0x
+      - 8度科技 110
+      - 8度科技 120
+      - 8度科技 251
+      - 8度科技 253
+      - 8度科技 212
+      - 8度科技 157
+      - 8度科技 219
+      - 8度科技 8
+      - 🇸🇬 【新鸟免费】新加坡SG-AWS 08 1.0x
+      - 🇸🇬 【新鸟免费】新加坡SG-AWS 06 1.0x
+      - 8度科技 168
+      - 8度科技 214
+      - 🇯🇵 【新鸟免费】日本JP-AWS 10 1.0x
+      - 8度科技 136
+      - 8度科技 14
+      - 🇸🇬 【新鸟免费】新加坡SG-AWS 09 1.0x
+      - 8度科技 119
+      - 8度科技 32
+      - 8度科技 146
+      - 🇯🇵 【新鸟免费】日本JP-AWS 01 1.0x
+      - _NO_挪威
+      - default_name
+      - 🇨🇦 _CA_加拿大
+      - _NO_挪威 2
+      - 🇨🇦 _CA_加拿大 2
+      - 8度科技 231
+      - 🇹🇼 _TW_台湾
+      - 🇨🇦 _CA_加拿大 3
+      - 8度科技 82
+      - 🇫🇷 _FR_法国
+      - 8度科技 256
+      - 8度科技 244
+      - 🇺🇸 US(欢迎订阅youtube：8度科技)
+      - 🇨🇦 _CA_加拿大 4
+      - 8度科技 199
+      - 🇬🇧 _GB_英国
+      - 8度科技 81
+      - 🇬🇧 _GB_英国 2
+      - _PT_葡萄牙
+      - 8度科技 105
+      - 🇧🇪 _BE_比利时
+      - 🇭🇰 Play2 香港 - 遊戲專用|視頻限速 | 倍率:20
+      - 🇬🇧 Super 英国01  | IEPL | 倍率:1.5
+      - 🇹🇼 Play3 台湾 - 遊戲專用|視頻限速 | 倍率:20
+      - 🇸🇬 Large 新加坡10 - all | IEPL | 倍率:1.5
+      - 🇯🇵 Large 日本03 - allmedia | IEPL | 倍率:1.5
+      - 胜天大佬赞助👍🐮80
+      - 🇸🇬 Large 新加坡09 - all | IEPL | 倍率:1.5
+      - 胜天大佬赞助🐮80
+      - 🇺🇸 Large 美国05 - allmedia | IEPL | 倍率:1.5
+      - 🇸🇬 Large 新加坡08 - all | IEPL | 倍率:1.5
+      - 🇭🇰 Super 香港03  | MIEPL | 倍率:2.5
+      - 胜天大佬赞助82
+      - 🇭🇰 Large 香港13 - all | AIA | 倍率:1.6
+      - 🇭🇰 Super 香港07  | AIA| 倍率:2.3
+      - 🇭🇰 Large 香港09 - nf | AIA | 倍率:1.6
+      - 🇭🇰 Large 香港11 - nf | AIA | 倍率:1.6
+      - 🇭🇰 Large 香港20 - nf | AIA | 倍率:1.6
+      - 🇭🇰 Large 香港18 - nf | AIA | 倍率:1.8
+      - 🇭🇰 Large 香港21 - nfo | MIEPL | 倍率:1.6
+      - 🇭🇰 Large 香港05 - allmedia | MIEPL | 倍率:1.8
+      - 🇭🇰 Large 香港12 - nf | AIA | 倍率:1.6
+      - 🇭🇰 Super 香港02  | MIEPL | 倍率:2.5
+      - 🇭🇰 Large 香港16 - allmedia | MIEPL | 倍率:1.6
+      - 🇭🇰 Super 香港05  | AIA| 倍率:2.5
+      - 🇭🇰 Super 香港01  | MIEPL | 倍率:2.8
+      - 🇭🇰 Super 香港04  | MIEPL | 倍率:2.5
+      - 🇭🇰 Super 香港08  | AIA| 倍率:2.3
+      - 🇭🇰 Large 香港01 - allmedia | MIEPL | 倍率:1.8
+      - 🇭🇰 Large 香港10 - nf | AIA | 倍率:1.6
+      - 🇭🇰 Super 香港06  | AIA| 倍率:2.5
+      - 🇭🇰 Large 香港15 - allmedia | MIEPL | 倍率:1.6
+      - 🇭🇰 Large 香港03 - allmedia | MIEPL | 倍率:1.8
+      - 🇭🇰 Large 香港14 - nf | MIEPL | 倍率:1.6
+      - 🇭🇰 Large 香港04 - allmedia | MIEPL | 倍率:1.8
+      - 🇭🇰 Large 香港17 - all | AIA | 倍率:1.8
+      - 🇭🇰 Large 香港02 - nf | MIEPL | 倍率:1.8
+      - 胜天大佬赞助🐮83
+      - 胜天大佬赞助🐮82
+      - 胜天大佬赞助🐮79
+      - 胜天大佬赞助🐮78
+      - 胜天大佬赞助80
+      - 胜天大佬赞助😂👍🐮81
+      - 胜天大佬赞助👍🐮81
+      - 胜天大佬赞助💰82
+      - 胜天大佬赞助🐮81
+      - 🇭🇰 Large 香港07 - nf | MIEPL | 倍率:1.8
+      - 胜天大佬赞助💰81
+      - 胜天大佬赞助👍🐮82
+      - 🇺🇸 Super 美国01  | MIEPL | 倍率:1.8
+      - 🇺🇸 Super 美国04  | MIEPL | 倍率:1.8
+      - 🇺🇸 Super 美国02  | MIEPL | 倍率:1.8
+      - 🇺🇸 Super 美国03  | MIEPL| 倍率:2
+      - 胜天大佬赞助81
+      - 🇸🇬 Super 新加坡02  | IEPL | 倍率:2
+      - 🇰🇷 Large 韩国01 - nf | MIEPL | 倍率:1.6
+      - 胜天大佬赞助👍🐮83
+      - 胜天大佬赞助83
+      - 胜天大佬赞助😂👍🐮83
+      - 🇹🇼 Super 台湾03  | IEPL | 倍率:2.1
+      - 胜天大佬赞助💰79
+      - 胜天大佬赞助😂👍🐮82
+      - 🇸🇬 Super 新加坡01  | MIEPL | 倍率:2
+      - 🇭🇰 Large 香港08 - all | AIA | 倍率:1.6
+      - 胜天大佬赞助💰78
+      - 🇯🇵 Super 日本01  | MIEPL | 倍率:2
+      - 胜天大佬赞助👍🐮79
+      - 🇯🇵 Large 日本04 - allmedia | IEPL | 倍率:1.3
+      - 胜天大佬赞助😂👍🐮79
+      - 胜天大佬赞助79
+      - 🇯🇵 Large 日本05 - allmedia | IEPL | 倍率:1.3
+      - 胜天大佬赞助👍🐮78
+      - 🇹🇼 Large 台灣03 - all | MIEPL | 倍率:1.6
+      - 胜天大佬赞助😂👍🐮80
+      - 🇹🇼 Large 台灣05 - all | IEPL | 倍率:1.5
+      - 🇸🇬 Large 新加坡01 - all | IEPL | 倍率:1.5
+      - 胜天大佬赞助78
+      - 🇸🇬 Large 新加坡02 - all | IEPL | 倍率:1.5
+      - 🇹🇼 Super 台湾01  | MIEPL | 倍率:2.1
+      - 🇸🇬 Large 新加坡12 - all | IEPL | 倍率:1.5
+      - 胜天大佬赞助💰80
+      - 🇹🇼 Large 台灣02 - all | IEPL | 倍率:1.8
+      - 胜天大佬赞助😂👍🐮78
+      - 🇹🇼 Large 台灣04 - all | IEPL | 倍率:1.5
+      - 🇸🇬 Large 新加坡03 - all | MIEPL | 倍率:1.6
+      - 🇹🇼 Super 台湾02  | MIEPL | 倍率:2.1
+      - 🇸🇬 Large 新加坡11 - all | IEPL | 倍率:1.5
+      - 🇸🇬 Large 新加坡05 - all | IEPL | 倍率:1.5
+      - 🇹🇼 Large 台灣01 - all | IEPL | 倍率:1.8
+      - 🇸🇬 Large 新加坡07 - all | IEPL | 倍率:1.5
+      - 🇸🇬 Large 新加坡04 - all | MIEPL | 倍率:1.6
+      - 🇹🇼 Super 台湾04  | IEPL | 倍率:2.1
+      - 🇭🇰 Large 香港22 - nf | AIA | 倍率:1.8
+      - 🇸🇬 Large 新加坡06 - all | IEPL | 倍率:1.5
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
@@ -1177,35 +1705,14 @@ rules:
  - DOMAIN-SUFFIX,yammer.com,Ⓜ️ 微软服务
  - DOMAIN-SUFFIX,yammerusercontent.com,Ⓜ️ 微软服务
  - DOMAIN,app.adjust.com,🎯 全球直连
- - DOMAIN,bdtj.tagtic.cn,🎯 全球直连
- - DOMAIN,log.mmstat.com,🎯 全球直连
- - DOMAIN,sycm.mmstat.com,🎯 全球直连
- - DOMAIN-SUFFIX,blog.google,🎯 全球直连
  - DOMAIN-SUFFIX,googletraveladservices.com,🎯 全球直连
- - DOMAIN,clientservices.googleapis.com,🎯 全球直连
  - DOMAIN,dl.google.com,🎯 全球直连
- - DOMAIN,dl.l.google.com,🎯 全球直连
- - DOMAIN,update.googleapis.com,🎯 全球直连
- - DOMAIN,translate.googleapis.com,🎯 全球直连
- - DOMAIN,fonts.googleapis.com,🎯 全球直连
- - DOMAIN,fonts.gstatic.com,🎯 全球直连
  - DOMAIN,mtalk.google.com,🎯 全球直连
- - DOMAIN,alt1-mtalk.google.com,🎯 全球直连
- - DOMAIN,alt2-mtalk.google.com,🎯 全球直连
- - DOMAIN,alt3-mtalk.google.com,🎯 全球直连
- - DOMAIN,alt4-mtalk.google.com,🎯 全球直连
- - DOMAIN,alt5-mtalk.google.com,🎯 全球直连
- - DOMAIN,alt6-mtalk.google.com,🎯 全球直连
- - DOMAIN,alt7-mtalk.google.com,🎯 全球直连
- - DOMAIN,alt8-mtalk.google.com,🎯 全球直连
- - DOMAIN,pubads.g.doubleclick.net,🎯 全球直连
- - DOMAIN,fairplay.l.qq.com,🎯 全球直连
  - DOMAIN,livew.l.qq.com,🎯 全球直连
  - DOMAIN,vd.l.qq.com,🎯 全球直连
  - DOMAIN,analytics.strava.com,🎯 全球直连
  - DOMAIN,msg.umeng.com,🎯 全球直连
  - DOMAIN,msg.umengcloud.com,🎯 全球直连
- - DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao-b.com,🛑 全球拦截
  - DOMAIN-SUFFIX,mcupdate.gstarcad.com,🛑 全球拦截
  - DOMAIN-SUFFIX,adx.open-adx.com,🛑 全球拦截
  - DOMAIN-SUFFIX,adservice.sigmob.cn,🛑 全球拦截
@@ -3024,7 +3531,6 @@ rules:
  - DOMAIN-SUFFIX,breezily168.com,🛑 全球拦截
  - DOMAIN-SUFFIX,brizads.com,🛑 全球拦截
  - DOMAIN-SUFFIX,bro.flyme.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,browser.gwdang.com,🛑 全球拦截
  - DOMAIN-SUFFIX,bs.5442.com,🛑 全球拦截
  - DOMAIN-SUFFIX,bs.serving-sys.com,🛑 全球拦截
  - DOMAIN-SUFFIX,bs14.9669.cn,🛑 全球拦截
@@ -6006,7 +6512,6 @@ rules:
  - DOMAIN-SUFFIX,m.guanren9.com,🛑 全球拦截
  - DOMAIN-SUFFIX,m.guifei99.com,🛑 全球拦截
  - DOMAIN-SUFFIX,m.gujinyue.com,🛑 全球拦截
- - DOMAIN-SUFFIX,m.gwdqp.com,🛑 全球拦截
  - DOMAIN-SUFFIX,m.gxkyl.com,🛑 全球拦截
  - DOMAIN-SUFFIX,m.haowj.com.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,m.harbinbaojia.net,🛑 全球拦截
@@ -6306,7 +6811,6 @@ rules:
  - DOMAIN-SUFFIX,mbs.weathercn.com,🛑 全球拦截
  - DOMAIN-SUFFIX,mc.hujiang.com,🛑 全球拦截
  - DOMAIN-SUFFIX,mc.yandex.ru,🛑 全球拦截
- - DOMAIN-SUFFIX,mclick.simba.taobao.com,🛑 全球拦截
  - DOMAIN-SUFFIX,mcore.vcgame.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,md.1drj.com,🛑 全球拦截
  - DOMAIN-SUFFIX,md.he9630.com,🛑 全球拦截
@@ -6488,7 +6992,6 @@ rules:
  - DOMAIN-SUFFIX,ms.ienkdaccessory.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,ms.jyhwt.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,ms.myyage.com,🛑 全球拦截
- - DOMAIN-SUFFIX,ms.vipstatic.com,🛑 全球拦截
  - DOMAIN-SUFFIX,msads.net,🛑 全球拦截
  - DOMAIN-SUFFIX,mscimg.com,🛑 全球拦截
  - DOMAIN-SUFFIX,msclick2.kuwo.cn,🛑 全球拦截
@@ -7334,7 +7837,6 @@ rules:
  - DOMAIN-SUFFIX,rotate.ymtracking.com,🛑 全球拦截
  - DOMAIN-SUFFIX,rotator.tradetracker.net,🛑 全球拦截
  - DOMAIN-SUFFIX,router.bittorrent.com,🛑 全球拦截
- - DOMAIN-SUFFIX,router.gwdang.com,🛑 全球拦截
  - DOMAIN-SUFFIX,rp.crasheye.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,rp.gwallet.com,🛑 全球拦截
  - DOMAIN-SUFFIX,rpaulfrank.com,🛑 全球拦截
@@ -7586,6 +8088,7 @@ rules:
  - DOMAIN-SUFFIX,searchswapper.com,🛑 全球拦截
  - DOMAIN-SUFFIX,seavideo-ak.espn.go.com,🛑 全球拦截
  - DOMAIN-SUFFIX,sebar.thand.info,🛑 全球拦截
+ - DOMAIN-SUFFIX,sec.resource.xiaomi.net,🛑 全球拦截
  - DOMAIN-SUFFIX,secpay.wostore.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,secretmedia.s3.amazonaws.com,🛑 全球拦截
  - DOMAIN-SUFFIX,secure.dsp.com,🛑 全球拦截
@@ -9579,7 +10082,6 @@ rules:
  - DOMAIN-SUFFIX,wup.imtt.qq.com,🛑 全球拦截
  - DOMAIN-SUFFIX,tns.simba.taobao.com,🛑 全球拦截
  - DOMAIN-SUFFIX,click.mz.simba.taobao.com,🛑 全球拦截
- - DOMAIN-SUFFIX,click.simba.taobao.com,🛑 全球拦截
  - DOMAIN-SUFFIX,click.tz.simba.taobao.com,🛑 全球拦截
  - DOMAIN-SUFFIX,stat.simba.taobao.com,🛑 全球拦截
  - DOMAIN-SUFFIX,m-adash.m.taobao.com,🛑 全球拦截
@@ -9856,7 +10358,6 @@ rules:
  - IP-CIDR,188.89.204.198/32,🛑 全球拦截,no-resolve
  - DOMAIN-SUFFIX,17gouwuba.com,🛑 全球拦截
  - DOMAIN-SUFFIX,186078.com,🛑 全球拦截
- - DOMAIN-SUFFIX,189key.com,🛑 全球拦截
  - DOMAIN-SUFFIX,189zj.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,285680.com,🛑 全球拦截
  - DOMAIN-SUFFIX,3721zh.com,🛑 全球拦截
@@ -9879,7 +10380,6 @@ rules:
  - DOMAIN-SUFFIX,beilamusi.com,🛑 全球拦截
  - DOMAIN-SUFFIX,benshiw.net,🛑 全球拦截
  - DOMAIN-SUFFIX,bianxianmao.com,🛑 全球拦截
- - DOMAIN-SUFFIX,bkyhq.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,bryonypie.com,🛑 全球拦截
  - DOMAIN-SUFFIX,cishantao.com,🛑 全球拦截
  - DOMAIN-SUFFIX,cszlks.com,🛑 全球拦截
@@ -9900,10 +10400,8 @@ rules:
  - DOMAIN-SUFFIX,goufanli100.com,🛑 全球拦截
  - DOMAIN-SUFFIX,goupaoerdai.com,🛑 全球拦截
  - DOMAIN-SUFFIX,gouwubang.com,🛑 全球拦截
- - DOMAIN-SUFFIX,gscxs.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,gzxnlk.com,🛑 全球拦截
  - DOMAIN-SUFFIX,haoshengtoys.com,🛑 全球拦截
- - DOMAIN-SUFFIX,hbssjd.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,hyunke.com,🛑 全球拦截
  - DOMAIN-SUFFIX,ichaosheng.com,🛑 全球拦截
  - DOMAIN-SUFFIX,ishop789.com,🛑 全球拦截
@@ -9916,7 +10414,6 @@ rules:
  - DOMAIN-SUFFIX,kualianyingxiao.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,kumihua.com,🛑 全球拦截
  - DOMAIN-SUFFIX,ltheanine.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,lvehaisen.com,🛑 全球拦截
  - DOMAIN-SUFFIX,maipinshangmao.com,🛑 全球拦截
  - DOMAIN-SUFFIX,minisplat.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,mkitgfs.com,🛑 全球拦截
@@ -9948,13 +10445,10 @@ rules:
  - DOMAIN-SUFFIX,tcxshop.com,🛑 全球拦截
  - DOMAIN-SUFFIX,tjqonline.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,topitme.com,🛑 全球拦截
- - DOMAIN-SUFFIX,tt114.net,🛑 全球拦截
  - DOMAIN-SUFFIX,tt3sm4.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,tuia.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,tuipenguin.com,🛑 全球拦截
  - DOMAIN-SUFFIX,tuitiger.com,🛑 全球拦截
- - DOMAIN-SUFFIX,urlaw.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,urlet.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,websd8.com,🛑 全球拦截
  - DOMAIN-SUFFIX,wsgblw.com,🛑 全球拦截
  - DOMAIN-SUFFIX,wx16999.com,🛑 全球拦截
@@ -9968,7 +10462,6 @@ rules:
  - DOMAIN-SUFFIX,zhaozecheng.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,zhenxinet.com,🛑 全球拦截
  - DOMAIN-SUFFIX,zlne800.com,🛑 全球拦截
- - DOMAIN-SUFFIX,zmlled.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,zunmi.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,zzd6.com,🛑 全球拦截
  - IP-CIDR,39.107.15.115/32,🛑 全球拦截,no-resolve
@@ -9998,7 +10491,6 @@ rules:
  - IP-CIDR,220.196.52.141/32,🛑 全球拦截,no-resolve
  - IP-CIDR,221.6.4.148/32,🛑 全球拦截,no-resolve
  - IP-CIDR,114.247.28.96/32,🛑 全球拦截,no-resolve
- - IP-CIDR,120.240.95.37/32,🛑 全球拦截,no-resolve
  - IP-CIDR,221.179.131.72/32,🛑 全球拦截,no-resolve
  - IP-CIDR,221.179.140.145/32,🛑 全球拦截,no-resolve
  - IP-CIDR,115.182.16.79/32,🛑 全球拦截,no-resolve
@@ -10010,10 +10502,8 @@ rules:
  - IP-CIDR,124.14.21.151/32,🛑 全球拦截,no-resolve
  - IP-CIDR,180.166.52.24/32,🛑 全球拦截,no-resolve
  - IP-CIDR,211.161.101.106/32,🛑 全球拦截,no-resolve
- - IP-CIDR,211.161.101.110/32,🛑 全球拦截,no-resolve
  - IP-CIDR,220.115.251.25/32,🛑 全球拦截,no-resolve
  - IP-CIDR,222.73.156.235/32,🛑 全球拦截,no-resolve
- - IP-CIDR,114.119.160.0/21,🛑 全球拦截,no-resolve
  - DOMAIN-SUFFIX,kuaizip.com,🛑 全球拦截
  - DOMAIN-SUFFIX,mackeeper.com,🛑 全球拦截
  - DOMAIN-SUFFIX,zryydi.com,🛑 全球拦截
@@ -10021,8 +10511,6 @@ rules:
  - DOMAIN,geo2.adobe.com,🛑 全球拦截
  - DOMAIN-SUFFIX,4009997658.com,🛑 全球拦截
  - DOMAIN-SUFFIX,abbyychina.com,🛑 全球拦截
- - DOMAIN-SUFFIX,alienskins.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,anydeskchina.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,bartender.cc,🛑 全球拦截
  - DOMAIN-SUFFIX,betterzip.net,🛑 全球拦截
  - DOMAIN-SUFFIX,betterzipcn.com,🛑 全球拦截
@@ -10039,11 +10527,9 @@ rules:
  - DOMAIN-SUFFIX,easyrecoverychina.com,🛑 全球拦截
  - DOMAIN-SUFFIX,ediuschina.com,🛑 全球拦截
  - DOMAIN-SUFFIX,flstudiochina.com,🛑 全球拦截
- - DOMAIN-SUFFIX,folxchina.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,formysql.com,🛑 全球拦截
  - DOMAIN-SUFFIX,guitarpro.cc,🛑 全球拦截
  - DOMAIN-SUFFIX,huishenghuiying.com.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,hypeapp.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,hypersnap.net,🛑 全球拦截
  - DOMAIN-SUFFIX,iconworkshop.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,imindmap.cc,🛑 全球拦截
@@ -10073,55 +10559,18 @@ rules:
  - DOMAIN-SUFFIX,shankejingling.com,🛑 全球拦截
  - DOMAIN-SUFFIX,ultraiso.net,🛑 全球拦截
  - DOMAIN-SUFFIX,vegaschina.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,xitongqingli.com,🛑 全球拦截
  - DOMAIN-SUFFIX,xmindchina.net,🛑 全球拦截
  - DOMAIN-SUFFIX,xshellcn.com,🛑 全球拦截
  - DOMAIN-SUFFIX,yihuifu.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,yuanchengxiezuo.com,🛑 全球拦截
  - DOMAIN-SUFFIX,zbrushcn.com,🛑 全球拦截
  - DOMAIN-SUFFIX,zhzzx.com,🛑 全球拦截
- - DOMAIN-SUFFIX,netflix.com,🎥 NETFLIX
- - DOMAIN-SUFFIX,netflix.net,🎥 NETFLIX
- - DOMAIN-SUFFIX,nflxext.com,🎥 NETFLIX
- - DOMAIN-SUFFIX,nflximg.com,🎥 NETFLIX
- - DOMAIN-SUFFIX,nflximg.net,🎥 NETFLIX
- - DOMAIN-SUFFIX,nflxso.net,🎥 NETFLIX
- - DOMAIN-SUFFIX,nflxvideo.net,🎥 NETFLIX
- - DOMAIN-SUFFIX,netflixdnstest0.com,🎥 NETFLIX
- - DOMAIN-SUFFIX,netflixdnstest1.com,🎥 NETFLIX
- - DOMAIN-SUFFIX,netflixdnstest2.com,🎥 NETFLIX
- - DOMAIN-SUFFIX,netflixdnstest3.com,🎥 NETFLIX
- - DOMAIN-SUFFIX,netflixdnstest4.com,🎥 NETFLIX
- - DOMAIN-SUFFIX,netflixdnstest5.com,🎥 NETFLIX
- - DOMAIN-SUFFIX,netflixdnstest6.com,🎥 NETFLIX
- - DOMAIN-SUFFIX,netflixdnstest7.com,🎥 NETFLIX
- - DOMAIN-SUFFIX,netflixdnstest8.com,🎥 NETFLIX
- - DOMAIN-SUFFIX,netflixdnstest9.com,🎥 NETFLIX
- - DOMAIN-KEYWORD,dualstack.apiproxy-,🎥 NETFLIX
- - DOMAIN-KEYWORD,dualstack.ichnaea-web-,🎥 NETFLIX
- - IP-CIDR,23.246.0.0/18,🎥 NETFLIX,no-resolve
- - IP-CIDR,37.77.184.0/21,🎥 NETFLIX,no-resolve
- - IP-CIDR,45.57.0.0/17,🎥 NETFLIX,no-resolve
- - IP-CIDR,64.120.128.0/17,🎥 NETFLIX,no-resolve
- - IP-CIDR,66.197.128.0/17,🎥 NETFLIX,no-resolve
- - IP-CIDR,108.175.32.0/20,🎥 NETFLIX,no-resolve
- - IP-CIDR,192.173.64.0/18,🎥 NETFLIX,no-resolve
- - IP-CIDR,198.38.96.0/19,🎥 NETFLIX,no-resolve
- - IP-CIDR,198.45.48.0/20,🎥 NETFLIX,no-resolve
- - IP-CIDR,34.210.42.111/32,🎥 NETFLIX,no-resolve
- - IP-CIDR,52.89.124.203/32,🎥 NETFLIX,no-resolve
- - IP-CIDR,54.148.37.5/32,🎥 NETFLIX,no-resolve
- - DOMAIN-SUFFIX,jtvnw.net,🌍 国外媒体
- - DOMAIN-SUFFIX,ttvnw.net,🌍 国外媒体
- - DOMAIN-SUFFIX,twitch.tv,🌍 国外媒体
- - DOMAIN-SUFFIX,twitchcdn.net,🌍 国外媒体
  - DOMAIN-SUFFIX,deezer.com,🌍 国外媒体
  - DOMAIN-SUFFIX,dzcdn.net,🌍 国外媒体
- - DOMAIN-SUFFIX,joox.com,🌍 国外媒体
- - DOMAIN-KEYWORD,jooxweb-api,🌍 国外媒体
  - DOMAIN-SUFFIX,kkbox.com,🌍 国外媒体
  - DOMAIN-SUFFIX,kkbox.com.tw,🌍 国外媒体
  - DOMAIN-SUFFIX,kfs.io,🌍 国外媒体
+ - DOMAIN-SUFFIX,joox.com,🌍 国外媒体
  - DOMAIN-SUFFIX,pandora.com,🌍 国外媒体
  - DOMAIN-SUFFIX,p-cdn.us,🌍 国外媒体
  - DOMAIN-SUFFIX,sndcdn.com,🌍 国外媒体
@@ -10133,32 +10582,26 @@ rules:
  - DOMAIN-KEYWORD,spotify.com,🌍 国外媒体
  - DOMAIN-KEYWORD,-spotify-com,🌍 国外媒体
  - DOMAIN-SUFFIX,tidal.com,🌍 国外媒体
- - DOMAIN-SUFFIX,himalaya.com,🌍 国外媒体
- - DOMAIN-SUFFIX,overcast.fm,🌍 国外媒体
- - DOMAIN-SUFFIX,abema.io,🌍 国外媒体
- - DOMAIN-SUFFIX,abema.tv,🌍 国外媒体
- - DOMAIN-SUFFIX,ameba.jp,🌍 国外媒体
- - DOMAIN-SUFFIX,hayabusa.io,🌍 国外媒体
- - DOMAIN-KEYWORD,abematv.akamaized.net,🌍 国外媒体
  - DOMAIN-SUFFIX,c4assets.com,🌍 国外媒体
  - DOMAIN-SUFFIX,channel4.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,abema.io,🌍 国外媒体
+ - DOMAIN-SUFFIX,ameba.jp,🌍 国外媒体
+ - DOMAIN-SUFFIX,abema.tv,🌍 国外媒体
+ - DOMAIN-SUFFIX,hayabusa.io,🌍 国外媒体
+ - DOMAIN,abematv.akamaized.net,🌍 国外媒体
+ - DOMAIN,ds-linear-abematv.akamaized.net,🌍 国外媒体
+ - DOMAIN,ds-vod-abematv.akamaized.net,🌍 国外媒体
+ - DOMAIN,linear-abematv.akamaized.net,🌍 国外媒体
  - DOMAIN-SUFFIX,aiv-cdn.net,🌍 国外媒体
  - DOMAIN-SUFFIX,aiv-delivery.net,🌍 国外媒体
  - DOMAIN-SUFFIX,amazonvideo.com,🌍 国外媒体
  - DOMAIN-SUFFIX,primevideo.com,🌍 国外媒体
- - DOMAIN-SUFFIX,media-amazon.com,🌍 国外媒体
- - DOMAIN,atv-ps.amazon.com,🌍 国外媒体
- - DOMAIN,fls-na.amazon.com,🌍 国外媒体
  - DOMAIN,avodmp4s3ww-a.akamaihd.net,🌍 国外媒体
  - DOMAIN,d25xi40x97liuc.cloudfront.net,🌍 国外媒体
  - DOMAIN,dmqdd6hw24ucf.cloudfront.net,🌍 国外媒体
- - DOMAIN,dmqdd6hw24ucf.cloudfront.net,🌍 国外媒体
  - DOMAIN,d22qjgkvxw22r6.cloudfront.net,🌍 国外媒体
  - DOMAIN,d1v5ir2lpwr8os.cloudfront.net,🌍 国外媒体
- - DOMAIN,d27xxe7juh1us6.cloudfront.net,🌍 国外媒体
  - DOMAIN-KEYWORD,avoddashs,🌍 国外媒体
- - DOMAIN,linear.tv.apple.com,🌍 国外媒体
- - DOMAIN,play-edge.itunes.apple.com,🌍 国外媒体
  - DOMAIN-SUFFIX,bahamut.com.tw,🌍 国外媒体
  - DOMAIN-SUFFIX,gamer.com.tw,🌍 国外媒体
  - DOMAIN,gamer-cds.cdn.hinet.net,🌍 国外媒体
@@ -10167,87 +10610,48 @@ rules:
  - DOMAIN-SUFFIX,bbci.co.uk,🌍 国外媒体
  - DOMAIN-KEYWORD,bbcfmt,🌍 国外媒体
  - DOMAIN-KEYWORD,uk-live,🌍 国外媒体
- - DOMAIN-SUFFIX,biliintl.com,🌍 国外媒体
- - DOMAIN,apm-misaka.biliapi.net,🌍 国外媒体
- - DOMAIN,p.bstarstatic.com,🌍 国外媒体
- - DOMAIN,p-bstarstatic.akamaized.net,🌍 国外媒体
- - DOMAIN,upos-bstar-mirrorakam.akamaized.net,🌍 国外媒体
- - DOMAIN,upos-bstar1-mirrorakam.akamaized.net,🌍 国外媒体
  - DOMAIN-SUFFIX,dazn.com,🌍 国外媒体
  - DOMAIN-SUFFIX,dazn-api.com,🌍 国外媒体
- - DOMAIN-SUFFIX,dazndn.com,🌍 国外媒体
- - DOMAIN-SUFFIX,indazn.com,🌍 国外媒体
  - DOMAIN,d151l6v8er5bdm.cloudfront.net,🌍 国外媒体
  - DOMAIN-KEYWORD,voddazn,🌍 国外媒体
- - DOMAIN-SUFFIX,disco-api.com,🌍 国外媒体
- - DOMAIN-SUFFIX,discoveryplus.co.uk,🌍 国外媒体
- - DOMAIN-SUFFIX,discoveryplus.com,🌍 国外媒体
- - DOMAIN-SUFFIX,discoveryplus.in,🌍 国外媒体
- - DOMAIN-SUFFIX,dnitv.com,🌍 国外媒体
  - DOMAIN-SUFFIX,bamgrid.com,🌍 国外媒体
- - DOMAIN-SUFFIX,disneyplus.com,🌍 国外媒体
  - DOMAIN-SUFFIX,disney-plus.net,🌍 国外媒体
- - DOMAIN-SUFFIX,disneystreaming.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,disneyplus.com,🌍 国外媒体
  - DOMAIN-SUFFIX,dssott.com,🌍 国外媒体
  - DOMAIN,cdn.registerdisney.go.com,🌍 国外媒体
- - DOMAIN-SUFFIX,dmm.co.jp,🌍 国外媒体
- - DOMAIN-SUFFIX,dmm.com,🌍 国外媒体
- - DOMAIN-SUFFIX,dmm-extension.com,🌍 国外媒体
  - DOMAIN-SUFFIX,encoretvb.com,🌍 国外媒体
  - DOMAIN,edge.api.brightcove.com,🌍 国外媒体
  - DOMAIN,bcbolt446c5271-a.akamaihd.net,🌍 国外媒体
+ - DOMAIN-SUFFIX,fox.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,foxdcg.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,theplatform.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,uplynk.com,🌍 国外媒体
  - DOMAIN-SUFFIX,hbo.com,🌍 国外媒体
  - DOMAIN-SUFFIX,hbogo.com,🌍 国外媒体
  - DOMAIN-SUFFIX,hbonow.com,🌍 国外媒体
- - DOMAIN-SUFFIX,hbomax.com,🌍 国外媒体
- - DOMAIN-SUFFIX,hbomaxcdn.com,🌍 国外媒体
  - DOMAIN-SUFFIX,hbogoasia.com,🌍 国外媒体
  - DOMAIN-SUFFIX,hbogoasia.hk,🌍 国外媒体
- - DOMAIN-KEYWORD,.hbogoasia.,🌍 国外媒体
- - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,🌍 国外媒体
  - DOMAIN,bcbolthboa-a.akamaihd.net,🌍 国外媒体
- - DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net,🌍 国外媒体
+ - DOMAIN,players.brightcove.net,🌍 国外媒体
+ - DOMAIN,s3-ap-southeast-1.amazonaws.com,🌍 国外媒体
  - DOMAIN,dai3fd1oh325y.cloudfront.net,🌍 国外媒体
+ - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,🌍 国外媒体
  - DOMAIN,hboasia1-i.akamaihd.net,🌍 国外媒体
  - DOMAIN,hboasia2-i.akamaihd.net,🌍 国外媒体
  - DOMAIN,hboasia3-i.akamaihd.net,🌍 国外媒体
  - DOMAIN,hboasia4-i.akamaihd.net,🌍 国外媒体
  - DOMAIN,hboasia5-i.akamaihd.net,🌍 国外媒体
- - DOMAIN,hboasialive.akamaized.net,🌍 国外媒体
- - DOMAIN,hbogoprod-vod.akamaized.net,🌍 国外媒体
- - DOMAIN,hbolb.onwardsmg.com,🌍 国外媒体
- - DOMAIN,hbounify-prod.evergent.com,🌍 国外媒体
- - DOMAIN,players.brightcove.net,🌍 国外媒体
- - DOMAIN,s3-ap-southeast-1.amazonaws.com,🌍 国外媒体
+ - DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net,🌍 国外媒体
  - DOMAIN-SUFFIX,5itv.tv,🌍 国外媒体
  - DOMAIN-SUFFIX,ocnttv.com,🌍 国外媒体
  - DOMAIN-SUFFIX,hulu.com,🌍 国外媒体
  - DOMAIN-SUFFIX,huluim.com,🌍 国外媒体
  - DOMAIN-SUFFIX,hulustream.com,🌍 国外媒体
  - DOMAIN-SUFFIX,happyon.jp,🌍 国外媒体
- - DOMAIN-SUFFIX,hjholdings.jp,🌍 国外媒体
  - DOMAIN-SUFFIX,hulu.jp,🌍 国外媒体
  - DOMAIN-SUFFIX,itv.com,🌍 国外媒体
  - DOMAIN-SUFFIX,itvstatic.com,🌍 国外媒体
  - DOMAIN,itvpnpmobile-a.akamaihd.net,🌍 国外媒体
- - DOMAIN-SUFFIX,iq.com,🌍 国外媒体
- - DOMAIN,intl.iqiyi.com,🌍 国外媒体
- - DOMAIN,intl-rcd.iqiyi.com,🌍 国外媒体
- - DOMAIN,intl-subscription.iqiyi.com,🌍 国外媒体
- - IP-CIDR,23.53.32.88/32,🌍 国外媒体,no-resolve
- - IP-CIDR,23.211.15.99/32,🌍 国外媒体,no-resolve
- - IP-CIDR,103.5.34.153/32,🌍 国外媒体,no-resolve
- - IP-CIDR,104.109.129.153/32,🌍 国外媒体,no-resolve
- - IP-CIDR,110.238.107.47/32,🌍 国外媒体,no-resolve
- - IP-CIDR,118.26.32.178/32,🌍 国外媒体,no-resolve
- - IP-CIDR,203.74.95.131/32,🌍 国外媒体,no-resolve
- - IP-CIDR,203.74.95.139/32,🌍 国外媒体,no-resolve
- - IP-CIDR,203.74.95.153/32,🌍 国外媒体,no-resolve
- - IP-CIDR,203.211.4.169/32,🌍 国外媒体,no-resolve
- - IP-CIDR,203.211.4.193/32,🌍 国外媒体,no-resolve
- - IP-CIDR,210.71.227.202/32,🌍 国外媒体,no-resolve
- - IP-CIDR,210.201.32.8/32,🌍 国外媒体,no-resolve
- - IP-CIDR,210.201.32.11/32,🌍 国外媒体,no-resolve
  - DOMAIN-SUFFIX,kktv.com.tw,🌍 国外媒体
  - DOMAIN-SUFFIX,kktv.me,🌍 国外媒体
  - DOMAIN,kktv-theater.kk.stream,🌍 国外媒体
@@ -10255,15 +10659,12 @@ rules:
  - DOMAIN,d3c7rimkq79yfu.cloudfront.net,🌍 国外媒体
  - DOMAIN-SUFFIX,litv.tv,🌍 国外媒体
  - DOMAIN,litvfreemobile-hichannel.cdn.hinet.net,🌍 国外媒体
- - DOMAIN-SUFFIX,api.mgtv.com,🌍 国外媒体
- - DOMAIN,mobileso.bz.mgtv.com,🌍 国外媒体
  - DOMAIN-SUFFIX,channel5.com,🌍 国外媒体
  - DOMAIN-SUFFIX,my5.tv,🌍 国外媒体
  - DOMAIN,d349g9zuie06uo.cloudfront.net,🌍 国外媒体
  - DOMAIN-SUFFIX,mytvsuper.com,🌍 国外媒体
  - DOMAIN-SUFFIX,tvb.com,🌍 国外媒体
- - DOMAIN-SUFFIX,naver.com,🌍 国外媒体
- - DOMAIN-SUFFIX,smartmediarep.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,fast.com,🌍 国外媒体
  - DOMAIN-SUFFIX,netflix.com,🌍 国外媒体
  - DOMAIN-SUFFIX,netflix.net,🌍 国外媒体
  - DOMAIN-SUFFIX,nflxext.com,🌍 国外媒体
@@ -10281,8 +10682,6 @@ rules:
  - DOMAIN-SUFFIX,netflixdnstest7.com,🌍 国外媒体
  - DOMAIN-SUFFIX,netflixdnstest8.com,🌍 国外媒体
  - DOMAIN-SUFFIX,netflixdnstest9.com,🌍 国外媒体
- - DOMAIN-KEYWORD,dualstack.apiproxy-,🌍 国外媒体
- - DOMAIN-KEYWORD,dualstack.ichnaea-web-,🌍 国外媒体
  - IP-CIDR,23.246.0.0/18,🌍 国外媒体,no-resolve
  - IP-CIDR,37.77.184.0/21,🌍 国外媒体,no-resolve
  - IP-CIDR,45.57.0.0/17,🌍 国外媒体,no-resolve
@@ -10292,56 +10691,30 @@ rules:
  - IP-CIDR,192.173.64.0/18,🌍 国外媒体,no-resolve
  - IP-CIDR,198.38.96.0/19,🌍 国外媒体,no-resolve
  - IP-CIDR,198.45.48.0/20,🌍 国外媒体,no-resolve
- - IP-CIDR,34.210.42.111/32,🌍 国外媒体,no-resolve
- - IP-CIDR,52.89.124.203/32,🌍 国外媒体,no-resolve
- - IP-CIDR,54.148.37.5/32,🌍 国外媒体,no-resolve
  - DOMAIN-SUFFIX,dmc.nico,🌍 国外媒体
  - DOMAIN-SUFFIX,nicovideo.jp,🌍 国外媒体
  - DOMAIN-SUFFIX,nimg.jp,🌍 国外媒体
- - DOMAIN-SUFFIX,nowe.com,🌍 国外媒体
- - DOMAIN-SUFFIX,nowestatic.com,🌍 国外媒体
- - DOMAIN-SUFFIX,cbsi.com,🌍 国外媒体
- - DOMAIN-SUFFIX,cbsaavideo.com,🌍 国外媒体
- - DOMAIN-SUFFIX,cbsivideo.com,🌍 国外媒体
- - DOMAIN-SUFFIX,paramountplus.com,🌍 国外媒体
- - DOMAIN-SUFFIX,pplusstatic.com,🌍 国外媒体
- - DOMAIN,cbsi.live.ott.irdeto.com,🌍 国外媒体
- - DOMAIN,cbsplaylistserver.aws.syncbak.com,🌍 国外媒体
- - DOMAIN,cbsservice.aws.syncbak.com,🌍 国外媒体
- - DOMAIN,link.theplatform.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,socdm.com,🌍 国外媒体
  - DOMAIN-SUFFIX,pbs.org,🌍 国外媒体
- - DOMAIN-SUFFIX,peacocktv.com,🌍 国外媒体
  - DOMAIN-SUFFIX,phncdn.com,🌍 国外媒体
  - DOMAIN-SUFFIX,phprcdn.com,🌍 国外媒体
  - DOMAIN-SUFFIX,pornhub.com,🌍 国外媒体
  - DOMAIN-SUFFIX,pornhubpremium.com,🌍 国外媒体
  - DOMAIN-SUFFIX,skyking.com.tw,🌍 国外媒体
  - DOMAIN,hamifans.emome.net,🌍 国外媒体
- - DOMAIN-SUFFIX,byteoversea.com,🌍 国外媒体
- - DOMAIN-SUFFIX,ibytedtos.com,🌍 国外媒体
- - DOMAIN-SUFFIX,muscdn.com,🌍 国外媒体
- - DOMAIN-SUFFIX,musical.ly,🌍 国外媒体
- - DOMAIN-SUFFIX,tiktok.com,🌍 国外媒体
- - DOMAIN-SUFFIX,tik-tokapi.com,🌍 国外媒体
- - DOMAIN-SUFFIX,tiktokcdn.com,🌍 国外媒体
- - DOMAIN-SUFFIX,tiktokv.com,🌍 国外媒体
- - DOMAIN-KEYWORD,-tiktokcdn-com,🌍 国外媒体
- - DOMAIN-SUFFIX,tver.jp,🌍 国外媒体
- - DOMAIN,edge.api.brightcove.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,twitch.tv,🌍 国外媒体
+ - DOMAIN-SUFFIX,twitchcdn.net,🌍 国外媒体
+ - DOMAIN-SUFFIX,ttvnw.net,🌍 国外媒体
+ - DOMAIN-SUFFIX,jtvnw.net,🌍 国外媒体
  - DOMAIN-SUFFIX,viu.com,🌍 国外媒体
  - DOMAIN-SUFFIX,viu.tv,🌍 国外媒体
  - DOMAIN,api.viu.now.com,🌍 国外媒体
  - DOMAIN,d1k2us671qcoau.cloudfront.net,🌍 国外媒体
  - DOMAIN,d2anahhhmp1ffz.cloudfront.net,🌍 国外媒体
  - DOMAIN,dfp6rglgjqszk.cloudfront.net,🌍 国外媒体
- - DOMAIN-SUFFIX,wetv.vip,🌍 国外媒体
- - DOMAIN-SUFFIX,wetvinfo.com,🌍 国外媒体
- - IP-CIDR,150.109.28.51/32,🌍 国外媒体,no-resolve
  - DOMAIN-SUFFIX,googlevideo.com,🌍 国外媒体
  - DOMAIN-SUFFIX,youtube.com,🌍 国外媒体
- - DOMAIN-SUFFIX,ytimg.com,🌍 国外媒体
  - DOMAIN,youtubei.googleapis.com,🌍 国外媒体
- - DOMAIN,yt3.ggpht.com,🌍 国外媒体
  - DOMAIN-SUFFIX,acg.tv,🌏 国内媒体
  - DOMAIN-SUFFIX,acgvideo.com,🌏 国内媒体
  - DOMAIN-SUFFIX,b23.tv,🌏 国内媒体
@@ -10354,20 +10727,11 @@ rules:
  - DOMAIN-SUFFIX,hdslb.com,🌏 国内媒体
  - DOMAIN-SUFFIX,im9.com,🌏 国内媒体
  - DOMAIN-SUFFIX,smtcdns.net,🌏 国内媒体
- - DOMAIN,intel-cache.m.iqiyi.com,🌏 国内媒体
- - DOMAIN,intel-cache.video.iqiyi.com,🌏 国内媒体
- - DOMAIN,intl-rcd.iqiyi.com,🌏 国内媒体
- - DOMAIN,intl-subscription.iqiyi.com,🌏 国内媒体
- - DOMAIN-SUFFIX,inter.iqiyi.com,🌏 国内媒体
- - DOMAIN-SUFFIX,inter.ptqy.gitv.tv,🌏 国内媒体
- - DOMAIN-SUFFIX,intl.iqiyi.com,🌏 国内媒体
- - DOMAIN-SUFFIX,iq.com,🌏 国内媒体
- - IP-CIDR,103.44.56.0/22,🌏 国内媒体,no-resolve
- - IP-CIDR,118.26.120.0/24,🌏 国内媒体,no-resolve
- - IP-CIDR,118.26.32.0/23,🌏 国内媒体,no-resolve
- - IP-CIDR,223.119.62.225/28,🌏 国内媒体,no-resolve
- - IP-CIDR,23.40.241.251/32,🌏 国内媒体,no-resolve
- - IP-CIDR,23.40.242.10/32,🌏 国内媒体,no-resolve
+ - DOMAIN-KEYWORD,qiyi,🌏 国内媒体
+ - DOMAIN-SUFFIX,qy.net,🌏 国内媒体
+ - IP-CIDR,101.227.0.0/16,🌏 国内媒体,no-resolve
+ - IP-CIDR,101.224.0.0/13,🌏 国内媒体,no-resolve
+ - IP-CIDR,119.176.0.0/12,🌏 国内媒体,no-resolve
  - DOMAIN-SUFFIX,api.mob.app.letv.com,🌏 国内媒体
  - DOMAIN-SUFFIX,v.smtcdns.com,🌏 国内媒体
  - DOMAIN-SUFFIX,vv.video.qq.com,🌏 国内媒体
@@ -10382,42 +10746,30 @@ rules:
  - IP-CIDR,91.108.8.0/22,📲 电报信息,no-resolve
  - IP-CIDR,91.108.12.0/22,📲 电报信息,no-resolve
  - IP-CIDR,91.108.16.0/22,📲 电报信息,no-resolve
- - IP-CIDR,91.108.20.0/22,📲 电报信息,no-resolve
  - IP-CIDR,91.108.56.0/22,📲 电报信息,no-resolve
- - IP-CIDR,95.161.64.0/20,📲 电报信息,no-resolve
  - IP-CIDR,149.154.160.0/20,📲 电报信息,no-resolve
  - IP-CIDR6,2001:b28:f23d::/48,📲 电报信息,no-resolve
  - IP-CIDR6,2001:b28:f23f::/48,📲 电报信息,no-resolve
  - IP-CIDR6,2001:67c:4e8::/48,📲 电报信息,no-resolve
- - DOMAIN-SUFFIX,amazon.co.jp,🔰 节点选择
- - DOMAIN,d3c33hcgiwev3.cloudfront.net,🔰 节点选择
- - DOMAIN,payments-jp.amazon.com,🔰 节点选择
- - DOMAIN,s3-ap-northeast-1.amazonaws.com,🔰 节点选择
- - DOMAIN,s3-ap-southeast-2.amazonaws.com,🔰 节点选择
- - DOMAIN,a248.e.akamai.net,🔰 节点选择
- - DOMAIN,a771.dscq.akamai.net,🔰 节点选择
- - DOMAIN,testflight.apple.com,🔰 节点选择
- - DOMAIN-SUFFIX,aex.com,🔰 节点选择
- - DOMAIN-SUFFIX,bibox.com,🔰 节点选择
- - DOMAIN-SUFFIX,binance.cc,🔰 节点选择
- - DOMAIN-SUFFIX,binance.com,🔰 节点选择
- - DOMAIN-SUFFIX,bitcointalk.org,🔰 节点选择
- - DOMAIN-SUFFIX,bitfinex.com,🔰 节点选择
- - DOMAIN-SUFFIX,bitmex.com,🔰 节点选择
- - DOMAIN-SUFFIX,gate.io,🔰 节点选择
- - DOMAIN-SUFFIX,huobi.com,🔰 节点选择
- - DOMAIN-SUFFIX,okex.com,🔰 节点选择
- - DOMAIN-SUFFIX,uniswap.org,🔰 节点选择
- - DOMAIN-SUFFIX,zb.com,🔰 节点选择
- - DOMAIN-SUFFIX,discord.com,🔰 节点选择
- - DOMAIN-SUFFIX,discordapp.com,🔰 节点选择
- - DOMAIN-SUFFIX,discordapp.net,🔰 节点选择
- - DOMAIN-SUFFIX,dropbox.com,🔰 节点选择
- - DOMAIN-SUFFIX,dropboxapi.com,🔰 节点选择
- - DOMAIN-SUFFIX,dropboxusercontent.com,🔰 节点选择
+ - DOMAIN-SUFFIX,ampproject.org,🔰 节点选择
+ - DOMAIN-SUFFIX,appspot.com,🔰 节点选择
+ - DOMAIN-SUFFIX,blogger.com,🔰 节点选择
+ - DOMAIN-SUFFIX,getoutline.org,🔰 节点选择
+ - DOMAIN-SUFFIX,gvt0.com,🔰 节点选择
+ - DOMAIN-SUFFIX,gvt1.com,🔰 节点选择
+ - DOMAIN-SUFFIX,gvt3.com,🔰 节点选择
+ - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🔰 节点选择
+ - DOMAIN-KEYWORD,google,🔰 节点选择
+ - DOMAIN-KEYWORD,blogspot,🔰 节点选择
+ - DOMAIN-SUFFIX,hdsky.me,🔰 节点选择
+ - DOMAIN-SUFFIX,blackboard.com,🔰 节点选择
+ - DOMAIN-SUFFIX,gvt3.com,🔰 节点选择
+ - DOMAIN-SUFFIX,hdhome.org,🔰 节点选择
+ - DOMAIN-SUFFIX,bb-gbc.blackboard.com,🔰 节点选择
+ - DOMAIN-SUFFIX,onedrive.live.com,🔰 节点选择
+ - DOMAIN-SUFFIX,xboxlive.com,🔰 节点选择
+ - DOMAIN-SUFFIX,live.com,🔰 节点选择
  - DOMAIN-SUFFIX,cdninstagram.com,🔰 节点选择
- - DOMAIN-SUFFIX,facebook.com,🔰 节点选择
- - DOMAIN-SUFFIX,facebook.net,🔰 节点选择
  - DOMAIN-SUFFIX,fb.com,🔰 节点选择
  - DOMAIN-SUFFIX,fb.me,🔰 节点选择
  - DOMAIN-SUFFIX,fbaddins.com,🔰 节点选择
@@ -10432,18 +10784,39 @@ rules:
  - DOMAIN-SUFFIX,rocksdb.org,🔰 节点选择
  - DOMAIN-SUFFIX,whatsapp.com,🔰 节点选择
  - DOMAIN-SUFFIX,whatsapp.net,🔰 节点选择
- - DOMAIN-SUFFIX,github.com,🔰 节点选择
- - DOMAIN-SUFFIX,github.io,🔰 节点选择
- - DOMAIN-SUFFIX,githubusercontent.com,🔰 节点选择
- - DOMAIN-SUFFIX,appspot.com,🔰 节点选择
- - DOMAIN-SUFFIX,blogger.com,🔰 节点选择
- - DOMAIN-SUFFIX,getoutline.org,🔰 节点选择
- - DOMAIN-SUFFIX,gvt0.com,🔰 节点选择
- - DOMAIN-SUFFIX,gvt3.com,🔰 节点选择
- - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🔰 节点选择
- - DOMAIN-SUFFIX,ytimg.com,🔰 节点选择
- - DOMAIN-KEYWORD,google,🔰 节点选择
- - DOMAIN-KEYWORD,.blogspot.,🔰 节点选择
+ - DOMAIN-KEYWORD,facebook,🔰 节点选择
+ - IP-CIDR,3.123.36.126/32,🔰 节点选择,no-resolve
+ - IP-CIDR,35.157.215.84/32,🔰 节点选择,no-resolve
+ - IP-CIDR,35.157.217.255/32,🔰 节点选择,no-resolve
+ - IP-CIDR,52.58.209.134/32,🔰 节点选择,no-resolve
+ - IP-CIDR,54.93.124.31/32,🔰 节点选择,no-resolve
+ - IP-CIDR,54.162.243.80/32,🔰 节点选择,no-resolve
+ - IP-CIDR,54.173.34.141/32,🔰 节点选择,no-resolve
+ - IP-CIDR,54.235.23.242/32,🔰 节点选择,no-resolve
+ - IP-CIDR,169.45.248.118/32,🔰 节点选择,no-resolve
+ - DOMAIN-SUFFIX,pscp.tv,🔰 节点选择
+ - DOMAIN-SUFFIX,periscope.tv,🔰 节点选择
+ - DOMAIN-SUFFIX,t.co,🔰 节点选择
+ - DOMAIN-SUFFIX,twimg.co,🔰 节点选择
+ - DOMAIN-SUFFIX,twimg.com,🔰 节点选择
+ - DOMAIN-SUFFIX,twitpic.com,🔰 节点选择
+ - DOMAIN-SUFFIX,vine.co,🔰 节点选择
+ - DOMAIN-KEYWORD,twitter,🔰 节点选择
+ - DOMAIN-SUFFIX,t.me,🔰 节点选择
+ - DOMAIN-SUFFIX,tdesktop.com,🔰 节点选择
+ - DOMAIN-SUFFIX,telegra.ph,🔰 节点选择
+ - DOMAIN-SUFFIX,telegram.me,🔰 节点选择
+ - DOMAIN-SUFFIX,telegram.org,🔰 节点选择
+ - DOMAIN-SUFFIX,telesco.pe,🔰 节点选择
+ - IP-CIDR,91.108.4.0/22,🔰 节点选择,no-resolve
+ - IP-CIDR,91.108.8.0/22,🔰 节点选择,no-resolve
+ - IP-CIDR,91.108.12.0/22,🔰 节点选择,no-resolve
+ - IP-CIDR,91.108.16.0/22,🔰 节点选择,no-resolve
+ - IP-CIDR,91.108.56.0/22,🔰 节点选择,no-resolve
+ - IP-CIDR,149.154.160.0/20,🔰 节点选择,no-resolve
+ - IP-CIDR6,2001:b28:f23d::/48,🔰 节点选择,no-resolve
+ - IP-CIDR6,2001:b28:f23f::/48,🔰 节点选择,no-resolve
+ - IP-CIDR6,2001:67c:4e8::/48,🔰 节点选择,no-resolve
  - DOMAIN-SUFFIX,line.me,🔰 节点选择
  - DOMAIN-SUFFIX,line-apps.com,🔰 节点选择
  - DOMAIN-SUFFIX,line-scdn.net,🔰 节点选择
@@ -10452,71 +10825,16 @@ rules:
  - IP-CIDR,125.209.208.0/20,🔰 节点选择,no-resolve
  - IP-CIDR,147.92.128.0/17,🔰 节点选择,no-resolve
  - IP-CIDR,203.104.144.0/21,🔰 节点选择,no-resolve
- - DOMAIN-SUFFIX,aka.ms,🔰 节点选择
- - DOMAIN-SUFFIX,onedrive.live.com,🔰 节点选择
- - DOMAIN-SUFFIX,streaming.mediaservices.windows.net,🔰 节点选择
- - DOMAIN,assets1.xboxlive.com,🔰 节点选择
- - DOMAIN,assets2.xboxlive.com,🔰 节点选择
- - DOMAIN,az416426.vo.msecnd.net,🔰 节点选择
- - DOMAIN,az668014.vo.msecnd.net,🔰 节点选择
- - DOMAIN-SUFFIX,nyt.com,🔰 节点选择
- - DOMAIN-SUFFIX,nytchina.com,🔰 节点选择
- - DOMAIN-SUFFIX,nytcn.me,🔰 节点选择
- - DOMAIN-SUFFIX,nytco.com,🔰 节点选择
- - DOMAIN-SUFFIX,nytimes.com,🔰 节点选择
- - DOMAIN-SUFFIX,nytimg.com,🔰 节点选择
- - DOMAIN-SUFFIX,nytlog.com,🔰 节点选择
- - DOMAIN-SUFFIX,nytstyle.com,🔰 节点选择
- - DOMAIN-SUFFIX,pinterest.at,🔰 节点选择
- - DOMAIN-SUFFIX,pinterest.ca,🔰 节点选择
- - DOMAIN-SUFFIX,pinterest.co.uk,🔰 节点选择
- - DOMAIN-SUFFIX,pinterest.com,🔰 节点选择
- - DOMAIN-SUFFIX,pinterest.de,🔰 节点选择
- - DOMAIN-SUFFIX,pinterest.fr,🔰 节点选择
- - DOMAIN-SUFFIX,pinterest.jp,🔰 节点选择
- - DOMAIN-SUFFIX,pinterest.se,🔰 节点选择
- - DOMAIN-SUFFIX,pixiv.net,🔰 节点选择
- - DOMAIN-SUFFIX,pixiv.org,🔰 节点选择
- - DOMAIN-SUFFIX,pximg.net,🔰 节点选择
- - DOMAIN-SUFFIX,redd.it,🔰 节点选择
- - DOMAIN-SUFFIX,reddit.com,🔰 节点选择
- - DOMAIN-SUFFIX,redditmedia.com,🔰 节点选择
- - DOMAIN-SUFFIX,telegra.ph,🔰 节点选择
- - DOMAIN-SUFFIX,telegram.org,🔰 节点选择
- - IP-CIDR,91.108.4.0/22,🔰 节点选择,no-resolve
- - IP-CIDR,91.108.8.0/22,🔰 节点选择,no-resolve
- - IP-CIDR,91.108.12.0/22,🔰 节点选择,no-resolve
- - IP-CIDR,91.108.16.0/22,🔰 节点选择,no-resolve
- - IP-CIDR,91.108.20.0/22,🔰 节点选择,no-resolve
- - IP-CIDR,91.108.56.0/22,🔰 节点选择,no-resolve
- - IP-CIDR,95.161.64.0/20,🔰 节点选择,no-resolve
- - IP-CIDR,149.154.160.0/20,🔰 节点选择,no-resolve
- - IP-CIDR6,2001:b28:f23d::/48,🔰 节点选择,no-resolve
- - IP-CIDR6,2001:b28:f23f::/48,🔰 节点选择,no-resolve
- - IP-CIDR6,2001:67c:4e8::/48,🔰 节点选择,no-resolve
- - DOMAIN-SUFFIX,pscp.tv,🔰 节点选择
- - DOMAIN-SUFFIX,periscope.tv,🔰 节点选择
- - DOMAIN-SUFFIX,t.co,🔰 节点选择
- - DOMAIN-SUFFIX,twimg.co,🔰 节点选择
- - DOMAIN-SUFFIX,twimg.com,🔰 节点选择
- - DOMAIN-SUFFIX,twitpic.com,🔰 节点选择
- - DOMAIN-SUFFIX,twitter.com,🔰 节点选择
- - DOMAIN-SUFFIX,vine.co,🔰 节点选择
- - DOMAIN-SUFFIX,wikileaks.org,🔰 节点选择
- - DOMAIN-SUFFIX,wikimapia.org,🔰 节点选择
- - DOMAIN-SUFFIX,wikimedia.org,🔰 节点选择
- - DOMAIN-SUFFIX,wikinews.org,🔰 节点选择
- - DOMAIN-SUFFIX,wikipedia.org,🔰 节点选择
- - DOMAIN-SUFFIX,wikiquote.org,🔰 节点选择
  - DOMAIN-SUFFIX,4shared.com,🔰 节点选择
+ - DOMAIN-SUFFIX,520cc.cc,🔰 节点选择
+ - DOMAIN-SUFFIX,881903.com,🔰 节点选择
  - DOMAIN-SUFFIX,9cache.com,🔰 节点选择
  - DOMAIN-SUFFIX,9gag.com,🔰 节点选择
  - DOMAIN-SUFFIX,abc.com,🔰 节点选择
  - DOMAIN-SUFFIX,abc.net.au,🔰 节点选择
  - DOMAIN-SUFFIX,abebooks.com,🔰 节点选择
- - DOMAIN-SUFFIX,ao3.org,🔰 节点选择
+ - DOMAIN-SUFFIX,amazon.co.jp,🔰 节点选择
  - DOMAIN-SUFFIX,apigee.com,🔰 节点选择
- - DOMAIN-SUFFIX,apkcombo.com,🔰 节点选择
  - DOMAIN-SUFFIX,apk-dl.com,🔰 节点选择
  - DOMAIN-SUFFIX,apkfind.com,🔰 节点选择
  - DOMAIN-SUFFIX,apkmirror.com,🔰 节点选择
@@ -10525,8 +10843,6 @@ rules:
  - DOMAIN-SUFFIX,aptoide.com,🔰 节点选择
  - DOMAIN-SUFFIX,archive.is,🔰 节点选择
  - DOMAIN-SUFFIX,archive.org,🔰 节点选择
- - DOMAIN-SUFFIX,archiveofourown.com,🔰 节点选择
- - DOMAIN-SUFFIX,archiveofourown.org,🔰 节点选择
  - DOMAIN-SUFFIX,arte.tv,🔰 节点选择
  - DOMAIN-SUFFIX,artstation.com,🔰 节点选择
  - DOMAIN-SUFFIX,arukas.io,🔰 节点选择
@@ -10534,13 +10850,16 @@ rules:
  - DOMAIN-SUFFIX,avg.com,🔰 节点选择
  - DOMAIN-SUFFIX,avgle.com,🔰 节点选择
  - DOMAIN-SUFFIX,badoo.com,🔰 节点选择
- - DOMAIN-SUFFIX,bandcamp.com,🔰 节点选择
  - DOMAIN-SUFFIX,bandwagonhost.com,🔰 节点选择
- - DOMAIN-SUFFIX,bangkokpost.com,🔰 节点选择
  - DOMAIN-SUFFIX,bbc.com,🔰 节点选择
  - DOMAIN-SUFFIX,behance.net,🔰 节点选择
+ - DOMAIN-SUFFIX,bibox.com,🔰 节点选择
  - DOMAIN-SUFFIX,biggo.com.tw,🔰 节点选择
- - DOMAIN-SUFFIX,bit.ly,🔰 节点选择
+ - DOMAIN-SUFFIX,binance.com,🔰 节点选择
+ - DOMAIN-SUFFIX,bitcointalk.org,🔰 节点选择
+ - DOMAIN-SUFFIX,bitfinex.com,🔰 节点选择
+ - DOMAIN-SUFFIX,bitmex.com,🔰 节点选择
+ - DOMAIN-SUFFIX,bit-z.com,🔰 节点选择
  - DOMAIN-SUFFIX,bloglovin.com,🔰 节点选择
  - DOMAIN-SUFFIX,bloomberg.cn,🔰 节点选择
  - DOMAIN-SUFFIX,bloomberg.com,🔰 节点选择
@@ -10550,9 +10869,7 @@ rules:
  - DOMAIN-SUFFIX,books.com.tw,🔰 节点选择
  - DOMAIN-SUFFIX,boslife.net,🔰 节点选择
  - DOMAIN-SUFFIX,box.com,🔰 节点选择
- - DOMAIN-SUFFIX,brave.com,🔰 节点选择
  - DOMAIN-SUFFIX,businessinsider.com,🔰 节点选择
- - DOMAIN-SUFFIX,buzzfeed.com,🔰 节点选择
  - DOMAIN-SUFFIX,bwh1.net,🔰 节点选择
  - DOMAIN-SUFFIX,castbox.fm,🔰 节点选择
  - DOMAIN-SUFFIX,cbc.ca,🔰 节点选择
@@ -10561,8 +10878,6 @@ rules:
  - DOMAIN-SUFFIX,channelnewsasia.com,🔰 节点选择
  - DOMAIN-SUFFIX,ck101.com,🔰 节点选择
  - DOMAIN-SUFFIX,clarionproject.org,🔰 节点选择
- - DOMAIN-SUFFIX,cloudcone.com,🔰 节点选择
- - DOMAIN-SUFFIX,clubhouseapi.com,🔰 节点选择
  - DOMAIN-SUFFIX,clyp.it,🔰 节点选择
  - DOMAIN-SUFFIX,cna.com.tw,🔰 节点选择
  - DOMAIN-SUFFIX,comparitech.com,🔰 节点选择
@@ -10571,32 +10886,31 @@ rules:
  - DOMAIN-SUFFIX,cts.com.tw,🔰 节点选择
  - DOMAIN-SUFFIX,cw.com.tw,🔰 节点选择
  - DOMAIN-SUFFIX,cyberctm.com,🔰 节点选择
- - DOMAIN-SUFFIX,cyclingnews.com,🔰 节点选择
  - DOMAIN-SUFFIX,dailymotion.com,🔰 节点选择
  - DOMAIN-SUFFIX,dailyview.tw,🔰 节点选择
- - DOMAIN-SUFFIX,dandanzan.com,🔰 节点选择
  - DOMAIN-SUFFIX,daum.net,🔰 节点选择
  - DOMAIN-SUFFIX,daumcdn.net,🔰 节点选择
  - DOMAIN-SUFFIX,dcard.tw,🔰 节点选择
- - DOMAIN-SUFFIX,deadline.com,🔰 节点选择
  - DOMAIN-SUFFIX,deepdiscount.com,🔰 节点选择
  - DOMAIN-SUFFIX,depositphotos.com,🔰 节点选择
  - DOMAIN-SUFFIX,deviantart.com,🔰 节点选择
  - DOMAIN-SUFFIX,disconnect.me,🔰 节点选择
+ - DOMAIN-SUFFIX,discordapp.com,🔰 节点选择
+ - DOMAIN-SUFFIX,discordapp.net,🔰 节点选择
  - DOMAIN-SUFFIX,disqus.com,🔰 节点选择
  - DOMAIN-SUFFIX,dlercloud.com,🔰 节点选择
- - DOMAIN-SUFFIX,dmhy.org,🔰 节点选择
  - DOMAIN-SUFFIX,dns2go.com,🔰 节点选择
  - DOMAIN-SUFFIX,dowjones.com,🔰 节点选择
+ - DOMAIN-SUFFIX,dropbox.com,🔰 节点选择
+ - DOMAIN-SUFFIX,dropboxusercontent.com,🔰 节点选择
  - DOMAIN-SUFFIX,duckduckgo.com,🔰 节点选择
- - DOMAIN-SUFFIX,duyaoss.com,🔰 节点选择
  - DOMAIN-SUFFIX,dw.com,🔰 节点选择
  - DOMAIN-SUFFIX,dynu.com,🔰 节点选择
  - DOMAIN-SUFFIX,earthcam.com,🔰 节点选择
  - DOMAIN-SUFFIX,ebookservice.tw,🔰 节点选择
  - DOMAIN-SUFFIX,economist.com,🔰 节点选择
  - DOMAIN-SUFFIX,edgecastcdn.net,🔰 节点选择
- - DOMAIN-SUFFIX,edx-cdn.org,🔰 节点选择
+ - DOMAIN-SUFFIX,edu,🔰 节点选择
  - DOMAIN-SUFFIX,elpais.com,🔰 节点选择
  - DOMAIN-SUFFIX,enanyang.my,🔰 节点选择
  - DOMAIN-SUFFIX,encyclopedia.com,🔰 节点选择
@@ -10604,31 +10918,28 @@ rules:
  - DOMAIN-SUFFIX,etherscan.io,🔰 节点选择
  - DOMAIN-SUFFIX,euronews.com,🔰 节点选择
  - DOMAIN-SUFFIX,evozi.com,🔰 节点选择
- - DOMAIN-SUFFIX,exblog.jp,🔰 节点选择
- - DOMAIN-SUFFIX,feeder.co,🔰 节点选择
  - DOMAIN-SUFFIX,feedly.com,🔰 节点选择
- - DOMAIN-SUFFIX,feedx.net,🔰 节点选择
  - DOMAIN-SUFFIX,firech.at,🔰 节点选择
  - DOMAIN-SUFFIX,flickr.com,🔰 节点选择
- - DOMAIN-SUFFIX,flipboard.com,🔰 节点选择
  - DOMAIN-SUFFIX,flitto.com,🔰 节点选择
  - DOMAIN-SUFFIX,foreignpolicy.com,🔰 节点选择
- - DOMAIN-SUFFIX,fortawesome.com,🔰 节点选择
- - DOMAIN-SUFFIX,freetls.fastly.net,🔰 节点选择
+ - DOMAIN-SUFFIX,freebrowser.org,🔰 节点选择
+ - DOMAIN-SUFFIX,freewechat.com,🔰 节点选择
+ - DOMAIN-SUFFIX,freeweibo.com,🔰 节点选择
  - DOMAIN-SUFFIX,friday.tw,🔰 节点选择
- - DOMAIN-SUFFIX,ft.com,🔰 节点选择
  - DOMAIN-SUFFIX,ftchinese.com,🔰 节点选择
  - DOMAIN-SUFFIX,ftimg.net,🔰 节点选择
- - DOMAIN-SUFFIX,genius.com,🔰 节点选择
+ - DOMAIN-SUFFIX,gate.io,🔰 节点选择
  - DOMAIN-SUFFIX,getlantern.org,🔰 节点选择
  - DOMAIN-SUFFIX,getsync.com,🔰 节点选择
  - DOMAIN-SUFFIX,globalvoices.org,🔰 节点选择
  - DOMAIN-SUFFIX,goo.ne.jp,🔰 节点选择
  - DOMAIN-SUFFIX,goodreads.com,🔰 节点选择
+ - DOMAIN-SUFFIX,gov,🔰 节点选择
  - DOMAIN-SUFFIX,gov.tw,🔰 节点选择
- - DOMAIN-SUFFIX,gravatar.com,🔰 节点选择
  - DOMAIN-SUFFIX,greatfire.org,🔰 节点选择
  - DOMAIN-SUFFIX,gumroad.com,🔰 节点选择
+ - DOMAIN-SUFFIX,hbg.com,🔰 节点选择
  - DOMAIN-SUFFIX,heroku.com,🔰 节点选择
  - DOMAIN-SUFFIX,hightail.com,🔰 节点选择
  - DOMAIN-SUFFIX,hk01.com,🔰 节点选择
@@ -10636,18 +10947,16 @@ rules:
  - DOMAIN-SUFFIX,hkbookcity.com,🔰 节点选择
  - DOMAIN-SUFFIX,hkej.com,🔰 节点选择
  - DOMAIN-SUFFIX,hket.com,🔰 节点选择
+ - DOMAIN-SUFFIX,hkgolden.com,🔰 节点选择
  - DOMAIN-SUFFIX,hootsuite.com,🔰 节点选择
  - DOMAIN-SUFFIX,hudson.org,🔰 节点选择
- - DOMAIN-SUFFIX,huffpost.com,🔰 节点选择
  - DOMAIN-SUFFIX,hyread.com.tw,🔰 节点选择
  - DOMAIN-SUFFIX,ibtimes.com,🔰 节点选择
  - DOMAIN-SUFFIX,i-cable.com,🔰 节点选择
  - DOMAIN-SUFFIX,icij.org,🔰 节点选择
  - DOMAIN-SUFFIX,icoco.com,🔰 节点选择
  - DOMAIN-SUFFIX,imgur.com,🔰 节点选择
- - DOMAIN-SUFFIX,independent.co.uk,🔰 节点选择
  - DOMAIN-SUFFIX,initiummall.com,🔰 节点选择
- - DOMAIN-SUFFIX,inoreader.com,🔰 节点选择
  - DOMAIN-SUFFIX,insecam.org,🔰 节点选择
  - DOMAIN-SUFFIX,ipfs.io,🔰 节点选择
  - DOMAIN-SUFFIX,issuu.com,🔰 节点选择
@@ -10656,26 +10965,20 @@ rules:
  - DOMAIN-SUFFIX,jiji.com,🔰 节点选择
  - DOMAIN-SUFFIX,jinx.com,🔰 节点选择
  - DOMAIN-SUFFIX,jkforum.net,🔰 节点选择
- - DOMAIN-SUFFIX,joinclubhouse.com,🔰 节点选择
  - DOMAIN-SUFFIX,joinmastodon.org,🔰 节点选择
  - DOMAIN-SUFFIX,justmysocks.net,🔰 节点选择
  - DOMAIN-SUFFIX,justpaste.it,🔰 节点选择
- - DOMAIN-SUFFIX,kadokawa.co.jp,🔰 节点选择
  - DOMAIN-SUFFIX,kakao.com,🔰 节点选择
  - DOMAIN-SUFFIX,kakaocorp.com,🔰 节点选择
  - DOMAIN-SUFFIX,kik.com,🔰 节点选择
- - DOMAIN-SUFFIX,kingkong.com.tw,🔰 节点选择
- - DOMAIN-SUFFIX,knowyourmeme.com,🔰 节点选择
  - DOMAIN-SUFFIX,kobo.com,🔰 节点选择
  - DOMAIN-SUFFIX,kobobooks.com,🔰 节点选择
  - DOMAIN-SUFFIX,kodingen.com,🔰 节点选择
  - DOMAIN-SUFFIX,lemonde.fr,🔰 节点选择
  - DOMAIN-SUFFIX,lepoint.fr,🔰 节点选择
  - DOMAIN-SUFFIX,lihkg.com,🔰 节点选择
- - DOMAIN-SUFFIX,limbopro.xyz,🔰 节点选择
  - DOMAIN-SUFFIX,listennotes.com,🔰 节点选择
  - DOMAIN-SUFFIX,livestream.com,🔰 节点选择
- - DOMAIN-SUFFIX,logimg.jp,🔰 节点选择
  - DOMAIN-SUFFIX,logmein.com,🔰 节点选择
  - DOMAIN-SUFFIX,mail.ru,🔰 节点选择
  - DOMAIN-SUFFIX,mailchimp.com,🔰 节点选择
@@ -10684,46 +10987,48 @@ rules:
  - DOMAIN-SUFFIX,maying.co,🔰 节点选择
  - DOMAIN-SUFFIX,medium.com,🔰 节点选择
  - DOMAIN-SUFFIX,mega.nz,🔰 节点选择
- - DOMAIN-SUFFIX,mergersandinquisitions.com,🔰 节点选择
+ - DOMAIN-SUFFIX,mil,🔰 节点选择
  - DOMAIN-SUFFIX,mingpao.com,🔰 节点选择
- - DOMAIN-SUFFIX,mixi.jp,🔰 节点选择
- - DOMAIN-SUFFIX,mixlr.com,🔰 节点选择
  - DOMAIN-SUFFIX,mobile01.com,🔰 节点选择
- - DOMAIN-SUFFIX,mubi.com,🔰 节点选择
  - DOMAIN-SUFFIX,myspace.com,🔰 节点选择
  - DOMAIN-SUFFIX,myspacecdn.com,🔰 节点选择
  - DOMAIN-SUFFIX,nanyang.com,🔰 节点选择
- - DOMAIN-SUFFIX,nationalinterest.org,🔰 节点选择
  - DOMAIN-SUFFIX,naver.com,🔰 节点选择
- - DOMAIN-SUFFIX,nbcnews.com,🔰 节点选择
- - DOMAIN-SUFFIX,ndr.de,🔰 节点选择
  - DOMAIN-SUFFIX,neowin.net,🔰 节点选择
  - DOMAIN-SUFFIX,newstapa.org,🔰 节点选择
  - DOMAIN-SUFFIX,nexitally.com,🔰 节点选择
  - DOMAIN-SUFFIX,nhk.or.jp,🔰 节点选择
+ - DOMAIN-SUFFIX,nicovideo.jp,🔰 节点选择
  - DOMAIN-SUFFIX,nii.ac.jp,🔰 节点选择
  - DOMAIN-SUFFIX,nikkei.com,🔰 节点选择
- - DOMAIN-SUFFIX,nitter.net,🔰 节点选择
  - DOMAIN-SUFFIX,nofile.io,🔰 节点选择
- - DOMAIN-SUFFIX,notion.so,🔰 节点选择
  - DOMAIN-SUFFIX,now.com,🔰 节点选择
  - DOMAIN-SUFFIX,nrk.no,🔰 节点选择
- - DOMAIN-SUFFIX,nuget.org,🔰 节点选择
  - DOMAIN-SUFFIX,nyaa.si,🔰 节点选择
+ - DOMAIN-SUFFIX,nyt.com,🔰 节点选择
+ - DOMAIN-SUFFIX,nytchina.com,🔰 节点选择
+ - DOMAIN-SUFFIX,nytcn.me,🔰 节点选择
+ - DOMAIN-SUFFIX,nytco.com,🔰 节点选择
+ - DOMAIN-SUFFIX,nytimes.com,🔰 节点选择
+ - DOMAIN-SUFFIX,nytimg.com,🔰 节点选择
+ - DOMAIN-SUFFIX,nytlog.com,🔰 节点选择
+ - DOMAIN-SUFFIX,nytstyle.com,🔰 节点选择
  - DOMAIN-SUFFIX,ok.ru,🔰 节点选择
+ - DOMAIN-SUFFIX,okex.com,🔰 节点选择
  - DOMAIN-SUFFIX,on.cc,🔰 节点选择
  - DOMAIN-SUFFIX,orientaldaily.com.my,🔰 节点选择
  - DOMAIN-SUFFIX,overcast.fm,🔰 节点选择
  - DOMAIN-SUFFIX,paltalk.com,🔰 节点选择
+ - DOMAIN-SUFFIX,pao-pao.net,🔰 节点选择
  - DOMAIN-SUFFIX,parsevideo.com,🔰 节点选择
  - DOMAIN-SUFFIX,pawoo.net,🔰 节点选择
  - DOMAIN-SUFFIX,pbxes.com,🔰 节点选择
  - DOMAIN-SUFFIX,pcdvd.com.tw,🔰 节点选择
  - DOMAIN-SUFFIX,pchome.com.tw,🔰 节点选择
  - DOMAIN-SUFFIX,pcloud.com,🔰 节点选择
- - DOMAIN-SUFFIX,peing.net,🔰 节点选择
  - DOMAIN-SUFFIX,picacomic.com,🔰 节点选择
  - DOMAIN-SUFFIX,pinimg.com,🔰 节点选择
+ - DOMAIN-SUFFIX,pixiv.net,🔰 节点选择
  - DOMAIN-SUFFIX,player.fm,🔰 节点选择
  - DOMAIN-SUFFIX,plurk.com,🔰 节点选择
  - DOMAIN-SUFFIX,po18.tw,🔰 节点选择
@@ -10738,39 +11043,32 @@ rules:
  - DOMAIN-SUFFIX,pureapk.com,🔰 节点选择
  - DOMAIN-SUFFIX,quora.com,🔰 节点选择
  - DOMAIN-SUFFIX,quoracdn.net,🔰 节点选择
- - DOMAIN-SUFFIX,qz.com,🔰 节点选择
- - DOMAIN-SUFFIX,radio.garden,🔰 节点选择
  - DOMAIN-SUFFIX,rakuten.co.jp,🔰 节点选择
- - DOMAIN-SUFFIX,rarbgprx.org,🔰 节点选择
- - DOMAIN-SUFFIX,reabble.com,🔰 节点选择
  - DOMAIN-SUFFIX,readingtimes.com.tw,🔰 节点选择
  - DOMAIN-SUFFIX,readmoo.com,🔰 节点选择
  - DOMAIN-SUFFIX,redbubble.com,🔰 节点选择
+ - DOMAIN-SUFFIX,reddit.com,🔰 节点选择
+ - DOMAIN-SUFFIX,redditmedia.com,🔰 节点选择
+ - DOMAIN-SUFFIX,redditstatic.com,🔰 节点选择
  - DOMAIN-SUFFIX,resilio.com,🔰 节点选择
  - DOMAIN-SUFFIX,reuters.com,🔰 节点选择
  - DOMAIN-SUFFIX,reutersmedia.net,🔰 节点选择
  - DOMAIN-SUFFIX,rfi.fr,🔰 节点选择
+ - DOMAIN-SUFFIX,rixcloud.com,🔰 节点选择
  - DOMAIN-SUFFIX,roadshow.hk,🔰 节点选择
- - DOMAIN-SUFFIX,rsshub.app,🔰 节点选择
  - DOMAIN-SUFFIX,scmp.com,🔰 节点选择
  - DOMAIN-SUFFIX,scribd.com,🔰 节点选择
  - DOMAIN-SUFFIX,seatguru.com,🔰 节点选择
  - DOMAIN-SUFFIX,shadowsocks.org,🔰 节点选择
- - DOMAIN-SUFFIX,shindanmaker.com,🔰 节点选择
  - DOMAIN-SUFFIX,shopee.tw,🔰 节点选择
- - DOMAIN-SUFFIX,signal.org,🔰 节点选择
- - DOMAIN-SUFFIX,sina.com.hk,🔰 节点选择
  - DOMAIN-SUFFIX,slideshare.net,🔰 节点选择
  - DOMAIN-SUFFIX,softfamous.com,🔰 节点选择
- - DOMAIN-SUFFIX,spiegel.de,🔰 节点选择
+ - DOMAIN-SUFFIX,soundcloud.com,🔰 节点选择
+ - DOMAIN-SUFFIX,ssrcloud.org,🔰 节点选择
  - DOMAIN-SUFFIX,startpage.com,🔰 节点选择
  - DOMAIN-SUFFIX,steamcommunity.com,🔰 节点选择
  - DOMAIN-SUFFIX,steemit.com,🔰 节点选择
  - DOMAIN-SUFFIX,steemitwallet.com,🔰 节点选择
- - DOMAIN-SUFFIX,straitstimes.com,🔰 节点选择
- - DOMAIN-SUFFIX,streamable.com,🔰 节点选择
- - DOMAIN-SUFFIX,streema.com,🔰 节点选择
- - DOMAIN-SUFFIX,substack.com,🔰 节点选择
  - DOMAIN-SUFFIX,t66y.com,🔰 节点选择
  - DOMAIN-SUFFIX,tapatalk.com,🔰 节点选择
  - DOMAIN-SUFFIX,teco-hk.org,🔰 节点选择
@@ -10779,12 +11077,8 @@ rules:
  - DOMAIN-SUFFIX,textnow.me,🔰 节点选择
  - DOMAIN-SUFFIX,theguardian.com,🔰 节点选择
  - DOMAIN-SUFFIX,theinitium.com,🔰 节点选择
- - DOMAIN-SUFFIX,themoviedb.org,🔰 节点选择
  - DOMAIN-SUFFIX,thetvdb.com,🔰 节点选择
- - DOMAIN-SUFFIX,time.com,🔰 节点选择
  - DOMAIN-SUFFIX,tineye.com,🔰 节点选择
- - DOMAIN-SUFFIX,tiny.cc,🔰 节点选择
- - DOMAIN-SUFFIX,tinyurl.com,🔰 节点选择
  - DOMAIN-SUFFIX,torproject.org,🔰 节点选择
  - DOMAIN-SUFFIX,tumblr.com,🔰 节点选择
  - DOMAIN-SUFFIX,turbobit.net,🔰 节点选择
@@ -10797,8 +11091,6 @@ rules:
  - DOMAIN-SUFFIX,urbandictionary.com,🔰 节点选择
  - DOMAIN-SUFFIX,ustream.tv,🔰 节点选择
  - DOMAIN-SUFFIX,uwants.com,🔰 节点选择
- - DOMAIN-SUFFIX,v2ex.com,🔰 节点选择
- - DOMAIN-SUFFIX,v2fly.org,🔰 节点选择
  - DOMAIN-SUFFIX,v2ray.com,🔰 节点选择
  - DOMAIN-SUFFIX,viber.com,🔰 节点选择
  - DOMAIN-SUFFIX,videopress.com,🔰 节点选择
@@ -10811,11 +11103,15 @@ rules:
  - DOMAIN-SUFFIX,washingtonpost.com,🔰 节点选择
  - DOMAIN-SUFFIX,wattpad.com,🔰 节点选择
  - DOMAIN-SUFFIX,whoer.net,🔰 节点选择
+ - DOMAIN-SUFFIX,wikimapia.org,🔰 节点选择
+ - DOMAIN-SUFFIX,wikimedia.org,🔰 节点选择
+ - DOMAIN-SUFFIX,wikipedia.org,🔰 节点选择
+ - DOMAIN-SUFFIX,wikiquote.org,🔰 节点选择
  - DOMAIN-SUFFIX,wikiwand.com,🔰 节点选择
  - DOMAIN-SUFFIX,winudf.com,🔰 节点选择
  - DOMAIN-SUFFIX,wire.com,🔰 节点选择
- - DOMAIN-SUFFIX,wn.com,🔰 节点选择
  - DOMAIN-SUFFIX,wordpress.com,🔰 节点选择
+ - DOMAIN-SUFFIX,workflow.is,🔰 节点选择
  - DOMAIN-SUFFIX,worldcat.org,🔰 节点选择
  - DOMAIN-SUFFIX,wsj.com,🔰 节点选择
  - DOMAIN-SUFFIX,wsj.net,🔰 节点选择
@@ -10824,7 +11120,6 @@ rules:
  - DOMAIN-SUFFIX,xn--i2ru8q2qg.com,🔰 节点选择
  - DOMAIN-SUFFIX,xnxx.com,🔰 节点选择
  - DOMAIN-SUFFIX,xvideos.com,🔰 节点选择
- - DOMAIN-SUFFIX,yadi.sk,🔰 节点选择
  - DOMAIN-SUFFIX,yahoo.com,🔰 节点选择
  - DOMAIN-SUFFIX,yandex.ru,🔰 节点选择
  - DOMAIN-SUFFIX,ycombinator.com,🔰 节点选择
@@ -10833,21 +11128,74 @@ rules:
  - DOMAIN-SUFFIX,yomiuri.co.jp,🔰 节点选择
  - DOMAIN-SUFFIX,you-get.org,🔰 节点选择
  - DOMAIN-SUFFIX,zaobao.com,🔰 节点选择
+ - DOMAIN-SUFFIX,zb.com,🔰 节点选择
  - DOMAIN-SUFFIX,zello.com,🔰 节点选择
  - DOMAIN-SUFFIX,zeronet.io,🔰 节点选择
- - DOMAIN-SUFFIX,z-lib.org,🔰 节点选择
  - DOMAIN-SUFFIX,zoom.us,🔰 节点选择
- - DOMAIN,cc.tvbs.com.tw,🔰 节点选择
- - DOMAIN,ocsp.int-x3.letsencrypt.org,🔰 节点选择
- - DOMAIN,us.weibo.com,🔰 节点选择
- - DOMAIN-SUFFIX,edu,🔰 节点选择
- - DOMAIN-SUFFIX,gov,🔰 节点选择
- - DOMAIN-SUFFIX,mil,🔰 节点选择
+ - DOMAIN-KEYWORD,github,🔰 节点选择
+ - DOMAIN-KEYWORD,jav,🔰 节点选择
+ - DOMAIN-KEYWORD,pinterest,🔰 节点选择
+ - DOMAIN-KEYWORD,porn,🔰 节点选择
+ - DOMAIN-KEYWORD,wikileaks,🔰 节点选择
+ - DOMAIN-SUFFIX,apartmentratings.com,🔰 节点选择
+ - DOMAIN-SUFFIX,apartments.com,🔰 节点选择
+ - DOMAIN-SUFFIX,bankmobilevibe.com,🔰 节点选择
+ - DOMAIN-SUFFIX,bing.com,🔰 节点选择
+ - DOMAIN-SUFFIX,booktopia.com.au,🔰 节点选择
+ - DOMAIN-SUFFIX,cccat.io,🔰 节点选择
+ - DOMAIN-SUFFIX,centauro.com.br,🔰 节点选择
+ - DOMAIN-SUFFIX,clearsurance.com,🔰 节点选择
+ - DOMAIN-SUFFIX,costco.com,🔰 节点选择
+ - DOMAIN-SUFFIX,crackle.com,🔰 节点选择
+ - DOMAIN-SUFFIX,depositphotos.cn,🔰 节点选择
+ - DOMAIN-SUFFIX,dish.com,🔰 节点选择
+ - DOMAIN-SUFFIX,dmm.co.jp,🔰 节点选择
+ - DOMAIN-SUFFIX,dmm.com,🔰 节点选择
+ - DOMAIN-SUFFIX,dnvod.tv,🔰 节点选择
+ - DOMAIN-SUFFIX,esurance.com,🔰 节点选择
+ - DOMAIN-SUFFIX,extmatrix.com,🔰 节点选择
+ - DOMAIN-SUFFIX,fastpic.ru,🔰 节点选择
+ - DOMAIN-SUFFIX,flipboard.com,🔰 节点选择
+ - DOMAIN-SUFFIX,fnac.be,🔰 节点选择
+ - DOMAIN-SUFFIX,fnac.com,🔰 节点选择
+ - DOMAIN-SUFFIX,funkyimg.com,🔰 节点选择
+ - DOMAIN-SUFFIX,fxnetworks.com,🔰 节点选择
+ - DOMAIN-SUFFIX,gettyimages.com,🔰 节点选择
+ - DOMAIN-SUFFIX,go.com,🔰 节点选择
+ - DOMAIN-SUFFIX,here.com,🔰 节点选择
+ - DOMAIN-SUFFIX,jcpenney.com,🔰 节点选择
+ - DOMAIN-SUFFIX,jiehua.tv,🔰 节点选择
+ - DOMAIN-SUFFIX,mailfence.com,🔰 节点选择
+ - DOMAIN-SUFFIX,nationwide.com,🔰 节点选择
+ - DOMAIN-SUFFIX,nbc.com,🔰 节点选择
+ - DOMAIN-SUFFIX,nexon.com,🔰 节点选择
+ - DOMAIN-SUFFIX,nordstrom.com,🔰 节点选择
+ - DOMAIN-SUFFIX,nordstromimage.com,🔰 节点选择
+ - DOMAIN-SUFFIX,nordstromrack.com,🔰 节点选择
+ - DOMAIN-SUFFIX,superpages.com,🔰 节点选择
+ - DOMAIN-SUFFIX,target.com,🔰 节点选择
+ - DOMAIN-SUFFIX,thinkgeek.com,🔰 节点选择
+ - DOMAIN-SUFFIX,tracfone.com,🔰 节点选择
+ - DOMAIN-SUFFIX,unity3d.com,🔰 节点选择
+ - DOMAIN-SUFFIX,uploader.jp,🔰 节点选择
+ - DOMAIN-SUFFIX,vevo.com,🔰 节点选择
+ - DOMAIN-SUFFIX,viu.tv,🔰 节点选择
+ - DOMAIN-SUFFIX,vk.com,🔰 节点选择
+ - DOMAIN-SUFFIX,vsco.co,🔰 节点选择
+ - DOMAIN-SUFFIX,xfinity.com,🔰 节点选择
+ - DOMAIN-SUFFIX,zattoo.com,🔰 节点选择
+ - DOMAIN,testflight.apple.com,🔰 节点选择
+ - DOMAIN-SUFFIX,appsto.re,🔰 节点选择
+ - DOMAIN,books.itunes.apple.com,🔰 节点选择
+ - DOMAIN,hls.itunes.apple.com,🔰 节点选择
+ - DOMAIN,apps.apple.com,🔰 节点选择
+ - DOMAIN,itunes.apple.com,🔰 节点选择
+ - DOMAIN,api-glb-sea.smoot.apple.com,🔰 节点选择
+ - DOMAIN,lookup-api.apple.com,🔰 节点选择
  - DOMAIN-SUFFIX,abc.xyz,🔰 节点选择
- - DOMAIN-SUFFIX,advertisercommunity.com,🔰 节点选择
- - DOMAIN-SUFFIX,ampproject.org,🔰 节点选择
  - DOMAIN-SUFFIX,android.com,🔰 节点选择
  - DOMAIN-SUFFIX,androidify.com,🔰 节点选择
+ - DOMAIN-SUFFIX,dialogflow.com,🔰 节点选择
  - DOMAIN-SUFFIX,autodraw.com,🔰 节点选择
  - DOMAIN-SUFFIX,capitalg.com,🔰 节点选择
  - DOMAIN-SUFFIX,certificate-transparency.org,🔰 节点选择
@@ -10858,21 +11206,21 @@ rules:
  - DOMAIN-SUFFIX,creativelab5.com,🔰 节点选择
  - DOMAIN-SUFFIX,debug.com,🔰 节点选择
  - DOMAIN-SUFFIX,deepmind.com,🔰 节点选择
- - DOMAIN-SUFFIX,dialogflow.com,🔰 节点选择
  - DOMAIN-SUFFIX,firebaseio.com,🔰 节点选择
  - DOMAIN-SUFFIX,getmdl.io,🔰 节点选择
  - DOMAIN-SUFFIX,ggpht.com,🔰 节点选择
  - DOMAIN-SUFFIX,gmail.com,🔰 节点选择
  - DOMAIN-SUFFIX,gmodules.com,🔰 节点选择
  - DOMAIN-SUFFIX,godoc.org,🔰 节点选择
+ - DOMAIN-SUFFIX,golang.org,🔰 节点选择
  - DOMAIN-SUFFIX,gstatic.com,🔰 节点选择
  - DOMAIN-SUFFIX,gv.com,🔰 节点选择
  - DOMAIN-SUFFIX,gwtproject.org,🔰 节点选择
  - DOMAIN-SUFFIX,itasoftware.com,🔰 节点选择
  - DOMAIN-SUFFIX,madewithcode.com,🔰 节点选择
  - DOMAIN-SUFFIX,material.io,🔰 节点选择
- - DOMAIN-SUFFIX,page.link,🔰 节点选择
  - DOMAIN-SUFFIX,polymer-project.org,🔰 节点选择
+ - DOMAIN-SUFFIX,admin.recaptcha.net,🔰 节点选择
  - DOMAIN-SUFFIX,recaptcha.net,🔰 节点选择
  - DOMAIN-SUFFIX,shattered.io,🔰 节点选择
  - DOMAIN-SUFFIX,synergyse.com,🔰 节点选择
@@ -10890,50 +11238,76 @@ rules:
  - DOMAIN-SUFFIX,youtu.be,🔰 节点选择
  - DOMAIN-SUFFIX,yt.be,🔰 节点选择
  - DOMAIN-SUFFIX,ytimg.com,🔰 节点选择
- - DOMAIN-SUFFIX,t.me,🔰 节点选择
- - DOMAIN-SUFFIX,tdesktop.com,🔰 节点选择
- - DOMAIN-SUFFIX,telegram.me,🔰 节点选择
- - DOMAIN-SUFFIX,telesco.pe,🔰 节点选择
- - DOMAIN-KEYWORD,.facebook.,🔰 节点选择
- - DOMAIN-SUFFIX,facebookmail.com,🔰 节点选择
- - DOMAIN-SUFFIX,noxinfluencer.com,🔰 节点选择
- - DOMAIN-SUFFIX,smartmailcloud.com,🔰 节点选择
- - DOMAIN-SUFFIX,weebly.com,🔰 节点选择
- - DOMAIN-SUFFIX,twitter.jp,🔰 节点选择
- - DOMAIN-SUFFIX,appsto.re,🔰 节点选择
- - DOMAIN,books.itunes.apple.com,🔰 节点选择
- - DOMAIN,api-glb-sea.smoot.apple.com,🔰 节点选择
- - DOMAIN,beta.music.apple.com,🔰 节点选择
- - DOMAIN,tv.apple.com,🔰 节点选择
- - DOMAIN,apps.apple.com,🔰 节点选择
- - DOMAIN,itunes.apple.com,🔰 节点选择
- - DOMAIN-SUFFIX,smoot.apple.com,🔰 节点选择
- - DOMAIN,lookup-api.apple.com,🔰 节点选择
- - DOMAIN-SUFFIX,go.dev,🔰 节点选择
- - DOMAIN-SUFFIX,golang.org,🔰 节点选择
- - DOMAIN-SUFFIX,bing.com,🔰 节点选择
- - DOMAIN-SUFFIX,cccat.io,🔰 节点选择
- - DOMAIN-SUFFIX,dubox.com,🔰 节点选择
- - DOMAIN-SUFFIX,duboxcdn.com,🔰 节点选择
+ - DOMAIN-SUFFIX,1drv.com,🔰 节点选择
+ - DOMAIN-SUFFIX,1drv.ms,🔰 节点选择
+ - DOMAIN-SUFFIX,blob.core.windows.net,🔰 节点选择
+ - DOMAIN-SUFFIX,livefilestore.com,🔰 节点选择
+ - DOMAIN-SUFFIX,onedrive.com,🔰 节点选择
+ - DOMAIN-SUFFIX,storage.live.com,🔰 节点选择
+ - DOMAIN-SUFFIX,storage.msn.com,🔰 节点选择
+ - DOMAIN,oneclient.sfx.ms,🔰 节点选择
+ - DOMAIN-SUFFIX,0rz.tw,🔰 节点选择
+ - DOMAIN-SUFFIX,4bluestones.biz,🔰 节点选择
+ - DOMAIN-SUFFIX,9bis.net,🔰 节点选择
+ - DOMAIN-SUFFIX,allconnected.co,🔰 节点选择
+ - DOMAIN-SUFFIX,aol.com,🔰 节点选择
+ - DOMAIN-SUFFIX,bcc.com.tw,🔰 节点选择
+ - DOMAIN-SUFFIX,bit.ly,🔰 节点选择
+ - DOMAIN-SUFFIX,bitshare.com,🔰 节点选择
+ - DOMAIN-SUFFIX,blog.jp,🔰 节点选择
+ - DOMAIN-SUFFIX,blogimg.jp,🔰 节点选择
+ - DOMAIN-SUFFIX,blogtd.org,🔰 节点选择
+ - DOMAIN-SUFFIX,broadcast.co.nz,🔰 节点选择
+ - DOMAIN-SUFFIX,camfrog.com,🔰 节点选择
+ - DOMAIN-SUFFIX,cfos.de,🔰 节点选择
+ - DOMAIN-SUFFIX,citypopulation.de,🔰 节点选择
+ - DOMAIN-SUFFIX,cloudfront.net,🔰 节点选择
+ - DOMAIN-SUFFIX,ctitv.com.tw,🔰 节点选择
+ - DOMAIN-SUFFIX,cuhk.edu.hk,🔰 节点选择
+ - DOMAIN-SUFFIX,cusu.hk,🔰 节点选择
+ - DOMAIN-SUFFIX,discord.gg,🔰 节点选择
+ - DOMAIN-SUFFIX,discuss.com.hk,🔰 节点选择
+ - DOMAIN-SUFFIX,dropboxapi.com,🔰 节点选择
+ - DOMAIN-SUFFIX,duolingo.cn,🔰 节点选择
+ - DOMAIN-SUFFIX,edditstatic.com,🔰 节点选择
+ - DOMAIN-SUFFIX,flickriver.com,🔰 节点选择
+ - DOMAIN-SUFFIX,focustaiwan.tw,🔰 节点选择
+ - DOMAIN-SUFFIX,free.fr,🔰 节点选择
+ - DOMAIN-SUFFIX,gigacircle.com,🔰 节点选择
+ - DOMAIN-SUFFIX,hk-pub.com,🔰 节点选择
+ - DOMAIN-SUFFIX,hosting.co.uk,🔰 节点选择
+ - DOMAIN-SUFFIX,hwcdn.net,🔰 节点选择
+ - DOMAIN-SUFFIX,ib.metapix.net,🔰 节点选择
  - DOMAIN-SUFFIX,ifixit.com,🔰 节点选择
- - DOMAIN-SUFFIX,mangakakalot.com,🔰 节点选择
- - DOMAIN-SUFFIX,shopeemobile.com,🔰 节点选择
- - DOMAIN-SUFFIX,sushi.com,🔰 节点选择
- - DOMAIN,appleid.apple.com,🔰 节点选择
- - DOMAIN,developer.apple.com,🔰 节点选择
- - DOMAIN,www.icloud.com,🔰 节点选择
- - DOMAIN,ocsp.apple.com,🔰 节点选择
- - DOMAIN,xp.apple.com,🔰 节点选择
- - DOMAIN,cacerts.digicert.com,🔰 节点选择
- - DOMAIN,crl3.digicert.com,🔰 节点选择
- - DOMAIN,crl4.digicert.com,🔰 节点选择
- - DOMAIN,ocsp.digicert.com,🔰 节点选择
- - DOMAIN-SUFFIX,cloudcone.com.cn,🔰 节点选择
  - DOMAIN-SUFFIX,inkbunny.net,🔰 节点选择
- - DOMAIN-SUFFIX,metapix.net,🔰 节点选择
+ - DOMAIN-SUFFIX,iphone4hongkong.com,🔰 节点选择
+ - DOMAIN-SUFFIX,iphonetaiwan.org,🔰 节点选择
+ - DOMAIN-SUFFIX,iptvbin.com,🔰 节点选择
+ - DOMAIN-SUFFIX,linksalpha.com,🔰 节点选择
+ - DOMAIN-SUFFIX,manyvids.com,🔰 节点选择
+ - DOMAIN-SUFFIX,myactimes.com,🔰 节点选择
+ - DOMAIN-SUFFIX,newsblur.com,🔰 节点选择
+ - DOMAIN-SUFFIX,now.im,🔰 节点选择
+ - DOMAIN-SUFFIX,nowe.com,🔰 节点选择
+ - DOMAIN-SUFFIX,redditlist.com,🔰 节点选择
  - DOMAIN-SUFFIX,s3.amazonaws.com,🔰 节点选择
- - DOMAIN-SUFFIX,zaobao.com.sg,🔰 节点选择
- - DOMAIN,international-gfe.download.nvidia.com,🔰 节点选择
+ - DOMAIN-SUFFIX,signal.org,🔰 节点选择
+ - DOMAIN-SUFFIX,smartmailcloud.com,🔰 节点选择
+ - DOMAIN-SUFFIX,sparknotes.com,🔰 节点选择
+ - DOMAIN-SUFFIX,streetvoice.com,🔰 节点选择
+ - DOMAIN-SUFFIX,supertop.co,🔰 节点选择
+ - DOMAIN-SUFFIX,tv.com,🔰 节点选择
+ - DOMAIN-SUFFIX,typepad.com,🔰 节点选择
+ - DOMAIN-SUFFIX,udnbkk.com,🔰 节点选择
+ - DOMAIN-SUFFIX,urbanairship.com,🔰 节点选择
+ - DOMAIN-SUFFIX,whispersystems.org,🔰 节点选择
+ - DOMAIN-SUFFIX,wikia.com,🔰 节点选择
+ - DOMAIN-SUFFIX,wn.com,🔰 节点选择
+ - DOMAIN-SUFFIX,wolframalpha.com,🔰 节点选择
+ - DOMAIN-SUFFIX,x-art.com,🔰 节点选择
+ - DOMAIN-SUFFIX,yimg.com,🔰 节点选择
+ - DOMAIN,api.steampowered.com,🔰 节点选择
+ - DOMAIN,store.steampowered.com,🔰 节点选择
  - DOMAIN-SUFFIX,aaplimg.com,🍎 苹果服务
  - DOMAIN-SUFFIX,apple.co,🍎 苹果服务
  - DOMAIN-SUFFIX,apple.com,🍎 苹果服务
@@ -10941,25 +11315,20 @@ rules:
  - DOMAIN-SUFFIX,apple-cloudkit.com,🍎 苹果服务
  - DOMAIN-SUFFIX,appstore.com,🍎 苹果服务
  - DOMAIN-SUFFIX,cdn-apple.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,crashlytics.com,🍎 苹果服务
  - DOMAIN-SUFFIX,icloud.com,🍎 苹果服务
  - DOMAIN-SUFFIX,icloud.com.cn,🍎 苹果服务
  - DOMAIN-SUFFIX,icloud-content.com,🍎 苹果服务
  - DOMAIN-SUFFIX,me.com,🍎 苹果服务
  - DOMAIN-SUFFIX,mzstatic.com,🍎 苹果服务
- - DOMAIN-KEYWORD,apple.com.akadns.net,🍎 苹果服务
- - DOMAIN-KEYWORD,icloud.com.akadns.net,🍎 苹果服务
- - IP-CIDR,17.0.0.0/8,🍎 苹果服务,no-resolve
- - IP-CIDR,63.92.224.0/19,🍎 苹果服务,no-resolve
- - IP-CIDR,65.199.22.0/23,🍎 苹果服务,no-resolve
- - IP-CIDR,139.178.128.0/18,🍎 苹果服务,no-resolve
- - IP-CIDR,144.178.0.0/19,🍎 苹果服务,no-resolve
- - IP-CIDR,192.35.50.0/24,🍎 苹果服务,no-resolve
- - IP-CIDR,198.183.17.0/24,🍎 苹果服务,no-resolve
- - IP-CIDR,205.180.175.0/24,🍎 苹果服务,no-resolve
+ - DOMAIN,www-cdn.icloud.com.akadns.net,🍎 苹果服务
  - DOMAIN-SUFFIX,qhres.com,🎯 全球直连
  - DOMAIN-SUFFIX,qhimg.com,🎯 全球直连
+ - DOMAIN-SUFFIX,sandaiyun.com,🎯 全球直连
+ - DOMAIN-SUFFIX,linkstars.com,🎯 全球直连
+ - DOMAIN-SUFFIX,nowcoder.com,🎯 全球直连
+ - DOMAIN-SUFFIX,akadns.net,🎯 全球直连
  - DOMAIN-SUFFIX,alibaba.com,🎯 全球直连
- - DOMAIN-SUFFIX,alibabausercontent.com,🎯 全球直连
  - DOMAIN-SUFFIX,alicdn.com,🎯 全球直连
  - DOMAIN-SUFFIX,alikunlun.com,🎯 全球直连
  - DOMAIN-SUFFIX,alipay.com,🎯 全球直连
@@ -10981,25 +11350,25 @@ rules:
  - DOMAIN-SUFFIX,apple-cloudkit.com,🎯 全球直连
  - DOMAIN-SUFFIX,appstore.com,🎯 全球直连
  - DOMAIN-SUFFIX,cdn-apple.com,🎯 全球直连
+ - DOMAIN-SUFFIX,crashlytics.com,🎯 全球直连
  - DOMAIN-SUFFIX,icloud.com,🎯 全球直连
  - DOMAIN-SUFFIX,icloud-content.com,🎯 全球直连
  - DOMAIN-SUFFIX,me.com,🎯 全球直连
  - DOMAIN-SUFFIX,mzstatic.com,🎯 全球直连
+ - DOMAIN,www-cdn.icloud.com.akadns.net,🎯 全球直连
  - DOMAIN-SUFFIX,baidu.com,🎯 全球直连
  - DOMAIN-SUFFIX,baidubcr.com,🎯 全球直连
- - DOMAIN-SUFFIX,baidupan.com,🎯 全球直连
- - DOMAIN-SUFFIX,baidupcs.com,🎯 全球直连
- - DOMAIN-SUFFIX,bdimg.com,🎯 全球直连
  - DOMAIN-SUFFIX,bdstatic.com,🎯 全球直连
  - DOMAIN-SUFFIX,yunjiasu-cdn.net,🎯 全球直连
- - DOMAIN-SUFFIX,battle.net,🎯 全球直连
- - DOMAIN-SUFFIX,blizzard.com,🎯 全球直连
  - DOMAIN-SUFFIX,acgvideo.com,🎯 全球直连
  - DOMAIN-SUFFIX,biliapi.com,🎯 全球直连
  - DOMAIN-SUFFIX,biliapi.net,🎯 全球直连
  - DOMAIN-SUFFIX,bilibili.com,🎯 全球直连
  - DOMAIN-SUFFIX,bilibili.tv,🎯 全球直连
  - DOMAIN-SUFFIX,hdslb.com,🎯 全球直连
+ - DOMAIN-SUFFIX,blizzard.com,🎯 全球直连
+ - DOMAIN-SUFFIX,battle.net,🎯 全球直连
+ - DOMAIN,blzddist1-a.akamaihd.net,🎯 全球直连
  - DOMAIN-SUFFIX,feiliao.com,🎯 全球直连
  - DOMAIN-SUFFIX,pstatp.com,🎯 全球直连
  - DOMAIN-SUFFIX,snssdk.com,🎯 全球直连
@@ -11008,15 +11377,22 @@ rules:
  - DOMAIN-SUFFIX,cctv.com,🎯 全球直连
  - DOMAIN-SUFFIX,cctvpic.com,🎯 全球直连
  - DOMAIN-SUFFIX,livechina.com,🎯 全球直连
- - DOMAIN-SUFFIX,21cn.com,🎯 全球直连
  - DOMAIN-SUFFIX,didialift.com,🎯 全球直连
  - DOMAIN-SUFFIX,didiglobal.com,🎯 全球直连
  - DOMAIN-SUFFIX,udache.com,🎯 全球直连
+ - DOMAIN-SUFFIX,343480.com,🎯 全球直连
+ - DOMAIN-SUFFIX,baduziyuan.com,🎯 全球直连
+ - DOMAIN-SUFFIX,com-hs-hkdy.com,🎯 全球直连
+ - DOMAIN-SUFFIX,czybjz.com,🎯 全球直连
+ - DOMAIN-SUFFIX,dandanzan.com,🎯 全球直连
+ - DOMAIN-SUFFIX,fjhps.com,🎯 全球直连
+ - DOMAIN-SUFFIX,kuyunbo.club,🎯 全球直连
+ - DOMAIN-SUFFIX,21cn.com,🎯 全球直连
  - DOMAIN-SUFFIX,hitv.com,🎯 全球直连
  - DOMAIN-SUFFIX,mgtv.com,🎯 全球直连
  - DOMAIN-SUFFIX,iqiyi.com,🎯 全球直连
  - DOMAIN-SUFFIX,iqiyipic.com,🎯 全球直连
- - DOMAIN-SUFFIX,71.am,🎯 全球直连
+ - DOMAIN-SUFFIX,71.am.com,🎯 全球直连
  - DOMAIN-SUFFIX,jd.com,🎯 全球直连
  - DOMAIN-SUFFIX,jd.hk,🎯 全球直连
  - DOMAIN-SUFFIX,jdpay.com,🎯 全球直连
@@ -11027,41 +11403,27 @@ rules:
  - DOMAIN-SUFFIX,meitudata.com,🎯 全球直连
  - DOMAIN-SUFFIX,meitustat.com,🎯 全球直连
  - DOMAIN-SUFFIX,meipai.com,🎯 全球直连
- - DOMAIN-SUFFIX,dianping.com,🎯 全球直连
- - DOMAIN-SUFFIX,dpfile.com,🎯 全球直连
- - DOMAIN-SUFFIX,meituan.com,🎯 全球直连
- - DOMAIN-SUFFIX,meituan.net,🎯 全球直连
  - DOMAIN-SUFFIX,duokan.com,🎯 全球直连
- - DOMAIN-SUFFIX,mi.com,🎯 全球直连
  - DOMAIN-SUFFIX,mi-img.com,🎯 全球直连
  - DOMAIN-SUFFIX,miui.com,🎯 全球直连
  - DOMAIN-SUFFIX,miwifi.com,🎯 全球直连
  - DOMAIN-SUFFIX,xiaomi.com,🎯 全球直连
- - DOMAIN-SUFFIX,xiaomi.net,🎯 全球直连
- - DOMAIN-SUFFIX,visualstudio.com,🎯 全球直连
- - DOMAIN-SUFFIX,hotmail.com,🎯 全球直连
+ - DOMAIN-SUFFIX,microsoft.com,🎯 全球直连
+ - DOMAIN-SUFFIX,msecnd.net,🎯 全球直连
+ - DOMAIN-SUFFIX,office365.com,🎯 全球直连
  - DOMAIN-SUFFIX,outlook.com,🎯 全球直连
- - DOMAIN,outlook.office365.com,🎯 全球直连
- - DOMAIN,smtp.office365.com,🎯 全球直连
- - DOMAIN-SUFFIX,dl.delivery.mp.microsoft.com,🎯 全球直连
- - DOMAIN-SUFFIX,update.microsoft.com,🎯 全球直连
+ - DOMAIN-SUFFIX,s-microsoft.com,🎯 全球直连
+ - DOMAIN-SUFFIX,visualstudio.com,🎯 全球直连
+ - DOMAIN-SUFFIX,windows.com,🎯 全球直连
  - DOMAIN-SUFFIX,windowsupdate.com,🎯 全球直连
- - DOMAIN-SUFFIX,windowsupdate.microsoft.com,🎯 全球直连
- - DOMAIN,download.microsoft.com,🎯 全球直连
- - DOMAIN,wustat.windows.com,🎯 全球直连
- - DOMAIN,ntservicepack.microsoft.com,🎯 全球直连
+ - DOMAIN,officecdn-microsoft-com.akamaized.net,🎯 全球直连
  - DOMAIN-SUFFIX,163.com,🎯 全球直连
- - DOMAIN-SUFFIX,126.com,🎯 全球直连
  - DOMAIN-SUFFIX,126.net,🎯 全球直连
  - DOMAIN-SUFFIX,127.net,🎯 全球直连
  - DOMAIN-SUFFIX,163yun.com,🎯 全球直连
  - DOMAIN-SUFFIX,lofter.com,🎯 全球直连
  - DOMAIN-SUFFIX,netease.com,🎯 全球直连
  - DOMAIN-SUFFIX,ydstatic.com,🎯 全球直连
- - DOMAIN-SUFFIX,youdao.com,🎯 全球直连
- - DOMAIN-SUFFIX,paypal.com,🎯 全球直连
- - DOMAIN-SUFFIX,paypal.me,🎯 全球直连
- - DOMAIN-SUFFIX,paypalobjects.com,🎯 全球直连
  - DOMAIN-SUFFIX,sina.com,🎯 全球直连
  - DOMAIN-SUFFIX,weibo.com,🎯 全球直连
  - DOMAIN-SUFFIX,weibocdn.com,🎯 全球直连
@@ -11072,33 +11434,32 @@ rules:
  - DOMAIN-SUFFIX,sogo.com,🎯 全球直连
  - DOMAIN-SUFFIX,sogou.com,🎯 全球直连
  - DOMAIN-SUFFIX,sogoucdn.com,🎯 全球直连
- - DOMAIN-SUFFIX,steamcontent.com,🎯 全球直连
  - DOMAIN-SUFFIX,steampowered.com,🎯 全球直连
+ - DOMAIN-SUFFIX,steam-chat.com,🎯 全球直连
+ - DOMAIN-SUFFIX,steamgames.com,🎯 全球直连
+ - DOMAIN-SUFFIX,steamusercontent.com,🎯 全球直连
+ - DOMAIN-SUFFIX,steamcontent.com,🎯 全球直连
  - DOMAIN-SUFFIX,steamstatic.com,🎯 全球直连
+ - DOMAIN-SUFFIX,steamcdn-a.akamaihd.net,🎯 全球直连
+ - DOMAIN-SUFFIX,steamstat.us,🎯 全球直连
  - DOMAIN-SUFFIX,gtimg.com,🎯 全球直连
  - DOMAIN-SUFFIX,idqqimg.com,🎯 全球直连
  - DOMAIN-SUFFIX,igamecj.com,🎯 全球直连
  - DOMAIN-SUFFIX,myapp.com,🎯 全球直连
  - DOMAIN-SUFFIX,myqcloud.com,🎯 全球直连
  - DOMAIN-SUFFIX,qq.com,🎯 全球直连
- - DOMAIN-SUFFIX,qqmail.com,🎯 全球直连
  - DOMAIN-SUFFIX,servicewechat.com,🎯 全球直连
  - DOMAIN-SUFFIX,tencent.com,🎯 全球直连
  - DOMAIN-SUFFIX,tencent-cloud.net,🎯 全球直连
  - DOMAIN-SUFFIX,tenpay.com,🎯 全球直连
- - DOMAIN-SUFFIX,wechat.com,🎯 全球直连
  - DOMAIN,file-igamecj.akamaized.net,🎯 全球直连
- - IP-CIDR,101.32.104.4/32,🎯 全球直连,no-resolve
- - IP-CIDR,101.32.104.41/32,🎯 全球直连,no-resolve
- - IP-CIDR,101.32.104.56/32,🎯 全球直连,no-resolve
- - IP-CIDR,101.32.118.25/32,🎯 全球直连,no-resolve
- - IP-CIDR,101.32.133.16/32,🎯 全球直连,no-resolve
- - IP-CIDR,101.32.133.53/32,🎯 全球直连,no-resolve
- - IP-CIDR,101.32.133.209/32,🎯 全球直连,no-resolve
- - IP-CIDR,129.226.3.47/32,🎯 全球直连,no-resolve
- - IP-CIDR,129.226.107.244/32,🎯 全球直连,no-resolve
- - IP-CIDR,182.254.116.0/24,🎯 全球直连,no-resolve
- - IP-CIDR,203.205.254.0/23,🎯 全球直连,no-resolve
+ - DOMAIN-SUFFIX,jstucdn.com,🎯 全球直连
+ - DOMAIN-SUFFIX,zimuzu.io,🎯 全球直连
+ - DOMAIN-SUFFIX,zimuzu.tv,🎯 全球直连
+ - DOMAIN-SUFFIX,zmz2019.com,🎯 全球直连
+ - DOMAIN-SUFFIX,zmzapi.com,🎯 全球直连
+ - DOMAIN-SUFFIX,zmzapi.net,🎯 全球直连
+ - DOMAIN-SUFFIX,zmzfile.com,🎯 全球直连
  - DOMAIN-SUFFIX,ccgslb.com,🎯 全球直连
  - DOMAIN-SUFFIX,ccgslb.net,🎯 全球直连
  - DOMAIN-SUFFIX,chinanetcenter.com,🎯 全球直连
@@ -11108,36 +11469,26 @@ rules:
  - DOMAIN-SUFFIX,wangsu.com,🎯 全球直连
  - DOMAIN-SUFFIX,ipip.net,🎯 全球直连
  - DOMAIN-SUFFIX,ip.la,🎯 全球直连
- - DOMAIN-SUFFIX,ip.sb,🎯 全球直连
  - DOMAIN-SUFFIX,ip-cdn.com,🎯 全球直连
  - DOMAIN-SUFFIX,ipv6-test.com,🎯 全球直连
- - DOMAIN-SUFFIX,myip.la,🎯 全球直连
  - DOMAIN-SUFFIX,test-ipv6.com,🎯 全球直连
  - DOMAIN-SUFFIX,whatismyip.com,🎯 全球直连
- - DOMAIN,ip.istatmenus.app,🎯 全球直连
- - DOMAIN,sms.imagetasks.com,🎯 全球直连
  - DOMAIN-SUFFIX,netspeedtestmaster.com,🎯 全球直连
  - DOMAIN,speedtest.macpaw.com,🎯 全球直连
- - DOMAIN-SUFFIX,acg.rip,🎯 全球直连
  - DOMAIN-SUFFIX,animebytes.tv,🎯 全球直连
  - DOMAIN-SUFFIX,awesome-hd.me,🎯 全球直连
  - DOMAIN-SUFFIX,broadcasthe.net,🎯 全球直连
  - DOMAIN-SUFFIX,chdbits.co,🎯 全球直连
  - DOMAIN-SUFFIX,classix-unlimited.co.uk,🎯 全球直连
- - DOMAIN-SUFFIX,comicat.org,🎯 全球直连
  - DOMAIN-SUFFIX,empornium.me,🎯 全球直连
  - DOMAIN-SUFFIX,gazellegames.net,🎯 全球直连
- - DOMAIN-SUFFIX,hdbits.org,🎯 全球直连
  - DOMAIN-SUFFIX,hdchina.org,🎯 全球直连
- - DOMAIN-SUFFIX,hddolby.com,🎯 全球直连
- - DOMAIN-SUFFIX,hdhome.org,🎯 全球直连
- - DOMAIN-SUFFIX,hdsky.me,🎯 全球直连
+ - DOMAIN-SUFFIX,hdbits.org,🎯 全球直连
  - DOMAIN-SUFFIX,icetorrent.org,🎯 全球直连
  - DOMAIN-SUFFIX,jpopsuki.eu,🎯 全球直连
  - DOMAIN-SUFFIX,keepfrds.com,🎯 全球直连
  - DOMAIN-SUFFIX,madsrevolution.net,🎯 全球直连
  - DOMAIN-SUFFIX,morethan.tv,🎯 全球直连
- - DOMAIN-SUFFIX,m-team.cc,🎯 全球直连
  - DOMAIN-SUFFIX,myanonamouse.net,🎯 全球直连
  - DOMAIN-SUFFIX,nanyangpt.com,🎯 全球直连
  - DOMAIN-SUFFIX,ncore.cc,🎯 全球直连
@@ -11149,16 +11500,68 @@ rules:
  - DOMAIN-SUFFIX,redacted.ch,🎯 全球直连
  - DOMAIN-SUFFIX,springsunday.net,🎯 全球直连
  - DOMAIN-SUFFIX,tjupt.org,🎯 全球直连
- - DOMAIN-SUFFIX,totheglory.im,🎯 全球直连
+ - DOMAIN-SUFFIX,acm.org,🎯 全球直连
+ - DOMAIN-SUFFIX,acs.org,🎯 全球直连
+ - DOMAIN-SUFFIX,aip.org,🎯 全球直连
+ - DOMAIN-SUFFIX,ams.org,🎯 全球直连
+ - DOMAIN-SUFFIX,annualreviews.org,🎯 全球直连
+ - DOMAIN-SUFFIX,aps.org,🎯 全球直连
+ - DOMAIN-SUFFIX,ascelibrary.org,🎯 全球直连
+ - DOMAIN-SUFFIX,asm.org,🎯 全球直连
+ - DOMAIN-SUFFIX,asme.org,🎯 全球直连
+ - DOMAIN-SUFFIX,astm.org,🎯 全球直连
+ - DOMAIN-SUFFIX,bmj.com,🎯 全球直连
+ - DOMAIN-SUFFIX,cambridge.org,🎯 全球直连
+ - DOMAIN-SUFFIX,cas.org,🎯 全球直连
+ - DOMAIN-SUFFIX,clarivate.com,🎯 全球直连
+ - DOMAIN-SUFFIX,ebscohost.com,🎯 全球直连
+ - DOMAIN-SUFFIX,emerald.com,🎯 全球直连
+ - DOMAIN-SUFFIX,engineeringvillage.com,🎯 全球直连
+ - DOMAIN-SUFFIX,icevirtuallibrary.com,🎯 全球直连
+ - DOMAIN-SUFFIX,ieee.org,🎯 全球直连
+ - DOMAIN-SUFFIX,imf.org,🎯 全球直连
+ - DOMAIN-SUFFIX,iop.org,🎯 全球直连
+ - DOMAIN-SUFFIX,jamanetwork.com,🎯 全球直连
+ - DOMAIN-SUFFIX,jhu.edu,🎯 全球直连
+ - DOMAIN-SUFFIX,jstor.org,🎯 全球直连
+ - DOMAIN-SUFFIX,karger.com,🎯 全球直连
+ - DOMAIN-SUFFIX,libguides.com,🎯 全球直连
+ - DOMAIN-SUFFIX,madsrevolution.net,🎯 全球直连
+ - DOMAIN-SUFFIX,mpg.de,🎯 全球直连
+ - DOMAIN-SUFFIX,myilibrary.com,🎯 全球直连
+ - DOMAIN-SUFFIX,nature.com,🎯 全球直连
+ - DOMAIN-SUFFIX,oecd-ilibrary.org,🎯 全球直连
+ - DOMAIN-SUFFIX,osapublishing.org,🎯 全球直连
+ - DOMAIN-SUFFIX,oup.com,🎯 全球直连
+ - DOMAIN-SUFFIX,ovid.com,🎯 全球直连
+ - DOMAIN-SUFFIX,oxfordartonline.com,🎯 全球直连
+ - DOMAIN-SUFFIX,oxfordbibliographies.com,🎯 全球直连
+ - DOMAIN-SUFFIX,oxfordmusiconline.com,🎯 全球直连
+ - DOMAIN-SUFFIX,pnas.org,🎯 全球直连
+ - DOMAIN-SUFFIX,proquest.com,🎯 全球直连
+ - DOMAIN-SUFFIX,rsc.org,🎯 全球直连
+ - DOMAIN-SUFFIX,sagepub.com,🎯 全球直连
+ - DOMAIN-SUFFIX,sciencedirect.com,🎯 全球直连
+ - DOMAIN-SUFFIX,sciencemag.org,🎯 全球直连
+ - DOMAIN-SUFFIX,scopus.com,🎯 全球直连
+ - DOMAIN-SUFFIX,siam.org,🎯 全球直连
+ - DOMAIN-SUFFIX,spiedigitallibrary.org,🎯 全球直连
+ - DOMAIN-SUFFIX,springer.com,🎯 全球直连
+ - DOMAIN-SUFFIX,springerlink.com,🎯 全球直连
+ - DOMAIN-SUFFIX,tandfonline.com,🎯 全球直连
+ - DOMAIN-SUFFIX,un.org,🎯 全球直连
+ - DOMAIN-SUFFIX,uni-bielefeld.de,🎯 全球直连
+ - DOMAIN-SUFFIX,webofknowledge.com,🎯 全球直连
+ - DOMAIN-SUFFIX,westlaw.com,🎯 全球直连
+ - DOMAIN-SUFFIX,wiley.com,🎯 全球直连
+ - DOMAIN-SUFFIX,worldbank.org,🎯 全球直连
+ - DOMAIN-SUFFIX,worldscientific.com,🎯 全球直连
  - DOMAIN-SUFFIX,cn,🎯 全球直连
- - DOMAIN-SUFFIX,115.com,🎯 全球直连
  - DOMAIN-SUFFIX,360in.com,🎯 全球直连
  - DOMAIN-SUFFIX,51ym.me,🎯 全球直连
  - DOMAIN-SUFFIX,8686c.com,🎯 全球直连
- - DOMAIN-SUFFIX,99.com,🎯 全球直连
  - DOMAIN-SUFFIX,abchina.com,🎯 全球直连
  - DOMAIN-SUFFIX,accuweather.com,🎯 全球直连
- - DOMAIN-SUFFIX,agora.io,🎯 全球直连
  - DOMAIN-SUFFIX,aicoinstorge.com,🎯 全球直连
  - DOMAIN-SUFFIX,air-matters.com,🎯 全球直连
  - DOMAIN-SUFFIX,air-matters.io,🎯 全球直连
@@ -11167,21 +11570,20 @@ rules:
  - DOMAIN-SUFFIX,b612.net,🎯 全球直连
  - DOMAIN-SUFFIX,bdatu.com,🎯 全球直连
  - DOMAIN-SUFFIX,beitaichufang.com,🎯 全球直连
+ - DOMAIN-SUFFIX,bjango.com,🎯 全球直连
  - DOMAIN-SUFFIX,booking.com,🎯 全球直连
  - DOMAIN-SUFFIX,bstatic.com,🎯 全球直连
  - DOMAIN-SUFFIX,cailianpress.com,🎯 全球直连
  - DOMAIN-SUFFIX,camera360.com,🎯 全球直连
- - DOMAIN-SUFFIX,chaoxing.com,🎯 全球直连
- - DOMAIN-SUFFIX,chaoxing.com,🎯 全球直连
  - DOMAIN-SUFFIX,chinaso.com,🎯 全球直连
+ - DOMAIN-SUFFIX,chua.pro,🎯 全球直连
  - DOMAIN-SUFFIX,chuimg.com,🎯 全球直连
  - DOMAIN-SUFFIX,chunyu.mobi,🎯 全球直连
+ - DOMAIN-SUFFIX,chushou.tv,🎯 全球直连
  - DOMAIN-SUFFIX,cmbchina.com,🎯 全球直连
  - DOMAIN-SUFFIX,cmbimg.com,🎯 全球直连
- - DOMAIN-SUFFIX,coolapk.com,🎯 全球直连
  - DOMAIN-SUFFIX,ctrip.com,🎯 全球直连
  - DOMAIN-SUFFIX,dfcfw.com,🎯 全球直连
- - DOMAIN-SUFFIX,dji.net,🎯 全球直连
  - DOMAIN-SUFFIX,docschina.org,🎯 全球直连
  - DOMAIN-SUFFIX,douban.com,🎯 全球直连
  - DOMAIN-SUFFIX,doubanio.com,🎯 全球直连
@@ -11196,94 +11598,79 @@ rules:
  - DOMAIN-SUFFIX,futu5.com,🎯 全球直连
  - DOMAIN-SUFFIX,futunn.com,🎯 全球直连
  - DOMAIN-SUFFIX,gandi.net,🎯 全球直连
- - DOMAIN-SUFFIX,gcores.com,🎯 全球直连
  - DOMAIN-SUFFIX,geilicdn.com,🎯 全球直连
  - DOMAIN-SUFFIX,getpricetag.com,🎯 全球直连
  - DOMAIN-SUFFIX,gifshow.com,🎯 全球直连
  - DOMAIN-SUFFIX,godic.net,🎯 全球直连
- - DOMAIN-SUFFIX,heweather.net,🎯 全球直连
  - DOMAIN-SUFFIX,hicloud.com,🎯 全球直连
  - DOMAIN-SUFFIX,hongxiu.com,🎯 全球直连
  - DOMAIN-SUFFIX,hostbuf.com,🎯 全球直连
  - DOMAIN-SUFFIX,huxiucdn.com,🎯 全球直连
  - DOMAIN-SUFFIX,huya.com,🎯 全球直连
- - DOMAIN-SUFFIX,ibm.com,🎯 全球直连
  - DOMAIN-SUFFIX,infinitynewtab.com,🎯 全球直连
  - DOMAIN-SUFFIX,ithome.com,🎯 全球直连
  - DOMAIN-SUFFIX,java.com,🎯 全球直连
- - DOMAIN-SUFFIX,jianguoyun.com,🎯 全球直连
- - DOMAIN-SUFFIX,jianshu.com,🎯 全球直连
- - DOMAIN-SUFFIX,jianshu.io,🎯 全球直连
  - DOMAIN-SUFFIX,jidian.im,🎯 全球直连
  - DOMAIN-SUFFIX,kaiyanapp.com,🎯 全球直连
  - DOMAIN-SUFFIX,kaspersky-labs.com,🎯 全球直连
  - DOMAIN-SUFFIX,keepcdn.com,🎯 全球直连
  - DOMAIN-SUFFIX,kkmh.com,🎯 全球直连
- - DOMAIN-SUFFIX,lanzous.com,🎯 全球直连
  - DOMAIN-SUFFIX,licdn.com,🎯 全球直连
  - DOMAIN-SUFFIX,linkedin.com,🎯 全球直连
+ - DOMAIN-SUFFIX,loli.net,🎯 全球直连
  - DOMAIN-SUFFIX,luojilab.com,🎯 全球直连
  - DOMAIN-SUFFIX,maoyan.com,🎯 全球直连
  - DOMAIN-SUFFIX,maoyun.tv,🎯 全球直连
- - DOMAIN-SUFFIX,mls-cdn.com,🎯 全球直连
+ - DOMAIN-SUFFIX,meituan.com,🎯 全球直连
+ - DOMAIN-SUFFIX,meituan.net,🎯 全球直连
  - DOMAIN-SUFFIX,mobike.com,🎯 全球直连
  - DOMAIN-SUFFIX,moke.com,🎯 全球直连
  - DOMAIN-SUFFIX,mubu.com,🎯 全球直连
  - DOMAIN-SUFFIX,myzaker.com,🎯 全球直连
  - DOMAIN-SUFFIX,nim-lang-cn.org,🎯 全球直连
- - DOMAIN-SUFFIX,ntp.org,🎯 全球直连
  - DOMAIN-SUFFIX,nvidia.com,🎯 全球直连
  - DOMAIN-SUFFIX,oracle.com,🎯 全球直连
- - DOMAIN-SUFFIX,plex.tv,🎯 全球直连
+ - DOMAIN-SUFFIX,paypal.com,🎯 全球直连
+ - DOMAIN-SUFFIX,paypalobjects.com,🎯 全球直连
+ - DOMAIN-SUFFIX,qdaily.com,🎯 全球直连
  - DOMAIN-SUFFIX,qidian.com,🎯 全球直连
- - DOMAIN-SUFFIX,qweather.com,🎯 全球直连
  - DOMAIN-SUFFIX,qyer.com,🎯 全球直连
  - DOMAIN-SUFFIX,qyerstatic.com,🎯 全球直连
  - DOMAIN-SUFFIX,raychase.net,🎯 全球直连
  - DOMAIN-SUFFIX,ronghub.com,🎯 全球直连
  - DOMAIN-SUFFIX,ruguoapp.com,🎯 全球直连
+ - DOMAIN-SUFFIX,s-reader.com,🎯 全球直连
  - DOMAIN-SUFFIX,sankuai.com,🎯 全球直连
  - DOMAIN-SUFFIX,scomper.me,🎯 全球直连
+ - DOMAIN-SUFFIX,seafile.com,🎯 全球直连
  - DOMAIN-SUFFIX,sm.ms,🎯 全球直连
  - DOMAIN-SUFFIX,smzdm.com,🎯 全球直连
  - DOMAIN-SUFFIX,snapdrop.net,🎯 全球直连
  - DOMAIN-SUFFIX,snwx.com,🎯 全球直连
- - DOMAIN-SUFFIX,s-reader.com,🎯 全球直连
  - DOMAIN-SUFFIX,sspai.com,🎯 全球直连
- - DOMAIN-SUFFIX,subhd.tv,🎯 全球直连
  - DOMAIN-SUFFIX,takungpao.com,🎯 全球直连
  - DOMAIN-SUFFIX,teamviewer.com,🎯 全球直连
  - DOMAIN-SUFFIX,tianyancha.com,🎯 全球直连
- - DOMAIN-SUFFIX,tophub.today,🎯 全球直连
+ - DOMAIN-SUFFIX,udacity.com,🎯 全球直连
  - DOMAIN-SUFFIX,uning.com,🎯 全球直连
+ - DOMAIN-SUFFIX,vmware.com,🎯 全球直连
  - DOMAIN-SUFFIX,weather.com,🎯 全球直连
  - DOMAIN-SUFFIX,weico.cc,🎯 全球直连
  - DOMAIN-SUFFIX,weidian.com,🎯 全球直连
  - DOMAIN-SUFFIX,xiachufang.com,🎯 全球直连
- - DOMAIN-SUFFIX,xiaoka.tv,🎯 全球直连
  - DOMAIN-SUFFIX,ximalaya.com,🎯 全球直连
  - DOMAIN-SUFFIX,xinhuanet.com,🎯 全球直连
  - DOMAIN-SUFFIX,xmcdn.com,🎯 全球直连
  - DOMAIN-SUFFIX,yangkeduo.com,🎯 全球直连
- - DOMAIN-SUFFIX,yizhibo.com,🎯 全球直连
  - DOMAIN-SUFFIX,zhangzishi.cc,🎯 全球直连
  - DOMAIN-SUFFIX,zhihu.com,🎯 全球直连
- - DOMAIN-SUFFIX,zhihuishu.com,🎯 全球直连
  - DOMAIN-SUFFIX,zhimg.com,🎯 全球直连
  - DOMAIN-SUFFIX,zhuihd.com,🎯 全球直连
  - DOMAIN,download.jetbrains.com,🎯 全球直连
  - DOMAIN,images-cn.ssl-images-amazon.com,🎯 全球直连
- - PROCESS-NAME,aria2c,🎯 全球直连
- - PROCESS-NAME,fdm,🎯 全球直连
- - PROCESS-NAME,Folx,🎯 全球直连
- - PROCESS-NAME,NetTransport,🎯 全球直连
- - PROCESS-NAME,Thunder,🎯 全球直连
- - PROCESS-NAME,Transmission,🎯 全球直连
- - PROCESS-NAME,uTorrent,🎯 全球直连
- - PROCESS-NAME,WebTorrent,🎯 全球直连
- - PROCESS-NAME,WebTorrent Helper,🎯 全球直连
- - PROCESS-NAME,DownloadService,🎯 全球直连
- - PROCESS-NAME,Weiyun,🎯 全球直连
+ - DOMAIN,cdn.angruo.com,🎯 全球直连
+ - IP-CIDR,119.28.28.28/32,🎯 全球直连,no-resolve
+ - IP-CIDR,182.254.116.0/24,🎯 全球直连
  - DOMAIN-KEYWORD,aria2,🎯 全球直连
  - DOMAIN-KEYWORD,xunlei,🎯 全球直连
  - DOMAIN-KEYWORD,yunpan,🎯 全球直连
