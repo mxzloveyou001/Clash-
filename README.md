@@ -5,6 +5,12 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: 火箭加速器3, server: 183.232.13.115, port: 9233, type: vmess, uuid: be58f4e4-894a-47ee-8836-cf75e74fa9c9, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: "%7B%22Host%22:%22183.232.13.115%22%7D"}}
+  - {name: 火箭加速器4, server: 124.219.119.15, port: 9233, type: vmess, uuid: be58f4e4-894a-47ee-8836-cf75e74fa9c9, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: "%7B%22Host%22:%22124.219.119.15%22%7D"}}
+  - {name: 火箭加速器2, server: 211.23.181.18, port: 9233, type: vmess, uuid: be58f4e4-894a-47ee-8836-cf75e74fa9c9, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: "%7B%22Host%22:%22211.23.181.18%22%7D"}}
+  - {name: 火箭加速器1, server: 61.220.28.198, port: 9233, type: vmess, uuid: be58f4e4-894a-47ee-8836-cf75e74fa9c9, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: "%7B%22Host%22:%2261.220.28.198%22%7D"}}
+  - {name: 火箭加速器, server: 142.4.105.253, port: 9233, type: vmess, uuid: be58f4e4-894a-47ee-8836-cf75e74fa9c9, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: "%7B%22Host%22:%22142.4.105.253%22%7D"}}
+  - {name: 火箭加速器5, server: 206.119.125.40, port: 9233, type: vmess, uuid: be58f4e4-894a-47ee-8836-cf75e74fa9c9, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: "%7B%22Host%22:%22206.119.125.40%22%7D"}}
   - {name: 🇺🇸 US, server: www.xinyi369.tk, port: 443, type: trojan, password: 3528818a-1fe2-4c2a-b4f7-17e4d1eca52a, sni: www.xinyi369.tk}
 proxy-groups:
   - name: Proxies
@@ -12,6 +18,12 @@ proxy-groups:
     proxies:
       - Auto - UrlTest
       - DIRECT
+      - 火箭加速器3
+      - 火箭加速器4
+      - 火箭加速器2
+      - 火箭加速器1
+      - 火箭加速器
+      - 火箭加速器5
       - 🇺🇸 US
   - name: Domestic
     type: select
@@ -23,6 +35,12 @@ proxy-groups:
     proxies:
       - DIRECT
       - Proxies
+      - 火箭加速器3
+      - 火箭加速器4
+      - 火箭加速器2
+      - 火箭加速器1
+      - 火箭加速器
+      - 火箭加速器5
       - 🇺🇸 US
   - name: Others
     type: select
@@ -50,24 +68,48 @@ proxy-groups:
     proxies:
       - Proxies
       - DIRECT
+      - 火箭加速器3
+      - 火箭加速器4
+      - 火箭加速器2
+      - 火箭加速器1
+      - 火箭加速器
+      - 火箭加速器5
       - 🇺🇸 US
   - name: Netflix
     type: select
     proxies:
       - Proxies
       - DIRECT
+      - 火箭加速器3
+      - 火箭加速器4
+      - 火箭加速器2
+      - 火箭加速器1
+      - 火箭加速器
+      - 火箭加速器5
       - 🇺🇸 US
   - name: Spotify
     type: select
     proxies:
       - Proxies
       - DIRECT
+      - 火箭加速器3
+      - 火箭加速器4
+      - 火箭加速器2
+      - 火箭加速器1
+      - 火箭加速器
+      - 火箭加速器5
       - 🇺🇸 US
   - name: Telegram
     type: select
     proxies:
       - Proxies
       - DIRECT
+      - 火箭加速器3
+      - 火箭加速器4
+      - 火箭加速器2
+      - 火箭加速器1
+      - 火箭加速器
+      - 火箭加速器5
       - 🇺🇸 US
   - name: Steam
     type: select
@@ -80,6 +122,12 @@ proxy-groups:
       - Proxies
       - DIRECT
       - Domestic
+      - 火箭加速器3
+      - 火箭加速器4
+      - 火箭加速器2
+      - 火箭加速器1
+      - 火箭加速器
+      - 火箭加速器5
       - 🇺🇸 US
   - name: PayPal
     type: select
@@ -101,6 +149,12 @@ proxy-groups:
     url: http://cp.cloudflare.com/generate_204
     interval: 1800
     proxies:
+      - 火箭加速器3
+      - 火箭加速器4
+      - 火箭加速器2
+      - 火箭加速器1
+      - 火箭加速器
+      - 火箭加速器5
       - 🇺🇸 US
 rules:
  - DOMAIN-SUFFIX,local,DIRECT
@@ -8518,15 +8572,14 @@ rules:
  - DOMAIN-SUFFIX,acg.tv,AsianTV
  - DOMAIN-SUFFIX,acgvideo.com,AsianTV
  - DOMAIN-SUFFIX,b23.tv,AsianTV
- - DOMAIN-SUFFIX,biliapi.com,AsianTV
- - DOMAIN-SUFFIX,biliapi.net,AsianTV
  - DOMAIN-SUFFIX,bilibili.com,AsianTV
- - DOMAIN-SUFFIX,biligame.com,AsianTV
- - DOMAIN-SUFFIX,biligame.net,AsianTV
+ - DOMAIN-SUFFIX,bilibili.tv,AsianTV
+ - DOMAIN-SUFFIX,biliapi.net,AsianTV
+ - DOMAIN-SUFFIX,biliapi.com,AsianTV
  - DOMAIN-SUFFIX,bilivideo.com,AsianTV
  - DOMAIN-SUFFIX,hdslb.com,AsianTV
- - DOMAIN-SUFFIX,im9.com,AsianTV
- - DOMAIN-SUFFIX,smtcdns.net,AsianTV
+ - DOMAIN,upos-hz-mirrorakam.akamaized.net,AsianTV
+ - DOMAIN,apiintl.biliapi.net,AsianTV
  - DOMAIN,intel-cache.m.iqiyi.com,AsianTV
  - DOMAIN,intel-cache.video.iqiyi.com,AsianTV
  - DOMAIN,intl-rcd.iqiyi.com,AsianTV
@@ -8544,6 +8597,7 @@ rules:
  - DOMAIN-SUFFIX,api.mob.app.letv.com,AsianTV
  - DOMAIN-SUFFIX,v.smtcdns.com,AsianTV
  - DOMAIN-SUFFIX,vv.video.qq.com,AsianTV
+ - DOMAIN-SUFFIX,youku.com,AsianTV
  - IP-CIDR,106.11.0.0/16,AsianTV,no-resolve
  - DOMAIN-SUFFIX,edgedatg.com,GlobalTV
  - DOMAIN-SUFFIX,go.com,GlobalTV
@@ -8553,22 +8607,30 @@ rules:
  - DOMAIN-SUFFIX,ameba.jp,GlobalTV
  - DOMAIN-SUFFIX,hayabusa.io,GlobalTV
  - DOMAIN-KEYWORD,abematv.akamaized.net,GlobalTV
- - DOMAIN-SUFFIX,aiv-cdn.net,GlobalTV
- - DOMAIN-SUFFIX,amazonaws.co.uk,GlobalTV
- - DOMAIN-SUFFIX,amazonaws.com,GlobalTV
+ - DOMAIN-KEYWORD,avoddashs,GlobalTV
  - DOMAIN-SUFFIX,amazonvideo.com,GlobalTV
- - DOMAIN-SUFFIX,llnwd.net,GlobalTV
- - DOMAIN-SUFFIX,primevideo.com,GlobalTV
  - DOMAIN-SUFFIX,media-amazon.com,GlobalTV
+ - DOMAIN-SUFFIX,pv-cdn.net,GlobalTV
+ - DOMAIN-SUFFIX,aiv-cdn.net,GlobalTV
+ - DOMAIN-SUFFIX,aiv-delivery.net,GlobalTV
  - DOMAIN,atv-ps.amazon.com,GlobalTV
- - DOMAIN,fls-na.amazon.com,GlobalTV
+ - DOMAIN,avodmp4s3ww-a.akamaihd.net,GlobalTV
+ - DOMAIN,d1v5ir2lpwr8os.cloudfront.net,GlobalTV
+ - DOMAIN,d1xfray82862hr.cloudfront.net,GlobalTV
+ - DOMAIN,d22qjgkvxw22r6.cloudfront.net,GlobalTV
+ - DOMAIN,d25xi40x97liuc.cloudfront.net,GlobalTV
+ - DOMAIN,d27xxe7juh1us6.cloudfront.net,GlobalTV
+ - DOMAIN,d3196yreox78o9.cloudfront.net,GlobalTV
+ - DOMAIN,dmqdd6hw24ucf.cloudfront.net,GlobalTV
+ - DOMAIN,ktpx.amazon.com,GlobalTV
  - DOMAIN,gspe1-ssl.ls.apple.com,GlobalTV
  - DOMAIN,np-edge.itunes.apple.com,GlobalTV
  - DOMAIN,play-edge.itunes.apple.com,GlobalTV
  - DOMAIN-SUFFIX,tv.apple.com,GlobalTV
  - DOMAIN-SUFFIX,bahamut.com.tw,GlobalTV
  - DOMAIN-SUFFIX,gamer.com.tw,GlobalTV
- - DOMAIN-SUFFIX,hinet.net,GlobalTV
+ - DOMAIN,gamer-cds.cdn.hinet.net,GlobalTV
+ - DOMAIN,gamer2-cds.cdn.hinet.net,GlobalTV
  - DOMAIN-KEYWORD,bbcfmt,GlobalTV
  - DOMAIN,aod-dash-uk-live.akamaized.net,GlobalTV
  - DOMAIN,aod-hls-uk-live.akamaized.net,GlobalTV
@@ -8581,41 +8643,13 @@ rules:
  - DOMAIN-SUFFIX,bbci.co,GlobalTV
  - DOMAIN-SUFFIX,bbci.co.uk,GlobalTV
  - DOMAIN-SUFFIX,bidi.net.uk,GlobalTV
- - DOMAIN,d151l6v8er5bdm.cloudfront.net,GlobalTV
- - DOMAIN,edge.api.brightcove.com,GlobalTV
- - DOMAIN,players.brightcove.net,GlobalTV
- - DOMAIN-KEYWORD,livedazn,GlobalTV
  - DOMAIN-KEYWORD,voddazn,GlobalTV
- - DOMAIN-KEYWORD,vod2dazn,GlobalTV
- - DOMAIN-SUFFIX,amplify.outbrain.com,GlobalTV
- - DOMAIN-SUFFIX,bluekai.com,GlobalTV
- - DOMAIN-SUFFIX,control.kochava.com,GlobalTV
- - DOMAIN-SUFFIX,cws.conviva.com,GlobalTV
- - DOMAIN-SUFFIX,d151l6v8er5bdm.cloudfront.net,GlobalTV
- - DOMAIN-SUFFIX,dazn.com,GlobalTV
  - DOMAIN-SUFFIX,dazn-api.com,GlobalTV
+ - DOMAIN-SUFFIX,dazn.com,GlobalTV
  - DOMAIN-SUFFIX,dazndn.com,GlobalTV
- - DOMAIN-SUFFIX,dc1live21715dazn.akamaized.net,GlobalTV
- - DOMAIN-SUFFIX,dc1-voddash-perform.secure.footprint.net,GlobalTV
- - DOMAIN-SUFFIX,dc2-live2dash-perform.secure.footprint.net,GlobalTV
- - DOMAIN-SUFFIX,dc2-live2hls-perform.secure.footprint.net,GlobalTV
- - DOMAIN-SUFFIX,dc2-vodhls-perform.secure.footprint.net,GlobalTV
- - DOMAIN-SUFFIX,dca-livedash-perform.secure.footprint.net,GlobalTV
- - DOMAIN-SUFFIX,dca-voddash-perform.secure.footprint.net,GlobalTV
- - DOMAIN-SUFFIX,dca-vodhls-perform.secure.footprint.net,GlobalTV
- - DOMAIN-SUFFIX,dcb-livedash-perform.secure.footprint.net,GlobalTV
- - DOMAIN-SUFFIX,dcb-voddash-perform.secure.footprint.net,GlobalTV
  - DOMAIN-SUFFIX,indazn.com,GlobalTV
- - DOMAIN-SUFFIX,intercom.io,GlobalTV
- - DOMAIN-SUFFIX,perfops.doracdn.com,GlobalTV
- - DOMAIN-SUFFIX,s.llnwi.net,GlobalTV
- - DOMAIN-SUFFIX,s.yimg.jp,GlobalTV
- - DOMAIN-SUFFIX,secure.footprint.net,GlobalTV
- - DOMAIN-SUFFIX,sentry.io,GlobalTV
- - DOMAIN-SUFFIX,urbanairship.com,GlobalTV
- - DOMAIN-SUFFIX,vjs.zencdn.net,GlobalTV
- - DOMAIN-SUFFIX,widevine.entitlement.us.theplatform.com,GlobalTV
- - DOMAIN-SUFFIX,yahoo.co.jp,GlobalTV
+ - DOMAIN-SUFFIX,indaznlab.com,GlobalTV
+ - DOMAIN,d151l6v8er5bdm.cloudfront.net,GlobalTV
  - DOMAIN-SUFFIX,adobedtm.com,GlobalTV
  - DOMAIN-SUFFIX,bam.nr-data.net,GlobalTV
  - DOMAIN-SUFFIX,bamgrid.com,GlobalTV
@@ -8643,23 +8677,6 @@ rules:
  - DOMAIN-SUFFIX,akamaized.net,GlobalTV
  - DOMAIN-SUFFIX,foxplus.com,GlobalTV
  - DOMAIN-SUFFIX,theplatform.com,GlobalTV
- - DOMAIN-SUFFIX,hbo.com,GlobalTV
- - DOMAIN-SUFFIX,hbogo.com,GlobalTV
- - DOMAIN-SUFFIX,hbonow.com,GlobalTV
- - DOMAIN-SUFFIX,hbomax.com,GlobalTV
- - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,GlobalTV
- - DOMAIN,bcbolthboa-a.akamaihd.net,GlobalTV
- - DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net,GlobalTV
- - DOMAIN,dai3fd1oh325y.cloudfront.net,GlobalTV
- - DOMAIN,hboasia1-i.akamaihd.net,GlobalTV
- - DOMAIN,hboasia2-i.akamaihd.net,GlobalTV
- - DOMAIN,hboasia3-i.akamaihd.net,GlobalTV
- - DOMAIN,hboasia4-i.akamaihd.net,GlobalTV
- - DOMAIN,hboasia5-i.akamaihd.net,GlobalTV
- - DOMAIN,players.brightcove.net,GlobalTV
- - DOMAIN,s3-ap-southeast-1.amazonaws.com,GlobalTV
- - DOMAIN-SUFFIX,hbogoasia.com,GlobalTV
- - DOMAIN-SUFFIX,hbogoasia.hk,GlobalTV
  - DOMAIN-SUFFIX,happyon.jp,GlobalTV
  - DOMAIN-SUFFIX,hulu.jp,GlobalTV
  - DOMAIN-SUFFIX,prod.hjholdings.tv,GlobalTV
@@ -8689,6 +8706,8 @@ rules:
  - DOMAIN-SUFFIX,d3c7rimkq79yfu.cloudfront.net,GlobalTV
  - DOMAIN-SUFFIX,linetv.tw,GlobalTV
  - DOMAIN-SUFFIX,profile.line-scdn.net,GlobalTV
+ - DOMAIN-KEYWORD,nowtv100,GlobalTV
+ - DOMAIN-KEYWORD,rthklive,GlobalTV
  - DOMAIN-SUFFIX,mytvsuper.com,GlobalTV
  - DOMAIN-SUFFIX,tvb.com,GlobalTV
  - DOMAIN-KEYWORD,netflix,GlobalTV
