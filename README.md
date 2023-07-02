@@ -13,7 +13,6 @@ proxies:
     private-key: WN2FK39lxAWq11oFwE3F0fwBr+0wH5j5YPKHJl1TMWk=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     mtu: 1280
-    udp：true
 proxy-groups:
   - name: 🚀 节点选择
     type: select
