@@ -5,7 +5,7 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - name: he0425
+  - name: h
     type: wireguard
     server: 162.159.195.87
     port: 8742
@@ -13,52 +13,69 @@ proxies:
     private-key: WN2FK39lxAWq11oFwE3F0fwBr+0wH5j5YPKHJl1TMWk=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     mtu: 1280
+    udp: true
+  - name: e
+    type: wireguard
+    server: 188.114.96.10
+    port: 8742
+    ip: 172.16.0.2
+    private-key: WN2FK39lxAWq11oFwE3F0fwBr+0wH5j5YPKHJl1TMWk=
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    mtu: 1280
+    udp: true
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - he0425
+      - h
+      - e
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - he0425
+      - h
+      - e
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - he0425
+      - h
+      - e
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - he0425
+      - h
+      - e
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - he0425
+      - h
+      - e
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - he0425
+      - h
+      - e
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - he0425
+      - h
+      - e
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -81,7 +98,8 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - he0425
+      - h
+      - e
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
