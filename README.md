@@ -10,16 +10,16 @@ proxies:
     server: 162.159.195.87
     port: 8742
     ip: 172.16.0.2
-    private-key: WN2FK39lxAWq11oFwE3F0fwBr+0wH5j5YPKHJl1TMWk=
+    private-key: WIk6dnsVd16bPK9J/tYZsD391xAmscQc/8FQyMo7GUA=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     mtu: 1280
     udp: true
   - name: e
     type: wireguard
-    server: 188.114.96.10
-    port: 8742
+    server: 162.159.193.10
+    port: 2408
     ip: 172.16.0.2
-    private-key: WN2FK39lxAWq11oFwE3F0fwBr+0wH5j5YPKHJl1TMWk=
+    private-key: WIk6dnsVd16bPK9J/tYZsD391xAmscQc/8FQyMo7GUA=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     mtu: 1280
     udp: true
