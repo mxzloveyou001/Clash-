@@ -7,8 +7,8 @@ external-controller: :9090
 proxies:
   - name: h
     type: wireguard
-    server: 188.114.97.188
-    port: 8319
+    server: 172.66.59.127
+    port: 443
     ip: 172.16.0.2
     private-key: WIk6dnsVd16bPK9J/tYZsD391xAmscQc/8FQyMo7GUA=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
