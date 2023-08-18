@@ -1,11 +1,3 @@
-####################################
-# 创建者：v2rayse.com
-# 客户端：Clash.Meta
-# 创建时间：2023-08-13 16:26:37
-# 使用模版：V2RaySE 默认模版
-# 节点数量：1
-####################################
-# !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
 allow-lan: true
 log-level: info
@@ -22,7 +14,7 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"hj2023","type":"vless","server":"104.21.15.201","port":2095,"uuid":"83bf90f4-134c-4618-a615-67e9960f1275","network":"ws","ws-opts":{"path":"/?ed=2048"}}
+  - {"name":"hj2023","type":"vless","server":"104.24.63.100","port":2095,"uuid":"83bf90f4-134c-4618-a615-67e9960f1275","network":"ws","ws-opts":{"path":"/?ed=2048"}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
