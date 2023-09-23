@@ -14,7 +14,7 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"hj2023","type":"vless","server":"104.24.63.100","port":2095,"uuid":"83bf90f4-134c-4618-a615-67e9960f1275","network":"ws","ws-opts":{"path":"/?ed=2048"}}
+  - {"name":"hj2023","type":"vless","server":"104.27.12.33","port":2086,"uuid":"83bf90f4-134c-4618-a615-67e9960f1275","network":"ws","ws-opts":{"path":"/?ed=2048"}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
