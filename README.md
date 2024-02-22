@@ -3,55 +3,127 @@ socks-port: 7891
 allow-lan: true
 mode: Rule
 log-level: info
-external-controller: :9090
+external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 347567.net 👈购买地址, server: 183.232.170.32, port: 20014, type: ss, cipher: aes-128-gcm, password: "g12sQi#ss#&1"}
+  - {name: 🇬🇧 英国 伦敦Amazon数据中心, server: wxwctxxx.arvancode.eu.org, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: u17T3BvpYaaiuW2c}
+  - {name: 🇺🇲 美国 CloudFlare节点, server: 190.93.246.147, port: 8080, type: vmess, uuid: d26363ff-8810-4591-8b77-d2f45e2b9f41, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: d26363ff-8810-4591-8b77-d2f45e2b9f41-vm, headers: {Host: bibliographic-sword-sequence-advertisers.trycloudflare.com}}}
+  - {name: 湖南省 联通, server: yes.cnmjcn.net, port: 16626, type: vmess, uuid: bc90fb72-0b2c-45b4-a8d8-c9baa4eaaef3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: d26ed26c63ea4a2a7e17c68d100791e6.mobgslb.tbcache.com}}}
+  - {name: 🇺🇲 美国 CloudFlare节点 2, server: 172.67.65.91, port: 8080, type: vmess, uuid: 41eeccfd-18e6-40b3-933d-c7000120ec2c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: 41eeccfd-18e6-40b3-933d-c7000120ec2c-vm, headers: {Host: larger-marketing-amounts-skin.trycloudflare.com}}}
+  - {name: 湖北省 移动(全省通用), server: t.cnmjcn.cyou, port: 16648, type: vmess, uuid: c99074bd-bacd-48b5-9561-da069c481602, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: fe5be62428b65a2ce7a22d9997b4c9d0.mobgslb.tbcache.com}}}
+  - {name: 广东省 移动, server: m.cnmjcn.com, port: 16628, type: vmess, uuid: bc90fb72-0b2c-45b4-a8d8-c9baa4eaaef3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: d26ed26c63ea4a2a7e17c68d100791e6.mobgslb.tbcache.com}}}
+  - {name: 湖北省 移动(全省通用) 2, server: t.cnmjcn.cyou, port: 16645, type: vmess, uuid: c99074bd-bacd-48b5-9561-da069c481602, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: fe5be62428b65a2ce7a22d9997b4c9d0.mobgslb.tbcache.com}}}
+  - {name: 🇺🇲 美国 CloudFlare节点 3, server: 172.64.128.180, port: 8080, type: vmess, uuid: 41eeccfd-18e6-40b3-933d-c7000120ec2c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: 41eeccfd-18e6-40b3-933d-c7000120ec2c-vm, headers: {Host: larger-marketing-amounts-skin.trycloudflare.com}}}
+  - {name: 🇺🇲 美国 亚特兰大, server: kh.mjt000.com, port: 443, type: trojan, password: ccfd483b-a2c6-49be-8047-115ffcc073ce, sni: kh.mjt000.com}
+  - {name: 🇨🇳 台湾省台北市 中华电信, server: 114.43.169.51, port: 443, type: trojan, password: 7b4066ae-accc-11eb-a8bf-f23c91cfbbc9, sni: 02071e2c-s9bgg0-0-zzkl.tw3.p5pv.com}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 347567.net 👈购买地址
+      - 🇬🇧 英国 伦敦Amazon数据中心
+      - 🇺🇲 美国 CloudFlare节点
+      - 湖南省 联通
+      - 🇺🇲 美国 CloudFlare节点 2
+      - 湖北省 移动(全省通用)
+      - 广东省 移动
+      - 湖北省 移动(全省通用) 2
+      - 🇺🇲 美国 CloudFlare节点 3
+      - 🇺🇲 美国 亚特兰大
+      - 🇨🇳 台湾省台北市 中华电信
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 347567.net 👈购买地址
+      - 🇬🇧 英国 伦敦Amazon数据中心
+      - 🇺🇲 美国 CloudFlare节点
+      - 湖南省 联通
+      - 🇺🇲 美国 CloudFlare节点 2
+      - 湖北省 移动(全省通用)
+      - 广东省 移动
+      - 湖北省 移动(全省通用) 2
+      - 🇺🇲 美国 CloudFlare节点 3
+      - 🇺🇲 美国 亚特兰大
+      - 🇨🇳 台湾省台北市 中华电信
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 347567.net 👈购买地址
+      - 🇬🇧 英国 伦敦Amazon数据中心
+      - 🇺🇲 美国 CloudFlare节点
+      - 湖南省 联通
+      - 🇺🇲 美国 CloudFlare节点 2
+      - 湖北省 移动(全省通用)
+      - 广东省 移动
+      - 湖北省 移动(全省通用) 2
+      - 🇺🇲 美国 CloudFlare节点 3
+      - 🇺🇲 美国 亚特兰大
+      - 🇨🇳 台湾省台北市 中华电信
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 347567.net 👈购买地址
+      - 🇬🇧 英国 伦敦Amazon数据中心
+      - 🇺🇲 美国 CloudFlare节点
+      - 湖南省 联通
+      - 🇺🇲 美国 CloudFlare节点 2
+      - 湖北省 移动(全省通用)
+      - 广东省 移动
+      - 湖北省 移动(全省通用) 2
+      - 🇺🇲 美国 CloudFlare节点 3
+      - 🇺🇲 美国 亚特兰大
+      - 🇨🇳 台湾省台北市 中华电信
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 347567.net 👈购买地址
+      - 🇬🇧 英国 伦敦Amazon数据中心
+      - 🇺🇲 美国 CloudFlare节点
+      - 湖南省 联通
+      - 🇺🇲 美国 CloudFlare节点 2
+      - 湖北省 移动(全省通用)
+      - 广东省 移动
+      - 湖北省 移动(全省通用) 2
+      - 🇺🇲 美国 CloudFlare节点 3
+      - 🇺🇲 美国 亚特兰大
+      - 🇨🇳 台湾省台北市 中华电信
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 347567.net 👈购买地址
+      - 🇬🇧 英国 伦敦Amazon数据中心
+      - 🇺🇲 美国 CloudFlare节点
+      - 湖南省 联通
+      - 🇺🇲 美国 CloudFlare节点 2
+      - 湖北省 移动(全省通用)
+      - 广东省 移动
+      - 湖北省 移动(全省通用) 2
+      - 🇺🇲 美国 CloudFlare节点 3
+      - 🇺🇲 美国 亚特兰大
+      - 🇨🇳 台湾省台北市 中华电信
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 347567.net 👈购买地址
+      - 🇬🇧 英国 伦敦Amazon数据中心
+      - 🇺🇲 美国 CloudFlare节点
+      - 湖南省 联通
+      - 🇺🇲 美国 CloudFlare节点 2
+      - 湖北省 移动(全省通用)
+      - 广东省 移动
+      - 湖北省 移动(全省通用) 2
+      - 🇺🇲 美国 CloudFlare节点 3
+      - 🇺🇲 美国 亚特兰大
+      - 🇨🇳 台湾省台北市 中华电信
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -74,7 +146,16 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 347567.net 👈购买地址
+      - 🇬🇧 英国 伦敦Amazon数据中心
+      - 🇺🇲 美国 CloudFlare节点
+      - 湖南省 联通
+      - 🇺🇲 美国 CloudFlare节点 2
+      - 湖北省 移动(全省通用)
+      - 广东省 移动
+      - 湖北省 移动(全省通用) 2
+      - 🇺🇲 美国 CloudFlare节点 3
+      - 🇺🇲 美国 亚特兰大
+      - 🇨🇳 台湾省台北市 中华电信
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -547,6 +628,7 @@ rules:
   - DOMAIN-SUFFIX,zhjfad.com,🛑 全球拦截
   - DOMAIN-SUFFIX,zqzxz.com,🛑 全球拦截
   - DOMAIN-SUFFIX,zzsx8.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,wwads.cn,🛑 全球拦截
   - DOMAIN-SUFFIX,acuityplatform.com,🛑 全球拦截
   - DOMAIN-SUFFIX,ad-stir.com,🛑 全球拦截
   - DOMAIN-SUFFIX,ad-survey.com,🛑 全球拦截
@@ -2000,6 +2082,9 @@ rules:
   - DOMAIN,gamer2-cds.cdn.hinet.net,🌍 国外媒体
   - DOMAIN-SUFFIX,bahamut.com.tw,🌍 国外媒体
   - DOMAIN-SUFFIX,gamer.com.tw,🌍 国外媒体
+  - DOMAIN-SUFFIX,bilibili.tv,🌍 国外媒体
+  - DOMAIN-SUFFIX,bstarstatic.com,🌍 国外媒体
+  - DOMAIN,pic-bstarstatic.akamaized.net,🌍 国外媒体
   - DOMAIN-KEYWORD,voddazn,🌍 国外媒体
   - DOMAIN,d151l6v8er5bdm.cloudfront.net,🌍 国外媒体
   - DOMAIN-SUFFIX,d151l6v8er5bdm.cloudfront.net,🌍 国外媒体
@@ -2049,7 +2134,6 @@ rules:
   - DOMAIN-SUFFIX,hbomax.com,🌍 国外媒体
   - DOMAIN-SUFFIX,hbomaxcdn.com,🌍 国外媒体
   - DOMAIN-SUFFIX,hbonow.com,🌍 国外媒体
-  - DOMAIN-KEYWORD,.hbogoasia.,🌍 国外媒体
   - DOMAIN-KEYWORD,hbogoasia,🌍 国外媒体
   - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,🌍 国外媒体
   - DOMAIN,bcbolthboa-a.akamaihd.net,🌍 国外媒体
@@ -2193,6 +2277,8 @@ rules:
   - DOMAIN-SUFFIX,identrust.com,🌍 国外媒体
   - DOMAIN-SUFFIX,intercom.io,🌍 国外媒体
   - DOMAIN-SUFFIX,intercomcdn.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,oaistatic.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,oaiusercontent.com,🌍 国外媒体
   - DOMAIN-SUFFIX,openai.com,🌍 国外媒体
   - DOMAIN-SUFFIX,openaiapi-site.azureedge.net,🌍 国外媒体
   - DOMAIN-SUFFIX,sentry.io,🌍 国外媒体
@@ -2287,6 +2373,7 @@ rules:
   - DOMAIN-SUFFIX,tumbex.com,🚀 节点选择
   - DOMAIN-SUFFIX,twdvd.com,🚀 节点选择
   - DOMAIN-SUFFIX,unsplash.com,🚀 节点选择
+  - DOMAIN-SUFFIX,buzzsprout.com,🚀 节点选择
   - DOMAIN-SUFFIX,eu,🚀 节点选择
   - DOMAIN-SUFFIX,hk,🚀 节点选择
   - DOMAIN-SUFFIX,jp,🚀 节点选择
@@ -2444,6 +2531,8 @@ rules:
   - DOMAIN-KEYWORD,uk-live,🚀 节点选择
   - DOMAIN-SUFFIX,bbc.co,🚀 节点选择
   - DOMAIN-SUFFIX,bbc.com,🚀 节点选择
+  - DOMAIN-SUFFIX,claude.ai,🚀 节点选择
+  - DOMAIN-SUFFIX,anthropic.com,🚀 节点选择
   - DOMAIN-SUFFIX,apache.org,🚀 节点选择
   - DOMAIN-SUFFIX,docker.com,🚀 节点选择
   - DOMAIN-SUFFIX,elastic.co,🚀 节点选择
@@ -2599,6 +2688,7 @@ rules:
   - DOMAIN-SUFFIX,ypncdn.com,🚀 节点选择
   - DOMAIN-SUFFIX,pixiv.net,🚀 节点选择
   - DOMAIN-SUFFIX,pximg.net,🚀 节点选择
+  - DOMAIN-SUFFIX,fanbox.cc,🚀 节点选择
   - DOMAIN-SUFFIX,amplitude.com,🚀 节点选择
   - DOMAIN-SUFFIX,firebaseio.com,🚀 节点选择
   - DOMAIN-SUFFIX,hockeyapp.net,🚀 节点选择
@@ -2673,6 +2763,8 @@ rules:
   - DOMAIN-SUFFIX,wikiversity.org,🚀 节点选择
   - DOMAIN-SUFFIX,wikivoyage.org,🚀 节点选择
   - DOMAIN-SUFFIX,wiktionary.org,🚀 节点选择
+  - DOMAIN-SUFFIX,zoom.us,🚀 节点选择
+  - DOMAIN-SUFFIX,zoomgov.com,🚀 节点选择
   - DOMAIN-SUFFIX,neulion.com,🚀 节点选择
   - DOMAIN-SUFFIX,icntv.xyz,🚀 节点选择
   - DOMAIN-SUFFIX,flzbcdn.xyz,🚀 节点选择
@@ -2695,6 +2787,7 @@ rules:
   - DOMAIN-SUFFIX,zhenguanyu.biz,🎯 全球直连
   - DOMAIN-SUFFIX,zhenguanyu.com,🎯 全球直连
   - DOMAIN-SUFFIX,snapdrop.net,🎯 全球直连
+  - DOMAIN-SUFFIX,tebex.io,🎯 全球直连
   - DOMAIN-SUFFIX,cn,🎯 全球直连
   - DOMAIN-SUFFIX,xn--fiqs8s,🎯 全球直连
   - DOMAIN-SUFFIX,xn--55qx5d,🎯 全球直连
@@ -2745,6 +2838,7 @@ rules:
   - DOMAIN-SUFFIX,aliyuncdn.com,🎯 全球直连
   - DOMAIN-SUFFIX,aliyuncs.com,🎯 全球直连
   - DOMAIN-SUFFIX,aliyundrive.com,🎯 全球直连
+  - DOMAIN-SUFFIX,aliyundrive.net,🎯 全球直连
   - DOMAIN-SUFFIX,amap.com,🎯 全球直连
   - DOMAIN-SUFFIX,autonavi.com,🎯 全球直连
   - DOMAIN-SUFFIX,dingtalk.com,🎯 全球直连
@@ -2784,6 +2878,8 @@ rules:
   - DOMAIN-SUFFIX,biliapi.com,🎯 全球直连
   - DOMAIN-SUFFIX,biliapi.net,🎯 全球直连
   - DOMAIN-SUFFIX,bilibili.com,🎯 全球直连
+  - DOMAIN-SUFFIX,bilibili.co,🎯 全球直连
+  - DOMAIN-SUFFIX,biliintl.co,🎯 全球直连
   - DOMAIN-SUFFIX,biligame.com,🎯 全球直连
   - DOMAIN-SUFFIX,biligame.net,🎯 全球直连
   - DOMAIN-SUFFIX,bilivideo.com,🎯 全球直连
@@ -3071,6 +3167,7 @@ rules:
   - DOMAIN-SUFFIX,biqudu.com,🎯 全球直连
   - DOMAIN-SUFFIX,biquge.com,🎯 全球直连
   - DOMAIN-SUFFIX,bitauto.com,🎯 全球直连
+  - DOMAIN-SUFFIX,bosszhipin.com,🎯 全球直连
   - DOMAIN-SUFFIX,c-ctrip.com,🎯 全球直连
   - DOMAIN-SUFFIX,camera360.com,🎯 全球直连
   - DOMAIN-SUFFIX,cdnmama.com,🎯 全球直连
@@ -3279,6 +3376,7 @@ rules:
   - DOMAIN-SUFFIX,zhaopin.com,🎯 全球直连
   - DOMAIN-SUFFIX,zhihu.com,🎯 全球直连
   - DOMAIN-SUFFIX,zhimg.com,🎯 全球直连
+  - DOMAIN-SUFFIX,zhipin.com,🎯 全球直连
   - DOMAIN-SUFFIX,zhongsou.com,🎯 全球直连
   - DOMAIN-SUFFIX,zhuihd.com,🎯 全球直连
   - IP-CIDR,8.128.0.0/10,🎯 全球直连,no-resolve
